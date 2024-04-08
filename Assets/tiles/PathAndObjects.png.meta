@@ -1,0 +1,6521 @@
+fileFormatVersion: 2
+guid: d5820fe881538714395a6c751f346cf3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7354707582034155357
+    second: PathAndObjects_0
+  - first:
+      213: 4205461166594586774
+    second: PathAndObjects_1
+  - first:
+      213: 430249297543539289
+    second: PathAndObjects_2
+  - first:
+      213: -3586845514122124765
+    second: PathAndObjects_3
+  - first:
+      213: -5142788275016678360
+    second: PathAndObjects_4
+  - first:
+      213: 8140035320574517661
+    second: PathAndObjects_5
+  - first:
+      213: -7820945154685806677
+    second: PathAndObjects_6
+  - first:
+      213: -8786449171294126216
+    second: PathAndObjects_7
+  - first:
+      213: -714165126599117846
+    second: PathAndObjects_8
+  - first:
+      213: 1586363765906278735
+    second: PathAndObjects_9
+  - first:
+      213: 1609794377853882397
+    second: PathAndObjects_10
+  - first:
+      213: -1350963546940203813
+    second: PathAndObjects_11
+  - first:
+      213: -315609056995654706
+    second: PathAndObjects_12
+  - first:
+      213: 5300247171116847025
+    second: PathAndObjects_13
+  - first:
+      213: -9018795552015015724
+    second: PathAndObjects_14
+  - first:
+      213: -1473162489624069627
+    second: PathAndObjects_15
+  - first:
+      213: 1292733015029981081
+    second: PathAndObjects_16
+  - first:
+      213: -3966369926999845427
+    second: PathAndObjects_17
+  - first:
+      213: -4808279533588092212
+    second: PathAndObjects_18
+  - first:
+      213: -7264944301144969629
+    second: PathAndObjects_19
+  - first:
+      213: -5749117314582653529
+    second: PathAndObjects_20
+  - first:
+      213: -4311307761015589485
+    second: PathAndObjects_21
+  - first:
+      213: -3288589956372966525
+    second: PathAndObjects_22
+  - first:
+      213: -1331070350490028223
+    second: PathAndObjects_23
+  - first:
+      213: -4127254384492370597
+    second: PathAndObjects_24
+  - first:
+      213: -2667583709933661774
+    second: PathAndObjects_25
+  - first:
+      213: -7005616935113331574
+    second: PathAndObjects_26
+  - first:
+      213: -2321489356556019743
+    second: PathAndObjects_27
+  - first:
+      213: -1221269762930018192
+    second: PathAndObjects_28
+  - first:
+      213: 5289257201946780523
+    second: PathAndObjects_29
+  - first:
+      213: -7985206574291674233
+    second: PathAndObjects_30
+  - first:
+      213: -7823662547717239379
+    second: PathAndObjects_31
+  - first:
+      213: -3430726930305974916
+    second: PathAndObjects_32
+  - first:
+      213: -2323554805398760237
+    second: PathAndObjects_33
+  - first:
+      213: 1058606882773620712
+    second: PathAndObjects_34
+  - first:
+      213: -1190266637767412115
+    second: PathAndObjects_35
+  - first:
+      213: 5652156484804285039
+    second: PathAndObjects_36
+  - first:
+      213: 1292619711529231726
+    second: PathAndObjects_37
+  - first:
+      213: 8491375556624119727
+    second: PathAndObjects_38
+  - first:
+      213: -8657687371343580799
+    second: PathAndObjects_39
+  - first:
+      213: 8785840467658666807
+    second: PathAndObjects_40
+  - first:
+      213: -6399500681310875623
+    second: PathAndObjects_41
+  - first:
+      213: 431840827832307938
+    second: PathAndObjects_42
+  - first:
+      213: -90365730074186050
+    second: PathAndObjects_43
+  - first:
+      213: -114436317773888303
+    second: PathAndObjects_44
+  - first:
+      213: -4600433200091905405
+    second: PathAndObjects_45
+  - first:
+      213: 1215970621195068200
+    second: PathAndObjects_46
+  - first:
+      213: 6096672810320376825
+    second: PathAndObjects_47
+  - first:
+      213: -7258812744536230954
+    second: PathAndObjects_48
+  - first:
+      213: 5002902165931400311
+    second: PathAndObjects_49
+  - first:
+      213: 2701852624384170348
+    second: PathAndObjects_50
+  - first:
+      213: 2034362316849665110
+    second: PathAndObjects_51
+  - first:
+      213: -160791514490010063
+    second: PathAndObjects_52
+  - first:
+      213: 7538870130596646424
+    second: PathAndObjects_53
+  - first:
+      213: -8666111745222312695
+    second: PathAndObjects_54
+  - first:
+      213: -3887370691568735559
+    second: PathAndObjects_55
+  - first:
+      213: 5642432779650792623
+    second: PathAndObjects_56
+  - first:
+      213: -7151751831123646462
+    second: PathAndObjects_57
+  - first:
+      213: -422687952455047080
+    second: PathAndObjects_58
+  - first:
+      213: -5150478111107318545
+    second: PathAndObjects_59
+  - first:
+      213: -1283373749373787819
+    second: PathAndObjects_60
+  - first:
+      213: -8653355935493306546
+    second: PathAndObjects_61
+  - first:
+      213: -6611658158259056629
+    second: PathAndObjects_62
+  - first:
+      213: -6361106405414936868
+    second: PathAndObjects_63
+  - first:
+      213: 8085082539258982756
+    second: PathAndObjects_64
+  - first:
+      213: 4459904332584554165
+    second: PathAndObjects_65
+  - first:
+      213: 8581733039032412054
+    second: PathAndObjects_66
+  - first:
+      213: 726253195578222992
+    second: PathAndObjects_67
+  - first:
+      213: 3765701865107628374
+    second: PathAndObjects_68
+  - first:
+      213: 1134543065468431547
+    second: PathAndObjects_69
+  - first:
+      213: -8133553303815457644
+    second: PathAndObjects_70
+  - first:
+      213: -7061678563866502712
+    second: PathAndObjects_71
+  - first:
+      213: -2694934332022586203
+    second: PathAndObjects_72
+  - first:
+      213: 8864626549919413439
+    second: PathAndObjects_73
+  - first:
+      213: 7584502587198695774
+    second: PathAndObjects_74
+  - first:
+      213: -2144352376282852936
+    second: PathAndObjects_75
+  - first:
+      213: -7949957466343866738
+    second: PathAndObjects_76
+  - first:
+      213: 1486097357432435231
+    second: PathAndObjects_77
+  - first:
+      213: -7009645310359171901
+    second: PathAndObjects_78
+  - first:
+      213: 5725601992825131630
+    second: PathAndObjects_79
+  - first:
+      213: -5508123424965520976
+    second: PathAndObjects_80
+  - first:
+      213: 8329582082453904577
+    second: PathAndObjects_81
+  - first:
+      213: 6277012581644642223
+    second: PathAndObjects_82
+  - first:
+      213: 6906294443010178273
+    second: PathAndObjects_83
+  - first:
+      213: 5783926679643628600
+    second: PathAndObjects_84
+  - first:
+      213: -6197029684468506174
+    second: PathAndObjects_85
+  - first:
+      213: -1056469498496876997
+    second: PathAndObjects_86
+  - first:
+      213: 7750422889310664523
+    second: PathAndObjects_87
+  - first:
+      213: -6127538063726402523
+    second: PathAndObjects_88
+  - first:
+      213: 6827347603924505575
+    second: PathAndObjects_89
+  - first:
+      213: 6778480818890159566
+    second: PathAndObjects_90
+  - first:
+      213: -283170154715903321
+    second: PathAndObjects_91
+  - first:
+      213: -1915106261879632516
+    second: PathAndObjects_92
+  - first:
+      213: -2039834914796792061
+    second: PathAndObjects_93
+  - first:
+      213: -8081804027353999312
+    second: PathAndObjects_94
+  - first:
+      213: -2465554241537440905
+    second: PathAndObjects_95
+  - first:
+      213: 924959673656816385
+    second: PathAndObjects_96
+  - first:
+      213: 5332557922388088796
+    second: PathAndObjects_97
+  - first:
+      213: 1926589434064282121
+    second: PathAndObjects_98
+  - first:
+      213: -6703333704336427483
+    second: PathAndObjects_99
+  - first:
+      213: -2159435298211599918
+    second: PathAndObjects_100
+  - first:
+      213: 9045832779350218651
+    second: PathAndObjects_101
+  - first:
+      213: -6251768885930857812
+    second: PathAndObjects_102
+  - first:
+      213: -5464493784501071506
+    second: PathAndObjects_103
+  - first:
+      213: 8579465942923036917
+    second: PathAndObjects_104
+  - first:
+      213: -3018938797345393676
+    second: PathAndObjects_105
+  - first:
+      213: 8160818436126846671
+    second: PathAndObjects_106
+  - first:
+      213: -6378451148139095209
+    second: PathAndObjects_107
+  - first:
+      213: 6639551163641097592
+    second: PathAndObjects_108
+  - first:
+      213: 2872648351371952257
+    second: PathAndObjects_109
+  - first:
+      213: 4694123435266048605
+    second: PathAndObjects_110
+  - first:
+      213: -7450031386414821587
+    second: PathAndObjects_111
+  - first:
+      213: 2421063313642295457
+    second: PathAndObjects_112
+  - first:
+      213: 3370522122946149825
+    second: PathAndObjects_113
+  - first:
+      213: 2988666848461745555
+    second: PathAndObjects_114
+  - first:
+      213: 491574203298600185
+    second: PathAndObjects_115
+  - first:
+      213: -5869911014852247892
+    second: PathAndObjects_116
+  - first:
+      213: -6472737503769269821
+    second: PathAndObjects_117
+  - first:
+      213: -5698194909910721734
+    second: PathAndObjects_118
+  - first:
+      213: -3602752387270331938
+    second: PathAndObjects_119
+  - first:
+      213: 8369802049562077385
+    second: PathAndObjects_120
+  - first:
+      213: -3073191040987027123
+    second: PathAndObjects_121
+  - first:
+      213: 6899894280043525157
+    second: PathAndObjects_122
+  - first:
+      213: -665399301935324700
+    second: PathAndObjects_123
+  - first:
+      213: 3892129374099615416
+    second: PathAndObjects_124
+  - first:
+      213: 1378220831051946842
+    second: PathAndObjects_125
+  - first:
+      213: 3397210917781329443
+    second: PathAndObjects_126
+  - first:
+      213: 2025997328698096748
+    second: PathAndObjects_127
+  - first:
+      213: -434104235571790918
+    second: PathAndObjects_128
+  - first:
+      213: -2252346844587531708
+    second: PathAndObjects_129
+  - first:
+      213: 2993523234616274039
+    second: PathAndObjects_130
+  - first:
+      213: 6556423069871248031
+    second: PathAndObjects_131
+  - first:
+      213: 2213893950367587882
+    second: PathAndObjects_132
+  - first:
+      213: -718489717667308185
+    second: PathAndObjects_133
+  - first:
+      213: -1527149266664100359
+    second: PathAndObjects_134
+  - first:
+      213: 5510129675990588742
+    second: PathAndObjects_135
+  - first:
+      213: 4833760325641475266
+    second: PathAndObjects_136
+  - first:
+      213: 3401876916639919340
+    second: PathAndObjects_137
+  - first:
+      213: 9142809252415121488
+    second: PathAndObjects_138
+  - first:
+      213: -3684085245237033345
+    second: PathAndObjects_139
+  - first:
+      213: 5491459704657540023
+    second: PathAndObjects_140
+  - first:
+      213: -8158658160870550408
+    second: PathAndObjects_141
+  - first:
+      213: 2661084097504816592
+    second: PathAndObjects_142
+  - first:
+      213: -2937759562829490643
+    second: PathAndObjects_143
+  - first:
+      213: -8186619736274322543
+    second: PathAndObjects_144
+  - first:
+      213: -5330609700068296027
+    second: PathAndObjects_145
+  - first:
+      213: -2907505717230986009
+    second: PathAndObjects_146
+  - first:
+      213: 6520239557884497943
+    second: PathAndObjects_147
+  - first:
+      213: -8268066512718217388
+    second: PathAndObjects_148
+  - first:
+      213: -6066468164263675655
+    second: PathAndObjects_149
+  - first:
+      213: -6220490289236402291
+    second: PathAndObjects_150
+  - first:
+      213: -5712667982438251384
+    second: PathAndObjects_151
+  - first:
+      213: 1824687160672888361
+    second: PathAndObjects_152
+  - first:
+      213: -5543545178712960495
+    second: PathAndObjects_153
+  - first:
+      213: 1527399866580997679
+    second: PathAndObjects_154
+  - first:
+      213: -4379071375212150482
+    second: PathAndObjects_155
+  - first:
+      213: -1472564169896472452
+    second: PathAndObjects_156
+  - first:
+      213: 2356332690634488914
+    second: PathAndObjects_157
+  - first:
+      213: 3126995078993637775
+    second: PathAndObjects_158
+  - first:
+      213: -8221932428292824209
+    second: PathAndObjects_159
+  - first:
+      213: 9116559957694496579
+    second: PathAndObjects_160
+  - first:
+      213: 50419261184855512
+    second: PathAndObjects_161
+  - first:
+      213: 8500184638723539412
+    second: PathAndObjects_162
+  - first:
+      213: -3268300240522108985
+    second: PathAndObjects_163
+  - first:
+      213: 7796412008579715930
+    second: PathAndObjects_164
+  - first:
+      213: 4944608950940339567
+    second: PathAndObjects_165
+  - first:
+      213: -8594963626387449329
+    second: PathAndObjects_166
+  - first:
+      213: 5214587749295215660
+    second: PathAndObjects_167
+  - first:
+      213: 2074032132764419586
+    second: PathAndObjects_168
+  - first:
+      213: -8957013291837798750
+    second: PathAndObjects_169
+  - first:
+      213: 8363690834891029493
+    second: PathAndObjects_170
+  - first:
+      213: -8398726883739683786
+    second: PathAndObjects_171
+  - first:
+      213: -6261740363016980075
+    second: PathAndObjects_172
+  - first:
+      213: 2386106734135085779
+    second: PathAndObjects_173
+  - first:
+      213: -7032893205881817831
+    second: PathAndObjects_174
+  - first:
+      213: 3668258836999872453
+    second: PathAndObjects_175
+  - first:
+      213: 7628879774319997824
+    second: PathAndObjects_176
+  - first:
+      213: -503474881486835282
+    second: PathAndObjects_177
+  - first:
+      213: 8912716825903419635
+    second: PathAndObjects_178
+  - first:
+      213: 2736565042687287538
+    second: PathAndObjects_179
+  - first:
+      213: -385948566009602613
+    second: PathAndObjects_180
+  - first:
+      213: 2121242034256212142
+    second: PathAndObjects_181
+  - first:
+      213: -2623853488164664349
+    second: PathAndObjects_182
+  - first:
+      213: 7298285806347532770
+    second: PathAndObjects_183
+  - first:
+      213: 349310093830478773
+    second: PathAndObjects_184
+  - first:
+      213: -6866107601845543747
+    second: PathAndObjects_185
+  - first:
+      213: 3687345078431838590
+    second: PathAndObjects_186
+  - first:
+      213: -8642092962206647878
+    second: PathAndObjects_187
+  - first:
+      213: 6396003681787766436
+    second: PathAndObjects_188
+  - first:
+      213: -9214144793902946637
+    second: PathAndObjects_189
+  - first:
+      213: -8724138118577696301
+    second: PathAndObjects_190
+  - first:
+      213: -2793398627757138241
+    second: PathAndObjects_191
+  - first:
+      213: -6413615317117485929
+    second: PathAndObjects_192
+  - first:
+      213: 3322444326228559347
+    second: PathAndObjects_193
+  - first:
+      213: 7826282929404338963
+    second: PathAndObjects_194
+  - first:
+      213: 4166399178925409444
+    second: PathAndObjects_195
+  - first:
+      213: 4830829870274801616
+    second: PathAndObjects_196
+  - first:
+      213: 3216423581436809788
+    second: PathAndObjects_197
+  - first:
+      213: 4343068699004876421
+    second: PathAndObjects_198
+  - first:
+      213: -269327240383140661
+    second: PathAndObjects_199
+  - first:
+      213: -5590511673180236845
+    second: PathAndObjects_200
+  - first:
+      213: -4297862493307663651
+    second: PathAndObjects_201
+  - first:
+      213: -7758271818871818902
+    second: PathAndObjects_202
+  - first:
+      213: 7035390867295341412
+    second: PathAndObjects_203
+  - first:
+      213: 4634304815297429465
+    second: PathAndObjects_204
+  - first:
+      213: -8760238363728579454
+    second: PathAndObjects_205
+  - first:
+      213: -1146757403567006127
+    second: PathAndObjects_206
+  - first:
+      213: -341361713509130206
+    second: PathAndObjects_207
+  - first:
+      213: 6427765006714372405
+    second: PathAndObjects_208
+  - first:
+      213: -4486437352995465783
+    second: PathAndObjects_209
+  - first:
+      213: -8383851080506096061
+    second: PathAndObjects_210
+  - first:
+      213: 75550483726560511
+    second: PathAndObjects_211
+  - first:
+      213: -6983166977076505244
+    second: PathAndObjects_212
+  - first:
+      213: 4305254337155376123
+    second: PathAndObjects_213
+  - first:
+      213: -7151547156545390370
+    second: PathAndObjects_214
+  - first:
+      213: 6303805188569287350
+    second: PathAndObjects_215
+  - first:
+      213: -2357750890253588780
+    second: PathAndObjects_216
+  - first:
+      213: -2124219480023961270
+    second: PathAndObjects_217
+  - first:
+      213: -103366768814946105
+    second: PathAndObjects_218
+  - first:
+      213: 4014491752386841908
+    second: PathAndObjects_219
+  - first:
+      213: -2455817631015946005
+    second: PathAndObjects_220
+  - first:
+      213: -4703940640457388165
+    second: PathAndObjects_221
+  - first:
+      213: 2605438469156440410
+    second: PathAndObjects_222
+  - first:
+      213: 8169268093339110803
+    second: PathAndObjects_223
+  - first:
+      213: 5905676740722233213
+    second: PathAndObjects_224
+  - first:
+      213: 2948431107980365539
+    second: PathAndObjects_225
+  - first:
+      213: -912393621063571451
+    second: PathAndObjects_226
+  - first:
+      213: -3303949864108436416
+    second: PathAndObjects_227
+  - first:
+      213: -7381757835566237425
+    second: PathAndObjects_228
+  - first:
+      213: -672795306895994988
+    second: PathAndObjects_229
+  - first:
+      213: 229037871540070505
+    second: PathAndObjects_230
+  - first:
+      213: -3696720767191863056
+    second: PathAndObjects_231
+  - first:
+      213: 3515677776067965922
+    second: PathAndObjects_232
+  - first:
+      213: 4255172483405393458
+    second: PathAndObjects_233
+  - first:
+      213: -1707794943714332080
+    second: PathAndObjects_234
+  - first:
+      213: -2900938147691064058
+    second: PathAndObjects_235
+  - first:
+      213: -4116744491068230770
+    second: PathAndObjects_236
+  - first:
+      213: -4380532183732849423
+    second: PathAndObjects_237
+  - first:
+      213: -4210719554032820049
+    second: PathAndObjects_238
+  - first:
+      213: 2116757720671426797
+    second: PathAndObjects_239
+  - first:
+      213: -8196291118460501048
+    second: PathAndObjects_240
+  - first:
+      213: -8159140739851599646
+    second: PathAndObjects_241
+  - first:
+      213: -587576094879510495
+    second: PathAndObjects_242
+  - first:
+      213: 5894937496804321418
+    second: PathAndObjects_243
+  - first:
+      213: 5688117489024181980
+    second: PathAndObjects_244
+  - first:
+      213: 1167666280357322082
+    second: PathAndObjects_245
+  - first:
+      213: 4448443624398426693
+    second: PathAndObjects_246
+  - first:
+      213: -4141782965298112748
+    second: PathAndObjects_247
+  - first:
+      213: -4694979419233875720
+    second: PathAndObjects_248
+  - first:
+      213: 4307187361264687688
+    second: PathAndObjects_249
+  - first:
+      213: -972022344147636840
+    second: PathAndObjects_250
+  - first:
+      213: 5983689754608168342
+    second: PathAndObjects_251
+  - first:
+      213: -6434581153930333471
+    second: PathAndObjects_252
+  - first:
+      213: -8332904561341732116
+    second: PathAndObjects_253
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PathAndObjects_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4968de312b4a6984b92ef0acdcc8b48c
+      internalID: -7354707582034155357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1261f34cbc6f64c906842a871e4bf6
+      internalID: 4205461166594586774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d265396456d7346b66c353271a8bc5
+      internalID: 430249297543539289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cceee7825b9ca4bb2764d7c4e21808
+      internalID: -3586845514122124765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67faaf043ec0a3a4a803f4f57c4c58bb
+      internalID: -5142788275016678360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae0714fd3359e6439168ab5739ddf01
+      internalID: 8140035320574517661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067426c3e3bbbc946bb09c0c16f96ef1
+      internalID: -7820945154685806677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7786b2cd347de95498ecd5d8610c6ce5
+      internalID: -8786449171294126216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f543b88efe92be44b45208dac69e91a
+      internalID: -714165126599117846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffc8c41ff5daa6428028d07d8f09281
+      internalID: 1586363765906278735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3573b59a40562b4784b5945d6027527
+      internalID: 1609794377853882397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88363cf0cf99ae047b51f27208a962f5
+      internalID: -1350963546940203813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb7969ee88a7b04f9168460e83ef197
+      internalID: -315609056995654706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f162cc4b6227d4e869f024062470fb
+      internalID: 5300247171116847025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fd34ea367d99244bc772669052762c
+      internalID: -9018795552015015724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beeed559e67eb8149bbf9d98da0a8513
+      internalID: -1473162489624069627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59c8bba93bd83148b6f313020634543
+      internalID: 1292733015029981081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a9c570d54f142409dc053ea2e29a21
+      internalID: -3966369926999845427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd57eeafa570434596d57e556f3b373
+      internalID: -4808279533588092212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7953efc168e97ea48be1977273f5cca6
+      internalID: -7264944301144969629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db78b3803a893734c9e06c1d7819a664
+      internalID: -5749117314582653529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c2a96141ef123408872c439a160fe7
+      internalID: -4311307761015589485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9786a815f1e2fe479a127016181512f
+      internalID: -3288589956372966525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e677f61c453644eb941745753edc40
+      internalID: -1331070350490028223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d18c5de74de07047afb9c5b054ced3b
+      internalID: -4127254384492370597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b27506cf309b648a880c43f5282262
+      internalID: -2667583709933661774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7960654453efc944b17694d7519ed52
+      internalID: -7005616935113331574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e4a712f6e234345bf17a5093835029
+      internalID: -2321489356556019743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd14b35f6f4616742afdb92a73b38d9d
+      internalID: -1221269762930018192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e1e19fc206be74b858059750fc9bce
+      internalID: 5289257201946780523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72b72cfb2181d74f90325a8bcf94de7
+      internalID: -7985206574291674233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc33fc563e2b3d4abb963fd09f2d0dd
+      internalID: -7823662547717239379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9d38b8688e77a4fa3756fe49ce27a1
+      internalID: -3430726930305974916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300a8186c77db45448a1e20cb25fea8d
+      internalID: -2323554805398760237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43e0ed56f09c5341a252ecc43f8ce2a
+      internalID: 1058606882773620712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e7b71724d952845b3da9339011e7fa
+      internalID: -1190266637767412115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea02777544dd234a8c57f98b21716e5
+      internalID: 5652156484804285039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df492bb0d59f60247832b7c852c4539e
+      internalID: 1292619711529231726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5280622e492d8294dbd03bc382ff3539
+      internalID: 8491375556624119727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713761957c28fa44ab39c2fd405dac60
+      internalID: -8657687371343580799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc5369cbbdf9f94e97eb3594d04eafc
+      internalID: 8785840467658666807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c877180cadfc047893456e9c23402b
+      internalID: -6399500681310875623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9750e71e5508a924fae84651704e179b
+      internalID: 431840827832307938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77118b8eb6c2a849a0d33f5bfd41bbd
+      internalID: -90365730074186050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52da80d38ef8ca4fb4e490f8be7c6a8
+      internalID: -114436317773888303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5959d0ca648220f4ab2db6bc65ea51ef
+      internalID: -4600433200091905405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78c56ebcbdb03c49b410bb3ec598112
+      internalID: 1215970621195068200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aa8a60995931441a28d7d91bc8977f
+      internalID: 6096672810320376825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959117ade44cffe4db89683f320c0d7e
+      internalID: -7258812744536230954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b3481e7ee9c9045a43b53e5fac66c2
+      internalID: 5002902165931400311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f544eb7cd6fd48459f671a99ec60492
+      internalID: 2701852624384170348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1955c779b100f004f9208152e3cb7a56
+      internalID: 2034362316849665110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5272a6ef7d78d446b44499d4853a854
+      internalID: -160791514490010063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b379f0aade57d419a868e991d40326
+      internalID: 7538870130596646424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8214e8a17c57e3147bf5b7153b4cc6f9
+      internalID: -8666111745222312695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b50e1d2d3b3b684082d264b2d5310d3
+      internalID: -3887370691568735559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5d8fc2988953e47966d83b8939273d
+      internalID: 5642432779650792623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8549416ed3f2434ab439edf3ae333e3
+      internalID: -7151751831123646462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb668e9a2899194c9f0f88a883a6d0d
+      internalID: -422687952455047080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83a5c026958d7a49b9a617ed2edcbb1
+      internalID: -5150478111107318545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9663782b27bd09f41b24eeee888cb796
+      internalID: -1283373749373787819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6133f65c0bbe3714598bceee01cf5ea9
+      internalID: -8653355935493306546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed7a880b58467c45995632af25c1f28
+      internalID: -6611658158259056629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15de7d3e70ff17d4181e99a2d722d5e3
+      internalID: -6361106405414936868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5663cb678b6658f45be990458708ec17
+      internalID: 8085082539258982756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631655c35616b114c8ca8b84570e38b2
+      internalID: 4459904332584554165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125e05c954e8fde4eb773871e85a3b78
+      internalID: 8581733039032412054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e90ccb06259f94b93447bc0b775368
+      internalID: 726253195578222992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df04a964947bd446bbe4e0c1eaa0e99
+      internalID: 3765701865107628374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9f4b69bdb33e243a7f5f3910404e0b
+      internalID: 1134543065468431547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f3834343d1d7147a042321b860cc95
+      internalID: -8133553303815457644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4264e510ebee1442bebd31be0e49428
+      internalID: -7061678563866502712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9035fcbf19252044bddfbe8deb5aa9a
+      internalID: -2694934332022586203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef5d9b8049eade4bb7af1032fc7a3da
+      internalID: 8864626549919413439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6456a72013ce9bc4bbfdd58ba11c4616
+      internalID: 7584502587198695774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f12e2def627ea449ef8b0716dd01fe
+      internalID: -2144352376282852936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d074ec9f0dfcf74086c1b0c7c02012d
+      internalID: -7949957466343866738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_77
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5483c636d29e6ac41b99c94292b6a9bc
+      internalID: 1486097357432435231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda33c11ebf7b3f459768277d150cd9f
+      internalID: -7009645310359171901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_79
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611c0fbdb8999fc45b808ace9285003b
+      internalID: 5725601992825131630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf505f971e966bb43b1bc944910ffdc4
+      internalID: -5508123424965520976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22933a2e99ef8fd4990fd7d84feeed71
+      internalID: 8329582082453904577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38cb0ad8a3e0e84ca9530330cc11e2e
+      internalID: 6277012581644642223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b708ddede4df24692ee637985f35be
+      internalID: 6906294443010178273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b46dde5893e4044fa36efbc854f8346
+      internalID: 5783926679643628600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f3b105e697a7d4094625df796f459c
+      internalID: -6197029684468506174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4420e9358759435489f5e86c724a6d7b
+      internalID: -1056469498496876997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45b6bea23dcac445a763df5d8b2e134
+      internalID: 7750422889310664523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c99b5734fe34b74b8116f4dc383f996
+      internalID: -6127538063726402523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bd9b7fa53b54d4b8ae406b58105556
+      internalID: 6827347603924505575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa585008e3ae6440b6c665acc431d0f
+      internalID: 6778480818890159566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_91
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f86e0b9ef6735849a1fe581ac71a8b2
+      internalID: -283170154715903321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddcc7251e258ab4aa7998faefbae8f0
+      internalID: -1915106261879632516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_93
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f06dd950f38934b9a72ee2e9a16fb1
+      internalID: -2039834914796792061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5511bf8d87bb5914e94055d3701479fc
+      internalID: -8081804027353999312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_95
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dbfb2cbed732742a88bac244b22e42
+      internalID: -2465554241537440905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1e2e6538ca1a849b29480bf931bfce
+      internalID: 924959673656816385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc07f78f5ad9c7143a45f79b9e3199c2
+      internalID: 5332557922388088796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d669f9fbcc9f5c4991966fe82980db0
+      internalID: 1926589434064282121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aa36d7d830f0d43b79836af5b8b88f
+      internalID: -6703333704336427483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b510728624086114790f66c0c219884a
+      internalID: -2159435298211599918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba103a8bcb9f9f4080d14179f26a367
+      internalID: 9045832779350218651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477ab21b3e78d474f89f107dcfc04108
+      internalID: -6251768885930857812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b270e2fe0bf964f42a32841e01dca18e
+      internalID: -5464493784501071506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecfdc26b247f5d4ab00446333018dee
+      internalID: 8579465942923036917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_105
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091a0f4641ed2424e87e17e257c60eb7
+      internalID: -3018938797345393676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_106
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0d374ae08c9c1438b61a351a3177e5
+      internalID: 8160818436126846671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7c78208d0188c4287c75124f702e3d
+      internalID: -6378451148139095209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c723d4ad43d992f419d575b93bbcb358
+      internalID: 6639551163641097592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_109
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6eb59b8ed5f494b968fa80dd2016fa
+      internalID: 2872648351371952257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_110
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811156ec95031b94397a9839b38428c9
+      internalID: 4694123435266048605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_111
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb483ea36d34e6479601311f34436d9
+      internalID: -7450031386414821587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43246a895f916db4883c03614fc19668
+      internalID: 2421063313642295457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbd2ff37767c6d4c9e6e7941cdb05ec
+      internalID: 3370522122946149825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d077fa516b05b1147bb32f48c5391885
+      internalID: 2988666848461745555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da94970918aaa03498a18eccfbbda0da
+      internalID: 491574203298600185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86c20e7d3e852040ac768d12f761e1c
+      internalID: -5869911014852247892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c7ea0961ea8b147a7911f4e55cbb42
+      internalID: -6472737503769269821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5e46af6d0118b4f9591274d5bf307d
+      internalID: -5698194909910721734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9614f6d88ceea4f4ca965f1439ee1869
+      internalID: -3602752387270331938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef16e7d48604f424fa4e373d90c3ebe3
+      internalID: 8369802049562077385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_121
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b366c1499a43d5f408b4a1125b439a18
+      internalID: -3073191040987027123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e16a2e90020df44ba80793660116b4
+      internalID: 6899894280043525157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_123
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf41ea9d744e51241ab9d348a03e1f63
+      internalID: -665399301935324700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_124
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3526988257d5eb942a212b54d3798c7d
+      internalID: 3892129374099615416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_125
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8120750073464640bfcc575d8deea27
+      internalID: 1378220831051946842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_126
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5353c15dae1aaf24885a95d1c43332a9
+      internalID: 3397210917781329443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_127
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8901f8863dc1b7e489cf16f4e5b1e0c1
+      internalID: 2025997328698096748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a67fff067c87ea4fb6bae71f7e418cf
+      internalID: -434104235571790918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e018994de644649b28c7202a11faea
+      internalID: -2252346844587531708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c71a26d3031db542a87464fbbf664a1
+      internalID: 2993523234616274039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d06069eba3ac2c48b385fc974055601
+      internalID: 6556423069871248031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd49cf4bce7fa245a73bbdf9e667125
+      internalID: 2213893950367587882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db05934cb734e284a903a312b2b4a0ac
+      internalID: -718489717667308185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bb9584f6c29ca469950b9c8c23c562
+      internalID: -1527149266664100359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_135
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7e810cc2bcca54db4d5734b81b68e7
+      internalID: 5510129675990588742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de26e178138fc341959dbd146601eec
+      internalID: 4833760325641475266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_137
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067d0fc784a281940b3cafb77c2841c9
+      internalID: 3401876916639919340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cae0959301b6d40bac1dbe9377e134
+      internalID: 9142809252415121488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_139
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1598598afc53e184ca2330bcf5c55aa3
+      internalID: -3684085245237033345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fb5e039643ed14693f75ac1fce89f7
+      internalID: 5491459704657540023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_141
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286d6f27c80e41548834d18e399e280c
+      internalID: -8158658160870550408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_142
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9c1189055bf6948acd0f1da216116f
+      internalID: 2661084097504816592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_143
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8772e102ee2b5884cb74f130f36e66ad
+      internalID: -2937759562829490643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e78acf50077b74fb3a713610077246
+      internalID: -8186619736274322543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a6661540e2943429320ef79d5dbc4b
+      internalID: -5330609700068296027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae7517498140624095533ba291c6680
+      internalID: -2907505717230986009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_147
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b51948e758560499d5d2a322a2179c
+      internalID: 6520239557884497943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd19fc679549e64d83895d464f4cff7
+      internalID: -8268066512718217388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_149
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f8dee20e6aeb74ba07705350e56a16
+      internalID: -6066468164263675655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077efe85e86c2fd4fa783f3808f3c78d
+      internalID: -6220490289236402291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_151
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635b306d480500044b30eed89fabc046
+      internalID: -5712667982438251384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_152
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9197c0230743ef438bffd82b9ce6307
+      internalID: 1824687160672888361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_153
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f935f865a1d3fd4abf889c69095edce
+      internalID: -5543545178712960495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_154
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5130b9bf2c7f0d48b71b036fb7eecff
+      internalID: 1527399866580997679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_155
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746d0420c43186a4dad4755af6f0de6f
+      internalID: -4379071375212150482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_156
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54c2bb483228b44587d0c6d0cabca45
+      internalID: -1472564169896472452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_157
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e710f668ee8a7941a67925cc2fcd9a3
+      internalID: 2356332690634488914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_158
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f24b8ce0dd0dc42b47536bfc7cb23e
+      internalID: 3126995078993637775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_159
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9df702a7066264aa866e9c55e30e80
+      internalID: -8221932428292824209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47a98149c145af47ac2335347fafef0
+      internalID: 9116559957694496579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_161
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8b646c0f297e94fab0c06fb067fe5f
+      internalID: 50419261184855512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_162
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbcbb20bd9f5594bbf0bec71c21f155
+      internalID: 8500184638723539412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f787a3fca59c14e9d185e728d2e933
+      internalID: -3268300240522108985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_164
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccf75d18eebaa94490fcebbaf1c5c03
+      internalID: 7796412008579715930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_165
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce163b5bcf041f4782289595dcbd24c
+      internalID: 4944608950940339567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_166
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580bcdeba8970ec4a9e89149e40ca699
+      internalID: -8594963626387449329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_167
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7984a31db7ba144c9c85467dca05ab0
+      internalID: 5214587749295215660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_168
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70e8ec6f0267544a85b8837ce3aa813
+      internalID: 2074032132764419586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_169
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a405247014e6d14e9f75b9b733344cc
+      internalID: -8957013291837798750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_170
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6a72209549c1d42b3f51bc52b1cd49
+      internalID: 8363690834891029493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_171
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f9039b33dc87949a6e5197366ddd71
+      internalID: -8398726883739683786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_172
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc3ba5efa5193947ac065b5a99a0fa9
+      internalID: -6261740363016980075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_173
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f8fe15fc33a964cbeea7ed0ceb7308
+      internalID: 2386106734135085779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_174
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405f7e75a31643349ad569db7553b42a
+      internalID: -7032893205881817831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_175
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efda4518a4a23d498f65644b6c97774
+      internalID: 3668258836999872453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681eda42553b1eb47a3bf182b22fe12b
+      internalID: 7628879774319997824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_177
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee4a555d367c6041bfc35e1d50147c9
+      internalID: -503474881486835282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_178
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f785930b8d68f6b489e78a961e4ec492
+      internalID: 8912716825903419635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_179
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3635253bdee344e91a9b0d6dd8220d
+      internalID: 2736565042687287538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_180
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ccc9577e572eb469139355130c4691
+      internalID: -385948566009602613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_181
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f660c8016dbb1044a42409447ad5a8f
+      internalID: 2121242034256212142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028c74d6a4dc3864e840561fecbe792c
+      internalID: -2623853488164664349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_183
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c63662a19ac7fc48be693b5715b1e1f
+      internalID: 7298285806347532770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_184
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0d5cd9327f47e41849eb167c6cb714
+      internalID: 349310093830478773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_185
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c9b0306b873254ba5d01e1c4b4e3f7
+      internalID: -6866107601845543747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_186
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd946fe2d9296e0459071bba3cc2ded2
+      internalID: 3687345078431838590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_187
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0af1cda1da250d469feab0461a1ae43
+      internalID: -8642092962206647878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_188
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7932f6a4ae0f05c4db4d365a1a230cbc
+      internalID: 6396003681787766436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_189
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2582c958fe215746b03d514c836b2b7
+      internalID: -9214144793902946637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_190
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a01fc3117ce0e848b990776536cfad2
+      internalID: -8724138118577696301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_191
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bd370b42b727049ada65397de2f667
+      internalID: -2793398627757138241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253c7c86abaa0624f9d6bec5892cce32
+      internalID: -6413615317117485929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_193
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d686e6c6bd3e6984086ce931e2eb2781
+      internalID: 3322444326228559347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_194
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f47c6b01894734b8c35ec2934a147e
+      internalID: 7826282929404338963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_195
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5c07549824bea4db44bbfbb1136bd4
+      internalID: 4166399178925409444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_196
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bf8705dec78434f98caf1e4813241f
+      internalID: 4830829870274801616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_197
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0723f361f23373843ad0a864d887d7c3
+      internalID: 3216423581436809788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_198
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11c7069301c7604dbf94032ecbc8cc3
+      internalID: 4343068699004876421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_199
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b868caaf1b1aabf4a80de181b6f5941c
+      internalID: -269327240383140661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_200
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cda44f2eb021074e93ef9204b252aa4
+      internalID: -5590511673180236845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_201
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86c2ea5ee73c484bb19f8467dc39109
+      internalID: -4297862493307663651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_202
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99a870f151a0ef49af95919b849cfcd
+      internalID: -7758271818871818902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_203
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df54f98d2b0f0f40875f8d6c75190ed
+      internalID: 7035390867295341412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_204
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65eefd248bfb0854e871519e9c3888ed
+      internalID: 4634304815297429465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_205
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef613daa25ab62f48bc782ce25a16107
+      internalID: -8760238363728579454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_206
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e871804e1b9d714181b715ddfc5f1bf
+      internalID: -1146757403567006127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_207
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611feab3fcf429945ab6a90e5f095db7
+      internalID: -341361713509130206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a76d68a2305494d9827f85469c8b4b
+      internalID: 6427765006714372405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_209
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f689e8591e36b34b9510c776995a911
+      internalID: -4486437352995465783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_210
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86fe48d8c11f4540a485662a42a2ee9
+      internalID: -8383851080506096061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_211
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92a2f8e2d8ad0e418e05e4273c96f20
+      internalID: 75550483726560511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_212
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6517e3c1853af4f9f9037d51f7a154
+      internalID: -6983166977076505244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_213
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4006277b1dccd5542826eeaff850c3f2
+      internalID: 4305254337155376123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_214
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46e8062fa1eb1a48ae9e61e047eaf29
+      internalID: -7151547156545390370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_215
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9784c869a44b1904d8252abbef2c8ff4
+      internalID: 6303805188569287350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_216
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e287990a3c3820d4c9830b3a66cb8a0e
+      internalID: -2357750890253588780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_217
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9402ee14bd850643af4f3b92319e079
+      internalID: -2124219480023961270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_218
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbe9e03680b09a4da4d2fb7654e361d
+      internalID: -103366768814946105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_219
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7535e8ab76bd84ca599bc29e3a686a
+      internalID: 4014491752386841908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_220
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba4b118b3bc6d547a4a7821e34370e3
+      internalID: -2455817631015946005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_221
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bf8890d7fd0c54ca584590132a5fce
+      internalID: -4703940640457388165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_222
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6034f6116b7fcd4ab7ee37c89a1094a
+      internalID: 2605438469156440410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_223
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6604da53c4d051c48be0409673bc38e5
+      internalID: 8169268093339110803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df8334a1f32eb84d91c95b13f2e4d3f
+      internalID: 5905676740722233213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_225
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe4b5ee8cb590043a1b2e9677e0c483
+      internalID: 2948431107980365539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_226
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ab962d586cf5840bf4a27c44d04d28
+      internalID: -912393621063571451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_227
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4075d3640fecf1646b617b4b4c44f7de
+      internalID: -3303949864108436416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_228
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24c4347ea8f58642a1b95fac8c5e5a2
+      internalID: -7381757835566237425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_229
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980d6819a1999c14dab9f27bdc9eebab
+      internalID: -672795306895994988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_230
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2294f3cf07875174aa5f19d8cc275f2f
+      internalID: 229037871540070505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_231
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6f50acb1ac15a429da2d08e79d6bcb
+      internalID: -3696720767191863056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_232
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f0e1c3f8f07d94da092c0c23713816
+      internalID: 3515677776067965922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_233
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2ca0c2e75916247905e47a75837bb8
+      internalID: 4255172483405393458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_234
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604183115a68f8c448b12aba185688ba
+      internalID: -1707794943714332080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_235
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af942248986e00542aa685322d692b35
+      internalID: -2900938147691064058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_236
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8e86ca3ea49fa49916d9600519470a
+      internalID: -4116744491068230770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_237
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ff77f56f608904c82efd266b39b615
+      internalID: -4380532183732849423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_238
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c64156c0d90b3b4fbdedc1efbbb06d6
+      internalID: -4210719554032820049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_239
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805e09f1e28fd9e4a850471c4883bb0f
+      internalID: 2116757720671426797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884396049c6da4f4cb4a083b69db75c2
+      internalID: -8196291118460501048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_241
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465e9c9eeb9102d47937caa21e5a9cae
+      internalID: -8159140739851599646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_242
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b858081652ddaf6429576eeae8644916
+      internalID: -587576094879510495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_243
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939ef485c7161314ea0bb2a95e1417f8
+      internalID: 5894937496804321418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_244
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d574a459bc477e14b9fcad98dbfacda3
+      internalID: 5688117489024181980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_245
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0f065a51ec56b49b9384aa29c3450d
+      internalID: 1167666280357322082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_246
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e18eb4c57635642a1ef5dbdcfe01be
+      internalID: 4448443624398426693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_247
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb635dc76dfe634ebcd78ad557421c5
+      internalID: -4141782965298112748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_248
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6979c7464a2d74fa32969006b3d108
+      internalID: -4694979419233875720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_249
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587dd6e711e2fc743b2dcfdc0c3977d9
+      internalID: 4307187361264687688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_250
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7211d124bab1c4cbae7226a6803eb5
+      internalID: -972022344147636840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_251
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6950ba0693e69c742b87967444dbfe18
+      internalID: 5983689754608168342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_252
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a3054ec4c4242439737ccf3c5783c0
+      internalID: -6434581153930333471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PathAndObjects_253
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdb250226fb1f64da2d7ce84ce801b9
+      internalID: -8332904561341732116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 057a8bb5364c267449f49a9c9e174495
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PathAndObjects_44: -114436317773888303
+      PathAndObjects_96: 924959673656816385
+      PathAndObjects_206: -1146757403567006127
+      PathAndObjects_184: 349310093830478773
+      PathAndObjects_153: -5543545178712960495
+      PathAndObjects_224: 5905676740722233213
+      PathAndObjects_32: -3430726930305974916
+      PathAndObjects_24: -4127254384492370597
+      PathAndObjects_123: -665399301935324700
+      PathAndObjects_13: 5300247171116847025
+      PathAndObjects_110: 4694123435266048605
+      PathAndObjects_26: -7005616935113331574
+      PathAndObjects_33: -2323554805398760237
+      PathAndObjects_50: 2701852624384170348
+      PathAndObjects_244: 5688117489024181980
+      PathAndObjects_138: 9142809252415121488
+      PathAndObjects_86: -1056469498496876997
+      PathAndObjects_111: -7450031386414821587
+      PathAndObjects_176: 7628879774319997824
+      PathAndObjects_17: -3966369926999845427
+      PathAndObjects_29: 5289257201946780523
+      PathAndObjects_83: 6906294443010178273
+      PathAndObjects_134: -1527149266664100359
+      PathAndObjects_6: -7820945154685806677
+      PathAndObjects_227: -3303949864108436416
+      PathAndObjects_253: -8332904561341732116
+      PathAndObjects_214: -7151547156545390370
+      PathAndObjects_185: -6866107601845543747
+      PathAndObjects_133: -718489717667308185
+      PathAndObjects_186: 3687345078431838590
+      PathAndObjects_78: -7009645310359171901
+      PathAndObjects_199: -269327240383140661
+      PathAndObjects_115: 491574203298600185
+      PathAndObjects_229: -672795306895994988
+      PathAndObjects_192: -6413615317117485929
+      PathAndObjects_57: -7151751831123646462
+      PathAndObjects_129: -2252346844587531708
+      PathAndObjects_183: 7298285806347532770
+      PathAndObjects_95: -2465554241537440905
+      PathAndObjects_122: 6899894280043525157
+      PathAndObjects_248: -4694979419233875720
+      PathAndObjects_77: 1486097357432435231
+      PathAndObjects_145: -5330609700068296027
+      PathAndObjects_239: 2116757720671426797
+      PathAndObjects_211: 75550483726560511
+      PathAndObjects_0: -7354707582034155357
+      PathAndObjects_191: -2793398627757138241
+      PathAndObjects_231: -3696720767191863056
+      PathAndObjects_14: -9018795552015015724
+      PathAndObjects_196: 4830829870274801616
+      PathAndObjects_137: 3401876916639919340
+      PathAndObjects_90: 6778480818890159566
+      PathAndObjects_161: 50419261184855512
+      PathAndObjects_81: 8329582082453904577
+      PathAndObjects_34: 1058606882773620712
+      PathAndObjects_39: -8657687371343580799
+      PathAndObjects_144: -8186619736274322543
+      PathAndObjects_2: 430249297543539289
+      PathAndObjects_177: -503474881486835282
+      PathAndObjects_193: 3322444326228559347
+      PathAndObjects_201: -4297862493307663651
+      PathAndObjects_124: 3892129374099615416
+      PathAndObjects_246: 4448443624398426693
+      PathAndObjects_72: -2694934332022586203
+      PathAndObjects_135: 5510129675990588742
+      PathAndObjects_164: 7796412008579715930
+      PathAndObjects_242: -587576094879510495
+      PathAndObjects_151: -5712667982438251384
+      PathAndObjects_167: 5214587749295215660
+      PathAndObjects_228: -7381757835566237425
+      PathAndObjects_103: -5464493784501071506
+      PathAndObjects_182: -2623853488164664349
+      PathAndObjects_251: 5983689754608168342
+      PathAndObjects_245: 1167666280357322082
+      PathAndObjects_23: -1331070350490028223
+      PathAndObjects_216: -2357750890253588780
+      PathAndObjects_174: -7032893205881817831
+      PathAndObjects_131: 6556423069871248031
+      PathAndObjects_80: -5508123424965520976
+      PathAndObjects_108: 6639551163641097592
+      PathAndObjects_31: -7823662547717239379
+      PathAndObjects_5: 8140035320574517661
+      PathAndObjects_156: -1472564169896472452
+      PathAndObjects_41: -6399500681310875623
+      PathAndObjects_28: -1221269762930018192
+      PathAndObjects_97: 5332557922388088796
+      PathAndObjects_1: 4205461166594586774
+      PathAndObjects_87: 7750422889310664523
+      PathAndObjects_204: 4634304815297429465
+      PathAndObjects_157: 2356332690634488914
+      PathAndObjects_172: -6261740363016980075
+      PathAndObjects_165: 4944608950940339567
+      PathAndObjects_66: 8581733039032412054
+      PathAndObjects_188: 6396003681787766436
+      PathAndObjects_234: -1707794943714332080
+      PathAndObjects_48: -7258812744536230954
+      PathAndObjects_217: -2124219480023961270
+      PathAndObjects_198: 4343068699004876421
+      PathAndObjects_76: -7949957466343866738
+      PathAndObjects_64: 8085082539258982756
+      PathAndObjects_126: 3397210917781329443
+      PathAndObjects_179: 2736565042687287538
+      PathAndObjects_170: 8363690834891029493
+      PathAndObjects_213: 4305254337155376123
+      PathAndObjects_240: -8196291118460501048
+      PathAndObjects_140: 5491459704657540023
+      PathAndObjects_55: -3887370691568735559
+      PathAndObjects_43: -90365730074186050
+      PathAndObjects_132: 2213893950367587882
+      PathAndObjects_62: -6611658158259056629
+      PathAndObjects_65: 4459904332584554165
+      PathAndObjects_109: 2872648351371952257
+      PathAndObjects_155: -4379071375212150482
+      PathAndObjects_146: -2907505717230986009
+      PathAndObjects_237: -4380532183732849423
+      PathAndObjects_121: -3073191040987027123
+      PathAndObjects_127: 2025997328698096748
+      PathAndObjects_162: 8500184638723539412
+      PathAndObjects_243: 5894937496804321418
+      PathAndObjects_249: 4307187361264687688
+      PathAndObjects_4: -5142788275016678360
+      PathAndObjects_219: 4014491752386841908
+      PathAndObjects_147: 6520239557884497943
+      PathAndObjects_102: -6251768885930857812
+      PathAndObjects_130: 2993523234616274039
+      PathAndObjects_209: -4486437352995465783
+      PathAndObjects_220: -2455817631015946005
+      PathAndObjects_22: -3288589956372966525
+      PathAndObjects_68: 3765701865107628374
+      PathAndObjects_194: 7826282929404338963
+      PathAndObjects_58: -422687952455047080
+      PathAndObjects_38: 8491375556624119727
+      PathAndObjects_20: -5749117314582653529
+      PathAndObjects_9: 1586363765906278735
+      PathAndObjects_125: 1378220831051946842
+      PathAndObjects_233: 4255172483405393458
+      PathAndObjects_40: 8785840467658666807
+      PathAndObjects_120: 8369802049562077385
+      PathAndObjects_195: 4166399178925409444
+      PathAndObjects_3: -3586845514122124765
+      PathAndObjects_88: -6127538063726402523
+      PathAndObjects_247: -4141782965298112748
+      PathAndObjects_230: 229037871540070505
+      PathAndObjects_203: 7035390867295341412
+      PathAndObjects_225: 2948431107980365539
+      PathAndObjects_208: 6427765006714372405
+      PathAndObjects_223: 8169268093339110803
+      PathAndObjects_100: -2159435298211599918
+      PathAndObjects_149: -6066468164263675655
+      PathAndObjects_241: -8159140739851599646
+      PathAndObjects_36: 5652156484804285039
+      PathAndObjects_46: 1215970621195068200
+      PathAndObjects_49: 5002902165931400311
+      PathAndObjects_42: 431840827832307938
+      PathAndObjects_169: -8957013291837798750
+      PathAndObjects_52: -160791514490010063
+      PathAndObjects_173: 2386106734135085779
+      PathAndObjects_71: -7061678563866502712
+      PathAndObjects_118: -5698194909910721734
+      PathAndObjects_54: -8666111745222312695
+      PathAndObjects_218: -103366768814946105
+      PathAndObjects_53: 7538870130596646424
+      PathAndObjects_202: -7758271818871818902
+      PathAndObjects_51: 2034362316849665110
+      PathAndObjects_91: -283170154715903321
+      PathAndObjects_7: -8786449171294126216
+      PathAndObjects_113: 3370522122946149825
+      PathAndObjects_226: -912393621063571451
+      PathAndObjects_74: 7584502587198695774
+      PathAndObjects_10: 1609794377853882397
+      PathAndObjects_61: -8653355935493306546
+      PathAndObjects_37: 1292619711529231726
+      PathAndObjects_112: 2421063313642295457
+      PathAndObjects_141: -8158658160870550408
+      PathAndObjects_166: -8594963626387449329
+      PathAndObjects_94: -8081804027353999312
+      PathAndObjects_84: 5783926679643628600
+      PathAndObjects_16: 1292733015029981081
+      PathAndObjects_152: 1824687160672888361
+      PathAndObjects_189: -9214144793902946637
+      PathAndObjects_75: -2144352376282852936
+      PathAndObjects_212: -6983166977076505244
+      PathAndObjects_56: 5642432779650792623
+      PathAndObjects_47: 6096672810320376825
+      PathAndObjects_63: -6361106405414936868
+      PathAndObjects_27: -2321489356556019743
+      PathAndObjects_175: 3668258836999872453
+      PathAndObjects_98: 1926589434064282121
+      PathAndObjects_163: -3268300240522108985
+      PathAndObjects_205: -8760238363728579454
+      PathAndObjects_168: 2074032132764419586
+      PathAndObjects_45: -4600433200091905405
+      PathAndObjects_67: 726253195578222992
+      PathAndObjects_232: 3515677776067965922
+      PathAndObjects_187: -8642092962206647878
+      PathAndObjects_190: -8724138118577696301
+      PathAndObjects_69: 1134543065468431547
+      PathAndObjects_128: -434104235571790918
+      PathAndObjects_236: -4116744491068230770
+      PathAndObjects_250: -972022344147636840
+      PathAndObjects_107: -6378451148139095209
+      PathAndObjects_12: -315609056995654706
+      PathAndObjects_252: -6434581153930333471
+      PathAndObjects_8: -714165126599117846
+      PathAndObjects_82: 6277012581644642223
+      PathAndObjects_11: -1350963546940203813
+      PathAndObjects_143: -2937759562829490643
+      PathAndObjects_35: -1190266637767412115
+      PathAndObjects_89: 6827347603924505575
+      PathAndObjects_150: -6220490289236402291
+      PathAndObjects_222: 2605438469156440410
+      PathAndObjects_207: -341361713509130206
+      PathAndObjects_235: -2900938147691064058
+      PathAndObjects_117: -6472737503769269821
+      PathAndObjects_200: -5590511673180236845
+      PathAndObjects_181: 2121242034256212142
+      PathAndObjects_85: -6197029684468506174
+      PathAndObjects_119: -3602752387270331938
+      PathAndObjects_99: -6703333704336427483
+      PathAndObjects_136: 4833760325641475266
+      PathAndObjects_160: 9116559957694496579
+      PathAndObjects_148: -8268066512718217388
+      PathAndObjects_60: -1283373749373787819
+      PathAndObjects_114: 2988666848461745555
+      PathAndObjects_178: 8912716825903419635
+      PathAndObjects_92: -1915106261879632516
+      PathAndObjects_158: 3126995078993637775
+      PathAndObjects_180: -385948566009602613
+      PathAndObjects_238: -4210719554032820049
+      PathAndObjects_154: 1527399866580997679
+      PathAndObjects_221: -4703940640457388165
+      PathAndObjects_21: -4311307761015589485
+      PathAndObjects_104: 8579465942923036917
+      PathAndObjects_79: 5725601992825131630
+      PathAndObjects_101: 9045832779350218651
+      PathAndObjects_215: 6303805188569287350
+      PathAndObjects_106: 8160818436126846671
+      PathAndObjects_105: -3018938797345393676
+      PathAndObjects_116: -5869911014852247892
+      PathAndObjects_139: -3684085245237033345
+      PathAndObjects_59: -5150478111107318545
+      PathAndObjects_159: -8221932428292824209
+      PathAndObjects_15: -1473162489624069627
+      PathAndObjects_197: 3216423581436809788
+      PathAndObjects_171: -8398726883739683786
+      PathAndObjects_73: 8864626549919413439
+      PathAndObjects_70: -8133553303815457644
+      PathAndObjects_142: 2661084097504816592
+      PathAndObjects_25: -2667583709933661774
+      PathAndObjects_30: -7985206574291674233
+      PathAndObjects_19: -7264944301144969629
+      PathAndObjects_93: -2039834914796792061
+      PathAndObjects_210: -8383851080506096061
+      PathAndObjects_18: -4808279533588092212
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Projector
+  m_Shader: {fileID: 4800000, guid: 271f04fd1fc629a45853c23e9363056b, type: 3}
+  m_ShaderKeywords: RWC_TYPE2
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GroundTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlendDst: 1
+    - _BlendSrc: 5
+    - _Density: 0.003
+    - _FadeFalloff: 0.38
+    - _FadeHeight: 4.16
+    - _Intensity: 1.5
+    - _Lerp: 0.036
+    - _RWC2_Intensity: 20
+    - _RWC2_Tiled: -1106
+    - _RWC2_Wave: 0.2
+    - _Tiled: 16.34
+    m_Colors:
+    - _Color: {r: 0.0796992, g: 0.084905684, b: 0.083374366, a: 1}

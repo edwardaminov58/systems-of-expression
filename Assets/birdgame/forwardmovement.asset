@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: forwardmovement
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-832.9517,"y":-32569.87},"zoom":0.5999999,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"b90fdd2f-a244-4940-978e-0d2ffefde4eb","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-479.0,"y":-197.0},"guid":"b7e14775-95cd-4c03-af71-d702779ae927","$version":"A","$type":"Unity.VisualScripting.Update"},{"coroutine":false,"defaultValues":{},"position":{"x":-206.0,"y":64.0},"guid":"88f8536e-2cf3-44f1-a7f8-df36c6e98d85","$version":"A","$type":"Unity.VisualScripting.FixedUpdate"}],"$version":"A"}}'
+    _objectReferences: []
