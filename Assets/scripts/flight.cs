@@ -16,6 +16,8 @@ public class flight : MonoBehaviour
     public float burst;
     public float burstspeed;
     Animator anim;
+    public float altitudeMax;
+    public float altitudeMin;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +45,9 @@ public class flight : MonoBehaviour
         {
             Flap(burst, burstspeed);
         }
+
+        rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(rb.velocity.y, altitudeMin, altitudeMax), rb.velocity.z);
+        
 
     }
     void Steer(float x, float y, float speed)
