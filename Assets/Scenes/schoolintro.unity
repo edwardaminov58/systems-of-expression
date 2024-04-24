@@ -420,7 +420,7 @@ VideoPlayer:
   m_AudioOutputMode: 2
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
-  m_Url: https://video.wixstatic.com/video/b2c8b9_07c5d586978247daa0328de30fab12ed/1080p/mp4/file.mp4
+  m_Url: https://video.wixstatic.com/video/b2c8b9_b9a64ea7facb4ee18dd99d57c642404d/1080p/mp4/file.mp4
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
@@ -568,7 +568,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 834576803}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01fc04ebebeafad4bbc9f86b8808e15f, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &834576805
@@ -751,7 +751,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1799075465}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1799075463}
   variables: []
   description: 
   stepPause: 0

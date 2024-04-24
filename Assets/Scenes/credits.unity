@@ -167,7 +167,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://video.wixstatic.com/video/b2c8b9_15413e53fa8c476c87ebaf197fd0e8ba/1080p/mp4/file.mp4
+  m_Url: https://video.wixstatic.com/video/b2c8b9_5a90b771b2fc4a368009710dae2dde98/1080p/mp4/file.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1

@@ -39,7 +39,7 @@ public class flight : MonoBehaviour
             NoseDive(x, y, turnSpeed);
         else
             anim.SetBool("nosedive", false);
-        //HorizontalLean(transform, x, 30, .05f);
+        //HorizontalLean(transform, x, 30, .01f);
         transform.position += transform.right * activeSpeed * Time.deltaTime;
         if ((Input.GetButton("Jump")) && (anim.GetBool("flapbool") == false))
         {
@@ -52,16 +52,19 @@ public class flight : MonoBehaviour
     }
     void Steer(float x, float y, float speed)
     {
-        transform.localPosition += new Vector3(x, 0, 0) * speed * Time.deltaTime;
-        if (x < 0)
-            anim.SetBool("turnleft", true);
-        else
-            anim.SetBool("turnleft", false);
         ClampPosition();
-        if (x > .1f)
-            anim.SetBool("turnright", true);
-        else
-            anim.SetBool("turnright", false);
+        transform.localPosition += new Vector3(x, 0, 0) * speed * Time.deltaTime;
+        anim.SetFloat("turningValue", x);
+        Debug.Log(x);
+        anim.SetFloat("Velocity", y);
+        //if (x < 0)
+        //{
+        //    anim.SetBool("turning", true);
+        //}
+        //else if (x > .1f)
+        //    anim.SetBool("turning", true);
+        //else
+        //    anim.SetBool("turning", false);
 
     }
     void HorizontalLean(Transform target, float axis, float leanLimit, float lerpTime)
