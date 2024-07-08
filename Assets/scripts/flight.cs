@@ -40,6 +40,8 @@ public class flight : MonoBehaviour
         else
             anim.SetBool("nosedive", false);
         //HorizontalLean(transform, x, 30, .01f);
+        anim.SetFloat("turningValue", x);
+        Debug.Log(x);
         transform.position += transform.right * activeSpeed * Time.deltaTime;
         if ((Input.GetButton("Jump")) && (anim.GetBool("flapbool") == false))
         {
@@ -54,8 +56,6 @@ public class flight : MonoBehaviour
     {
         ClampPosition();
         transform.localPosition += new Vector3(x, 0, 0) * speed * Time.deltaTime;
-        anim.SetFloat("turningValue", x);
-        Debug.Log(x);
         anim.SetFloat("Velocity", y);
         //if (x < 0)
         //{
@@ -71,6 +71,7 @@ public class flight : MonoBehaviour
     {
         Vector3 targetEulerAngels = target.localEulerAngles;
         target.localEulerAngles = new Vector3(targetEulerAngels.x, targetEulerAngels.y, Mathf.LerpAngle(targetEulerAngels.z, -axis * leanLimit, lerpTime));
+        
     }
 
 
