@@ -20,13 +20,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/playbutton.unity
     guid: 9bc4645b4c0adee4e8c72e3d7b0f8c4c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/schoolintro.unity
     guid: de79d658cde1d4144adb3a0b96186878
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/scene2.unity
     guid: 4c774be1e254049438036f9025b2170a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/scene3.unity
     guid: 3cfb7e6fb5db1fc418f272d7380fffdc
   - enabled: 0

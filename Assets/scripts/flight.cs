@@ -39,7 +39,7 @@ public class flight : MonoBehaviour
             NoseDive(x, y, turnSpeed);
         else
             anim.SetBool("nosedive", false);
-        //HorizontalLean(transform, x, 30, .01f);
+        //HorizontalLean(transform, x, 60, .0f);
         anim.SetFloat("turningValue", x);
         Debug.Log(x);
         transform.position += transform.right * activeSpeed * Time.deltaTime;
