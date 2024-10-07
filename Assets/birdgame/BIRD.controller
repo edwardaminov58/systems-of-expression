@@ -8,7 +8,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: turn right back
-  m_Speed: -4
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 3834322607630077598}
@@ -116,7 +116,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: turnleft back
-  m_Speed: -4
+  m_Speed: -2.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5350128215942053484}
@@ -543,7 +543,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: turnleft
-  m_Speed: 2.5
+  m_Speed: 5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -2889877654220438155}
@@ -811,10 +811,10 @@ AnimatorStateMachine:
     m_Position: {x: 410, y: 10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6697040031403988100}
-    m_Position: {x: 620, y: 100, z: 0}
+    m_Position: {x: 670, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2122176137300488173}
-    m_Position: {x: 630, y: -50, z: 0}
+    m_Position: {x: 690, y: -90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5641102378441206068}
     m_Position: {x: 180, y: -210, z: 0}
@@ -826,16 +826,16 @@ AnimatorStateMachine:
     m_Position: {x: 520, y: -210, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3204989672234181915}
-    m_Position: {x: 430, y: -120, z: 0}
+    m_Position: {x: 380, y: -120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7701700545836972464}
-    m_Position: {x: 280, y: -60, z: 0}
+    m_Position: {x: 170, y: -50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8733379721509905027}
-    m_Position: {x: 440, y: 120, z: 0}
+    m_Position: {x: 420, y: 270, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8978795172878642254}
-    m_Position: {x: 220, y: 160, z: 0}
+    m_Position: {x: 120, y: 270, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -854,7 +854,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: turn right
-  m_Speed: 2.5
+  m_Speed: 5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5434314133540414976}
