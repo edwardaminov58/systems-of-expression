@@ -1,0 +1,7021 @@
+fileFormatVersion: 2
+guid: 9f8945c0d203eca4d92ee2bbe716b121
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_0
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 4684
+        width: 113
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18dffbdf04172245b1c0cda30af9ccb
+      internalID: -1651292477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_1
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 4628
+        width: 119
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549a76db219961948b69a13daff1635e
+      internalID: 1265777401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_2
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 4631
+        width: 101
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6996ecb5577f2b541bc2631f7fcd569d
+      internalID: 1349562033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_3
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 4703
+        width: 98
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15baf80356388ba4dad94737358df5f4
+      internalID: -1555832734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_4
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 4643
+        width: 103
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c0ac6b4284f7f43b36f7131b91295d
+      internalID: 1425966589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 4526
+        width: 123
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e38c2014b0df554a92c752dd28945b1
+      internalID: 1507338227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_6
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 4560
+        width: 110
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba267d81cfc10c48959b532ade8df6e
+      internalID: -973138053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_7
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 4495
+        width: 123
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c6c4df58c82bd4bbbee5bbdd1e4c91
+      internalID: 601594544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 4320
+        width: 103
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1d0e6d81c05ef428015ce06281c503
+      internalID: 1006927403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_9
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 4327
+        width: 111
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5138101afc119de41b42a4d08d42e1f6
+      internalID: -953310381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_10
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 4323
+        width: 97
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed126a63df824f04a8334723a77234a7
+      internalID: -2049008373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_11
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 4427
+        width: 107
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9840710ba33cc4840bb7fde3550e1f49
+      internalID: -1698547390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_12
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 4156
+        width: 112
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090b9fff0e948be4ca869b684a72f12c
+      internalID: 38988552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_13
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 4072
+        width: 109
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8161fce7252ed46b7e99730d11648f
+      internalID: 1518824071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_14
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 4145
+        width: 119
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd8697acc030b44a803a6c2b7427ae4
+      internalID: -2112591696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_15
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 4184
+        width: 93
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7592765712532ac4782c35bf59c82893
+      internalID: 779884052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_16
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 4076
+        width: 92
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d9be6b989276047a03806893906ba1
+      internalID: -768217729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_17
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 4186
+        width: 98
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3670d4c0ebad4ba41a57b06dbac2836c
+      internalID: -1858641313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_18
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 3891
+        width: 58
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8510a528e9781a046a644438efb53d42
+      internalID: 590458774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_19
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 3890
+        width: 64
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7e74f5b94a4614b9a8d5ecec5aee3b
+      internalID: -293916025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_20
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 3897
+        width: 86
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a99c86a51fc4d848a4ce4de7e3023c2
+      internalID: -2057163444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_21
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 3697
+        width: 132
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d842b0baeb3b8ac469938f0bdf8f1b4a
+      internalID: 1089488740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 3700
+        width: 138
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dce2cbb7e6cf554397ad631f7708ae1
+      internalID: 1912140749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_23
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 3756
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bea4fbf54bc1547884b46a037bfdca
+      internalID: -95787294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_24
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 3756
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f4e0132f97d51419d1942be6d92b01
+      internalID: 684054547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_25
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 3756
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c25a683dd83ad4980cb59fcef88bf3
+      internalID: 973575416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_26
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 3756
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd745f3d82be78044a0de27471004987
+      internalID: -749161038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_27
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 3756
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ac6c6f9e678204fb2e35b49b88a35c
+      internalID: -692914523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_28
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 3752
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68871b289d5a5d47a3f3311a63380db
+      internalID: 921957208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_29
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 3686
+        width: 91
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c89cc4cc3b6c14fa9cc67197a356ed
+      internalID: 274518909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_30
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 3641
+        width: 98
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4141db7a7ba32af40ad6de01a5c3d63d
+      internalID: 2118982673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_31
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 3659
+        width: 74
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b715559760409964cb7dda18f0758b5b
+      internalID: -982733046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_32
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 3689
+        width: 130
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3732dce1097ca8458de5ef32eaa8134
+      internalID: 1462698440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_33
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 3688
+        width: 158
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d72a66d6e0b2347a18706b38d84acb
+      internalID: 1864601764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_34
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 3725
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bde6a2c73021d74fbc9468cbea73faa
+      internalID: 1214862970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_35
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 3725
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf083fead4235924994e3682a1536e80
+      internalID: -273504595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_36
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 3721
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a525cbb9e3733a4da30451b46277dc7
+      internalID: -816416503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_37
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 3725
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4107b689148cec49a73ca00fe750956
+      internalID: -704257199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_38
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 3595
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7690ea06b12617c43866f56a1d92d063
+      internalID: 1873077526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_39
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 3685
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4091c934f4eec8a4b88b7bc8fe42d4d8
+      internalID: -314347701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_40
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3685
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de45d83561c563849826f69120156c0d
+      internalID: 333526608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_41
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 3685
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29baa37a3c3afe64b8f005775b979d2a
+      internalID: 1837396403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_42
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 3681
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327570ef34c7db640a081b868fb96b23
+      internalID: -1654291588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_43
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 3433
+        width: 121
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc8f84dd1ceb3f4db8866760837faa5
+      internalID: 15046586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_44
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 3491
+        width: 113
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663d2454769d0734e90f5f33c270c58f
+      internalID: 190211331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_45
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 3463
+        width: 132
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d22aefc03a013144a758a781708e960
+      internalID: 1195254752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_46
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 3537
+        width: 161
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3a0dfd59aff244ab933afc18d63691
+      internalID: -48849796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_47
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 3496
+        width: 79
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07cfdf6a3fcd9f43ae275d6e55471eb
+      internalID: -2046236819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_48
+      rect:
+        serializedVersion: 2
+        x: 3442
+        y: 3504
+        width: 84
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd66951e4bd64e040b849de80a2b5251
+      internalID: -211313485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_49
+      rect:
+        serializedVersion: 2
+        x: 4016
+        y: 3526
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b07b2a2db53bfa47956d6549201a6ca
+      internalID: -1496104999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_50
+      rect:
+        serializedVersion: 2
+        x: 4031
+        y: 3526
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b363889ec58d4448856917f61e5505
+      internalID: -710738751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_51
+      rect:
+        serializedVersion: 2
+        x: 4046
+        y: 3526
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b5d49593cabd14f8d24a6805d5daad
+      internalID: -2031771088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_52
+      rect:
+        serializedVersion: 2
+        x: 4061
+        y: 3526
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b732f499ec4d2e04b8c9537438ba1f52
+      internalID: -167542339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_53
+      rect:
+        serializedVersion: 2
+        x: 4076
+        y: 3522
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdf02523fbf74a43a59d0365407d98d
+      internalID: -647255200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_54
+      rect:
+        serializedVersion: 2
+        x: 4092
+        y: 3527
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f721c31d35b7e79499abae9242656e5d
+      internalID: 1485218753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_55
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3417
+        width: 113
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1416090c92dbf7d4d98cb336cbc0beb4
+      internalID: -468348343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_56
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 3337
+        width: 132
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458acdff9738e024b81caf72eb6e994b
+      internalID: 728556372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_57
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 3418
+        width: 170
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e5de1cb2e94e14f96720311ccdfe8a
+      internalID: -582012083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_58
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 3404
+        width: 159
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b7a876b62234f41aad21509d62e13a
+      internalID: -1982315980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_59
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 3381
+        width: 116
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8605192a7fc8c6499055b143046f727
+      internalID: 912547407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_60
+      rect:
+        serializedVersion: 2
+        x: 3985
+        y: 3441
+        width: 170
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b232cc5f53187744dad0fa87aba006fd
+      internalID: -671422135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_61
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 3301
+        width: 113
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401c91dd23ac65e448fd8859341d19d0
+      internalID: -1131886847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_62
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 3353
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860f2cb6c635a5f45ac9360de78ff722
+      internalID: 1899094083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_63
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 3353
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4d375fd3cd36e4d8396a392b2e3733
+      internalID: 212569380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_64
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 3349
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f62a6716a1787b49a35430b1ea26d24
+      internalID: -919529680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_65
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 3325
+        width: 143
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584ca2f98d0e00a4ab3b04a1628129ab
+      internalID: 581015381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_66
+      rect:
+        serializedVersion: 2
+        x: 3983
+        y: 3368
+        width: 169
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2d404c688e6de449237caa53ccd1ed
+      internalID: 745335169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_67
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 3191
+        width: 130
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac28e3a95fc05f499b8b797f34ead8e
+      internalID: -181915545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_68
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 3210
+        width: 137
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7962775c0f0a00a4abcca52c03153dc3
+      internalID: -1339464367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_69
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 3259
+        width: 166
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0949f56bcfa226b4b8ac9d235c5fede0
+      internalID: -537218162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_70
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 3270
+        width: 176
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4599b93cd863eb448c66a0543371d3a
+      internalID: -1071926482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_71
+      rect:
+        serializedVersion: 2
+        x: 2533
+        y: 3238
+        width: 148
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1f3b06271927b408dc1d4f974cc8be
+      internalID: -2064164827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_72
+      rect:
+        serializedVersion: 2
+        x: 3982
+        y: 3292
+        width: 164
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a71eaa7d1893dd4dba12ce1c053ea6b
+      internalID: 1441100782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_73
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 3219
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861e3eb82b75f3a4ebb40e2ff316c9a2
+      internalID: 30972067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_74
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 3219
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fdbae488df4ea469805bcab416c34c
+      internalID: 298130154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_75
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 3219
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374720bcbacca904281513cab20a9943
+      internalID: -1354232355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_76
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 3219
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c605b216179027458af123059f43472
+      internalID: -1961663094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_77
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 3219
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8764e02a6086c479ff97a3838eb044
+      internalID: -1046918558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_78
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 3215
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb375adc3bd82074f87235bf3e69bed2
+      internalID: -943852384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_79
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 3126
+        width: 110
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eaa89b4eaf2ac74593be08d07c16e6e
+      internalID: 24964727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_80
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 3149
+        width: 124
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326d0f41644c6c2418c2a0559aaf72b5
+      internalID: 1139593525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_81
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 3204
+        width: 154
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c928d743afd7eb43be131ea3824a9ba
+      internalID: -959888020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_82
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 3173
+        width: 145
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606baa7188ad6d94a8fc10417eb7794e
+      internalID: -1978521517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_83
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 3071
+        width: 126
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a849312f3c6f974e88c20b8767d54d9
+      internalID: 520061924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_84
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 3014
+        width: 91
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8ecea5dc7c65442a8d1580e5ef1d9b
+      internalID: -1761651917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_85
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 3028
+        width: 120
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6bb9931a37eda4487a656cfe1a9915
+      internalID: 1162252513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_86
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 3109
+        width: 160
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab44e8b33fb3b99418bcf812815314f3
+      internalID: -2095248380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_87
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 3061
+        width: 163
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c396e3e2dab5e464c80984afcd5a8a4d
+      internalID: -1922605839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_88
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 3034
+        width: 145
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730e21bc23e7f9145953e902fabe67d2
+      internalID: -114714913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_89
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 3020
+        width: 140
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7ccb9b4e96133448028f1ddce564cf
+      internalID: -11073074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_90
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 2985
+        width: 167
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6578d4dfe0af60e4cac42248a565b005
+      internalID: 1457777622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_91
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 2820
+        width: 98
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab8119c8d60bc14f9e52fa501da7ca7
+      internalID: -1345681019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_92
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2932
+        width: 58
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16c1e93962f0004799f8907d4ea72a3
+      internalID: 1964311529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_93
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 2956
+        width: 164
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e998d25af7ca5d41a47abb90e5fe017
+      internalID: -78045361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_94
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 2919
+        width: 124
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddfa66c59bb7e84e97b828ab2933b9c
+      internalID: 1223630080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_95
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 2935
+        width: 164
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc915c92174e3941a9d3df9e356afd3
+      internalID: -170254160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_96
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 2856
+        width: 155
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a5a202c9c4f4447ac5e836286bbca2
+      internalID: -274135235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_97
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 2869
+        width: 160
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86330c676660044696f1ca4e55d96f3
+      internalID: 399372309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_98
+      rect:
+        serializedVersion: 2
+        x: 2987
+        y: 2916
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37eece357b4fdb24bbccb16c6b36dd8a
+      internalID: 1680269609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_99
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 2916
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f08f8cc1e7405e408523435a5eed5fc
+      internalID: 1701565753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_100
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 2916
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de1fa1d42acdce4394f850ce4088715
+      internalID: 795211951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_101
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 2916
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afbb4f090ad8ed4585c63da1eb92fe3
+      internalID: 599584692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_102
+      rect:
+        serializedVersion: 2
+        x: 3062
+        y: 2916
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0e2a38f68897042b02128372f9360f
+      internalID: 864427204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_103
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 2916
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a8fde14a7089843b6149cefa1a0afc
+      internalID: -1536985509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_104
+      rect:
+        serializedVersion: 2
+        x: 3093
+        y: 2916
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf3a532a3cc4b046abc6ebddda140c1
+      internalID: 1565992597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_105
+      rect:
+        serializedVersion: 2
+        x: 3418
+        y: 2898
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4860204c241c54388bcae3cbd9c627
+      internalID: -971233497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_106
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 2898
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e44e6ed3fb464647bfa27ddfbe75ff9
+      internalID: 60161928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_107
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2898
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e10f2b3ab579a04cb9aaa6771e5fec1
+      internalID: -510310896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_108
+      rect:
+        serializedVersion: 2
+        x: 3530
+        y: 2898
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442cb724c03ac054b9ef343ad01e4192
+      internalID: -1832796630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_109
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 2881
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538fb14c4c791f240988764be6b9d04a
+      internalID: -969516797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_110
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 2881
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716feffef53538b4ab38be1f2c910030
+      internalID: -393844092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_111
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 2898
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac30ed2af8f279c4b919dae6d84c87f3
+      internalID: 1188235591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_112
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 2898
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0a5219273e2d64c92860a06448c593
+      internalID: 424721379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_113
+      rect:
+        serializedVersion: 2
+        x: 3554
+        y: 2894
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b395136bcefec4e94a72e2ece0d4a7
+      internalID: -702352201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_114
+      rect:
+        serializedVersion: 2
+        x: 4257
+        y: 2850
+        width: 170
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f275931882cee47843e8346268a417
+      internalID: -1586614870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_115
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2785
+        width: 148
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8974e769990d1b4581349fcdc8c3887
+      internalID: -1486635207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_116
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2881
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2428d24d5193f0c45ac68cc64fbfa955
+      internalID: -2085934566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_117
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 2881
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2aafddaaadabb4186a95b2f48b7813
+      internalID: 908565041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_118
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 2881
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa05840b5bbd6148b4b24e0e6750f00
+      internalID: -65993795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_119
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 2877
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fabef532c384b4aab1c98700e3bc50
+      internalID: -1155412740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_120
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 2841
+        width: 176
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a461d10dbaa655b469b687f9a4029ec3
+      internalID: -2104149331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_121
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 2834
+        width: 164
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e448aff164ea1794ea5884d0e38859c3
+      internalID: -270205704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_122
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 2843
+        width: 170
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7822cdfdef07b14f850d67c11f51ab9
+      internalID: -1744174364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_123
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2738
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16de89a01854a8c4082b3de6f9fcd6af
+      internalID: -1486559533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_124
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 2802
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa284a3f393140409d09e3f1289a5ba
+      internalID: 1668613165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_125
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 2782
+        width: 167
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d740324bcc05fa846be9682be03880e4
+      internalID: -2000008075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_126
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 2781
+        width: 169
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedbe22c351ef834e8d1d2854f4fe220
+      internalID: 542116919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_127
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 2770
+        width: 170
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87369f9a1277b564e94f4116304254dd
+      internalID: 1181670204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_128
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 2796
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2587b6626f1e344993b6a8951f64c6
+      internalID: 15421132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_129
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 2796
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b22eeba48908f64e9af2133866bdc3c
+      internalID: -1762808998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_130
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 2796
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c533b79b11a2eae4b808bdac2a1973e1
+      internalID: 339000264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_131
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 2797
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63139b64fdc70be448876e1287a836ad
+      internalID: -390627027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_132
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 2796
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6113195f89016fb45836e0c77bd4d0d0
+      internalID: -790758152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_133
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 2796
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef74742fcd748940a2e1086189e0c13
+      internalID: -1441164204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_134
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 2797
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e8896160d614f4f82967ce5d5ddbe2
+      internalID: 2033764856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_135
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 2806
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88c4afce777e9f429b83525539fb3d7
+      internalID: 1875055290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_136
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 2802
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3980af126e6911c4181ab2235100a651
+      internalID: 1978081081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_137
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 2807
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f17dc62d9d2c3c4b9a3f54678de3ce6
+      internalID: -137788565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_138
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 2807
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a140a99951c29ca48852f5d082b584fb
+      internalID: -722978337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_139
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 2806
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f20001d33b0904e8ce9cdb90ddd625
+      internalID: 25909610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_140
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 2806
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217286ab4caabd344b9cefc8ca533218
+      internalID: -574290474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_141
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2802
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda8da4f9c2153947804f304026d0ddd
+      internalID: -1659310485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_142
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 2756
+        width: 164
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ead9fe8529ee447bf1fa72c6c73992
+      internalID: 96093884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_143
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2655
+        width: 113
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34947f26f4947d349ae3a35d815dbdba
+      internalID: 1396569909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_144
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 2721
+        width: 170
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8285b1d7920d9b94ca8c7ffc0b743d54
+      internalID: 716085949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_145
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 2728
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa733edd1e66da43bd609f6f540ed61
+      internalID: 590003777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_146
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 2728
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6decfd812753924eac509065feab10b
+      internalID: 1128753873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_147
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 2749
+        width: 190
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab96032f6ec3eb40945a3fbe8cf5a02
+      internalID: -430395905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_148
+      rect:
+        serializedVersion: 2
+        x: 3693
+        y: 2750
+        width: 170
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e58e5da8f90ef4c9fda869e0fc13bf
+      internalID: 1376579325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_149
+      rect:
+        serializedVersion: 2
+        x: 4259
+        y: 2746
+        width: 170
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d525617a93e9d46908b7d301c65743
+      internalID: 42898288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_150
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 2728
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f85f24a3b4ec5045ada8f8d9c939a2b
+      internalID: -486147819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_151
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 2728
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef8057ea2b2b4643a9ce744d26ef9a1
+      internalID: -1786920468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_152
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 2728
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01efaed801b5f7a4ca75ddc192c8d9c9
+      internalID: -300585899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_153
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 2729
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8441bfc3cd3fd48b2a5e0965447d79
+      internalID: 1223858354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_154
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2590
+        width: 115
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b4c923b1b05524fb483b50a57da582
+      internalID: -331777899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_155
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 2667
+        width: 167
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac654b690c1ea64fb42fdfd491d6bd5
+      internalID: -453762073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_156
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 2661
+        width: 170
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d14352884af2349a2248abe1ff33f8
+      internalID: 126762741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_157
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 2654
+        width: 194
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bc6697d923a4241ab039b584ca140d
+      internalID: 1451971407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_158
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 2647
+        width: 176
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e6ecb4292b4ba4a8831e32727f11b6
+      internalID: -985242852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_159
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 2683
+        width: 188
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77924adc0b54554e876e9480c8eda0d
+      internalID: -1561785418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_160
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 2663
+        width: 164
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893ca0e024852584795d01cf1bc2e8c5
+      internalID: 858056144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_161
+      rect:
+        serializedVersion: 2
+        x: 3689
+        y: 2640
+        width: 180
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f5dfa5faaf3c64f9460e9c2a4e5fb1
+      internalID: 670092083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_162
+      rect:
+        serializedVersion: 2
+        x: 4254
+        y: 2660
+        width: 180
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1f9b1b777b78349a1520fbd8f2941a
+      internalID: -1557209503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_163
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 2523
+        width: 114
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d39095633724ab41bfcf2154a3d49d9
+      internalID: -1822168106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_164
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 2516
+        width: 132
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0f036a20964ec41a2751d8a4e33f10
+      internalID: 874849885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_165
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 2605
+        width: 170
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9730f52ea3223f442b7d1ee6e4a86d14
+      internalID: -2081314205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_166
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 2625
+        width: 188
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1989712fceb4a479aaa5be984d6d3b
+      internalID: 205487172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_167
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 2566
+        width: 164
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb7c5f2a20349949afb7ec718ae44b7
+      internalID: -1083193394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_168
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 2548
+        width: 167
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123cbc0180ac0634bbba41aa422f69a3
+      internalID: 1641692726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_169
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 2573
+        width: 194
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f4b62470c315c44bfd1ec4cad8b843
+      internalID: 1145498624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_170
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 2540
+        width: 176
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9560a387bcddff44dbf9aa7dca28bb73
+      internalID: 2090422115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_171
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 2562
+        width: 188
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80d01b6ef18ed344b4e2408101007ff
+      internalID: -540297100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_172
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 2532
+        width: 162
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b079e01997909584dad0688163c68c4f
+      internalID: 1222643329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_173
+      rect:
+        serializedVersion: 2
+        x: 4264
+        y: 2562
+        width: 162
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8163490583f62440aecac3abb7cc0c6
+      internalID: 2133393153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_174
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2427
+        width: 126
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f36f2957feda04ea07001b442e011d
+      internalID: -151195294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_175
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2491
+        width: 194
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e52052847c1d74fad3a62ca1c3e170
+      internalID: -875160468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_176
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 2504
+        width: 188
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013099fba5a156847b5ab9049dad3b91
+      internalID: -173287320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_177
+      rect:
+        serializedVersion: 2
+        x: 3106
+        y: 2457
+        width: 164
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0456401fcda63aa4296c0fb6e9f0120a
+      internalID: -1752719368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_178
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 2366
+        width: 132
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35724d6e873ca4d45b3b2cd4ea4b0199
+      internalID: 1091569808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_179
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 2422
+        width: 167
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6954eb982f930f5438e004b4337f083f
+      internalID: -980875456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_180
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 2411
+        width: 194
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d851811887b29634b86c5780b2e8d721
+      internalID: -1352020811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_181
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 2441
+        width: 176
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03b26dd2a7eaab418b9546d5f00edfb
+      internalID: 653273481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_182
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 2435
+        width: 188
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacf68dce867b654ea1008f8c2fe84f4
+      internalID: 1541758200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_183
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 2423
+        width: 156
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1078001522f1571438b28758157e8374
+      internalID: -747310287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_184
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 2428
+        width: 156
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a931b81c1323bc1458c42ce22df510cf
+      internalID: -319882424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_185
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 2286
+        width: 155
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b377a59e42c9dc4590b0b1868797c56
+      internalID: 1473061206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_186
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 2304
+        width: 167
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68fbc4012af66c448cfd6f9c292365e
+      internalID: -1566904534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_187
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 2320
+        width: 194
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48864ba76ef1b145b579ef67ff2dfe2
+      internalID: -1577950738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_188
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 2337
+        width: 176
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fa5b011a53b26478bde5ac6b73aabe
+      internalID: 264857884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_189
+      rect:
+        serializedVersion: 2
+        x: 2644
+        y: 2345
+        width: 189
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a9895475d8bbc4d9eeed2c794ca47b
+      internalID: -1803957169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_190
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 2342
+        width: 162
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077a33c33d91ea0438db687ea5208eb5
+      internalID: -1049741458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_191
+      rect:
+        serializedVersion: 2
+        x: 3717
+        y: 2324
+        width: 170
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e6503ef923cdd49ba97c561c7cf172
+      internalID: 801160140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_192
+      rect:
+        serializedVersion: 2
+        x: 4266
+        y: 2313
+        width: 156
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc21daf94290a24298f4e6763e90ee0
+      internalID: 316586644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_193
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2241
+        width: 144
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9739f562128a59242822204a23072e4a
+      internalID: 220737420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_194
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 2238
+        width: 143
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd742be91b155f4a9cec24d0f022fe1
+      internalID: 1810772136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_195
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 2239
+        width: 176
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42ea6e6f67595d45a7a73070659ca7c
+      internalID: -1436216927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_196
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 2279
+        width: 187
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17abb0cfd538784d8fda9a0314fe83c
+      internalID: 1002908820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_197
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 2241
+        width: 162
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6de3e4b37fb74c439358e5d9d08e16d
+      internalID: -1996352258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_198
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2142
+        width: 167
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72b17f08e512d74abc3a5be0f76d4bd
+      internalID: -845921427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_199
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 2190
+        width: 167
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b8087c0beb2a0469e66034f0f3c12f
+      internalID: 1606964141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_200
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2188
+        width: 186
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f440ef471c5ec7c43be31d20f9483de4
+      internalID: -1715831606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_201
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 2220
+        width: 169
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a017e63d2e035f1438dd6a9ea05554e6
+      internalID: 1899521933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_202
+      rect:
+        serializedVersion: 2
+        x: 4258
+        y: 2145
+        width: 152
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e2f11c75d4bfa45b840d74db470f34
+      internalID: 1113207178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_203
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 2093
+        width: 148
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4ae9cc99f71df4d914daafe5c134d8
+      internalID: 1937035913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_204
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 2109
+        width: 175
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6e0565aba403f4ca35f46e806e0cb8
+      internalID: -1357009188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_205
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 2111
+        width: 187
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13af40b6cb7a944d8823c8d9a2c15b9
+      internalID: -1008578998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_206
+      rect:
+        serializedVersion: 2
+        x: 3126
+        y: 2132
+        width: 162
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d2b45bebb3a444283bffc40ce520e4
+      internalID: -733831994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_207
+      rect:
+        serializedVersion: 2
+        x: 3704
+        y: 2095
+        width: 179
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1178f230ced0cc478a1a92006cbbe7a
+      internalID: -1219774320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_208
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1988
+        width: 158
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511170b7d10e65d48ab7629b38da0eb9
+      internalID: -1067908697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_209
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 2026
+        width: 167
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4535df02d1a9dbb4aa6b0b612b222cda
+      internalID: -1492293423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_210
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 2003
+        width: 175
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3788b2d42666dcd4f8f531fb188439ea
+      internalID: -1413891289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_211
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 2029
+        width: 187
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c50a0249810bb4f976ec6040b70f2c
+      internalID: 308887090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_212
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 2039
+        width: 162
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce4dff500e265c448646c2750e25d99
+      internalID: 475731340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_213
+      rect:
+        serializedVersion: 2
+        x: 4253
+        y: 1985
+        width: 144
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e50d633b221974485001a7399de789
+      internalID: -46544880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_214
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1939
+        width: 154
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44cbd293c6cfef40a5e967ab943e530
+      internalID: 498273618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_215
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 1936
+        width: 187
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bba99c16e1a804daec4a2fef3ecfea
+      internalID: -1844296307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_216
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 1940
+        width: 162
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c7daaef4e83034389f0bcb5c54d432
+      internalID: 908619734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_217
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 1972
+        width: 161
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a208eca9f2d5f7e41ba39b9096d792c9
+      internalID: 303276241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_218
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1836
+        width: 106
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667c21e60245a874cbc267ad5b6afba5
+      internalID: 1125531447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_219
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1848
+        width: 167
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3420283bf69e0f84985d224f1d6a655d
+      internalID: 65028028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_220
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1897
+        width: 167
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4c0f50e1736e448889f0eaefa8858d
+      internalID: -149463965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_221
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 1918
+        width: 175
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd57792216eea843887f61201417dc4
+      internalID: -1284137018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_222
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 1853
+        width: 153
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdb5ee31ec62e247814b33909cc0e81
+      internalID: -1685199609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_223
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 1792
+        width: 160
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1756bc6b093cbea40a50cf0184eb87cf
+      internalID: -1259468515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_224
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 1826
+        width: 176
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4177eb4ef22944180ab589ec473a6b
+      internalID: 1845442614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_225
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1809
+        width: 184
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c64f4763b1b0d4c9bb17911b481caf
+      internalID: 779798361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_226
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 1831
+        width: 158
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d99b8c006292ff448a9e410312267fc
+      internalID: -1349966922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_227
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 1812
+        width: 156
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f283dd495a801244c9f3136d9ad0659c
+      internalID: -845125821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_228
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1658
+        width: 133
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124299ae0f1d21346b07af0e28b3dd49
+      internalID: -4804415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_229
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1742
+        width: 167
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1384d3a7e86e14ca1abf517d47a628
+      internalID: 113370415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_230
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 1717
+        width: 176
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec0769cde62f9548ac842c9b4f5acc9
+      internalID: 121267067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_231
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 1702
+        width: 182
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47bd3a9fd9f4ea43886a21736a453db
+      internalID: 9440951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_232
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 1721
+        width: 159
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac20d2c595021964bb4cbc9faffa2c76
+      internalID: -910581522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_233
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 1706
+        width: 166
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54c1fc7159a08447a350be967f7d56e
+      internalID: 110209237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_234
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1581
+        width: 121
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3492eed7fd0de674ab87b62ef45e8b9f
+      internalID: -901014347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_235
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1644
+        width: 163
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb054c87668bb245910141402e73be0
+      internalID: 916762280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_236
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 1647
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9d20c7196f15b41a8aafb57743844c
+      internalID: 2081345064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_237
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1647
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e01c9af037f1fa498ce5449804265b3
+      internalID: -334971694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_238
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1647
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813fc0d1ce4980a47ba2d4ce0d8e3ada
+      internalID: 900451463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_239
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 1647
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcad5483db7f635468620ef64f9e3e2c
+      internalID: 2118320936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_240
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 1647
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aed1896d4da0d94490f827d8983e35b
+      internalID: -844811255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_241
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 1616
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec12027aea4c36f4795ea8b53cebe280
+      internalID: 735018464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_242
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 1599
+        width: 182
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e49aec7c7357b4194140346fea0581
+      internalID: -1683941439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_243
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 1603
+        width: 158
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f604bf270eba14ca053addbfc4051d
+      internalID: -769720727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_244
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1575
+        width: 167
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e9e32c4a2bc6b4baa9912adf4bd6c9
+      internalID: -1840918449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_245
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1616
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b48887b420cbec448e5db1f690d0c8a
+      internalID: 2044054974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_246
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 1616
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d35ffa1a5f5484995e63ab46271771
+      internalID: 631502354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_247
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 1612
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195226f54de41ff44bd0c0befa37011a
+      internalID: -586879390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_248
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 1616
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8331ee388ba144e8af5952af867897
+      internalID: -1732059360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_249
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1616
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5e7bc6cf31a324e9ac07116df06997
+      internalID: 651286170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_250
+      rect:
+        serializedVersion: 2
+        x: 3681
+        y: 1571
+        width: 166
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacd0060f5beee944b2b068dad2d187f
+      internalID: 1487033751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_251
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1505
+        width: 156
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f6d6ae159c30b43ad1dfcf049dbff6
+      internalID: -1026682875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_252
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1484
+        width: 167
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7a0e9887842094394076388e95ce1a
+      internalID: 527831707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_253
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 1462
+        width: 98
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275effe2bb4d2df4c98af1dd72c5ce0b
+      internalID: 293252490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_254
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 1532
+        width: 169
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fb2cd69abee1344867331543c53ee7
+      internalID: 1537455424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_255
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 1494
+        width: 182
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1503b65853509b6488a9d68966f73377
+      internalID: -1108008602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_256
+      rect:
+        serializedVersion: 2
+        x: 3196
+        y: 1495
+        width: 159
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebd898abe82fde4ab9399b1fb0ac380
+      internalID: 934297299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_257
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 1509
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe581df2fa92414fab4bbfd99431b7e
+      internalID: 450106275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_258
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1407
+        width: 118
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b8c7ae16b9270469f486604ec7ef73
+      internalID: -1863705181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_259
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1427
+        width: 167
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661a7566a724e2f4bb1d804365ead75f
+      internalID: -1238477019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_260
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1299
+        width: 91
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17c9ba0619c650498ef812d8f32b320
+      internalID: -430218928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_261
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 1420
+        width: 168
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb7cd17aff05b541afd1b6e1d771048
+      internalID: 98855269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_262
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 1402
+        width: 182
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f723a45b11ded8a44a2779575bf7586b
+      internalID: 2020424947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_263
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 1431
+        width: 176
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187dacb4a0c8f6043bc49e41add27ff2
+      internalID: -1383140462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_264
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1355
+        width: 151
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde3a7d7e0258574bb2cdca4bf3c1dd9
+      internalID: -1557889055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_265
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1323
+        width: 168
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e72d656ecf9cce4ba95c0dd5921e7cc
+      internalID: -506078615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_266
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1312
+        width: 182
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa780faa3a3ba9489c73a6033238249
+      internalID: 508469992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_267
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 1348
+        width: 159
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa3f91346662ca40b71a06391d303db
+      internalID: -1036871838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_268
+      rect:
+        serializedVersion: 2
+        x: 3723
+        y: 1289
+        width: 159
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b78b22850b760342a3139e4f2f1e454
+      internalID: -232787875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_269
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1263
+        width: 167
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679af3dedc36c3f43a8b63cd132eb506
+      internalID: 1180686357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_270
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 1226
+        width: 132
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da359bcb130b43a4787cd0a527bd81cd
+      internalID: -574353439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_271
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 1245
+        width: 169
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de17d3dbc5ffdb24c946e60c6e9a223e
+      internalID: 1822914319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_272
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 1225
+        width: 159
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b67638c68df9e74095291a67b317747
+      internalID: 1380691412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_273
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1104
+        width: 113
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b75e9386b384084eb821d6ba1737415
+      internalID: -1299717701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_274
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 1117
+        width: 169
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735ba722364878740b4d36a860342386
+      internalID: -158074274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_275
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 1156
+        width: 169
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf08fcb7c2e0b4449841c4bdb372c343
+      internalID: 1882015453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_276
+      rect:
+        serializedVersion: 2
+        x: 3274
+        y: 1117
+        width: 145
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d926a2d8926a5aa4a95ceae0e69d81f4
+      internalID: 1253266796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_277
+      rect:
+        serializedVersion: 2
+        x: 3725
+        y: 1165
+        width: 152
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2910739a0329d4439290c8120ea6e47
+      internalID: 418760369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_278
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 950
+        width: 132
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae6e8f7a6e675d48b0d9f120d2ad840
+      internalID: -647578932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_279
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 1047
+        width: 143
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983f058ce159a9742a413f6fa23f243f
+      internalID: 1433188675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_280
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 981
+        width: 149
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581266b4ab52cb84bbb1c2890e4f0705
+      internalID: 1578739796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_281
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 1000
+        width: 167
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5486d14c031da9247b191323060ff64c
+      internalID: 2083636898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_282
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 977
+        width: 145
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f986852cc96714583505d6067cf91f
+      internalID: 219146411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_283
+      rect:
+        serializedVersion: 2
+        x: 3725
+        y: 1002
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cacf014c08f3984b82cba15f7a428ca
+      internalID: 1509457393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_284
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 824
+        width: 109
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0606317263afcba4fa86f43e6988b964
+      internalID: -1130394453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_285
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 933
+        width: 162
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef87f67923b73b4585002baa008edcf
+      internalID: -1871173757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_286
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 851
+        width: 148
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778557fee4a32db4a8a50747cc84c368
+      internalID: 1770860227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_287
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 863
+        width: 188
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648a5ff438f34624b903b52bfa5d798e
+      internalID: 1152622245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_288
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 870
+        width: 148
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211906a319c7f8b43a00a72acbac0d65
+      internalID: -469614640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_289
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 864
+        width: 166
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eda812d65697ee4d92b317010c4bb0c
+      internalID: 739754334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_290
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 862
+        width: 146
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32103d608560a54f8fde708cd95eb40
+      internalID: -1794644437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_291
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 811
+        width: 173
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6cfe9baa5655c46a9757e42f4c1006
+      internalID: -1474202710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_292
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 843
+        width: 162
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c5c3ddd6ff5274c959c021981ac820
+      internalID: -659293343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_293
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 666
+        width: 144
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f133e9a7e13e14b8b232f1a8aa0015
+      internalID: -1307764694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_294
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 722
+        width: 160
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bdf016b32503f4f88ce05dfba60689
+      internalID: 282819519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_295
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 725
+        width: 163
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1816023182cca408bc971cea30bf39
+      internalID: 909782856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_296
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 687
+        width: 149
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5858b335bb0c6847bfeb9aa43b00aa0
+      internalID: 1685989147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_297
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 732
+        width: 167
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8bd54309fd1a447ad7a93ae4c09d96
+      internalID: 591544043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_298
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 730
+        width: 145
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6173132d8786494ba30d0b0642276fc
+      internalID: 211939630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_299
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 606
+        width: 123
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dc63eff6d58fc47bd90c508511e097
+      internalID: -1053885754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_300
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 598
+        width: 167
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41173e92502c5e949a4a5798e7d89a23
+      internalID: 925397930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_301
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 542
+        width: 149
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a16aee664e00743a44d43c71f19cfd
+      internalID: -133135127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_302
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 584
+        width: 167
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9585f876819b8774baf51bd4c442e7bd
+      internalID: 272713574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_303
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 604
+        width: 145
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12119823fcb80e04da1ed99fca4e684f
+      internalID: -485777977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_304
+      rect:
+        serializedVersion: 2
+        x: 3764
+        y: 637
+        width: 145
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02625b9dbabb1b048a960ca70baef483
+      internalID: -682527669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_305
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 493
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0effd1871592e8e4fb07ca64397a3d24
+      internalID: 483476425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_306
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 421
+        width: 167
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a3a48e652cc3941ac06a4111572dda
+      internalID: 116102719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_307
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 471
+        width: 145
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53db9001908b264499241b1abfe1060
+      internalID: 580276096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_308
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 483
+        width: 141
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a4f06d1001b5449a296315d8745894
+      internalID: 853765378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_309
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 319
+        width: 158
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf54151b70160d4389350dafb7ae44e
+      internalID: 586407559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_310
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 391
+        width: 120
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2decd9862b424848838e6c3177e6b7e
+      internalID: 696931806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_311
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 355
+        width: 149
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dc8e4b37fdb35488d5426046e9544c
+      internalID: -837837605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanedupspritesheet2_312
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 197
+        width: 173
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0389c2b82281b4d96e2fe81b488530
+      internalID: -1778250023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cleanedupspritesheet2_241: 735018464
+      cleanedupspritesheet2_115: -1486635207
+      cleanedupspritesheet2_157: 1451971407
+      cleanedupspritesheet2_58: -1982315980
+      cleanedupspritesheet2_114: -1586614870
+      cleanedupspritesheet2_171: -540297100
+      cleanedupspritesheet2_102: 864427204
+      cleanedupspritesheet2_143: 1396569909
+      cleanedupspritesheet2_214: 498273618
+      cleanedupspritesheet2_31: -982733046
+      cleanedupspritesheet2_285: -1871173757
+      cleanedupspritesheet2_29: 274518909
+      cleanedupspritesheet2_246: 631502354
+      cleanedupspritesheet2_276: 1253266796
+      cleanedupspritesheet2_145: 590003777
+      cleanedupspritesheet2_268: -232787875
+      cleanedupspritesheet2_311: -837837605
+      cleanedupspritesheet2_25: 973575416
+      cleanedupspritesheet2_18: 590458774
+      cleanedupspritesheet2_136: 1978081081
+      cleanedupspritesheet2_61: -1131886847
+      cleanedupspritesheet2_206: -733831994
+      cleanedupspritesheet2_211: 308887090
+      cleanedupspritesheet2_26: -749161038
+      cleanedupspritesheet2_165: -2081314205
+      cleanedupspritesheet2_183: -747310287
+      cleanedupspritesheet2_306: 116102719
+      cleanedupspritesheet2_53: -647255200
+      cleanedupspritesheet2_312: -1778250023
+      cleanedupspritesheet2_124: 1668613165
+      cleanedupspritesheet2_232: -910581522
+      cleanedupspritesheet2_249: 651286170
+      cleanedupspritesheet2_153: 1223858354
+      cleanedupspritesheet2_243: -769720727
+      cleanedupspritesheet2_263: -1383140462
+      cleanedupspritesheet2_274: -158074274
+      cleanedupspritesheet2_304: -682527669
+      cleanedupspritesheet2_198: -845921427
+      cleanedupspritesheet2_227: -845125821
+      cleanedupspritesheet2_33: 1864601764
+      cleanedupspritesheet2_188: 264857884
+      cleanedupspritesheet2_15: 779884052
+      cleanedupspritesheet2_147: -430395905
+      cleanedupspritesheet2_45: 1195254752
+      cleanedupspritesheet2_173: 2133393153
+      cleanedupspritesheet2_76: -1961663094
+      cleanedupspritesheet2_293: -1307764694
+      cleanedupspritesheet2_208: -1067908697
+      cleanedupspritesheet2_216: 908619734
+      cleanedupspritesheet2_305: 483476425
+      cleanedupspritesheet2_67: -181915545
+      cleanedupspritesheet2_101: 599584692
+      cleanedupspritesheet2_193: 220737420
+      cleanedupspritesheet2_244: -1840918449
+      cleanedupspritesheet2_40: 333526608
+      cleanedupspritesheet2_199: 1606964141
+      cleanedupspritesheet2_248: -1732059360
+      cleanedupspritesheet2_113: -702352201
+      cleanedupspritesheet2_219: 65028028
+      cleanedupspritesheet2_230: 121267067
+      cleanedupspritesheet2_217: 303276241
+      cleanedupspritesheet2_50: -710738751
+      cleanedupspritesheet2_85: 1162252513
+      cleanedupspritesheet2_240: -844811255
+      cleanedupspritesheet2_288: -469614640
+      cleanedupspritesheet2_105: -971233497
+      cleanedupspritesheet2_155: -453762073
+      cleanedupspritesheet2_179: -980875456
+      cleanedupspritesheet2_52: -167542339
+      cleanedupspritesheet2_303: -485777977
+      cleanedupspritesheet2_245: 2044054974
+      cleanedupspritesheet2_132: -790758152
+      cleanedupspritesheet2_257: 450106275
+      cleanedupspritesheet2_74: 298130154
+      cleanedupspritesheet2_51: -2031771088
+      cleanedupspritesheet2_57: -582012083
+      cleanedupspritesheet2_98: 1680269609
+      cleanedupspritesheet2_83: 520061924
+      cleanedupspritesheet2_13: 1518824071
+      cleanedupspritesheet2_97: 399372309
+      cleanedupspritesheet2_260: -430218928
+      cleanedupspritesheet2_120: -2104149331
+      cleanedupspritesheet2_138: -722978337
+      cleanedupspritesheet2_271: 1822914319
+      cleanedupspritesheet2_152: -300585899
+      cleanedupspritesheet2_286: 1770860227
+      cleanedupspritesheet2_0: -1651292477
+      cleanedupspritesheet2_110: -393844092
+      cleanedupspritesheet2_66: 745335169
+      cleanedupspritesheet2_295: 909782856
+      cleanedupspritesheet2_137: -137788565
+      cleanedupspritesheet2_71: -2064164827
+      cleanedupspritesheet2_42: -1654291588
+      cleanedupspritesheet2_187: -1577950738
+      cleanedupspritesheet2_297: 591544043
+      cleanedupspritesheet2_7: 601594544
+      cleanedupspritesheet2_158: -985242852
+      cleanedupspritesheet2_250: 1487033751
+      cleanedupspritesheet2_56: 728556372
+      cleanedupspritesheet2_60: -671422135
+      cleanedupspritesheet2_27: -692914523
+      cleanedupspritesheet2_70: -1071926482
+      cleanedupspritesheet2_19: -293916025
+      cleanedupspritesheet2_75: -1354232355
+      cleanedupspritesheet2_95: -170254160
+      cleanedupspritesheet2_159: -1561785418
+      cleanedupspritesheet2_242: -1683941439
+      cleanedupspritesheet2_292: -659293343
+      cleanedupspritesheet2_267: -1036871838
+      cleanedupspritesheet2_48: -211313485
+      cleanedupspritesheet2_129: -1762808998
+      cleanedupspritesheet2_300: 925397930
+      cleanedupspritesheet2_154: -331777899
+      cleanedupspritesheet2_91: -1345681019
+      cleanedupspritesheet2_272: 1380691412
+      cleanedupspritesheet2_175: -875160468
+      cleanedupspritesheet2_82: -1978521517
+      cleanedupspritesheet2_134: 2033764856
+      cleanedupspritesheet2_222: -1685199609
+      cleanedupspritesheet2_117: 908565041
+      cleanedupspritesheet2_149: 42898288
+      cleanedupspritesheet2_68: -1339464367
+      cleanedupspritesheet2_130: 339000264
+      cleanedupspritesheet2_109: -969516797
+      cleanedupspritesheet2_255: -1108008602
+      cleanedupspritesheet2_264: -1557889055
+      cleanedupspritesheet2_254: 1537455424
+      cleanedupspritesheet2_139: 25909610
+      cleanedupspritesheet2_2: 1349562033
+      cleanedupspritesheet2_39: -314347701
+      cleanedupspritesheet2_185: 1473061206
+      cleanedupspritesheet2_8: 1006927403
+      cleanedupspritesheet2_176: -173287320
+      cleanedupspritesheet2_270: -574353439
+      cleanedupspritesheet2_87: -1922605839
+      cleanedupspritesheet2_80: 1139593525
+      cleanedupspritesheet2_125: -2000008075
+      cleanedupspritesheet2_290: -1794644437
+      cleanedupspritesheet2_135: 1875055290
+      cleanedupspritesheet2_111: 1188235591
+      cleanedupspritesheet2_89: -11073074
+      cleanedupspritesheet2_116: -2085934566
+      cleanedupspritesheet2_88: -114714913
+      cleanedupspritesheet2_37: -704257199
+      cleanedupspritesheet2_78: -943852384
+      cleanedupspritesheet2_21: 1089488740
+      cleanedupspritesheet2_194: 1810772136
+      cleanedupspritesheet2_162: -1557209503
+      cleanedupspritesheet2_22: 1912140749
+      cleanedupspritesheet2_160: 858056144
+      cleanedupspritesheet2_200: -1715831606
+      cleanedupspritesheet2_258: -1863705181
+      cleanedupspritesheet2_144: 716085949
+      cleanedupspritesheet2_266: 508469992
+      cleanedupspritesheet2_96: -274135235
+      cleanedupspritesheet2_191: 801160140
+      cleanedupspritesheet2_6: -973138053
+      cleanedupspritesheet2_16: -768217729
+      cleanedupspritesheet2_196: 1002908820
+      cleanedupspritesheet2_148: 1376579325
+      cleanedupspritesheet2_81: -959888020
+      cleanedupspritesheet2_128: 15421132
+      cleanedupspritesheet2_278: -647578932
+      cleanedupspritesheet2_20: -2057163444
+      cleanedupspritesheet2_133: -1441164204
+      cleanedupspritesheet2_168: 1641692726
+      cleanedupspritesheet2_32: 1462698440
+      cleanedupspritesheet2_46: -48849796
+      cleanedupspritesheet2_233: 110209237
+      cleanedupspritesheet2_277: 418760369
+      cleanedupspritesheet2_17: -1858641313
+      cleanedupspritesheet2_108: -1832796630
+      cleanedupspritesheet2_3: -1555832734
+      cleanedupspritesheet2_94: 1223630080
+      cleanedupspritesheet2_23: -95787294
+      cleanedupspritesheet2_54: 1485218753
+      cleanedupspritesheet2_41: 1837396403
+      cleanedupspritesheet2_65: 581015381
+      cleanedupspritesheet2_237: -334971694
+      cleanedupspritesheet2_225: 779798361
+      cleanedupspritesheet2_282: 219146411
+      cleanedupspritesheet2_190: -1049741458
+      cleanedupspritesheet2_283: 1509457393
+      cleanedupspritesheet2_166: 205487172
+      cleanedupspritesheet2_204: -1357009188
+      cleanedupspritesheet2_36: -816416503
+      cleanedupspritesheet2_100: 795211951
+      cleanedupspritesheet2_213: -46544880
+      cleanedupspritesheet2_28: 921957208
+      cleanedupspritesheet2_99: 1701565753
+      cleanedupspritesheet2_235: 916762280
+      cleanedupspritesheet2_262: 2020424947
+      cleanedupspritesheet2_296: 1685989147
+      cleanedupspritesheet2_104: 1565992597
+      cleanedupspritesheet2_103: -1536985509
+      cleanedupspritesheet2_44: 190211331
+      cleanedupspritesheet2_86: -2095248380
+      cleanedupspritesheet2_69: -537218162
+      cleanedupspritesheet2_140: -574290474
+      cleanedupspritesheet2_24: 684054547
+      cleanedupspritesheet2_207: -1219774320
+      cleanedupspritesheet2_5: 1507338227
+      cleanedupspritesheet2_279: 1433188675
+      cleanedupspritesheet2_119: -1155412740
+      cleanedupspritesheet2_10: -2049008373
+      cleanedupspritesheet2_64: -919529680
+      cleanedupspritesheet2_281: 2083636898
+      cleanedupspritesheet2_43: 15046586
+      cleanedupspritesheet2_9: -953310381
+      cleanedupspritesheet2_59: 912547407
+      cleanedupspritesheet2_62: 1899094083
+      cleanedupspritesheet2_205: -1008578998
+      cleanedupspritesheet2_142: 96093884
+      cleanedupspritesheet2_55: -468348343
+      cleanedupspritesheet2_310: 696931806
+      cleanedupspritesheet2_141: -1659310485
+      cleanedupspritesheet2_106: 60161928
+      cleanedupspritesheet2_212: 475731340
+      cleanedupspritesheet2_218: 1125531447
+      cleanedupspritesheet2_221: -1284137018
+      cleanedupspritesheet2_224: 1845442614
+      cleanedupspritesheet2_163: -1822168106
+      cleanedupspritesheet2_229: 113370415
+      cleanedupspritesheet2_253: 293252490
+      cleanedupspritesheet2_265: -506078615
+      cleanedupspritesheet2_269: 1180686357
+      cleanedupspritesheet2_174: -151195294
+      cleanedupspritesheet2_259: -1238477019
+      cleanedupspritesheet2_238: 900451463
+      cleanedupspritesheet2_280: 1578739796
+      cleanedupspritesheet2_309: 586407559
+      cleanedupspritesheet2_201: 1899521933
+      cleanedupspritesheet2_178: 1091569808
+      cleanedupspritesheet2_172: 1222643329
+      cleanedupspritesheet2_4: 1425966589
+      cleanedupspritesheet2_72: 1441100782
+      cleanedupspritesheet2_93: -78045361
+      cleanedupspritesheet2_161: 670092083
+      cleanedupspritesheet2_90: 1457777622
+      cleanedupspritesheet2_112: 424721379
+      cleanedupspritesheet2_146: 1128753873
+      cleanedupspritesheet2_251: -1026682875
+      cleanedupspritesheet2_291: -1474202710
+      cleanedupspritesheet2_220: -149463965
+      cleanedupspritesheet2_30: 2118982673
+      cleanedupspritesheet2_123: -1486559533
+      cleanedupspritesheet2_127: 1181670204
+      cleanedupspritesheet2_273: -1299717701
+      cleanedupspritesheet2_170: 2090422115
+      cleanedupspritesheet2_231: 9440951
+      cleanedupspritesheet2_247: -586879390
+      cleanedupspritesheet2_156: 126762741
+      cleanedupspritesheet2_284: -1130394453
+      cleanedupspritesheet2_107: -510310896
+      cleanedupspritesheet2_302: 272713574
+      cleanedupspritesheet2_122: -1744174364
+      cleanedupspritesheet2_307: 580276096
+      cleanedupspritesheet2_47: -2046236819
+      cleanedupspritesheet2_118: -65993795
+      cleanedupspritesheet2_150: -486147819
+      cleanedupspritesheet2_184: -319882424
+      cleanedupspritesheet2_181: 653273481
+      cleanedupspritesheet2_195: -1436216927
+      cleanedupspritesheet2_38: 1873077526
+      cleanedupspritesheet2_203: 1937035913
+      cleanedupspritesheet2_239: 2118320936
+      cleanedupspritesheet2_301: -133135127
+      cleanedupspritesheet2_73: 30972067
+      cleanedupspritesheet2_177: -1752719368
+      cleanedupspritesheet2_186: -1566904534
+      cleanedupspritesheet2_49: -1496104999
+      cleanedupspritesheet2_192: 316586644
+      cleanedupspritesheet2_226: -1349966922
+      cleanedupspritesheet2_234: -901014347
+      cleanedupspritesheet2_308: 853765378
+      cleanedupspritesheet2_35: -273504595
+      cleanedupspritesheet2_84: -1761651917
+      cleanedupspritesheet2_63: 212569380
+      cleanedupspritesheet2_92: 1964311529
+      cleanedupspritesheet2_180: -1352020811
+      cleanedupspritesheet2_11: -1698547390
+      cleanedupspritesheet2_209: -1492293423
+      cleanedupspritesheet2_228: -4804415
+      cleanedupspritesheet2_252: 527831707
+      cleanedupspritesheet2_215: -1844296307
+      cleanedupspritesheet2_275: 1882015453
+      cleanedupspritesheet2_289: 739754334
+      cleanedupspritesheet2_169: 1145498624
+      cleanedupspritesheet2_151: -1786920468
+      cleanedupspritesheet2_261: 98855269
+      cleanedupspritesheet2_287: 1152622245
+      cleanedupspritesheet2_256: 934297299
+      cleanedupspritesheet2_182: 1541758200
+      cleanedupspritesheet2_131: -390627027
+      cleanedupspritesheet2_298: 211939630
+      cleanedupspritesheet2_77: -1046918558
+      cleanedupspritesheet2_189: -1803957169
+      cleanedupspritesheet2_202: 1113207178
+      cleanedupspritesheet2_294: 282819519
+      cleanedupspritesheet2_167: -1083193394
+      cleanedupspritesheet2_236: 2081345064
+      cleanedupspritesheet2_12: 38988552
+      cleanedupspritesheet2_14: -2112591696
+      cleanedupspritesheet2_197: -1996352258
+      cleanedupspritesheet2_34: 1214862970
+      cleanedupspritesheet2_126: 542116919
+      cleanedupspritesheet2_121: -270205704
+      cleanedupspritesheet2_164: 874849885
+      cleanedupspritesheet2_299: -1053885754
+      cleanedupspritesheet2_79: 24964727
+      cleanedupspritesheet2_210: -1413891289
+      cleanedupspritesheet2_1: 1265777401
+      cleanedupspritesheet2_223: -1259468515
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

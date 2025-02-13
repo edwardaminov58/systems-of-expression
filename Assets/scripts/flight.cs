@@ -7,10 +7,16 @@ public class flight : MonoBehaviour
     //public Vector2 limits = new Vector2(5, 3);
     public Vector2 maxlimit = new Vector2(5, 3);
     public Vector2 minlimit = new Vector2(-6, -8);
+    float horizontal;
+    float vertical;
     float x;
     float y;
+    float TiltL;
+    float TiltR;
     public float turnSpeed;
-    private float activeSpeed;
+    float initialSpeed;
+    public float leanSpeed;
+    //private float activeSpeed;
     public float acceleration;
     public Rigidbody rb;
     public float burst;
@@ -18,20 +24,26 @@ public class flight : MonoBehaviour
     Animator anim;
     public float altitudeMax;
     public float altitudeMin;
+    //float threshhold = 0.3f;
 
     // Start is called before the first frame update
     void Start()
     {
         //rb = GetComponent<Rigidbody>();
         anim = gameObject.GetComponent<Animator>();
+        initialSpeed = turnSpeed;
 
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        x = Input.GetAxisRaw("Horizontal");
-        y = Input.GetAxisRaw("Vertical") * -1;
+        
+        x = Input.GetAxis("Horizontal");
+        y = Input.GetAxis("Vertical") * -1;
+        //if (horizontal < -threshhold) x = -1;
+        //else if (horizontal > threshhold) x = 1;
+        //else x = 0;
         //activeSpeed = Mathf.Lerp(activeSpeed, Input.GetAxisRaw("Horizontal") * turnSpeed, acceleration * Time.deltaTime);
 
         Steer(x, y, turnSpeed);
@@ -42,15 +54,30 @@ public class flight : MonoBehaviour
         //HorizontalLean(transform, x, 60, .0f);
         anim.SetFloat("turningValue", x);
         Debug.Log(x);
-        transform.position += transform.right * activeSpeed * Time.deltaTime;
+        //transform.position += transform.right * activeSpeed * Time.deltaTime;
         if ((Input.GetButton("Jump")) && (anim.GetBool("flapbool") == false))
         {
             Flap(burst, burstspeed);
         }
 
         rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(rb.velocity.y, altitudeMin, altitudeMax), rb.velocity.z);
-        
+        TiltL = Input.GetAxisRaw("Left Tilt");
+        TiltR = Input.GetAxisRaw("Right Tilt");
+        anim.SetFloat("TurnL", TiltL);
+        anim.SetFloat("TurnR", TiltR);
+        if (TiltL > 0 && x < 0)
+        {
+            turnSpeed = leanSpeed;
 
+        }
+        else if (TiltR > 0 && x > 0)
+        {
+            turnSpeed = leanSpeed;
+        }
+        else
+        {
+            turnSpeed = initialSpeed;
+        }
     }
     void Steer(float x, float y, float speed)
     {
@@ -67,14 +94,14 @@ public class flight : MonoBehaviour
         //    anim.SetBool("turning", false);
 
     }
-    void HorizontalLean(Transform target, float axis, float leanLimit, float lerpTime)
-    {
-        Vector3 targetEulerAngels = target.localEulerAngles;
-        target.localEulerAngles = new Vector3(targetEulerAngels.x, targetEulerAngels.y, Mathf.LerpAngle(targetEulerAngels.z, -axis * leanLimit, lerpTime));
+    //void HorizontalLean(Transform target, float axis, float leanLimit, float lerpTime)
+    //{
+    //    Vector3 targetEulerAngels = target.localEulerAngles;
+    //    target.localEulerAngles = new Vector3(targetEulerAngels.x, targetEulerAngels.y, Mathf.LerpAngle(targetEulerAngels.z, -axis * leanLimit, lerpTime));
         
-    }
+    //}
 
-
+    
     void NoseDive(float x, float y, float speed)
     {
         anim.SetBool("nosedive", true);
