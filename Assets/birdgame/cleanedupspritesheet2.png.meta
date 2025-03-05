@@ -3585,7 +3585,7 @@ TextureImporter:
       name: cleanedupspritesheet2_165
       rect:
         serializedVersion: 2
-        x: 1817
+        x: 1815
         y: 2605
         width: 170
         height: 54
@@ -3691,7 +3691,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2389
-        y: 2540
+        y: 2539
         width: 176
         height: 44
       alignment: 0
@@ -4404,9 +4404,9 @@ TextureImporter:
       name: cleanedupspritesheet2_204
       rect:
         serializedVersion: 2
-        x: 2386
+        x: 2385
         y: 2109
-        width: 175
+        width: 176
         height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -4530,9 +4530,9 @@ TextureImporter:
       name: cleanedupspritesheet2_210
       rect:
         serializedVersion: 2
-        x: 2375
+        x: 2376
         y: 2003
-        width: 175
+        width: 174
         height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -6001,7 +6001,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2546
-        y: 981
+        y: 980
         width: 149
         height: 103
       alignment: 0
@@ -6731,17 +6731,18 @@ TextureImporter:
       cleanedupspritesheet2_312: -1778250023
       cleanedupspritesheet2_124: 1668613165
       cleanedupspritesheet2_232: -910581522
+      cleanedupspritesheet2_313: 1398283166
       cleanedupspritesheet2_249: 651286170
       cleanedupspritesheet2_153: 1223858354
-      cleanedupspritesheet2_243: -769720727
-      cleanedupspritesheet2_263: -1383140462
-      cleanedupspritesheet2_274: -158074274
-      cleanedupspritesheet2_304: -682527669
+      cleanedupspritesheet2_33: 1864601764
       cleanedupspritesheet2_198: -845921427
       cleanedupspritesheet2_227: -845125821
-      cleanedupspritesheet2_33: 1864601764
-      cleanedupspritesheet2_188: 264857884
       cleanedupspritesheet2_15: 779884052
+      cleanedupspritesheet2_263: -1383140462
+      cleanedupspritesheet2_243: -769720727
+      cleanedupspritesheet2_274: -158074274
+      cleanedupspritesheet2_188: 264857884
+      cleanedupspritesheet2_304: -682527669
       cleanedupspritesheet2_147: -430395905
       cleanedupspritesheet2_45: 1195254752
       cleanedupspritesheet2_173: 2133393153
