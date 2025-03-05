@@ -3296,7 +3296,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -0.00000071525574, y: 0, z: -687.19}
+=======
+  m_LocalPosition: {x: -0.00000071525574, y: 0.7505555, z: -687.19}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: -0.00000071525574, y: 0.7505555, z: -687.19}
 >>>>>>> Stashed changes
@@ -13979,7 +13983,10 @@ PrefabInstance:
       value: -0.00000071525574
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       objectReference: {fileID: 0}
