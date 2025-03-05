@@ -1955,9 +1955,12 @@ AnimatorStateMachine:
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 30, y: 290, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_EntryPosition: {x: 40, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
 =======
+=======
+>>>>>>> Stashed changes
   m_EntryPosition: {x: 990, y: 130, z: 0}
   m_ExitPosition: {x: 830, y: 210, z: 0}
 >>>>>>> Stashed changes

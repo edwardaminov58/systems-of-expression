@@ -3295,7 +3295,11 @@ Transform:
   m_GameObject: {fileID: 417629456}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -0.00000071525574, y: 0, z: -687.19}
+=======
+  m_LocalPosition: {x: -0.00000071525574, y: 0.7505555, z: -687.19}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: -0.00000071525574, y: 0.7505555, z: -687.19}
 >>>>>>> Stashed changes
@@ -13974,7 +13978,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0.00000071525574
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4156586131909095136, guid: 212e5ecfa523c6845951186bc598c7d5,
         type: 3}
