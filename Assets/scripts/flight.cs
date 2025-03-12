@@ -1,14 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class flight : MonoBehaviour
 {
+    private bool noWindA = false;
+    private bool wind = false;
     //public Vector2 limits = new Vector2(5, 3);
     public Vector2 maxlimit;
     public Vector2 minlimit;
-    float horizontal;
-    float vertical;
+    //float horizontal;
+    //float vertical;
+    //float xprime;
+    float startTurnSpeed;
     float x;
     float y;
     float TiltL;
@@ -17,38 +22,44 @@ public class flight : MonoBehaviour
     float initialSpeed;
     public float leanSpeed;
     //private float activeSpeed;
-    public float acceleration;
+    //public float acceleration;
     public Rigidbody rb;
     public float burst;
     public float burstspeed;
     Animator anim;
     public float altitudeMax;
     public float altitudeMin;
-    public float noseMax;
+    //public float noseMax;
     public float nosediveSpeed;
     public float damage;
     public float constantDrop;
     public float constantForward;
-    public float FspeedMin;
-    public float FspeedMax;
-    //float currentForwardSpeed;
+    //public float FspeedMin;
+    //public float FspeedMax;
+    ////float currentForwardSpeed;
     public float speedup;
-    public float slowdownMin;
+    // public float slowdownMin;
     public float slowdownMax;
     public float speedupMin;
     public float speedupMax;
     public float speedtime;
-    public float speedtimeMax;
+    //public float speedtimeMax;
     public float slowspeed;
     public float cooldown;
     float startBurst;
     float startSpeedupMax;
     float startSlowdownMax;
+    public float startNoseSpeed;
+    public CinemachineVirtualCamera vcam;
+    public float cameraDamp;
+    float startCameraDamp;
+    float windstrength;
     //float threshhold = 0.3f;
 
     // Start is called before the first frame update
     void Start()
     {
+        startCameraDamp = cameraDamp;
         //currentForwardSpeed = constantForward;
         //rb = GetComponent<Rigidbody>();
         anim = gameObject.GetComponent<Animator>();
@@ -67,16 +78,23 @@ public class flight : MonoBehaviour
         //Debug.Log(currentForwardSpeed);
         x = Input.GetAxis("Horizontal");
         y = Input.GetAxis("Vertical") * -1;
+
         //if (horizontal < -threshhold) x = -1;
         //else if (horizontal > threshhold) x = 1;
         //else x = 0;
         //activeSpeed = Mathf.Lerp(activeSpeed, Input.GetAxisRaw("Horizontal") * turnSpeed, acceleration * Time.deltaTime);
 
         Steer(x, y, turnSpeed);
-        if ((y < 0) && (TiltL < 0.1) && (TiltR < 0.1))
+        if (x == 0)
+            startTurnSpeed = 0;
+        if ((y < 0))
             NoseDive(x, y, nosediveSpeed);
         else
+        {
+            nosediveSpeed = startNoseSpeed;
             anim.SetBool("nosedive", false);
+            // vcam.m_Lens.FieldOfView = vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView + .15f, 25, 60f); 
+        }
         //HorizontalLean(transform, x, 60, .0f);
         anim.SetFloat("turningValue", x);
         //Debug.Log(x);
@@ -84,10 +102,10 @@ public class flight : MonoBehaviour
         if ((Input.GetButton("Jump")) && (anim.GetBool("flapbool") == false) && (TiltL < 0.1) && (TiltR < 0.1) && (anim.GetBool("damage") == false))
         {
             Flap(burst, burstspeed);
-            
+
         }
 
-        if ((Input.GetButtonDown("Speed")) && (anim.GetBool("speed") == false) && (anim.GetBool("slow") == false))
+        if ((Input.GetButton("Speed")) && (anim.GetBool("speed") == false) && (anim.GetBool("slow") == false))
         {
             StartCoroutine(Speed());
         }
@@ -95,6 +113,29 @@ public class flight : MonoBehaviour
         {
             StartCoroutine(Slow());
         }
+        if (wind == true)
+        {
+
+            rb.AddForce(0, 1.1f, 0, ForceMode.VelocityChange);
+            if (y > 0)
+            {
+                anim.SetBool("windtouch", false);
+                anim.SetBool("windride", true);
+                rb.AddForce(0, y * windstrength, 0, ForceMode.VelocityChange);
+            }
+
+
+        }
+        else {
+            anim.SetBool("windride", false);
+            if ((y > 0) && (noWindA == false))
+            {
+                
+                StartCoroutine(noWind());
+            }
+               
+        }
+
         //if (Input.GetButtonDown("Speed"))
         //    anim.SetBool("speed", true);
         //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, constantForward);
@@ -125,6 +166,11 @@ public class flight : MonoBehaviour
     void Forward()
     {
         transform.position += new Vector3(0, 0, 1) * constantForward * Time.deltaTime;
+        //if (TiltL > 0)
+        //{
+        //    Quaternion deltarotation = Quaternion.Euler(new Vector3(0, 40, 0)* Time.deltaTime);
+        //    rb.MoveRotation(rb.rotation * deltarotation)
+        //}
     }
     void Steer(float x, float y, float speed)
     {
@@ -148,13 +194,33 @@ public class flight : MonoBehaviour
 
     //}
 
-
+    IEnumerator noWind()
+    {
+        noWindA = true;
+        for (float t = 0f; t < 1f; t += Time.deltaTime / .3f)
+        {
+            //vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(0, cameraDamp, t);
+            transform.localPosition += new Vector3(0, Mathf.SmoothStep(0, .1f, t), 0);
+            yield return null;
+        }
+        yield return new WaitForSeconds(.3f);
+        for (float t = 0f; t < 1f; t += Time.deltaTime / .3f)
+        {
+            //vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(0, cameraDamp, t);
+            transform.localPosition -= new Vector3(0, Mathf.SmoothStep(0, .1f, t), 0);
+            yield return null;
+        }
+        yield return new WaitForSeconds(2.5f);
+        noWindA = false;
+        //yield break;
+    }
     void NoseDive(float x, float y, float speed)
     {
         anim.SetBool("nosedive", true);
         //transform.localPosition += new Vector3(0, y, 0) * speed * Time.deltaTime;
-        rb.AddForce(0, y * speed, 0, ForceMode.VelocityChange);
+        rb.AddForce(0, y * Mathf.Clamp(nosediveSpeed++ ,10, 100), 0, ForceMode.VelocityChange);
         //rb.velocity = new Vector3(rb.velocity.x, -speed, rb.velocity.z);
+        //vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView-.15f, 50, 60);
         
 
 
@@ -175,6 +241,7 @@ public class flight : MonoBehaviour
         rb.AddForce(0, burst, 0, ForceMode.VelocityChange);
         anim.SetBool("flapbool", true);
         ReduceStrength();
+        //vcam.m_Lens.FieldOfView = vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView + 10, 25, 75);
         //rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(burst, altitudeMin, altitudeMax), rb.velocity.z);
 
     }
@@ -202,12 +269,22 @@ public class flight : MonoBehaviour
     //}
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.tag == "prey")
+        {
+            Destroy(collision.gameObject);
+            RestoreStrength();
+            rb.AddForce(0, Mathf.Abs(rb.velocity.y+30f), 0, ForceMode.VelocityChange);
 
-        rb.AddForce(0, -damage, 0, ForceMode.VelocityChange);
-        Debug.Log("drop");
-        float n = Random.Range(-1f, 1f);
-        anim.SetBool("damage", true);
-        anim.SetFloat("damagefloat", n);
+        }
+        else
+        {
+            rb.AddForce(0, -damage, 0, ForceMode.VelocityChange);
+            Debug.Log("drop");
+            float n = Random.Range(-1f, 1f);
+            anim.SetBool("damage", true);
+            //anim.SetFloat("damagefloat", n);
+        }
+        
 
 
 
@@ -215,18 +292,65 @@ public class flight : MonoBehaviour
         //StopCoroutine(Speed());
     }
 
+    //private void OnTriggerStay(Collider other)
+    //{
+    //    if (other.gameObject.tag == "wind")
+    //    {
+    //        Debug.Log("windy");
+    //        anim.SetBool("windtouch", true);
+    //        rb.AddForce(0, 1.05f, 0, ForceMode.VelocityChange);
+    //        if (y > 0)
+    //        {
+    //            rb.AddForce(0, y * 1f, 0, ForceMode.VelocityChange);
+    //        }
+
+    //    }
+    //}
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "wind")
+        {
+            anim.SetBool("windtouch", true);
+            wind = true;
+            Debug.Log("windy");
+            windstrength = other.gameObject.GetComponent<wind>().windstrength;
+
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "wind") { 
+        wind = false;
+        Debug.Log("no wind");
+
+    }   
+        //if (other.gameObject.tag == "wind")
+        //{
+        //    Debug.Log("no wind");
+        //    anim.SetBool("windtouch", false);
+
+
+    //}
+    }
+    //void nowind() 
+    //{   if ()
+    //    rb.AddForce(0, y * 1f, 0, ForceMode.VelocityChange);
+    //}
+
     void ReduceStrength()
     {
         burst = Mathf.Clamp(burst-5, 10, startBurst);
         speedupMax = Mathf.Clamp(speedupMax-25, speedupMin, speedupMax);
         slowdownMax = Mathf.Clamp(slowdownMax + 25, slowdownMax, speedupMin);
-       
+        cameraDamp = Mathf.Clamp(cameraDamp - .05f, 0.01f, .25f);
+
     }
     void RestoreStrength()
     {
         burst = startBurst;
         speedupMax = startSpeedupMax;
         slowdownMax = startSlowdownMax;
+        cameraDamp = startCameraDamp;
 
     }
 
@@ -247,23 +371,31 @@ public class flight : MonoBehaviour
         //{
         //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, speedup);
         anim.SetBool("speed", true);
+        
+        //vcam.m_Lens.FieldOfView = 70;
         for (float t = 0f; t < 1f; t += Time.deltaTime / speedtime)
         {
+            vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(0, cameraDamp, t);
             constantForward = Mathf.SmoothStep(constantForward, speedupMax, t);
             Debug.Log(constantForward);
             yield return null;
         }
+      
         yield return new WaitForSeconds(speedtime);
+        anim.SetBool("speed", false);
         for (float t = 0f; t < 1f; t += Time.deltaTime / speedtime)
         {
+            vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(cameraDamp, 0, t);
             constantForward = Mathf.SmoothStep(constantForward, speedupMin, t);
             Debug.Log(constantForward);
             yield return null;
         }
-       // yield return new WaitForSeconds(cooldown);
-        anim.SetBool("speed", false);
+        // yield return new WaitForSeconds(cooldown);
+        //yield return new WaitForSeconds(.1f);
+        
+        //vcam.m_Lens.FieldOfView = 60;
         ReduceStrength();
-        yield break;
+        //yield break;
         //}
 
 
@@ -287,6 +419,8 @@ public class flight : MonoBehaviour
 
     }
 
+
+
     IEnumerator Slow()
     {
         anim.SetBool("slow", true);
@@ -296,6 +430,7 @@ public class flight : MonoBehaviour
             Debug.Log(constantForward);
             yield return null;
         }
+        anim.SetBool("slow", false);
         yield return new WaitForSeconds(speedtime);
         for (float t = 0f; t < 1f; t += Time.deltaTime / slowspeed)
         {
@@ -304,9 +439,9 @@ public class flight : MonoBehaviour
             yield return null;
         }
         //yield return new WaitForSeconds(cooldown);
-        anim.SetBool("slow", false);
+        
         ReduceStrength();
-        yield break;
+        //yield break;
     }
        // void SpeedUp()
         //{
