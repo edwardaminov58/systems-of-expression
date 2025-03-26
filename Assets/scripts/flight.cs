@@ -54,6 +54,7 @@ public class flight : MonoBehaviour
     public float cameraDamp;
     float startCameraDamp;
     float windstrength;
+    Vector3 forwardmovement;
     //float threshhold = 0.3f;
 
     // Start is called before the first frame update
@@ -67,6 +68,7 @@ public class flight : MonoBehaviour
         startBurst = burst;
         startSpeedupMax = speedupMax;
         startSlowdownMax = slowdownMax;
+        forwardmovement = new Vector3(0, 0, 1);
 
     }
 
@@ -165,11 +167,25 @@ public class flight : MonoBehaviour
 
     void Forward()
     {
-        transform.position += new Vector3(0, 0, 1) * constantForward * Time.deltaTime;
+        
+        transform.localPosition += forwardmovement * constantForward * Time.deltaTime; ;
         //if (TiltL > 0)
         //{
-        //    Quaternion deltarotation = Quaternion.Euler(new Vector3(0, 40, 0)* Time.deltaTime);
-        //    rb.MoveRotation(rb.rotation * deltarotation)
+        //    Quaternion deltarotation = Quaternion.Euler(new Vector3(0, -40, 0) * Time.deltaTime);
+        //    // Quaternion.LookRotation(new Vector3(0, 0, -1));
+        //    //transform.localRotation = Quaternion.LookRotation(forwardmovement);
+        //    rb.MoveRotation(rb.rotation * deltarotation);
+        //    forwardmovement = Quaternion.Euler(new Vector3(0, -40, 0) * Time.deltaTime) * forwardmovement;
+
+        //}
+        //if (TiltR > 0)
+        //{
+        //    Quaternion deltarotation = Quaternion.Euler(new Vector3(0, 40, 0) * Time.deltaTime);
+        //    // Quaternion.LookRotation(new Vector3(0, 0, -1));
+        //    //transform.localRotation = Quaternion.LookRotation(forwardmovement);
+        //    rb.MoveRotation(rb.rotation * deltarotation);
+        //    forwardmovement = Quaternion.Euler(new Vector3(0, 40, 0) * Time.deltaTime) * forwardmovement;
+
         //}
     }
     void Steer(float x, float y, float speed)

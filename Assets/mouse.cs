@@ -8,7 +8,7 @@ public class mouse : MonoBehaviour
     int n;
     void Start()
     {
-      n =  Random.Range(1, 2);
+      n =  Random.Range(1, 3);
     }
 
     // Update is called once per frame 

@@ -25,7 +25,7 @@ public class preyspawner : MonoBehaviour
 
             if (startSpawning == false)
             {
-                InvokeRepeating("Spawn", 0, .5f);
+                InvokeRepeating("Spawn", 0, .25f);
                 startSpawning = true;
             }
         }
