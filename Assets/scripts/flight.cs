@@ -171,20 +171,20 @@ public class flight : MonoBehaviour
         transform.localPosition += forwardmovement * constantForward * Time.deltaTime; ;
         //if (TiltL > 0)
         //{
-        //    Quaternion deltarotation = Quaternion.Euler(new Vector3(0, -40, 0) * Time.deltaTime);
+        //    Quaternion deltarotation = Quaternion.Euler(new Vector3(0, -20, 0) * Time.deltaTime);
         //    // Quaternion.LookRotation(new Vector3(0, 0, -1));
         //    //transform.localRotation = Quaternion.LookRotation(forwardmovement);
         //    rb.MoveRotation(rb.rotation * deltarotation);
-        //    forwardmovement = Quaternion.Euler(new Vector3(0, -40, 0) * Time.deltaTime) * forwardmovement;
+        //    forwardmovement = Quaternion.Euler(new Vector3(0, -20, 0) * Time.deltaTime) * forwardmovement;
 
         //}
         //if (TiltR > 0)
         //{
-        //    Quaternion deltarotation = Quaternion.Euler(new Vector3(0, 40, 0) * Time.deltaTime);
+        //    Quaternion deltarotation = Quaternion.Euler(new Vector3(0, 20, 0) * Time.deltaTime);
         //    // Quaternion.LookRotation(new Vector3(0, 0, -1));
         //    //transform.localRotation = Quaternion.LookRotation(forwardmovement);
         //    rb.MoveRotation(rb.rotation * deltarotation);
-        //    forwardmovement = Quaternion.Euler(new Vector3(0, 40, 0) * Time.deltaTime) * forwardmovement;
+        //    forwardmovement = Quaternion.Euler(new Vector3(0, 20, 0) * Time.deltaTime) * forwardmovement;
 
         //}
     }
