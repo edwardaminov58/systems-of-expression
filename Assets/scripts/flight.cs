@@ -89,12 +89,17 @@ public class flight : MonoBehaviour
         Steer(x, y, turnSpeed);
         if (x == 0)
             startTurnSpeed = 0;
-        if ((y < 0))
+        if ((y < 0)) { 
+
             NoseDive(x, y, nosediveSpeed);
+            if (x!= 0)
+            anim.SetBool("diving", true);
+        }
         else
         {
             nosediveSpeed = startNoseSpeed;
             anim.SetBool("nosedive", false);
+            anim.SetBool("diving", false);
             // vcam.m_Lens.FieldOfView = vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView + .15f, 25, 60f); 
         }
         //HorizontalLean(transform, x, 60, .0f);
@@ -213,6 +218,7 @@ public class flight : MonoBehaviour
     IEnumerator noWind()
     {
         noWindA = true;
+        anim.SetBool("falseshift", true);
         for (float t = 0f; t < 1f; t += Time.deltaTime / .3f)
         {
             //vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(0, cameraDamp, t);
@@ -228,6 +234,7 @@ public class flight : MonoBehaviour
         }
         yield return new WaitForSeconds(2.5f);
         noWindA = false;
+        anim.SetBool("falseshift", true);
         //yield break;
     }
     void NoseDive(float x, float y, float speed)
@@ -237,7 +244,7 @@ public class flight : MonoBehaviour
         rb.AddForce(0, y * Mathf.Clamp(nosediveSpeed++ ,10, 100), 0, ForceMode.VelocityChange);
         //rb.velocity = new Vector3(rb.velocity.x, -speed, rb.velocity.z);
         //vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView-.15f, 50, 60);
-        
+        //anim.SetBool("diving", true);
 
 
     }

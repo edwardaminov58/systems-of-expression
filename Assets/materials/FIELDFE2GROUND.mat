@@ -162,6 +162,6 @@ Material:
     - _scroll_velocity: {r: 0, g: 0, b: 0, a: 0}
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
     - _strength: {r: 49.95, g: -129.7, b: 0, a: 0}
-    - _tiling: {r: 500, g: 500, b: 0, a: 0}
+    - _tiling: {r: 500, g: 2500, b: 0, a: 0}
     - _tiling2: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

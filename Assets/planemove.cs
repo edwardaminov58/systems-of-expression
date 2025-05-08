@@ -10,14 +10,15 @@ public class planemove : MonoBehaviour
     public float altitudeoffset = 25f;
     float baselevel;
     float altitude;
-
+    public float threshold;
+    float horizontal;
     // Start is called before the first frame update
     void Start()
     {
         startaltitude = bird.transform.localPosition.y;
         horizon = bird.transform.localPosition.z;
         baselevel = startaltitude;
-
+        horizontal = bird.transform.localPosition.x;
 
 
     }

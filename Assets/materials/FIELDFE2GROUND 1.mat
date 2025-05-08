@@ -146,13 +146,13 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _center: {r: 0.59, g: 1.92, b: 0, a: 0}
-    - _offset: {r: 0, g: 0.34, b: 0, a: 0}
-    - _offset2: {r: 0, g: -4.5, b: 0, a: 0}
+    - _center: {r: 0.5, g: 1.92, b: 0, a: 0}
+    - _offset: {r: 0, g: 0.6, b: 0, a: 0}
+    - _offset2: {r: 0, g: -0.5, b: 0, a: 0}
     - _rotate_center: {r: 0, g: 0, b: 0, a: 0}
     - _scroll_velocity: {r: 0, g: 0, b: 0, a: 0}
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
-    - _strength: {r: 4.02, g: 2.13, b: 0, a: 0}
+    - _strength: {r: 6.28, g: 1.63, b: 0, a: 0}
     - _tiling: {r: 1, g: 5.1, b: 0, a: 0}
-    - _tiling2: {r: 1, g: 1.53, b: 0, a: 0}
+    - _tiling2: {r: 1, g: 0.95, b: 0, a: 0}
   m_BuildTextureStacks: []
