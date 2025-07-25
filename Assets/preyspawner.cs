@@ -6,7 +6,9 @@ public class preyspawner : MonoBehaviour
 {
     public GameObject player;
     public GameObject mouse;
-    bool startSpawning;
+    bool startSpawning = true;
+    public float spawnHeight;
+    public float spawnRate;
     //public Vector2 maxlimit;
     //public Vector2 minlimit;
     // Start is called before the first frame update
@@ -18,19 +20,22 @@ public class preyspawner : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.position = new Vector3(transform.position.x, -26, transform.position.z);
+        transform.position = new Vector3(transform.position.x, 0, transform.position.z);
         //ClampPosition();
-        if (player.transform.position.y < -5f)
+        if (player.transform.position.y < spawnHeight)
         {
 
             if (startSpawning == false)
             {
-                InvokeRepeating("Spawn", 0, .25f);
+                InvokeRepeating("Spawn", 0, spawnRate);
                 startSpawning = true;
             }
         }
         else
+        {
             startSpawning = false;
+            CancelInvoke();
+        }
     }
     void Spawn()
     {

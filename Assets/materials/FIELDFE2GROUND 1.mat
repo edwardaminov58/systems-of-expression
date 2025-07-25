@@ -29,7 +29,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
@@ -111,7 +111,7 @@ Material:
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
@@ -124,8 +124,8 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _QueueControl: 0
-    - _QueueOffset: 0
+    - _QueueControl: 1
+    - _QueueOffset: -14
     - _ReceiveShadows: 1
     - _SampleGI: 0
     - _Smoothness: 0
@@ -135,7 +135,7 @@ Material:
     - _Surface: 1
     - _UVSec: 0
     - _WorkflowMode: 1
-    - _ZTest: 6
+    - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     - _rotation: 0
@@ -146,13 +146,17 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _center: {r: 0.5, g: 1.92, b: 0, a: 0}
-    - _offset: {r: 0, g: 0.6, b: 0, a: 0}
-    - _offset2: {r: 0, g: -0.5, b: 0, a: 0}
+    - _center: {r: 0.5, g: 2.8, b: 0, a: 0}
+    - _center_1: {r: 1, g: 1, b: 0, a: 0}
+    - _offset: {r: 0, g: 1.09, b: 0, a: 0}
+    - _offset2: {r: 0, g: 2, b: 0, a: 0}
+    - _offset2_1: {r: 0, g: 1, b: 0, a: 0}
     - _rotate_center: {r: 0, g: 0, b: 0, a: 0}
     - _scroll_velocity: {r: 0, g: 0, b: 0, a: 0}
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
-    - _strength: {r: 6.28, g: 1.63, b: 0, a: 0}
-    - _tiling: {r: 1, g: 5.1, b: 0, a: 0}
-    - _tiling2: {r: 1, g: 0.95, b: 0, a: 0}
+    - _strength: {r: 0.42, g: -5.22, b: 0, a: 0}
+    - _strength_1: {r: 5, g: 5, b: 0, a: 0}
+    - _tiling: {r: 1, g: 4.49, b: 0, a: 0}
+    - _tiling2: {r: 1, g: 0.22, b: 0, a: 0}
+    - _tiling2_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

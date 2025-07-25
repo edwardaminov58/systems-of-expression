@@ -4,16 +4,50 @@ using UnityEngine;
 
 public class billboard : MonoBehaviour
 {
+    public float[] distance;
+    //public float distance1;
+    //public float distance2;
+    //public float distance3;
+    //public float distance4;
+    public Sprite[] sprites;
+    float distanceFromCamera;
+    [SerializeField] Sprite currentSprite;
+
     // Start is called before the first frame update
     void Start()
     {
-       // gameObject.GetComponent<billboard>().enabled = false;
+        // gameObject.GetComponent<billboard>().enabled = false;
+
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        transform.rotation = Camera.main.transform.rotation;
+        transform.forward = (Camera.main.transform.forward);
+        Vector3 heading = transform.position - Camera.main.transform.position;
+        distanceFromCamera = Vector3.Dot(heading, Camera.main.transform.forward);
+        Debug.Log(distanceFromCamera);
 
+
+        if (distanceFromCamera < .5)
+            Destroy(this.gameObject);
+        //else if (distanceFromCamera > distance)
+        //    currentSprite = sprites[0];
+        //else if (distanceFromCamera > distance2)
+        //    currentSprite = sprites[1];
+        //else if (distanceFromCamera > distance3)
+        //    currentSprite = sprites[2];
+        else
+            for (int n = 0; n < distance.Length; n++)
+            {
+                if (distanceFromCamera > distance[n])
+                {
+
+                    currentSprite = sprites[n];
+                    break;
+                }
+                
+            }
+            GetComponent<SpriteRenderer>().sprite = currentSprite;
     }
 }

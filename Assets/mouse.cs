@@ -6,6 +6,7 @@ public class mouse : MonoBehaviour
 {
     // Start is called before the first frame update
     int n;
+    public float speed;
     void Start()
     {
       n =  Random.Range(1, 3);
@@ -15,8 +16,8 @@ public class mouse : MonoBehaviour
     void FixedUpdate()
     {
         if (n == 1)
-            transform.localPosition += new Vector3(1, 0, 0);
+            transform.localPosition += new Vector3(1 * speed, 0, 0);
         else if (n == 2)
-            transform.localPosition += new Vector3(-1, 0, 0);
+            transform.localPosition += new Vector3(-1* speed, 0, 0);
     }
 }
