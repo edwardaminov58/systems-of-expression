@@ -12,7 +12,7 @@ public class billboard : MonoBehaviour
     public Sprite[] sprites;
     float distanceFromCamera;
     [SerializeField] Sprite currentSprite;
-
+    [SerializeField] Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +26,7 @@ public class billboard : MonoBehaviour
         transform.forward = (Camera.main.transform.forward);
         Vector3 heading = transform.position - Camera.main.transform.position;
         distanceFromCamera = Vector3.Dot(heading, Camera.main.transform.forward);
-        Debug.Log(distanceFromCamera);
+        //Debug.Log(distanceFromCamera);
 
 
         if (distanceFromCamera < .5)
@@ -40,14 +40,28 @@ public class billboard : MonoBehaviour
         else
             for (int n = 0; n < distance.Length; n++)
             {
-                if (distanceFromCamera > distance[n])
+                if (animator == null)
                 {
+                    if (distanceFromCamera > distance[n])
+                    {
 
-                    currentSprite = sprites[n];
-                    break;
+                        currentSprite = sprites[n];
+                        GetComponent<SpriteRenderer>().sprite = currentSprite;
+                        break;
+                    }
+                }
+                else
+
+                {
+                    if (distanceFromCamera > distance[n])
+                    {
+
+                        animator.SetInteger("n", n);
+                        break;
+                    }
                 }
                 
             }
-            GetComponent<SpriteRenderer>().sprite = currentSprite;
+            
     }
 }

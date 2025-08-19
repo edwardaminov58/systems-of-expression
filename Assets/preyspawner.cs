@@ -9,6 +9,9 @@ public class preyspawner : MonoBehaviour
     bool startSpawning = true;
     public float spawnHeight;
     public float spawnRate;
+    public float spawnStart;
+    public float leftLimit;
+    public float rightLimit;
     //public Vector2 maxlimit;
     //public Vector2 minlimit;
     // Start is called before the first frame update
@@ -27,7 +30,7 @@ public class preyspawner : MonoBehaviour
 
             if (startSpawning == false)
             {
-                InvokeRepeating("Spawn", 0, spawnRate);
+                InvokeRepeating("Spawn", spawnStart, spawnRate);
                 startSpawning = true;
             }
         }
@@ -39,7 +42,7 @@ public class preyspawner : MonoBehaviour
     }
     void Spawn()
     {
-        Instantiate(mouse, new Vector3(Random.Range(-25, 25), transform.position.y, transform.position.z), transform.rotation);
+        Instantiate(mouse, new Vector3(Random.Range(leftLimit, rightLimit), transform.position.y, transform.position.z), transform.rotation);
 
     }
     //void ClampPosition()
