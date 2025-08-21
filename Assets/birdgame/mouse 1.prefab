@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 6706765046054735942}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.708745, y: 0.31, z: 129.81}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 5.5, y: 5.5, z: 5.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -103,6 +103,7 @@ MonoBehaviour:
   speed: 0.9
   leftLimit: -50
   rightLimit: 50
+  hideHeight: 8
 --- !u!65 &4331180070914475988
 BoxCollider:
   m_ObjectHideFlags: 0

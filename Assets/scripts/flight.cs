@@ -105,7 +105,7 @@ public class flight : MonoBehaviour
             NoseDive(x, y, nosediveSpeed);
             if (x != 0)
             {
-                Debug.Log("dive");
+                //Debug.Log("dive");
                 anim.SetBool("diving", true);
             }
         }
@@ -382,7 +382,7 @@ public class flight : MonoBehaviour
         else
         {
             rb.AddForce(0, -damage, 0, ForceMode.VelocityChange);
-            Debug.Log("drop");
+            //Debug.Log("drop");
             float n = Random.Range(-1f, 1f);
             anim.SetBool("damage", true);
             //anim.SetFloat("damagefloat", n);
@@ -532,7 +532,7 @@ public class flight : MonoBehaviour
         for (float t = 0f; t < 1f; t += Time.deltaTime / slowspeed)
         {
             constantForward = Mathf.SmoothStep(constantForward, slowdownMax, t);
-            Debug.Log(constantForward);
+            //Debug.Log(constantForward);
             yield return null;
         }
         anim.SetBool("slow", false);
@@ -540,7 +540,7 @@ public class flight : MonoBehaviour
         for (float t = 0f; t < 1f; t += Time.deltaTime / slowspeed)
         {
             constantForward = Mathf.SmoothStep(constantForward, speedupMin, t);
-            Debug.Log(constantForward);
+            //Debug.Log(constantForward);
             yield return null;
         }
         //yield return new WaitForSeconds(cooldown);

@@ -17,11 +17,10 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
-  - DepthOnly
   - SHADOWCASTER
   m_SavedProperties:
     serializedVersion: 3
@@ -35,7 +34,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: f44b11f5a085a284398456ea970abcda, type: 3}
+        m_Texture: {fileID: 2800000, guid: 888d9ef32ef575245aacc76f3d8b62a7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -56,7 +55,7 @@ Material:
     - _AlphaClip: 1
     - _Blend: 0
     - _CastShadows: 0
-    - _Cull: 0
+    - _Cull: 2
     - _DstBlend: 10
     - _EnableExternalAlpha: 0
     - _QueueControl: 0
@@ -64,16 +63,17 @@ Material:
     - _SrcBlend: 5
     - _Surface: 1
     - _ZTest: 4
-    - _ZWrite: 0
-    - _ZWriteControl: 0
+    - _ZWrite: 1
+    - _ZWriteControl: 1
+    - _rotation: 0.74
     - _wavespeed: 0
     - _wavestrength: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _scroll_velocity: {r: 0, g: 0.1, b: 0, a: 0}
-    - _tiling: {r: 0.96, g: 0.2, b: 0, a: 0}
+    - _scroll_velocity: {r: 0, g: 0.4, b: 0, a: 0}
+    - _tiling: {r: 0.5, g: 0.7, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6083889536616174893
 MonoBehaviour:
