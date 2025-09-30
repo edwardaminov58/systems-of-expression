@@ -112894,7 +112894,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 417629456}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00000047683716, y: 6, z: -13}
+  m_LocalPosition: {x: -0.00000035762787, y: 6, z: -13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -436037,7 +436037,7 @@ PrefabInstance:
     - target: {fileID: 1762995826749445751, guid: 9705198535701d347829aa3074bb046a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00000047683716
+      value: -0.00000035762787
       objectReference: {fileID: 0}
     - target: {fileID: 1762995826749445751, guid: 9705198535701d347829aa3074bb046a,
         type: 3}
@@ -594871,6 +594871,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: mouse
       objectReference: {fileID: 0}
+    - target: {fileID: 6706765046054735942, guid: a07b873759419ea43bd07c1c6e82ab02,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8374802830116254097, guid: a07b873759419ea43bd07c1c6e82ab02,
         type: 3}
       propertyPath: m_RootOrder
@@ -595282,6 +595287,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2104541168}
     m_Modifications:
+    - target: {fileID: 8752106154408551568, guid: 21cfe5ebe2895f74f9b2bbe05d51d582,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8752106154408551570, guid: 21cfe5ebe2895f74f9b2bbe05d51d582,
         type: 3}
       propertyPath: player
@@ -595290,7 +595300,7 @@ PrefabInstance:
     - target: {fileID: 8752106154408551570, guid: 21cfe5ebe2895f74f9b2bbe05d51d582,
         type: 3}
       propertyPath: leftLimit
-      value: -30
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 8752106154408551570, guid: 21cfe5ebe2895f74f9b2bbe05d51d582,
         type: 3}
@@ -595300,7 +595310,7 @@ PrefabInstance:
     - target: {fileID: 8752106154408551570, guid: 21cfe5ebe2895f74f9b2bbe05d51d582,
         type: 3}
       propertyPath: rightLimit
-      value: 30
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8752106154408551570, guid: 21cfe5ebe2895f74f9b2bbe05d51d582,
         type: 3}

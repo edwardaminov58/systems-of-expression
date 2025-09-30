@@ -20,15 +20,15 @@ public class mouse : MonoBehaviour
     void Start()
     {
         //n =  Random.Range(1, 3);
-        startX = transform.position.x;
+        startX = transform.localPosition.x;
         sr = GetComponent<SpriteRenderer>();
         if (startX <= 0)
         {
             sr.flipX = true;
 
         }
-        leftVector = transform.position.x + Random.Range(leftLimit, -5);
-        rightVector = transform.position.x + Random.Range(5, rightLimit);
+        leftVector = transform.localPosition.x + Random.Range(leftLimit, -5);
+        rightVector = transform.localPosition.x + Random.Range(5, rightLimit);
         Debug.Log("leftVector "+ leftVector + " rightVector " + rightVector);
         //Debug.Log("leftlimit " + leftLimit + " rightlimit " + rightLimit);
 
@@ -104,8 +104,8 @@ public class mouse : MonoBehaviour
     }
     void moveLeft()
     {
-        transform.position += Vector3.left * speed;
-        if ((transform.position.x < leftVector) || (transform.position.x > rightVector)) { 
+        transform.localPosition += Vector3.left * speed;
+        if ((transform.localPosition.x < leftVector) || (transform.localPosition.x > rightVector)) { 
              turnAround();
         }
 
@@ -114,8 +114,8 @@ public class mouse : MonoBehaviour
     }
     void moveRight()
     {
-        transform.position += Vector3.right * speed;
-        if ((transform.position.x < leftVector) || (transform.position.x > rightVector))
+        transform.localPosition += Vector3.right * speed;
+        if ((transform.localPosition.x < leftVector) || (transform.localPosition.x > rightVector))
         {
             turnAround();
         }
