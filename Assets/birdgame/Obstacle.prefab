@@ -98,9 +98,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8ea308b27c2dd547a2df52da71a7305, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: []
+  distance:
+  - 500
+  - 300
+  - 200
+  - 75
   sprites: []
   currentSprite: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!65 &6671161006437598038
 BoxCollider:
   m_ObjectHideFlags: 0
