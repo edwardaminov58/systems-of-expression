@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class bgscroll : MonoBehaviour
 {
+    float timeCount = 0.0f;
+    public float rotationSpeed;
+    public float returntoNeutralSpeed;
     Material mat;
     Image img;
     public GameObject bird;
@@ -25,5 +28,24 @@ public class bgscroll : MonoBehaviour
         offset.x = bird.transform.localPosition.x/ 1500;
         offset.y = (bird.transform.localPosition.y / 1700) ;
         mat.mainTextureOffset = offset;
+        if (x == 0)
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, 0), Time.deltaTime * returntoNeutralSpeed);
+            //timeCount = timeCount + Time.deltaTime;
+
+        }
+        else if (x < 0)
+        {
+         
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, 0), Time.deltaTime * rotationSpeed);
+            //timeCount = timeCount + Time.deltaTime;
+        }
+        else if (x > 0)
+        {
+        
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, 0), Time.deltaTime * rotationSpeed);
+            //timeCount = timeCount + Time.deltaTime;
+        }
     }
 }
+    

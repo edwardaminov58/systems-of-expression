@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: cyan
+  m_Name: scrolling gate many
   m_Shader: {fileID: -6465566751694194690, guid: e0d8e689957d0f345b51b52ea91df757,
     type: 3}
   m_ValidKeywords:
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 3050
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
@@ -70,7 +70,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: 254a9fa87ef7e93489a61315ad196d30, type: 3}
+        m_Texture: {fileID: 2800000, guid: 79f17b8ccd0065e459939f4dfe1dca8e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -93,7 +93,7 @@ Material:
     - _CastShadows: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
@@ -106,7 +106,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
-    - _QueueOffset: 0
+    - _QueueOffset: 50
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -125,10 +125,16 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _scroll_velocity: {r: 0, g: -0.1, b: 0, a: 0}
-    - _tiling: {r: 45, g: 20, b: 0, a: 0}
+    - _center: {r: 3.06, g: 3.39, b: 0, a: 0}
+    - _offset: {r: 2.02, g: 2.45, b: 0, a: 0}
+    - _offset2: {r: 0, g: 0, b: 0, a: 0}
+    - _scroll_velocity: {r: 0, g: 0, b: 0, a: 0}
+    - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
+    - _strength: {r: 0, g: 0, b: 0, a: 0}
+    - _tiling: {r: 15.39, g: 1.35, b: 0, a: 0}
+    - _tiling2: {r: 0.61, g: 1.6, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &7710127934908700491
+--- !u!114 &3174065345860598518
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

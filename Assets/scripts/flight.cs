@@ -162,6 +162,7 @@ public class flight : MonoBehaviour
 
         ClampPosition();
         rb.velocity = new Vector3(x * turnSpeed, Mathf.Clamp(rb.velocity.y - constantDrop, altitudeMin, altitudeMax), rb.velocity.z);
+        Debug.Log(rb.velocity);
         // rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(rb.velocity.y - constantDrop, altitudeMin, altitudeMax), rb.velocity.z);
         TiltL = Input.GetAxis("Left Tilt");
         TiltR = Input.GetAxis("Right Tilt");

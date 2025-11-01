@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762995826749445755}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0000009536743, y: 0, z: -387.19}
+  m_LocalPosition: {x: 0, y: 6, z: -13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -60,9 +60,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 12
-  far clip plane: 250
-  field of view: 60
+  near clip plane: 2
+  far clip plane: 100000
+  field of view: 35
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -229,6 +229,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 150
+  startSpeed: 0
+  gainSpeed: 0
+  MaxSpeed: 0
+  MinSpeed: 0
 --- !u!1 &1762995827492480588
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,12 +354,31 @@ MonoBehaviour:
   minlimit: {x: -15, y: -25}
   turnSpeed: 20
   leanSpeed: 0
-  acceleration: 2
   rb: {fileID: 1762995827492480587}
   burst: 250
-  burstspeed: 10000
+  angle: 0
   altitudeMax: 0
   altitudeMin: 0
+  nosediveSpeed: 0
+  damage: 0
+  preyBounce: 30
+  constantDrop: 0
+  constantForward: 0
+  speedup: 0
+  slowdownMax: 0
+  speedupMin: 0
+  speedupMax: 0
+  speedtime: 0
+  slowspeed: 0
+  cooldown: 0
+  startNoseSpeed: 0
+  vcam: {fileID: 0}
+  cameraDamp: 0
+  lensThreshold: 0
+  reduceFlap: 5
+  FlapMin: 10
+  sideBurst: 0
+  rideSpeed: 0
 --- !u!114 &1762995827492480580
 MonoBehaviour:
   m_ObjectHideFlags: 0

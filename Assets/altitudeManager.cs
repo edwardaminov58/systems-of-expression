@@ -17,12 +17,12 @@ public class altitudeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (bird.transform.position.y < 50)
+        if (bird.transform.position.y < 20)
         {
             Base.SetActive(true);
             Layer1.SetActive(false);
         }
-        else if (bird.transform.position.y > 50)
+        else if (bird.transform.position.y > 20)
         {
             Base.SetActive(false);
             Layer1.SetActive(true);
