@@ -6811,6 +6811,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: flapbool
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: nosedive
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 825147582639831939}
   m_Solo: 0
@@ -7345,7 +7348,7 @@ AnimatorStateMachine:
     m_Position: {x: 250, y: -480, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 825147582639831939}
-    m_Position: {x: 480, y: -470, z: 0}
+    m_Position: {x: 300, y: -320, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6675955472656377168}
     m_Position: {x: 480, y: -560, z: 0}
@@ -7354,7 +7357,7 @@ AnimatorStateMachine:
     m_Position: {x: 450, y: -90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6549448072793835992}
-    m_Position: {x: 510, y: -230, z: 0}
+    m_Position: {x: 600, y: -220, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4493116412575304400}
     m_Position: {x: 280, y: -640, z: 0}

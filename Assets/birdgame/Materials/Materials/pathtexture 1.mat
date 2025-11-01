@@ -62,7 +62,7 @@ Material:
     - _QueueOffset: 0
     - _SrcBlend: 5
     - _Surface: 1
-    - _ZTest: 4
+    - _ZTest: 8
     - _ZWrite: 1
     - _ZWriteControl: 1
     - _rotation: 1.33
