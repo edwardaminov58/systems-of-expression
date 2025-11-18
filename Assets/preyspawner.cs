@@ -33,13 +33,14 @@ public class preyspawner : MonoBehaviour
                 InvokeRepeating("Spawn", spawnStart, spawnRate);
                 startSpawning = true;
             }
-        }
-        else
-        {
-            startSpawning = false;
-            CancelInvoke();
+            else
+            {
+                startSpawning = false;
+                CancelInvoke();
+            }
         }
     }
+
     void Spawn()
     {
         Instantiate(mouse, new Vector3(Random.Range(leftLimit, rightLimit), transform.position.y, transform.position.z), transform.rotation);
