@@ -48,17 +48,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _AlphaToMask: 0
     - _Blend: 0
     - _BlendOp: 0
     - _Cull: 2
     - _Cutoff: 0.5
     - _DstBlend: 0
-    - _DstBlendAlpha: 0
     - _QueueOffset: 0
     - _SampleGI: 0
     - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
     - _Surface: 0
     - _ZWrite: 1
     m_Colors:
