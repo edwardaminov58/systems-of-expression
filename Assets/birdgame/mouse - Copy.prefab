@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -6072553686397145749}
   - component: {fileID: -8090125602898621504}
   m_Layer: 0
-  m_Name: mouse
+  m_Name: mouse - Copy
   m_TagString: prey
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

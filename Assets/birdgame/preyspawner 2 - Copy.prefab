@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8282132611988964445}
   - component: {fileID: 8282132611988964444}
   m_Layer: 0
-  m_Name: preyspawner 2
+  m_Name: preyspawner 2 - Copy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
