@@ -22,7 +22,7 @@ public class movement2d : MonoBehaviour
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         animator = gameObject.GetComponent<Animator>();
-        follower = targeting.GetComponent<followplayer2d>();
+        //follower = targeting.GetComponent<followplayer2d>();
     }
 
     // Update is called once per frame
