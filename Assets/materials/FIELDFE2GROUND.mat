@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FIELDFE2GROUND
-  m_Shader: {fileID: -6465566751694194690, guid: e0d8e689957d0f345b51b52ea91df757,
+  m_Shader: {fileID: -6465566751694194690, guid: 6719999459318ba4a953957280c6ebb7,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -111,6 +111,7 @@ Material:
     m_Floats:
     - PixelSnap: 0
     - _AlphaClip: 0
+    - _AlphaToMask: 0
     - _Blend: 0
     - _BlendOp: 0
     - _BumpScale: 1

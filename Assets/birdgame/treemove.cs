@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class groundmoveGround : MonoBehaviour
+public class planemove : MonoBehaviour
 {
-    // Start is called before the first frame update
     public GameObject bird;
     float startaltitude;
     float horizon;
@@ -29,25 +28,14 @@ public class groundmoveGround : MonoBehaviour
     public float centerYend = 3f;
     //Vector2 sphere;
     //Vector2 sphereoffset;
+    //public float rotationSpeed;
     // Start is called before the first frame update
-    void OnEnable()
-    {
-        startaltitude = bird.transform.position.y;
 
-        baselevel = startaltitude;
-        horizontal = bird.transform.position.x;
-        mat = GetComponent<MeshRenderer>().material;
-
-
-
-    }
-
-    // Update is called once per frame
     void FixedUpdate()
     {
         horizon = bird.transform.position.z;
         altitude = bird.transform.position.y - startaltitude;
-        transform.position = new Vector3(transform.position.x, Camera.main.transform.position.y - altitudeoffset - y, bird.transform.position.z + horizonoffset);
+        transform.position = new Vector3(transform.position.x, transform.position.y, bird.transform.position.z + horizonoffset);
         //altitudeoffset = altitudeoffset + altitude;
         //Debug.Log(altitude);
 
@@ -69,7 +57,10 @@ public class groundmoveGround : MonoBehaviour
         {
             y = 0;
             Debug.Log("grounded");
-            ChangeUV();
+            float t = bird.transform.position.y / threshold;
+            mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingYstart, tilingYend, t)));
+
+           mat.SetVector("_center", new Vector2(0.5f, Mathf.Lerp(centerYstart, centerYend, t)));
         }
         if (!grounded)
         {
@@ -78,16 +69,6 @@ public class groundmoveGround : MonoBehaviour
 
             Debug.Log("not grounded");
         }
-        Rotate();
-        //sphere = mat.GetVector("_sphere_offset");
-        //sphereoffset = sphere + new Vector2(1, 0);
-        //mat.SetVector("_sphere_offset", sphereoffset);
-        //mat.SetVector("_offset2", new Vector2(0, -1));   
-        tiling = mat.GetVector("_tiling");
-    }
-
-    void Rotate()
-    {
         x = Input.GetAxisRaw("Horizontal");
         if (x == 0)
         {
@@ -104,14 +85,11 @@ public class groundmoveGround : MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(265, 90, -90), Time.deltaTime * rotationSpeed);
             timeCount = timeCount + Time.deltaTime;
         }
-
-
-    }
-    void ChangeUV()
-    {
-        float t = bird.transform.position.y / threshold;
-        mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingYstart, tilingYend, t)));
-
-        mat.SetVector("_center", new Vector2(0.5f, Mathf.Lerp(centerYstart, centerYend, t)));
+        //sphere = mat.GetVector("_sphere_offset");
+        //sphereoffset = sphere + new Vector2(1, 0);
+        //mat.SetVector("_sphere_offset", sphereoffset);
+        //mat.SetVector("_offset2", new Vector2(0, -1));   
+        tiling = mat.GetVector("_tiling");
     }
 }
+

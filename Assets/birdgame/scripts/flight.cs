@@ -5,6 +5,8 @@ using Cinemachine;
 
 public class flight : MonoBehaviour
 {
+    public float occlusionPlaneStart;
+    public float occlusionPlaneEnd;
     private bool noWindA = false;
     private bool wind = false;
     //public Vector2 limits = new Vector2(5, 3);
@@ -58,6 +60,7 @@ public class flight : MonoBehaviour
     float complexDrop;
     float startlens;
     public float lensThreshold;
+    public float farPlaneThreshold;
     public float reduceFlap = 5;
     public float FlapMin = 10;
     public float sideBurst;
@@ -84,6 +87,7 @@ public class flight : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        Occlusion();
         FOVchange();
         //currentForwardSpeed = Mathf.Clamp(currentForwardSpeed + .5f, FspeedMin, FspeedMax);
         Forward();
@@ -162,7 +166,7 @@ public class flight : MonoBehaviour
 
         ClampPosition();
         rb.velocity = new Vector3(x * turnSpeed, Mathf.Clamp(rb.velocity.y - constantDrop, altitudeMin, altitudeMax), rb.velocity.z);
-        Debug.Log(rb.velocity);
+        //Debug.Log(rb.velocity);
         // rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(rb.velocity.y - constantDrop, altitudeMin, altitudeMax), rb.velocity.z);
         TiltL = Input.GetAxis("Left Tilt");
         TiltR = Input.GetAxis("Right Tilt");
@@ -197,6 +201,11 @@ public class flight : MonoBehaviour
         vcam.m_Lens.FieldOfView = Mathf.Lerp(35, 60, t);
         //vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView, 35, 60);
 
+    }
+    void Occlusion()
+    {
+        float t = gameObject.transform.localPosition.y / farPlaneThreshold;
+        vcam.m_Lens.FarClipPlane = Mathf.Lerp(occlusionPlaneStart, occlusionPlaneEnd, t);
     }
     void Forward()
     {
@@ -377,7 +386,7 @@ public class flight : MonoBehaviour
         {
             Destroy(collision.gameObject);
             RestoreStrength();
-            rb.AddForce(0, Mathf.Abs(rb.velocity.y + preyBounce), 0, ForceMode.VelocityChange);
+            rb.AddForce(0, Mathf.Abs(rb.velocity.y * -1 * preyBounce), 0, ForceMode.VelocityChange);
 
         }
         else
@@ -416,7 +425,7 @@ public class flight : MonoBehaviour
         {
             anim.SetBool("windtouch", true);
             wind = true;
-            Debug.Log("windy");
+            //Debug.Log("windy");
             windstrength = other.gameObject.GetComponent<wind>().windstrength;
 
         }
@@ -426,7 +435,7 @@ public class flight : MonoBehaviour
         if (other.gameObject.tag == "wind")
         {
             wind = false;
-            Debug.Log("no wind");
+            //Debug.Log("no wind");
             anim.SetBool("windtouch", false);
 
         }

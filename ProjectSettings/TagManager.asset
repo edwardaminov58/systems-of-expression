@@ -11,6 +11,7 @@ TagManager:
   - MC
   - wind
   - prey
+  - background
   layers:
   - Default
   - TransparentFX

@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bde197e181f99d44b5b3738272034c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.18
+  speed: 0.5
   leftLimit: -50
   rightLimit: 50
   hideHeight: 8
@@ -138,9 +138,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance:
-  - 150
-  - 100
-  - 50
+  - 85
+  - 60
+  - 30
   sprites:
   - {fileID: 0}
   currentSprite: {fileID: 0}

@@ -29,7 +29,7 @@ public class mouse : MonoBehaviour
         }
         leftVector = transform.localPosition.x + Random.Range(leftLimit, -5);
         rightVector = transform.localPosition.x + Random.Range(5, rightLimit);
-        Debug.Log("leftVector "+ leftVector + " rightVector " + rightVector);
+        //Debug.Log("leftVector "+ leftVector + " rightVector " + rightVector);
         //Debug.Log("leftlimit " + leftLimit + " rightlimit " + rightLimit);
 
     }
