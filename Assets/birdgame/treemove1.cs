@@ -84,7 +84,7 @@ public class treemove1 : MonoBehaviour
         else if (x > 0)
         {
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, -8, -10), Time.deltaTime * rotationSpeed);
-            timeCount = timeCount + Time.deltaTime;
+                timeCount = timeCount + Time.deltaTime;
         }
     }
     void ChangeUV()

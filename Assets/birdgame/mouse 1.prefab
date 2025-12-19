@@ -100,10 +100,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bde197e181f99d44b5b3738272034c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 0.13
   leftLimit: -50
   rightLimit: 50
-  hideHeight: 8
+  hideHeight: 100
 --- !u!65 &4331180070914475988
 BoxCollider:
   m_ObjectHideFlags: 0

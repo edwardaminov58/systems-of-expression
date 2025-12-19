@@ -29,8 +29,8 @@ public class flight : MonoBehaviour
     public float burst;
     public float angle;
     Animator anim;
-    public float altitudeMax;
-    public float altitudeMin;
+    public float maxGravity;
+    public float maxSoar;
     //public float noseMax;
     public float nosediveSpeed;
     public float damage;
@@ -63,8 +63,12 @@ public class flight : MonoBehaviour
     public float farPlaneThreshold;
     public float reduceFlap = 5;
     public float FlapMin = 10;
-    public float sideBurst;
+    public float sideBurstTime;
     public float rideSpeed;
+    bool bounced = false;
+    public float bounceBoostSpeed = 20;
+    float sideBurstEnd;
+
 
     Vector3 forwardmovement;
     //float threshhold = 0.3f;
@@ -87,7 +91,9 @@ public class flight : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Occlusion();
+        //Debug.Log("Velocity: " + rb.velocity);
+        //Debug.Log(sideBurstEnd);
+        //Occlusion();
         FOVchange();
         //currentForwardSpeed = Mathf.Clamp(currentForwardSpeed + .5f, FspeedMin, FspeedMax);
         Forward();
@@ -106,11 +112,14 @@ public class flight : MonoBehaviour
         if ((y < 0))
         {
             anim.SetFloat("nosedivevalue", y);
-            NoseDive(x, y, nosediveSpeed);
-            if (x != 0)
+            if (bounced!=true)
             {
-                //Debug.Log("dive");
-                anim.SetBool("diving", true);
+                NoseDive(x, y, nosediveSpeed);
+                if (x != 0)
+                {
+                    //Debug.Log("dive");
+                    anim.SetBool("diving", true);
+                }
             }
         }
         else
@@ -165,7 +174,8 @@ public class flight : MonoBehaviour
         //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, constantForward);
 
         ClampPosition();
-        rb.velocity = new Vector3(x * turnSpeed, Mathf.Clamp(rb.velocity.y - constantDrop, altitudeMin, altitudeMax), rb.velocity.z);
+        rb.velocity = new Vector3((x * turnSpeed + sideBurstEnd) , Mathf.Clamp(rb.velocity.y - constantDrop, maxGravity, maxSoar), rb.velocity.z);
+        // Debug.Log(rb.velocity.y);
         //Debug.Log(rb.velocity);
         // rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(rb.velocity.y - constantDrop, altitudeMin, altitudeMax), rb.velocity.z);
         TiltL = Input.GetAxis("Left Tilt");
@@ -205,12 +215,12 @@ public class flight : MonoBehaviour
     void Occlusion()
     {
         float t = gameObject.transform.localPosition.y / farPlaneThreshold;
-        vcam.m_Lens.FarClipPlane = Mathf.Lerp(occlusionPlaneStart, occlusionPlaneEnd, t);
+        Camera.main.layerCullDistances[0] = Mathf.Lerp(occlusionPlaneStart, occlusionPlaneEnd, t);
     }
     void Forward()
     {
 
-        transform.localPosition += forwardmovement * constantForward * Time.deltaTime; 
+        transform.localPosition += forwardmovement * constantForward * Time.deltaTime;
         //if (TiltL > 0)
         //{
         //    Quaternion deltarotation = Quaternion.Euler(new Vector3(0, -20, 0) * Time.deltaTime);
@@ -277,10 +287,18 @@ public class flight : MonoBehaviour
     }
     void NoseDive(float x, float y, float speed)
     {
-       
+        
         anim.SetBool("nosedive", true);
         //transform.localPosition += new Vector3(0, y, 0) * speed * Time.deltaTime;
-        rb.AddForce(0, y * Mathf.Clamp(nosediveSpeed++, 10, 100), 0, ForceMode.VelocityChange);
+        if (transform.position.y <= (minlimit.y + 1))
+        {
+            nosediveSpeed = bounceBoostSpeed;
+            //Mathf.Clamp(nosediveSpeed++, startNoseSpeed, bounceBoostSpeed);
+            Debug.Log(bounceBoostSpeed);
+        }
+        else
+            Mathf.Clamp(nosediveSpeed++, 0, 100);
+        rb.AddForce(0, y * nosediveSpeed, 0, ForceMode.VelocityChange);
         //rb.velocity = new Vector3(rb.velocity.x, -speed, rb.velocity.z);
         //vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView-.15f, 50, 60);
         //anim.SetBool("diving", true);
@@ -296,61 +314,62 @@ public class flight : MonoBehaviour
         // transform.position = Camera.main.ViewportToWorldPoint(pos);
         transform.localPosition = new Vector3(Mathf.Clamp(localPos.x, minlimit.x, maxlimit.x), Mathf.Clamp(localPos.y, minlimit.y, maxlimit.y), localPos.z);
     }
+
+     
     void Flap(float burst, float angle)
     {
         //transform.localPosition += new Vector3(0, burst, 0);
-
+        
         //rb.AddForce((x * burst), burst, 0, ForceMode.VelocityChange); 
         float t = 0;
+        //Debug.Log(t);
         if (TiltL > 0.5f)
         {
-            
-            t += Time.deltaTime * sideBurst;
-            //rb.AddForce(-burst*2, burst/3, 0, ForceMode.VelocityChange);
-            rb.velocity = new Vector3(Mathf.Lerp(0, -burst, t), rb.velocity.y, rb.velocity.z);
-            rb.AddForce(0, burst/3, 0, ForceMode.VelocityChange);
+
+
+            StartCoroutine(horizontalFlap(-3));
+            rb.AddForce(0, burst / 3, 0, ForceMode.VelocityChange);
+
+           
         }
         else if (TiltR > 0.5f)
         {
-            t += Time.deltaTime * sideBurst;
-            //rb.AddForce(burst*2, burst/3, 0, ForceMode.VelocityChange);
-            rb.velocity = new Vector3(Mathf.Lerp(0, burst, t), rb.velocity.y, rb.velocity.z);
-            rb.AddForce(0, burst/3, 0, ForceMode.VelocityChange);
+
+            StartCoroutine(horizontalFlap(3));
+            rb.AddForce(0, burst / 3, 0, ForceMode.VelocityChange);
         }
         else if (TiltL > 0.1f)
         {
 
-            t += Time.deltaTime * sideBurst;
-            //rb.AddForce(-burst*2, burst/3, 0, ForceMode.VelocityChange);
-            rb.velocity = new Vector3(Mathf.Lerp(0, -burst/3, t), rb.velocity.y, rb.velocity.z);
+            StartCoroutine(horizontalFlap(-3));
             rb.AddForce(0, burst / 1.5f, 0, ForceMode.VelocityChange);
         }
         else if (TiltR > 0.1f)
         {
-            t += Time.deltaTime * sideBurst;
-            //rb.AddForce(burst*2, burst/3, 0, ForceMode.VelocityChange);
-            rb.velocity = new Vector3(Mathf.Lerp(0, burst/3, t), rb.velocity.y, rb.velocity.z);
+
+            StartCoroutine(horizontalFlap(3));
             rb.AddForce(0, burst / 1.5f, 0, ForceMode.VelocityChange);
         }
         else if (x > 0.1f)
         {
+            
 
-            t += Time.deltaTime * sideBurst;
-            //rb.AddForce(-burst*2, burst/3, 0, ForceMode.VelocityChange);
-            rb.velocity = new Vector3(Mathf.Lerp(0, -burst/5, t), rb.velocity.y, rb.velocity.z);
+            StartCoroutine(horizontalFlap(5));
             rb.AddForce(0, burst, 0, ForceMode.VelocityChange);
         }
         else if (x < -.1f)
         {
-            t += Time.deltaTime * sideBurst;
-            //rb.AddForce(burst*2, burst/3, 0, ForceMode.VelocityChange);
-            rb.velocity = new Vector3(Mathf.Lerp(0, burst/5, t), rb.velocity.y, rb.velocity.z);
+            
+
+            StartCoroutine(horizontalFlap(-5));
             rb.AddForce(0, burst, 0, ForceMode.VelocityChange);
         }
         else
             rb.AddForce(0, burst, 0, ForceMode.VelocityChange);
         anim.SetBool("flapbool", true);
-        t =  0;
+        t = 0;
+        //sideBurstEnd = 0;
+        //Debug.Log(t);
         ReduceStrength();
         //vcam.m_Lens.FieldOfView = vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView + 10, 25, 75);
         //rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(burst, altitudeMin, altitudeMax), rb.velocity.z);
@@ -386,7 +405,7 @@ public class flight : MonoBehaviour
         {
             Destroy(collision.gameObject);
             RestoreStrength();
-            rb.AddForce(0, Mathf.Abs(rb.velocity.y * -1 * preyBounce), 0, ForceMode.VelocityChange);
+            StartCoroutine(PreyBounce());
 
         }
         else
@@ -404,7 +423,27 @@ public class flight : MonoBehaviour
         //constantForward = 100f;
         //StopCoroutine(Speed());
     }
+    IEnumerator PreyBounce()
+    {
+        bounced = true;
+        //float t = 0;
+        //t += Time.deltaTime * nosediveSpeed;
+        //rb.velocity = new Vector3(rb.velocity.x, Mathf.Lerp(0, nosediveSpeed + preyBounce, t), rb.velocity.z);
+        rb.AddForce(0, Mathf.Abs(nosediveSpeed + preyBounce), 0, ForceMode.VelocityChange);
+        yield return new WaitForSeconds(.5f);
+        bounced = false;
+        nosediveSpeed = startNoseSpeed;
+        
 
+
+    }
+
+    //IEnumerator bounceRecovery()
+    //{
+    //    float t = 0;
+
+
+    //}
     //private void OnTriggerStay(Collider other)
     //{
     //    if (other.gameObject.tag == "wind")
@@ -473,7 +512,23 @@ public class flight : MonoBehaviour
     {
         anim.speed = -.25f;
     }
+    IEnumerator horizontalFlap(float n)
+    {
+        for (float t = 0f; t < 1f; t += Time.deltaTime / sideBurstTime)
+        {
+          
+      
+            sideBurstEnd = Mathf.Lerp(burst/n, 0, t);
 
+
+            yield return null;
+
+
+        }
+        sideBurstEnd = 0;
+        ;
+
+    }
     IEnumerator Speed()
     {
         //for (float speed = speedup; speed < speedupMax; speed++)
