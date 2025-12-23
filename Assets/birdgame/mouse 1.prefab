@@ -103,7 +103,7 @@ MonoBehaviour:
   speed: 0.13
   leftLimit: -50
   rightLimit: 50
-  hideHeight: 100
+  hideHeight: 1000
 --- !u!65 &4331180070914475988
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -141,9 +141,12 @@ MonoBehaviour:
   - 85
   - 60
   - 30
+  size: []
+  positionOffset: []
   sprites:
   - {fileID: 0}
   currentSprite: {fileID: 0}
+  currentSize: 0
   animator: {fileID: 1703070717760646945}
 --- !u!95 &1703070717760646945
 Animator:

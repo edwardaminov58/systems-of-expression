@@ -207,15 +207,19 @@ public class flight : MonoBehaviour
     }
     void FOVchange()
     {
-        float t = gameObject.transform.localPosition.y / lensThreshold;
-        vcam.m_Lens.FieldOfView = Mathf.Lerp(35, 60, t);
         //vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView, 35, 60);
+        float t = gameObject.transform.localPosition.y / lensThreshold;
+        //vcam.m_Lens.FieldOfView = Mathf.Lerp(60, 35, t);
+        //vcam.GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = Mathf.Lerp(6, 20, t);
+        
+        vcam.m_Lens.FieldOfView = Mathf.Lerp(35, 60, t);
+        vcam.GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = 13;
 
     }
     void Occlusion()
     {
         float t = gameObject.transform.localPosition.y / farPlaneThreshold;
-        Camera.main.layerCullDistances[0] = Mathf.Lerp(occlusionPlaneStart, occlusionPlaneEnd, t);
+        vcam.m_Lens.FarClipPlane = Mathf.Lerp(occlusionPlaneStart, occlusionPlaneEnd, t);
     }
     void Forward()
     {

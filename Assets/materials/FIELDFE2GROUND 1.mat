@@ -31,7 +31,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2986
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
@@ -128,7 +128,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _QueueControl: 1
+    - _QueueControl: 0
     - _QueueOffset: -14
     - _ReceiveShadows: 1
     - _SampleGI: 0
@@ -150,17 +150,17 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _center: {r: 0.5, g: 2.8, b: 0, a: 0}
+    - _center: {r: 0.5, g: 2.8862112, b: 0, a: 0}
     - _center_1: {r: 1, g: 1, b: 0, a: 0}
-    - _offset: {r: 0, g: 1.09, b: 0, a: 0}
-    - _offset2: {r: 0, g: 2, b: 0, a: 0}
+    - _offset: {r: 0, g: 0.64, b: 0, a: 0}
+    - _offset2: {r: 0, g: -2, b: 0, a: 0}
     - _offset2_1: {r: 0, g: 1, b: 0, a: 0}
     - _rotate_center: {r: 0, g: 0, b: 0, a: 0}
     - _scroll_velocity: {r: 0, g: 0, b: 0, a: 0}
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
-    - _strength: {r: 0.42, g: -5.22, b: 0, a: 0}
+    - _strength: {r: 0.7, g: 0.22, b: 0, a: 0}
     - _strength_1: {r: 5, g: 5, b: 0, a: 0}
-    - _tiling: {r: 1, g: 4.49, b: 0, a: 0}
-    - _tiling2: {r: 1, g: 0.22, b: 0, a: 0}
+    - _tiling: {r: 1, g: 5.1552773, b: 0, a: 0}
+    - _tiling2: {r: 1.89, g: 1.08, b: 0, a: 0}
     - _tiling2_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
