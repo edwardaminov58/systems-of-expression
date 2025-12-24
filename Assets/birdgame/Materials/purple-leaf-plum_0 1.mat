@@ -161,7 +161,7 @@ Material:
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _Vector2: {r: 0, g: 0, b: 0, a: 0}
-    - _center: {r: 1.75, g: 0.58083767, b: 0, a: 0}
+    - _center: {r: 1.75, g: 0.87, b: 0, a: 0}
     - _center_1: {r: 1, g: 1, b: 0, a: 0}
     - _offset: {r: -0.27, g: 0.19, b: 0, a: 0}
     - _offset2: {r: -0.5, g: 0, b: 0, a: 0}
@@ -171,7 +171,7 @@ Material:
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
     - _strength: {r: 2, g: 2, b: 0, a: 0}
     - _strength_1: {r: 5, g: 5, b: 0, a: 0}
-    - _tiling: {r: 5.23, g: 1.2026888, b: 0, a: 0}
+    - _tiling: {r: 5.23, g: 1.24, b: 0, a: 0}
     - _tiling2: {r: 1.15, g: 1.2, b: 0, a: 0}
     - _tiling2_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
