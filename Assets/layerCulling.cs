@@ -28,6 +28,6 @@ public class layerCulling : MonoBehaviour
     {
         float t = bird.transform.localPosition.y / farPlaneThreshold;
         distances[0] = Mathf.Lerp(occlusionPlaneStart, occlusionPlaneEnd, t);
-        Debug.Log(GetComponent<Camera>().layerCullDistances[0]);
+        //Debug.Log(GetComponent<Camera>().layerCullDistances[0]);
     }
 }

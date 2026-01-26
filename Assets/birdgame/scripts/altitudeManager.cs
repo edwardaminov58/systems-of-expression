@@ -25,7 +25,7 @@ public class altitudeManager : MonoBehaviour
     public UnityEvent Alt6;
     public UnityEvent Alt7;
     public float[] altitudes;
-    int currentHeightLayer;
+    public int currentHeightLayer;
     int nextHeightLayer;
     int lastHeightLayer;
 
@@ -39,7 +39,7 @@ public class altitudeManager : MonoBehaviour
         //currentHeightLayer = altitudes[n];
         //currentHeightLayer = bird.transform.position.y;
         Debug.Log("currentHeightLayer: " + currentHeightLayer);
-        Alt1.Invoke();
+        //Alt1.Invoke();
 
     }
 

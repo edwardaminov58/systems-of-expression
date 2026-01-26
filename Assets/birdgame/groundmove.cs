@@ -10,13 +10,13 @@ public class groundmove : MonoBehaviour
     float timeCount = 0.0f;
     public float rotationSpeed = 0.005f;
     // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
+    //void Awake()
+    //{
+    //    transform.position = new Vector3(transform.position.x, transform.position.y, bird.transform.position.z + Zoffset);
+    //}
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.position = new Vector3(transform.position.x, transform.position.y, bird.transform.position.z + Zoffset);
 

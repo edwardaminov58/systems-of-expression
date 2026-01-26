@@ -29,29 +29,29 @@ public class flight : MonoBehaviour
     public float burst;
     public float angle;
     Animator anim;
-    public float maxGravity;
+    public float Gravity;
     public float maxSoar;
     //public float noseMax;
     public float nosediveSpeed;
     public float damage;
     public float preyBounce = 30;
-    public float constantDrop;
+    public float dropFromRise;
     public float constantForward;
     //public float FspeedMin;
     //public float FspeedMax;
     ////float currentForwardSpeed;
     public float speedup;
-    // public float slowdownMin;
+    public float slowdownMin;
     public float slowdownMax;
     public float speedupMin;
     public float speedupMax;
-    public float speedtime;
+    //public float speedtime;
     //public float speedtimeMax;
-    public float slowspeed;
+    //public float slowTime;
     public float cooldown;
     float startBurst;
     float startSpeedupMax;
-    float startSlowdownMax;
+    float startSlowdownMin;
     public float startNoseSpeed;
     public CinemachineVirtualCamera vcam;
     public float cameraDamp;
@@ -68,6 +68,19 @@ public class flight : MonoBehaviour
     bool bounced = false;
     public float bounceBoostSpeed = 20;
     float sideBurstEnd;
+    float originalSpeed;
+    public float speedReset;
+    public float speedtimeStart;
+    public float speedtimeDuration;
+    public float speedtimeStop;
+    public float slowtimeStart;
+    public float slowtimeDuration;
+    public float slowtimeStop;
+    float flapDrop = 1;
+    float dropFromRiseStart;
+    public float brakePull;
+
+
 
 
     Vector3 forwardmovement;
@@ -76,6 +89,8 @@ public class flight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        dropFromRiseStart = dropFromRise;
+        originalSpeed = constantForward;
         startCameraDamp = cameraDamp;
         //currentForwardSpeed = constantForward;
         //rb = GetComponent<Rigidbody>();
@@ -83,7 +98,7 @@ public class flight : MonoBehaviour
         initialSpeed = turnSpeed;
         startBurst = burst;
         startSpeedupMax = speedupMax;
-        startSlowdownMax = slowdownMax;
+        startSlowdownMin = slowdownMin;
         forwardmovement = new Vector3(0, 0, 1);
         //complexDrop = Mathf.Log(Mathf.Pow(constantDrop, 3) + 5) * Time.deltaTime;
     }
@@ -91,6 +106,7 @@ public class flight : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        //flapDropTime();
         //Debug.Log("Velocity: " + rb.velocity);
         //Debug.Log(sideBurstEnd);
         //Occlusion();
@@ -112,7 +128,7 @@ public class flight : MonoBehaviour
         if ((y < 0))
         {
             anim.SetFloat("nosedivevalue", y);
-            if (bounced!=true)
+            if (bounced != true)
             {
                 NoseDive(x, y, nosediveSpeed);
                 if (x != 0)
@@ -174,8 +190,8 @@ public class flight : MonoBehaviour
         //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, constantForward);
 
         ClampPosition();
-        rb.velocity = new Vector3((x * turnSpeed + sideBurstEnd) , Mathf.Clamp(rb.velocity.y - constantDrop, maxGravity, maxSoar), rb.velocity.z);
-        // Debug.Log(rb.velocity.y);
+        rb.velocity = new Vector3((x * turnSpeed + sideBurstEnd), Mathf.Clamp(rb.velocity.y - dropFromRise, Gravity, maxSoar), rb.velocity.z);
+        //Debug.Log("velocity:" + rb.velocity.y);
         //Debug.Log(rb.velocity);
         // rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(rb.velocity.y - constantDrop, altitudeMin, altitudeMax), rb.velocity.z);
         TiltL = Input.GetAxis("Left Tilt");
@@ -211,9 +227,9 @@ public class flight : MonoBehaviour
         float t = gameObject.transform.localPosition.y / lensThreshold;
         //vcam.m_Lens.FieldOfView = Mathf.Lerp(60, 35, t);
         //vcam.GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = Mathf.Lerp(6, 20, t);
-        
+
         vcam.m_Lens.FieldOfView = Mathf.Lerp(35, 60, t);
-        vcam.GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = 13;
+        //vcam.GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = 13;
 
     }
     void Occlusion()
@@ -291,7 +307,7 @@ public class flight : MonoBehaviour
     }
     void NoseDive(float x, float y, float speed)
     {
-        
+
         anim.SetBool("nosedive", true);
         //transform.localPosition += new Vector3(0, y, 0) * speed * Time.deltaTime;
         if (transform.position.y <= (minlimit.y + 1))
@@ -317,9 +333,19 @@ public class flight : MonoBehaviour
         pos.y = Mathf.Clamp01(pos.y);
         // transform.position = Camera.main.ViewportToWorldPoint(pos);
         transform.localPosition = new Vector3(Mathf.Clamp(localPos.x, minlimit.x, maxlimit.x), Mathf.Clamp(localPos.y, minlimit.y, maxlimit.y), localPos.z);
+        //Debug.Log("constant drop: " + constantDrop);
     }
 
-     
+    void flapDropTime()
+    {
+        //if (anim.GetBool("flapbool") == true)
+        //{
+        //    constantDrop = flapDrop;
+
+        //}
+        //else
+        //    constantDrop = constantdropStart;
+    }
     void Flap(float burst, float angle)
     {
         //transform.localPosition += new Vector3(0, burst, 0);
@@ -499,7 +525,7 @@ public class flight : MonoBehaviour
     {
         burst = Mathf.Clamp(burst - reduceFlap, FlapMin, startBurst);
         speedupMax = Mathf.Clamp(speedupMax - 25, speedupMin, speedupMax);
-        slowdownMax = Mathf.Clamp(slowdownMax + 25, slowdownMax, speedupMin);
+        slowdownMax = Mathf.Clamp(slowdownMin + 5, slowdownMin, slowdownMax);
         cameraDamp = Mathf.Clamp(cameraDamp - .05f, 0.01f, .25f);
 
     }
@@ -507,7 +533,7 @@ public class flight : MonoBehaviour
     {
         burst = startBurst;
         speedupMax = startSpeedupMax;
-        slowdownMax = startSlowdownMax;
+        slowdownMin = startSlowdownMin;
         cameraDamp = startCameraDamp;
 
     }
@@ -547,7 +573,7 @@ public class flight : MonoBehaviour
         anim.SetBool("speed", true);
 
         //vcam.m_Lens.FieldOfView = 70;
-        for (float t = 0f; t < 1f; t += Time.deltaTime / speedtime)
+        for (float t = 0f; t < 1f; t += Time.deltaTime / speedtimeStart)
         {
             vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(0, cameraDamp, t);
             constantForward = Mathf.SmoothStep(constantForward, speedupMax, t);
@@ -555,20 +581,27 @@ public class flight : MonoBehaviour
             yield return null;
         }
 
-        yield return new WaitForSeconds(speedtime);
+        yield return new WaitForSeconds(speedtimeDuration);
         anim.SetBool("speed", false);
-        for (float t = 0f; t < 1f; t += Time.deltaTime / speedtime)
+        for (float t = 0f; t < 1f; t += Time.deltaTime / speedtimeStop)
         {
             vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(cameraDamp, 0, t);
-            constantForward = Mathf.SmoothStep(constantForward, speedupMin, t);
+            constantForward = Mathf.SmoothStep(speedupMax ,originalSpeed, t);
            // Debug.Log(constantForward);
             yield return null;
         }
+        
+        //yield return new WaitForSeconds(speedReset);
+        //constantForward = originalSpeed;
         // yield return new WaitForSeconds(cooldown);
         //yield return new WaitForSeconds(.1f);
 
         //vcam.m_Lens.FieldOfView = 60;
+        
+        
         ReduceStrength();
+        
+        
         //yield break;
         //}
 
@@ -598,23 +631,31 @@ public class flight : MonoBehaviour
     IEnumerator Slow()
     {
         anim.SetBool("slow", true);
-        for (float t = 0f; t < 1f; t += Time.deltaTime / slowspeed)
+        for (float t = 0f; t < 1f; t += Time.deltaTime / slowtimeStart)
         {
-            constantForward = Mathf.SmoothStep(constantForward, slowdownMax, t);
+            vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = Mathf.SmoothStep(13, brakePull, t);
+            //Debug.Log(constantForward);
+            yield return null;
+        }
+       
+        yield return new WaitForSeconds(slowtimeDuration);
+        for (float t = 0f; t < 1f; t += Time.deltaTime / slowtimeStop)
+        {
+            vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = Mathf.SmoothStep(brakePull, 13, t);
+            constantForward = Mathf.SmoothStep(slowdownMin, originalSpeed, t);
             //Debug.Log(constantForward);
             yield return null;
         }
         anim.SetBool("slow", false);
-        yield return new WaitForSeconds(speedtime);
-        for (float t = 0f; t < 1f; t += Time.deltaTime / slowspeed)
-        {
-            constantForward = Mathf.SmoothStep(constantForward, speedupMin, t);
-            //Debug.Log(constantForward);
-            yield return null;
-        }
+        //yield return new WaitForSeconds(speedReset);
+        //constantForward = originalSpeed;
         //yield return new WaitForSeconds(cooldown);
 
+
         ReduceStrength();
+        
+        
+        
         //yield break;
     }
     // void SpeedUp()
