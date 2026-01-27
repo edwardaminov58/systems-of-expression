@@ -5,6 +5,8 @@ using Cinemachine;
 
 public class flight : MonoBehaviour
 {
+    public float minLens;
+    public float maxLens;
     public float occlusionPlaneStart;
     public float occlusionPlaneEnd;
     private bool noWindA = false;
@@ -228,7 +230,7 @@ public class flight : MonoBehaviour
         //vcam.m_Lens.FieldOfView = Mathf.Lerp(60, 35, t);
         //vcam.GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = Mathf.Lerp(6, 20, t);
 
-        vcam.m_Lens.FieldOfView = Mathf.Lerp(35, 60, t);
+        vcam.m_Lens.FieldOfView = Mathf.Lerp(minLens, maxLens, t);
         //vcam.GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = 13;
 
     }

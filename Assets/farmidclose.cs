@@ -1,0 +1,56 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class farmidclose : MonoBehaviour
+{ 
+    public float distancefromBirdtoSpriteChange;
+    Vector3 startScale;
+    public GameObject bird;
+    public Sprite NewSprite;
+    public Vector3 endScale;
+    float z = 0;
+    public float distancefromBirdtoStopScaling;
+    float distancefromBirdGlobal;
+    public bool SpriteChanged;
+    public bool Grow;
+    //Transform parentTransform;
+    //Transform childTransform;
+    // Start is called before the first frame update
+    void Start()
+    {
+        //parentTransform = GetComponent<Transform>();
+        //childTransform = parentTransform.GetChild(0);  
+        startScale = transform.localScale;
+    }
+
+    // Update is called once per frame  
+    void Update()
+    {
+        if (Grow)
+            GrowBigger();
+        if (NewSprite != null && transform.position.z - bird.transform.position.z <= distancefromBirdtoSpriteChange && SpriteChanged == false)
+            spriteChange();
+    }
+    public void GrowBigger()
+    {
+
+            transform.localScale = Vector3.Lerp(startScale, endScale, z);
+            //z = (bird.transform.position.z - startDistance) / (targetBirdDistanceScale + startDistance);
+            z = ( bird.transform.position.z) / ((transform.position.z - distancefromBirdtoStopScaling));
+            Debug.Log(z + "=" + bird.transform.position.z + "-" + transform.position.z + "/" + distancefromBirdtoStopScaling);
+            //Debug.Log(z + "=" + bird.transform.position.z + "/" + transform.position.z + "-" + bird.transform.position.z); 
+        if (z >= 1)
+        {
+         Grow = false;
+            
+        }
+
+    }
+    public void spriteChange()
+    {
+        GetComponentInChildren<SpriteRenderer>().sprite = NewSprite;
+        SpriteChanged = true;
+    }
+    //Debug.Log(z + "=" + bird.transform.position.z + "/" + targetBirdDistance + "+" + birdStart);
+}
