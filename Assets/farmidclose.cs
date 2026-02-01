@@ -5,6 +5,7 @@ using UnityEngine;
 public class farmidclose : MonoBehaviour
 { 
     public float distancefromBirdtoSpriteChange;
+    Vector3 newTransform;
     Vector3 startScale;
     public GameObject bird;
     public Sprite NewSprite;
@@ -14,13 +15,16 @@ public class farmidclose : MonoBehaviour
     float distancefromBirdGlobal;
     public bool SpriteChanged;
     public bool Grow;
+    Transform Distance;
     //Transform parentTransform;
     //Transform childTransform;
     // Start is called before the first frame update
     void Start()
     {
+        Distance = gameObject.transform.parent;
         //parentTransform = GetComponent<Transform>();
-        //childTransform = parentTransform.GetChild(0);  
+        //childTransform = parentTransform.GetChild(0);
+        
         startScale = transform.localScale;
     }
 
@@ -29,21 +33,25 @@ public class farmidclose : MonoBehaviour
     {
         if (Grow)
             GrowBigger();
-        if (NewSprite != null && transform.position.z - bird.transform.position.z <= distancefromBirdtoSpriteChange && SpriteChanged == false)
+        if (NewSprite != null && Distance.position.z - bird.transform.position.z <= distancefromBirdtoSpriteChange && SpriteChanged == false)
             spriteChange();
     }
     public void GrowBigger()
     {
 
-            transform.localScale = Vector3.Lerp(startScale, endScale, z);
-            //z = (bird.transform.position.z - startDistance) / (targetBirdDistanceScale + startDistance);
-            z = ( bird.transform.position.z) / ((transform.position.z - distancefromBirdtoStopScaling));
-            Debug.Log(z + "=" + bird.transform.position.z + "-" + transform.position.z + "/" + distancefromBirdtoStopScaling);
-            //Debug.Log(z + "=" + bird.transform.position.z + "/" + transform.position.z + "-" + bird.transform.position.z); 
+        // transform.localScale = Vector3.Lerp(startScale, endScale, z);
+        newTransform.x = Mathf.SmoothStep(startScale.x, endScale.x, z);
+        newTransform.y = Mathf.SmoothStep(startScale.y, endScale.y, z);
+        newTransform.z = Mathf.SmoothStep(startScale.z, endScale.z, z);
+        transform.localScale = newTransform;
+        //z = (bird.transform.position.z - startDistance) / (targetBirdDistanceScale + startDistance);
+        z = ( bird.transform.position.z) / ((Distance.position.z - distancefromBirdtoStopScaling));
+            Debug.Log(z + "=" + bird.transform.position.z + "-" + Distance.position.z + "/" + distancefromBirdtoStopScaling);
+        //Debug.Log(z + "=" + bird.transform.position.z + "/" + transform.position.z + "-" + bird.transform.position.z); 
         if (z >= 1)
         {
-         Grow = false;
-            
+            Grow = false;
+
         }
 
     }
