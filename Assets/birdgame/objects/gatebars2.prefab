@@ -33,6 +33,12 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.01623211
       objectReference: {fileID: 0}
+    - target: {fileID: 20732515896196768, guid: ef019bb1509667d4daa70fd679a0f0a6,
+        type: 3}
+      propertyPath: gatedata
+      value: 
+      objectReference: {fileID: 11400000, guid: b717e37f0c9073549b944a039e5760ba,
+        type: 2}
     - target: {fileID: 3295617260747583716, guid: ef019bb1509667d4daa70fd679a0f0a6,
         type: 3}
       propertyPath: m_SortingOrder
