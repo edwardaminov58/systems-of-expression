@@ -132267,19 +132267,31 @@ MonoBehaviour:
   DistanceEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4232439808212796145}
-        m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
-        m_MethodName: set_sprite
+      - m_Target: {fileID: 2104541199}
+        m_TargetAssemblyTypeName: flight, Assembly-CSharp
+        m_MethodName: changeData
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: f8237adcdf949214cae9e8b03d6863f7,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 1cdb7ca931be3af41bbf1fd201575d72,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: flightData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2104541199}
+        m_TargetAssemblyTypeName: flight, Assembly-CSharp
+        m_MethodName: Initialize
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 199405180}
@@ -738319,6 +738331,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c5cf9fa61ae95429d739f60c456b17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2104541199 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1762995827492480583, guid: 9705198535701d347829aa3074bb046a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1553463920}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321362213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c011e8b306908f479138d9e98972ad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2105515137
 GameObject:
   m_ObjectHideFlags: 0
@@ -750959,12 +750983,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!212 &4232439808212796145 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 8073982102372765322, guid: 0957aa301d2369e4fbe8afd876f13243,
-    type: 3}
-  m_PrefabInstance: {fileID: 1458010262771425956}
-  m_PrefabAsset: {fileID: 0}
 --- !u!23 &4954202748320527866
 MeshRenderer:
   m_ObjectHideFlags: 0

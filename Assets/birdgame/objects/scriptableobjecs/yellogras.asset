@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f27d2628826074f4f89f069e2ff06ab4, type: 3}
-  m_Name: GreenPark
+  m_Name: yellogras
   m_EditorClassIdentifier: 
   minForward: 75
   maxForward: 150
   maxlimit: {x: 200, y: 500}
   minlimit: {x: -200, y: 1}
-  turnSpeed: 25
+  turnSpeed: 40
   leanSpeed: 40
   burst: 50
-  Gravity: -3
-  maxSoar: 150
+  Gravity: -1
+  maxSoar: 200
   dropFromRise: 1
   slowdownMin: 25
   slowdownMax: 30

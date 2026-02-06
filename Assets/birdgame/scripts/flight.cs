@@ -5,6 +5,7 @@ using Cinemachine;
 
 public class flight : MonoBehaviour
 {
+
     public flightData FlightData;
     //public float minForward;
     //public float maxForward;
@@ -114,6 +115,11 @@ public class flight : MonoBehaviour
         startSlowdownMin = FlightData.slowdownMin;
     }
 
+    public void changeData(flightData newData)
+    {
+        
+        FlightData = newData;
+    }
     // Update is called once per frame
     void FixedUpdate()
     {
