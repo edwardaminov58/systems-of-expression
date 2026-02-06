@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
-public class flight : MonoBehaviour
+public class flightcopy : MonoBehaviour
 {
-    public flightData FlightData;
-    //public float minForward;
-    //public float maxForward;
+    public float minForward;
+    public float maxForward;
     public float minLens;
     public float maxLens;
     public float occlusionPlaneStart;
@@ -15,8 +14,8 @@ public class flight : MonoBehaviour
     private bool noWindA = false;
     private bool wind = false;
     //public Vector2 limits = new Vector2(5, 3);
-    //public Vector2 maxlimit;
-    //public Vector2 minlimit;
+    public Vector2 maxlimit;
+    public Vector2 minlimit;
     //float horizontal;
     //float vertical;
     //float xprime;
@@ -25,31 +24,31 @@ public class flight : MonoBehaviour
     float y;
     float TiltL;
     float TiltR;
-    //public float turnSpeed;
+    public float turnSpeed;
     float initialSpeed;
-    //public float leanSpeed;
+    public float leanSpeed;
     //private float activeSpeed;
     //public float acceleration;
     public Rigidbody rb;
-    //public float burst;
+    public float burst;
     public float angle;
     Animator anim;
-    //public float Gravity;
-    //public float maxSoar;
+    public float Gravity;
+    public float maxSoar;
     public float noseMax;
     public float nosediveSpeed;
     public float damage;
     public float preyBounce = 30;
-    //public float dropFromRise;
+    public float dropFromRise;
     public float constantForward;
     //public float FspeedMin;
     //public float FspeedMax;
     ////float currentForwardSpeed;
     public float speedup;
-    //public float slowdownMin;
-    //public float slowdownMax;
-    //public float speedupMin;
-    //public float speedupMax;
+    public float slowdownMin;
+    public float slowdownMax;
+    public float speedupMin;
+    public float speedupMax;
     //public float speedtime;
     //public float speedtimeMax;
     //public float slowTime;
@@ -75,12 +74,12 @@ public class flight : MonoBehaviour
     float sideBurstEnd;
     float originalSpeed;
     public float speedReset;
-    //public float speedtimeStart;
-    //public float speedtimeDuration;
-    //public float speedtimeStop;
-    //public float slowtimeStart;
-    //public float slowtimeDuration;
-    //public float slowtimeStop;
+    public float speedtimeStart;
+    public float speedtimeDuration;
+    public float speedtimeStop;
+    public float slowtimeStart;
+    public float slowtimeDuration;
+    public float slowtimeStop;
     float flapDrop = 1;
     float dropFromRiseStart;
     public float brakePull;
@@ -94,24 +93,18 @@ public class flight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Initialize();
+        dropFromRiseStart = dropFromRise;
+        originalSpeed = constantForward;
+        startCameraDamp = cameraDamp;
         //currentForwardSpeed = constantForward;
         //rb = GetComponent<Rigidbody>();
         anim = gameObject.GetComponent<Animator>();
-
+        initialSpeed = turnSpeed;
+        startBurst = burst;
+        startSpeedupMax = speedupMax;
+        startSlowdownMin = slowdownMin;
         forwardmovement = new Vector3(0, 0, 1);
         //complexDrop = Mathf.Log(Mathf.Pow(constantDrop, 3) + 5) * Time.deltaTime;
-    }
-
-    public void Initialize()
-    {
-        dropFromRiseStart = FlightData.dropFromRise;
-        originalSpeed = constantForward;
-        startCameraDamp = cameraDamp;
-        initialSpeed = FlightData.turnSpeed;
-        startBurst = FlightData.burst;
-        startSpeedupMax = FlightData.speedupMax;
-        startSlowdownMin = FlightData.slowdownMin;
     }
 
     // Update is called once per frame
@@ -133,7 +126,7 @@ public class flight : MonoBehaviour
         //else x = 0;
         //activeSpeed = Mathf.Lerp(activeSpeed, Input.GetAxisRaw("Horizontal") * turnSpeed, acceleration * Time.deltaTime);
 
-        Steer(x, y, FlightData.turnSpeed);
+        Steer(x, y, turnSpeed);
         if (x == 0)
             startTurnSpeed = 0;
         if ((y < 0))
@@ -162,7 +155,7 @@ public class flight : MonoBehaviour
         //transform.position += transform.right * activeSpeed * Time.deltaTime;
         if ((Input.GetButton("Jump")) && (anim.GetBool("flapbool") == false) && (anim.GetBool("damage") == false))
         {
-            Flap(FlightData.burst, angle);
+            Flap(burst, angle);
 
         }
 
@@ -201,7 +194,7 @@ public class flight : MonoBehaviour
         //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, constantForward);
 
         ClampPosition();
-        rb.velocity = new Vector3((x * FlightData.turnSpeed + sideBurstEnd), Mathf.Clamp(rb.velocity.y - FlightData.dropFromRise, FlightData.Gravity, FlightData.maxSoar), rb.velocity.z);
+        rb.velocity = new Vector3((x * turnSpeed + sideBurstEnd), Mathf.Clamp(rb.velocity.y - dropFromRise, Gravity, maxSoar), rb.velocity.z);
         //Debug.Log("velocity:" + rb.velocity.y);
         //Debug.Log(rb.velocity);
         // rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(rb.velocity.y - constantDrop, altitudeMin, altitudeMax), rb.velocity.z);
@@ -213,16 +206,16 @@ public class flight : MonoBehaviour
         //Debug.Log(TiltL);
         if (TiltL > 0 && x < -0.1)
         {
-            FlightData.turnSpeed = FlightData.leanSpeed;
+            turnSpeed = leanSpeed;
 
         }
         else if (TiltR > 0 && x > 0.1)
         {
-            FlightData.turnSpeed = FlightData.leanSpeed;
+            turnSpeed = leanSpeed;
         }
         else
         {
-            FlightData.turnSpeed = initialSpeed;
+            turnSpeed = initialSpeed;
         }
     }
     void windRide()
@@ -321,7 +314,7 @@ public class flight : MonoBehaviour
 
         anim.SetBool("nosedive", true);
         //transform.localPosition += new Vector3(0, y, 0) * speed * Time.deltaTime;
-        if (transform.position.y <= (FlightData.minlimit.y + 1))
+        if (transform.position.y <= (minlimit.y + 1))
         {
             nosediveSpeed = bounceBoostSpeed;
             //Mathf.Clamp(nosediveSpeed++, startNoseSpeed, bounceBoostSpeed);
@@ -343,7 +336,7 @@ public class flight : MonoBehaviour
         pos.x = Mathf.Clamp01(pos.x);
         pos.y = Mathf.Clamp01(pos.y);
         // transform.position = Camera.main.ViewportToWorldPoint(pos);
-        transform.localPosition = new Vector3(Mathf.Clamp(localPos.x, FlightData.minlimit.x, FlightData.maxlimit.x), Mathf.Clamp(localPos.y, FlightData.minlimit.y, FlightData.maxlimit.y), localPos.z);
+        transform.localPosition = new Vector3(Mathf.Clamp(localPos.x, minlimit.x, maxlimit.x), Mathf.Clamp(localPos.y, minlimit.y, maxlimit.y), localPos.z);
         //Debug.Log("constant drop: " + constantDrop);
     }
 
@@ -419,10 +412,10 @@ public class flight : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
-        Gizmos.DrawLine(new Vector3(FlightData.minlimit.x, FlightData.minlimit.y, transform.position.z), new Vector3(FlightData.maxlimit.x, FlightData.minlimit.y, transform.position.z));
-        Gizmos.DrawLine(new Vector3(FlightData.maxlimit.x, FlightData.minlimit.y, transform.position.z), new Vector3(FlightData.maxlimit.x, FlightData.maxlimit.y, transform.position.z));
-        Gizmos.DrawLine(new Vector3(FlightData.maxlimit.x, FlightData.maxlimit.y, transform.position.z), new Vector3(FlightData.minlimit.x, FlightData.maxlimit.y, transform.position.z));
-        Gizmos.DrawLine(new Vector3(FlightData.minlimit.x, FlightData.maxlimit.y, transform.position.z), new Vector3(FlightData.minlimit.x, FlightData.minlimit.y, transform.position.z));
+        Gizmos.DrawLine(new Vector3(minlimit.x, minlimit.y, transform.position.z), new Vector3(maxlimit.x, minlimit.y, transform.position.z));
+        Gizmos.DrawLine(new Vector3(maxlimit.x, minlimit.y, transform.position.z), new Vector3(maxlimit.x, maxlimit.y, transform.position.z));
+        Gizmos.DrawLine(new Vector3(maxlimit.x, maxlimit.y, transform.position.z), new Vector3(minlimit.x, maxlimit.y, transform.position.z));
+        Gizmos.DrawLine(new Vector3(minlimit.x, maxlimit.y, transform.position.z), new Vector3(minlimit.x, minlimit.y, transform.position.z));
     }
 
     void endFlap()
@@ -534,17 +527,17 @@ public class flight : MonoBehaviour
 
     void ReduceStrength()
     {
-        FlightData.burst = Mathf.Clamp(FlightData.burst - reduceFlap, FlapMin, startBurst);
-        FlightData.speedupMax = Mathf.Clamp(FlightData.speedupMax - 25, FlightData.speedupMin, FlightData.speedupMax);
-        FlightData.slowdownMax = Mathf.Clamp(FlightData.slowdownMin + 5, FlightData.slowdownMin, FlightData.slowdownMax);
+        burst = Mathf.Clamp(burst - reduceFlap, FlapMin, startBurst);
+        speedupMax = Mathf.Clamp(speedupMax - 25, speedupMin, speedupMax);
+        slowdownMax = Mathf.Clamp(slowdownMin + 5, slowdownMin, slowdownMax);
         cameraDamp = Mathf.Clamp(cameraDamp - .05f, 0.01f, .25f);
 
     }
     void RestoreStrength()
     {
-        FlightData.burst = startBurst;
-        FlightData.speedupMax = startSpeedupMax;
-        FlightData.slowdownMin = startSlowdownMin;
+        burst = startBurst;
+        speedupMax = startSpeedupMax;
+        slowdownMin = startSlowdownMin;
         cameraDamp = startCameraDamp;
 
     }
@@ -559,7 +552,7 @@ public class flight : MonoBehaviour
         {
           
       
-            sideBurstEnd = Mathf.Lerp(FlightData.burst /n, 0, t);
+            sideBurstEnd = Mathf.Lerp(burst/n, 0, t);
 
 
             yield return null;
@@ -583,23 +576,23 @@ public class flight : MonoBehaviour
         //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, speedup);
         anim.SetBool("speed", true);
         float previousSpeed = constantForward;
-        float newSpeed = Mathf.Clamp(previousSpeed + 10, FlightData.minForward, FlightData.maxForward);
+        float newSpeed = Mathf.Clamp(previousSpeed + 10, minForward, maxForward);
         //vcam.m_Lens.FieldOfView = 70;
-        for (float t = 0f; t < 1f; t += Time.deltaTime / FlightData.speedtimeStart)
+        for (float t = 0f; t < 1f; t += Time.deltaTime / speedtimeStart)
         {
             vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(0, cameraDamp, t);
             
-            constantForward = Mathf.SmoothStep(constantForward, FlightData.speedupMax, t);
+            constantForward = Mathf.SmoothStep(constantForward, speedupMax, t);
             //Debug.Log(constantForward);
             yield return null;
         }
 
-        yield return new WaitForSeconds(FlightData.speedtimeDuration);
+        yield return new WaitForSeconds(speedtimeDuration);
         anim.SetBool("speed", false);
-        for (float t = 0f; t < 1f; t += Time.deltaTime / FlightData.speedtimeStop)
+        for (float t = 0f; t < 1f; t += Time.deltaTime / speedtimeStop)
         {
             vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(cameraDamp, 0, t);
-            constantForward = Mathf.SmoothStep(FlightData.speedupMax, newSpeed,  t);
+            constantForward = Mathf.SmoothStep(speedupMax, newSpeed,  t);
            // Debug.Log(constantForward);
             yield return null;
         }
@@ -645,18 +638,18 @@ public class flight : MonoBehaviour
     {
         float previousSpeed = constantForward;
         anim.SetBool("slow", true);
-        for (float t = 0f; t < 1f; t += Time.deltaTime / FlightData.slowtimeStart)
+        for (float t = 0f; t < 1f; t += Time.deltaTime / slowtimeStart)
         {
             vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = Mathf.SmoothStep(13, brakePull, t);
             //Debug.Log(constantForward);
             yield return null;
         }
        
-        yield return new WaitForSeconds(FlightData.slowtimeDuration);
-        for (float t = 0f; t < 1f; t += Time.deltaTime / FlightData.slowtimeStop)
+        yield return new WaitForSeconds(slowtimeDuration);
+        for (float t = 0f; t < 1f; t += Time.deltaTime / slowtimeStop)
         {
             vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = Mathf.SmoothStep(brakePull, 13, t);
-            constantForward = Mathf.SmoothStep(FlightData.slowdownMin, Mathf.Clamp(previousSpeed - 10, FlightData.minForward, FlightData.maxForward), t);
+            constantForward = Mathf.SmoothStep(slowdownMin, Mathf.Clamp(previousSpeed - 10, minForward, maxForward), t);
             //Debug.Log(constantForward);
             yield return null;
         }
@@ -709,7 +702,7 @@ public class flight : MonoBehaviour
    IEnumerator speedChange()
     {
         
-        for (float t = 0f; t < 1f; t += Time.deltaTime / FlightData.speedtimeStart)
+        for (float t = 0f; t < 1f; t += Time.deltaTime / speedtimeStart)
         {
             //vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(0, cameraDamp, t);
 
