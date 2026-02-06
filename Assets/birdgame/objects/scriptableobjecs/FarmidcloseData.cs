@@ -9,5 +9,5 @@ public class FarmidcloseData : ScriptableObject
     public Sprite NewSprite;
     public Vector3 endScale;
     public float distancefromBirdtoStopScaling;
-
+    public bool DistanceParentTransform;
 }

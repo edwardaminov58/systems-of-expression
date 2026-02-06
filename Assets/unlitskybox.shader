@@ -11,7 +11,7 @@
 Shader "Unlit/Texture" {
 Properties {
  _MainTex ("Base (RGB)", 2D) = "white" { }
- [MainColor] _BaseColor("Color", Color) = (1,1,1,1)
+ 
 }
 SubShader { 
  LOD 100

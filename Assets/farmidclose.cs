@@ -22,7 +22,10 @@ public class farmidclose : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Distance = gameObject.transform.parent;
+        if (farmidcloseData.DistanceParentTransform == true)
+            Distance = gameObject.transform.parent;
+        else
+            Distance = gameObject.transform;
         //parentTransform = GetComponent<Transform>();
         //childTransform = parentTransform.GetChild(0);
         

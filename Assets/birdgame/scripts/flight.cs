@@ -5,6 +5,8 @@ using Cinemachine;
 
 public class flight : MonoBehaviour
 {
+    public float minForward;
+    public float maxForward;
     public float minLens;
     public float maxLens;
     public float occlusionPlaneStart;
@@ -573,11 +575,13 @@ public class flight : MonoBehaviour
         //{
         //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, speedup);
         anim.SetBool("speed", true);
-
+        float previousSpeed = constantForward;
+        float newSpeed = Mathf.Clamp(previousSpeed + 10, minForward, maxForward);
         //vcam.m_Lens.FieldOfView = 70;
         for (float t = 0f; t < 1f; t += Time.deltaTime / speedtimeStart)
         {
             vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(0, cameraDamp, t);
+            
             constantForward = Mathf.SmoothStep(constantForward, speedupMax, t);
             //Debug.Log(constantForward);
             yield return null;
@@ -588,7 +592,7 @@ public class flight : MonoBehaviour
         for (float t = 0f; t < 1f; t += Time.deltaTime / speedtimeStop)
         {
             vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(cameraDamp, 0, t);
-            constantForward = Mathf.SmoothStep(speedupMax ,originalSpeed, t);
+            constantForward = Mathf.SmoothStep(speedupMax, newSpeed,  t);
            // Debug.Log(constantForward);
             yield return null;
         }
@@ -632,6 +636,7 @@ public class flight : MonoBehaviour
 
     IEnumerator Slow()
     {
+        float previousSpeed = constantForward;
         anim.SetBool("slow", true);
         for (float t = 0f; t < 1f; t += Time.deltaTime / slowtimeStart)
         {
@@ -644,7 +649,7 @@ public class flight : MonoBehaviour
         for (float t = 0f; t < 1f; t += Time.deltaTime / slowtimeStop)
         {
             vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = Mathf.SmoothStep(brakePull, 13, t);
-            constantForward = Mathf.SmoothStep(slowdownMin, originalSpeed, t);
+            constantForward = Mathf.SmoothStep(slowdownMin, Mathf.Clamp(previousSpeed - 10, minForward, maxForward), t);
             //Debug.Log(constantForward);
             yield return null;
         }
@@ -690,4 +695,20 @@ public class flight : MonoBehaviour
 
 
     //}
+   public void SpeedChange()
+    {
+        StartCoroutine(speedChange());    
+    }
+   IEnumerator speedChange()
+    {
+        
+        for (float t = 0f; t < 1f; t += Time.deltaTime / speedtimeStart)
+        {
+            //vcam.GetComponent<CinemachineVirtualCamera>().GetCinemachineComponent<CinemachineFramingTransposer>().m_ZDamping = Mathf.SmoothStep(0, cameraDamp, t);
+
+            constantForward = Mathf.SmoothStep(constantForward, 1, t);
+            //Debug.Log(constantForward);
+            yield return null;
+        }
+    }
 }

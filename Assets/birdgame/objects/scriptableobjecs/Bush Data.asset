@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45718dea10ff2734a97a502db5af41e6, type: 3}
   m_Name: Bush Data
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 650
+  distancefromBirdtoSpriteChange: 200
   NewSprite: {fileID: 21300000, guid: f8237adcdf949214cae9e8b03d6863f7, type: 3}
   endScale: {x: 50, y: 50, z: 1}
-  distancefromBirdtoStopScaling: 300
+  distancefromBirdtoStopScaling: 400
+  DistanceParentTransform: 0
