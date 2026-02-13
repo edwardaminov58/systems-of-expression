@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class wind : MonoBehaviour
 {
-    public float windstrength;
+    public Vector3 windstrength;
+    public float rideSpeed;
     // Start is called before the first frame update
     void Start()
     {

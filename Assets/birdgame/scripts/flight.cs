@@ -5,7 +5,8 @@ using Cinemachine;
 
 public class flight : MonoBehaviour
 {
-
+    public float ExitSpeed;
+    float windtime = 0;
     public flightData FlightData;
     //public float minForward;
     //public float maxForward;
@@ -62,7 +63,7 @@ public class flight : MonoBehaviour
     public CinemachineVirtualCamera vcam;
     public float cameraDamp;
     float startCameraDamp;
-    float windstrength;
+    Vector3 windstrength;
     float complexDrop;
     float startlens;
     public float lensThreshold;
@@ -123,6 +124,7 @@ public class flight : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        Debug.Log("veloicty = " + rb.velocity);
         //flapDropTime();
         //Debug.Log("Velocity: " + rb.velocity);
         //Debug.Log(sideBurstEnd);
@@ -182,10 +184,11 @@ public class flight : MonoBehaviour
         }
         if (wind == true)
         {
-
-            rb.AddForce(0, .5f, 0, ForceMode.VelocityChange);
+            Debug.Log("wind");
+            rb.AddForce(0, 1.05f, 0, ForceMode.VelocityChange);
             if (y > 0.1)
             {
+                
                 windRide();
             }
 
@@ -233,10 +236,15 @@ public class flight : MonoBehaviour
     }
     void windRide()
     {
+       
         anim.SetBool("windtouch", false);
         anim.SetBool("windride", true);
-        float t = Time.deltaTime * rideSpeed;
-        rb.AddForce(0, Mathf.SmoothStep(rb.velocity.y, windstrength, t), 0, ForceMode.VelocityChange);
+        windtime += Time.deltaTime / rideSpeed;
+        float t = windtime;
+        Debug.Log("t= " + t);
+        //Debug.Log("windstrength= " + windstrength);
+        rb.AddForce(Mathf.SmoothStep(0, windstrength.x, t), Mathf.SmoothStep(0, windstrength.y, t), Mathf.SmoothStep(0, windstrength.z, t), ForceMode.VelocityChange);
+        //rb.AddForce(0, Mathf.SmoothStep(0, windstrength, t), 0, ForceMode.VelocityChange);
     }
     void FOVchange()
     {
@@ -509,11 +517,25 @@ public class flight : MonoBehaviour
     {
         if (other.gameObject.tag == "wind")
         {
+            
             anim.SetBool("windtouch", true);
             wind = true;
             //Debug.Log("windy");
             windstrength = other.gameObject.GetComponent<wind>().windstrength;
+           // rideSpeed = other.gameObject.GetComponent<wind>().rideSpeed;
 
+        }
+    }
+
+    IEnumerator ExitWind()
+    {
+        for (float t = 1; t > 0; t -= Time.deltaTime)
+        {
+            Debug.Log(t);
+            Debug.Log(windstrength);
+            //rb.AddForce(Mathf.SmoothStep(0, windstrength.x, t), Mathf.SmoothStep(0, windstrength.y, t), Mathf.SmoothStep(0, windstrength.z, t), ForceMode.VelocityChange);
+            rb.AddForce(-windstrength.x, -windstrength.y, -windstrength.z);
+            yield return null;
         }
     }
     private void OnTriggerExit(Collider other)
@@ -521,9 +543,12 @@ public class flight : MonoBehaviour
         if (other.gameObject.tag == "wind")
         {
             wind = false;
-            //Debug.Log("no wind");
+            windtime = 0;
+            //windstrength = new Vector3(0, 0, 0);
+            Debug.Log("no wind");
             anim.SetBool("windtouch", false);
-
+            //StartCoroutine(ExitWind());
+            
         }
         //if (other.gameObject.tag == "wind")
         //{

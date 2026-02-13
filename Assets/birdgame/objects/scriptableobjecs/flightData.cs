@@ -19,7 +19,7 @@ public class flightData : ScriptableObject
     public float slowdownMax;
     public float speedupMin;
     public float speedupMax;
-    public float reduceFlap = 5;
+    //public float reduceFlap = 5;
     public float FlapMin = 10;
     public float speedtimeStart;
     public float speedtimeDuration;

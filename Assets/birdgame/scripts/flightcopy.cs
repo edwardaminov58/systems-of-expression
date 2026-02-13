@@ -499,7 +499,7 @@ public class flightcopy : MonoBehaviour
             anim.SetBool("windtouch", true);
             wind = true;
             //Debug.Log("windy");
-            windstrength = other.gameObject.GetComponent<wind>().windstrength;
+           // windstrength = other.gameObject.GetComponent<wind>().windstrength;
 
         }
     }

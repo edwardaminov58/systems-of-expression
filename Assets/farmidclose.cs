@@ -22,6 +22,7 @@ public class farmidclose : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        bird = GameObject.FindGameObjectWithTag("bird");
         if (farmidcloseData.DistanceParentTransform == true)
             Distance = gameObject.transform.parent;
         else
@@ -50,7 +51,7 @@ public class farmidclose : MonoBehaviour
         transform.localScale = newTransform;
         //z = (bird.transform.position.z - startDistance) / (targetBirdDistanceScale + startDistance);
         z = ( bird.transform.position.z) / ((Distance.position.z - farmidcloseData.distancefromBirdtoStopScaling));
-            Debug.Log(z + "=" + bird.transform.position.z + "-" + Distance.position.z + "/" + farmidcloseData.distancefromBirdtoStopScaling);
+            //Debug.Log(z + "=" + bird.transform.position.z + "-" + Distance.position.z + "/" + farmidcloseData.distancefromBirdtoStopScaling);
         //Debug.Log(z + "=" + bird.transform.position.z + "/" + transform.position.z + "-" + bird.transform.position.z); 
         if (z >= 1)
         {

@@ -38,7 +38,7 @@ public class altitudeManager : MonoBehaviour
         startvector = material.GetVector("_offset2");
         //currentHeightLayer = altitudes[n];
         //currentHeightLayer = bird.transform.position.y;
-        Debug.Log("currentHeightLayer: " + currentHeightLayer);
+        //Debug.Log("currentHeightLayer: " + currentHeightLayer);
         //Alt1.Invoke();
 
     }
@@ -46,7 +46,7 @@ public class altitudeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int n = 0; n < altitudes.Length; n++)
+        for (int n = 0; n + 1 < altitudes.Length; n++)
         {
             if (bird.transform.position.y > altitudes[n] && bird.transform.position.y < altitudes[n + 1])
             {
@@ -59,9 +59,9 @@ public class altitudeManager : MonoBehaviour
                 if (lastHeightLayer != currentHeightLayer)
                 {
                     AltitudeChange(currentHeightLayer);
-                    Debug.Log("changelayer");
-                    Debug.Log("currentHeightLayer: " + currentHeightLayer); 
-                    Debug.Log("lastHeightLayer: " + lastHeightLayer);
+                    //Debug.Log("changelayer");
+                    //Debug.Log("currentHeightLayer: " + currentHeightLayer); 
+                    //Debug.Log("lastHeightLayer: " + lastHeightLayer);
 
                 }
             }

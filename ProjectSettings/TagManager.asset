@@ -12,6 +12,7 @@ TagManager:
   - wind
   - prey
   - background
+  - bird
   layers:
   - Default
   - TransparentFX

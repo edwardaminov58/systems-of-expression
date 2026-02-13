@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f27d2628826074f4f89f069e2ff06ab4, type: 3}
-  m_Name: yellogras
+  m_Name: bluegrass
   m_EditorClassIdentifier: 
   minForward: 75
   maxForward: 150
@@ -18,15 +18,15 @@ MonoBehaviour:
   minlimit: {x: -500, y: 1}
   turnSpeed: 40
   leanSpeed: 40
-  burst: 60
-  Gravity: -1
-  maxSoar: 200
+  burst: 25
+  Gravity: -5
+  maxSoar: 300
   dropFromRise: 1
   slowdownMin: 25
   slowdownMax: 30
   speedupMin: 200
   speedupMax: 200
-  FlapMin: 20
+  FlapMin: 5
   speedtimeStart: 0.15
   speedtimeDuration: 0.35
   speedtimeStop: 0.5

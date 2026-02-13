@@ -68,7 +68,7 @@ public class groundmoveGround : MonoBehaviour
         if (grounded)
         {
             y = 0;
-            Debug.Log("grounded");
+            //Debug.Log("grounded");
             ChangeUV();
         }
         if (!grounded)
@@ -76,7 +76,7 @@ public class groundmoveGround : MonoBehaviour
 
             y = (bird.transform.position.y - threshold) * speed;
 
-            Debug.Log("not grounded");
+            //Debug.Log("not grounded");
         }
         Rotate();
         //sphere = mat.GetVector("_sphere_offset");

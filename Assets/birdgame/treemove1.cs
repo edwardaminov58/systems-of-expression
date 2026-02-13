@@ -59,7 +59,7 @@ public class treemove1 : MonoBehaviour
         ChangeUV();
         Rotate();
 
-        Debug.Log("not grounded");
+        //Debug.Log("not grounded");
 
 
         //sphere = mat.GetVector("_sphere_offset");
