@@ -5901,6 +5901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &18638448
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8268,6 +8269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &21899579
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17447,6 +17449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &52191564
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19636,6 +19639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &60064819
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32779,6 +32783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &103565510
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33697,6 +33702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &105858020
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37184,6 +37190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &115026919
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41717,6 +41724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &125608465
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -55089,6 +55097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &164125465
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -58713,6 +58722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!1 &173155111
 GameObject:
   m_ObjectHideFlags: 0
@@ -68260,6 +68270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &202652049
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -80401,6 +80412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &232535428
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -81529,6 +81541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &235612536
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -90752,6 +90765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &259072757
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -92726,6 +92740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &264458800
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -98435,6 +98450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &284863923
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -111050,6 +111066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &326799594
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -140881,6 +140898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &419227478
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -143853,6 +143871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &426894228
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -153368,6 +153387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &455376250
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -167843,6 +167863,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &496486314
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -194801,6 +194822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &573102373
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -195685,6 +195707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &574521398
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -219514,6 +219537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &639004045
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -224551,8 +224575,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa3339db1c135b14aafa9f9a0ac94309, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  windstrength: {x: 0, y: 2, z: 0}
-  rideSpeed: 0
+  windstrength: {x: 0, y: 35, z: 0}
+  rideSpeed: 12
+  maxSoar: 150
 --- !u!1 &659563989 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2844683499562718334, guid: e3be9e2edbb3f01478bf2d413e3dfae5,
@@ -225803,6 +225828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &662578157
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -255590,6 +255616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &737516771
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -261572,6 +261599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &754268538
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -266361,6 +266389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &767650537
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -267097,6 +267126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &768972693
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -272452,6 +272482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &783897782
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -272572,6 +272603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &784292078
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -276668,6 +276700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &794472299
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -276914,6 +276947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &796375542
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -281634,6 +281668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &809760379
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -321967,6 +322002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &926700342
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -323111,6 +323147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &931527538
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -324304,6 +324341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &934309741
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -326448,6 +326486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &941557201
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -327084,6 +327123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &942839653
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -337047,6 +337087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &974080383
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -353586,6 +353627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1024763500
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -386510,6 +386552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1116488547
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -394005,6 +394048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1138319541
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -409200,6 +409244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1187704507
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -410706,6 +410751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1192126190
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -414627,6 +414673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1202849538
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -431113,6 +431160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1249035413
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -446578,6 +446626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1296724554
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -448545,6 +448594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1301507213
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -451413,6 +451463,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1307473033
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -459702,6 +459753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1334890214
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -473589,6 +473641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1376574492
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -480087,6 +480140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1396592545
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -492366,6 +492420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1434001196
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -502504,6 +502559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1460542863
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -514359,6 +514415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1492663557
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -537162,7 +537219,7 @@ PrefabInstance:
     - target: {fileID: 1762995827492480583, guid: 9705198535701d347829aa3074bb046a,
         type: 3}
       propertyPath: rideSpeed
-      value: 0.75
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1762995827492480583, guid: 9705198535701d347829aa3074bb046a,
         type: 3}
@@ -543081,6 +543138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1569815487
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -553418,6 +553476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1603557344
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -556996,6 +557055,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1617918671
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -559426,6 +559486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1625366278
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -560642,6 +560703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1628474582
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -563115,6 +563177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1637297671
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -571614,6 +571677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1663911505
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -573362,6 +573426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1668737036
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -579867,7 +579932,7 @@ PrefabInstance:
     - target: {fileID: 2338396499823704767, guid: 0a3dc0192652a2a4890517f7afe1c522,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 98.722725
+      value: 1093.4529
       objectReference: {fileID: 0}
     - target: {fileID: 2338396499823704767, guid: 0a3dc0192652a2a4890517f7afe1c522,
         type: 3}
@@ -580887,6 +580952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1690651472
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -615054,6 +615120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1786385192
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -618040,6 +618107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1795587559
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -625775,6 +625843,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1819898124
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -627677,6 +627746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1827521209
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -636646,6 +636716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1851822212
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -640628,6 +640699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1863769056
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -656599,6 +656671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1913900106
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -664392,6 +664465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1938335157
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -665790,6 +665864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1941624167
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -668009,6 +668084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1949927224
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -680616,6 +680692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &1988683232
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -700935,6 +701012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &2055456219
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -715117,6 +715195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windstrength: {x: 0, y: 0, z: 0}
   rideSpeed: 0
+  maxSoar: 0
 --- !u!23 &2090588144
 MeshRenderer:
   m_ObjectHideFlags: 0

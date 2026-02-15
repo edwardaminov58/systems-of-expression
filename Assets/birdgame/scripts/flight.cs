@@ -5,6 +5,7 @@ using Cinemachine;
 
 public class flight : MonoBehaviour
 {
+    float windRise;
     public float ExitSpeed;
     float windtime = 0;
     public flightData FlightData;
@@ -37,7 +38,7 @@ public class flight : MonoBehaviour
     public float angle;
     Animator anim;
     //public float Gravity;
-    //public float maxSoar;
+    float maxSoar;
     public float noseMax;
     public float nosediveSpeed;
     public float damage;
@@ -64,6 +65,7 @@ public class flight : MonoBehaviour
     public float cameraDamp;
     float startCameraDamp;
     Vector3 windstrength;
+    Vector3 windMax;
     float complexDrop;
     float startlens;
     public float lensThreshold;
@@ -71,7 +73,7 @@ public class flight : MonoBehaviour
     public float reduceFlap = 5;
     public float FlapMin = 10;
     public float sideBurstTime;
-    public float rideSpeed;
+    float rideSpeed;
     bool bounced = false;
     public float bounceBoostSpeed = 20;
     float sideBurstEnd;
@@ -185,18 +187,24 @@ public class flight : MonoBehaviour
         if (wind == true)
         {
             Debug.Log("wind");
-            rb.AddForce(0, 1.05f, 0, ForceMode.VelocityChange);
+            rb.AddForce(0, .5f, 0, ForceMode.VelocityChange);
             if (y > 0.1)
             {
-                
+
                 windRide();
             }
-
+            else
+            {
+                windtime = 0;
+                
+            }
 
         }
         else
         {
+            maxSoar = FlightData.maxSoar;
             anim.SetBool("windride", false);
+            windtime = 0;
             if ((y > 0) && (noWindA == false))
             {
 
@@ -210,7 +218,7 @@ public class flight : MonoBehaviour
         //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, constantForward);
 
         ClampPosition();
-        rb.velocity = new Vector3((x * FlightData.turnSpeed + sideBurstEnd), Mathf.Clamp(rb.velocity.y - FlightData.dropFromRise, FlightData.Gravity, FlightData.maxSoar), rb.velocity.z);
+        rb.velocity = new Vector3((x * FlightData.turnSpeed + sideBurstEnd), Mathf.Clamp(rb.velocity.y - FlightData.dropFromRise, FlightData.Gravity, maxSoar), rb.velocity.z);
         //Debug.Log("velocity:" + rb.velocity.y);
         //Debug.Log(rb.velocity);
         // rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(rb.velocity.y - constantDrop, altitudeMin, altitudeMax), rb.velocity.z);
@@ -241,9 +249,14 @@ public class flight : MonoBehaviour
         anim.SetBool("windride", true);
         windtime += Time.deltaTime / rideSpeed;
         float t = windtime;
+        //windRise = Mathf.SmoothStep(0, windMax.y, t)
         Debug.Log("t= " + t);
+        Debug.Log("windstrength: " + windstrength);
+        Debug.Log("time.deltatime: " + Time.deltaTime);
+        
         //Debug.Log("windstrength= " + windstrength);
         rb.AddForce(Mathf.SmoothStep(0, windstrength.x, t), Mathf.SmoothStep(0, windstrength.y, t), Mathf.SmoothStep(0, windstrength.z, t), ForceMode.VelocityChange);
+        //rb.AddForce(Vector3.Lerp(new Vector3(0, 0, 0), windstrength, t), ForceMode.VelocityChange);
         //rb.AddForce(0, Mathf.SmoothStep(0, windstrength, t), 0, ForceMode.VelocityChange);
     }
     void FOVchange()
@@ -522,7 +535,8 @@ public class flight : MonoBehaviour
             wind = true;
             //Debug.Log("windy");
             windstrength = other.gameObject.GetComponent<wind>().windstrength;
-           // rideSpeed = other.gameObject.GetComponent<wind>().rideSpeed;
+            maxSoar = other.gameObject.GetComponent<wind>().maxSoar;
+            rideSpeed = other.gameObject.GetComponent<wind>().rideSpeed;
 
         }
     }
@@ -532,9 +546,9 @@ public class flight : MonoBehaviour
         for (float t = 1; t > 0; t -= Time.deltaTime)
         {
             Debug.Log(t);
-            Debug.Log(windstrength);
+            
             //rb.AddForce(Mathf.SmoothStep(0, windstrength.x, t), Mathf.SmoothStep(0, windstrength.y, t), Mathf.SmoothStep(0, windstrength.z, t), ForceMode.VelocityChange);
-            rb.AddForce(-windstrength.x, -windstrength.y, -windstrength.z);
+           // rb.AddForce(-windstrength.x, -windstrength.y, -windstrength.z);
             yield return null;
         }
     }

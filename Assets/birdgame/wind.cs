@@ -6,6 +6,8 @@ public class wind : MonoBehaviour
 {
     public Vector3 windstrength;
     public float rideSpeed;
+    public float maxSoar;
+
     // Start is called before the first frame update
     void Start()
     {

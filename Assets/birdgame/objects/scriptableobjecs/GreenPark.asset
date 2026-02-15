@@ -16,11 +16,11 @@ MonoBehaviour:
   maxForward: 150
   maxlimit: {x: 500, y: 500}
   minlimit: {x: -500, y: 1}
-  turnSpeed: 40
+  turnSpeed: 20
   leanSpeed: 40
   burst: 50
   Gravity: -3
-  maxSoar: 150
+  maxSoar: 100
   dropFromRise: 1
   slowdownMin: 25
   slowdownMax: 30
