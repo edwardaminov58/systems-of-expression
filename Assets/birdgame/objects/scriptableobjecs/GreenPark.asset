@@ -33,3 +33,5 @@ MonoBehaviour:
   slowtimeStart: 0.5
   slowtimeDuration: 0.25
   slowtimeStop: 0.5
+  loseForwardBoost: 50
+  maxForwardBoost: 100

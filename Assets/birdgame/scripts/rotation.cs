@@ -7,10 +7,21 @@ public class rotation : MonoBehaviour
 {
     //float timeCount = 0.0f;
     float x;
-    public float speed;
-    public float returntoNeutralSpeed;
+    float y;
+    public float xspeed;
+    public float yupspeed;
+    public float ydownspeed;
+    public float Tiltspeed;
+    public float xreturntoNeutralSpeed;
+    public float yreturntoNeutralSpeed;
+    public float TiltReturnSpeed;
+    
+
     public CinemachineVirtualCamera vcam;
     bool turn;
+    float TiltL;
+    float TiltR;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,30 +32,83 @@ public class rotation : MonoBehaviour
     void Update()
     {
         x = Input.GetAxisRaw("Horizontal");
+        y = Input.GetAxisRaw("Vertical");
+        TiltL = Input.GetAxis("Left Tilt");
+        TiltR = Input.GetAxis("Right Tilt");
 
+        //normal
         if (x == 0)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, 0), Time.deltaTime * returntoNeutralSpeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, 0), Time.deltaTime * xreturntoNeutralSpeed);
             //timeCount = timeCount + Time.deltaTime;
-            
+
         }
         else if (x < 0)
         {
             turn = true;
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, 7f), Time.deltaTime * speed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, 7f), Time.deltaTime * xspeed);
             //timeCount = timeCount + Time.deltaTime;
         }
         else if (x > 0)
         {
             turn = true;
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, -7f), Time.deltaTime * speed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, -7f), Time.deltaTime * xspeed);
             //timeCount = timeCount + Time.deltaTime;
         }
-        if (turn == true&& x == 0)
+        if (turn == true && x == 0)
         {
             //timeCount = 0;
             turn = false;
         }
+        if (y == 0)
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, transform.rotation.y, transform.rotation.z), Time.deltaTime * yreturntoNeutralSpeed);
+            //timeCount = timeCount + Time.deltaTime;
+
+        }
+        if (y > 0)
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(20f, transform.rotation.y, transform.rotation.z), Time.deltaTime * ydownspeed);
+        }        
+        if (y < 0)
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(-20f, transform.rotation.y, transform.rotation.z), Time.deltaTime * yupspeed);
+        }
+
+        if (TiltL > 0.1f)
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 80), Time.deltaTime * Tiltspeed);
+        }
+        if (TiltR > 0.1f)
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z - 80), Time.deltaTime * Tiltspeed);
+        }
+        
+
+        ////sim
+        //if (x == 0)
+        //{
+        //    transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, 0), Time.deltaTime * returntoNeutralSpeed);
+        //    //timeCount = timeCount + Time.deltaTime;
+
+        //}
+        //else if (x < 0)
+        //{
+        //    turn = true;
+        //    transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, 10f), Time.deltaTime * speed);
+        //    //timeCount = timeCount + Time.deltaTime;
+        //}
+        //else if (x > 0)
+        //{
+        //    turn = true;
+        //    transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, 0, -10f), Time.deltaTime * speed);
+        //    //timeCount = timeCount + Time.deltaTime;
+        //}
+        //if (turn == true&& x == 0)
+        //{
+        //    //timeCount = 0;
+        //    turn = false;
+        //}
         //Debug.Log(timeCount);
     }
 }

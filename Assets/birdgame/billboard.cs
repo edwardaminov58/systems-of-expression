@@ -33,6 +33,7 @@ public class billboard : MonoBehaviour
         transform.forward = Camera.main.transform.forward;
         Vector3 heading = transform.position - Camera.main.transform.position;
         distanceFromCamera = Vector3.Dot(heading, Camera.main.transform.forward);
+        //transform.LookAt(Camera.main.)
         //Debug.Log(distanceFromCamera);
         
 

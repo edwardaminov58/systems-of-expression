@@ -103,7 +103,7 @@ MonoBehaviour:
   speed: 0.13
   leftLimit: -50
   rightLimit: 50
-  hideHeight: 1000
+  hideHeight: 296.1
 --- !u!65 &4331180070914475988
 BoxCollider:
   m_ObjectHideFlags: 0

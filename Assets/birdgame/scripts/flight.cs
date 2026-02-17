@@ -5,6 +5,9 @@ using Cinemachine;
 
 public class flight : MonoBehaviour
 {
+    public float nosediveFMultiplier;
+    float maxForwardBoost;
+    float loseForwardBoost;
     float windRise;
     public float ExitSpeed;
     float windtime = 0;
@@ -88,6 +91,7 @@ public class flight : MonoBehaviour
     float flapDrop = 1;
     float dropFromRiseStart;
     public float brakePull;
+    //public bool SimControls;
 
 
 
@@ -167,7 +171,16 @@ public class flight : MonoBehaviour
             // vcam.m_Lens.FieldOfView = vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView + .15f, 25, 60f); 
         }
         //HorizontalLean(transform, x, 60, .0f);
+
+        //normal
         anim.SetFloat("turningValue", x);
+
+        //simControl
+        //if (TiltL > 0.1)
+        //    anim.SetFloat("turningValue", TiltL * -1);
+        //if (TiltR > 0.1)
+        //    anim.SetFloat("turningvalue", TiltR);
+
         //Debug.Log(x);
         //transform.position += transform.right * activeSpeed * Time.deltaTime;
         if ((Input.GetButton("Jump")) && (anim.GetBool("flapbool") == false) && (anim.GetBool("damage") == false))
@@ -196,13 +209,15 @@ public class flight : MonoBehaviour
             else
             {
                 windtime = 0;
-                
+
             }
 
         }
         else
         {
             maxSoar = FlightData.maxSoar;
+            loseForwardBoost = FlightData.loseForwardBoost;
+            maxForwardBoost = FlightData.maxForwardBoost;
             anim.SetBool("windride", false);
             windtime = 0;
             if ((y > 0) && (noWindA == false))
@@ -218,16 +233,41 @@ public class flight : MonoBehaviour
         //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, constantForward);
 
         ClampPosition();
-        rb.velocity = new Vector3((x * FlightData.turnSpeed + sideBurstEnd), Mathf.Clamp(rb.velocity.y - FlightData.dropFromRise, FlightData.Gravity, maxSoar), rb.velocity.z);
+
+        //normal
+        rb.velocity = new Vector3((x * FlightData.turnSpeed + sideBurstEnd), Mathf.Clamp(rb.velocity.y - FlightData.dropFromRise, FlightData.Gravity, maxSoar), Mathf.Clamp(rb.velocity.z - loseForwardBoost, 0, maxForwardBoost));
+
+        //simControl
+        //rb.velocity = new Vector3((((TiltL * -1) + TiltR) * FlightData.turnSpeed + sideBurstEnd), Mathf.Clamp(rb.velocity.y - FlightData.dropFromRise, FlightData.Gravity, maxSoar), Mathf.Clamp(rb.velocity.z - loseForwardBoost, 0, maxForwardBoost));
+
+
         //Debug.Log("velocity:" + rb.velocity.y);
         //Debug.Log(rb.velocity);
         // rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(rb.velocity.y - constantDrop, altitudeMin, altitudeMax), rb.velocity.z);
         TiltL = Input.GetAxis("Left Tilt");
         TiltR = Input.GetAxis("Right Tilt");
+
+        //normal
         anim.SetFloat("TurnL", TiltL);
         anim.SetFloat("TurnR", TiltR);
+
+        //simControl
+        //if (x != 0)
+        //{
+        //    if (x < 0)
+        //    {
+        //        anim.SetFloat("TurnL", x * -1);
+        //    }
+        //    if (x > 0)
+        //    {
+        //        anim.SetFloat("TurnR", x);
+        //    }
+        //}
+
         //Debug.Log(complexDrop);
         //Debug.Log(TiltL);
+
+        //normal
         if (TiltL > 0 && x < -0.1)
         {
             FlightData.turnSpeed = FlightData.leanSpeed;
@@ -240,7 +280,7 @@ public class flight : MonoBehaviour
         else
         {
             FlightData.turnSpeed = initialSpeed;
-        }
+        }  
     }
     void windRide()
     {
@@ -279,6 +319,8 @@ public class flight : MonoBehaviour
     {
 
         transform.localPosition += forwardmovement * constantForward * Time.deltaTime;
+
+        //mode7turningControl
         //if (TiltL > 0)
         //{
         //    Quaternion deltarotation = Quaternion.Euler(new Vector3(0, -20, 0) * Time.deltaTime);
@@ -356,7 +398,7 @@ public class flight : MonoBehaviour
         }
         else
             Mathf.Clamp(nosediveSpeed++, 0, 100);
-        rb.AddForce(0, y * nosediveSpeed, 0, ForceMode.VelocityChange);
+        rb.AddForce(0, y * nosediveSpeed, nosediveFMultiplier*nosediveSpeed, ForceMode.VelocityChange);
         //rb.velocity = new Vector3(rb.velocity.x, -speed, rb.velocity.z);
         //vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView-.15f, 50, 60);
         //anim.SetBool("diving", true);
@@ -537,18 +579,20 @@ public class flight : MonoBehaviour
             windstrength = other.gameObject.GetComponent<wind>().windstrength;
             maxSoar = other.gameObject.GetComponent<wind>().maxSoar;
             rideSpeed = other.gameObject.GetComponent<wind>().rideSpeed;
+            loseForwardBoost = other.gameObject.GetComponent<wind>().loseForwardBoost;
+            maxForwardBoost = other.gameObject.GetComponent<wind>().maxForwardBoost;
 
         }
     }
 
     IEnumerator ExitWind()
     {
-        for (float t = 1; t > 0; t -= Time.deltaTime)
+        for (float t = 1; t > 0; t -= Time.deltaTime / rideSpeed)
         {
             Debug.Log(t);
-            
+            ///rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y,Mathf.SmoothStep(rb.velocity.z, 0, rb.velocity.z));
             //rb.AddForce(Mathf.SmoothStep(0, windstrength.x, t), Mathf.SmoothStep(0, windstrength.y, t), Mathf.SmoothStep(0, windstrength.z, t), ForceMode.VelocityChange);
-           // rb.AddForce(-windstrength.x, -windstrength.y, -windstrength.z);
+            // rb.AddForce(-windstrength.x, -windstrength.y, -windstrength.z);
             yield return null;
         }
     }
@@ -558,10 +602,11 @@ public class flight : MonoBehaviour
         {
             wind = false;
             windtime = 0;
+            
             //windstrength = new Vector3(0, 0, 0);
             Debug.Log("no wind");
             anim.SetBool("windtouch", false);
-            //StartCoroutine(ExitWind());
+            StartCoroutine(ExitWind());
             
         }
         //if (other.gameObject.tag == "wind")

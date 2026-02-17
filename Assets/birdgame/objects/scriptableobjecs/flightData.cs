@@ -27,5 +27,6 @@ public class flightData : ScriptableObject
     public float slowtimeStart;
     public float slowtimeDuration;
     public float slowtimeStop;
-
+    public float loseForwardBoost;
+    public float maxForwardBoost;
 }

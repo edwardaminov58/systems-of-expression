@@ -21,11 +21,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: cloudsscroll
-  m_Shader: {fileID: -6465566751694194690, guid: b31b90b1327c73c49861f4b57595f709,
+  m_Shader: {fileID: -6465566751694194690, guid: e0d8e689957d0f345b51b52ea91df757,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _ALPHAPREMULTIPLY_ON
   - _ALPHATEST_ON
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
@@ -127,6 +128,7 @@ Material:
     - _AlphaClip: 1
     - _AlphaToMask: 0
     - _Blend: 0
+    - _BlendModePreserveSpecular: 1
     - _BlendOp: 0
     - _BumpScale: 1
     - _CameraFadingEnabled: 0
@@ -167,7 +169,7 @@ Material:
     - _SoftParticlesFarFadeDistance: 1
     - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 5
+    - _SrcBlend: 1
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
@@ -200,9 +202,9 @@ Material:
     - _offset: {r: 0.09, g: -0.26, b: 0, a: 0}
     - _offset2: {r: 0.1, g: 1, b: 0, a: 0}
     - _rotate_center: {r: 0, g: 0, b: 0, a: 0}
-    - _scroll_velocity: {r: 0, g: 1, b: 0, a: 0}
+    - _scroll_velocity: {r: 0.2, g: -1, b: 0, a: 0}
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
     - _strength: {r: 1, g: -1.39, b: 0, a: 0}
-    - _tiling: {r: 1, g: 3.14, b: 0, a: 0}
+    - _tiling: {r: 5, g: 25.28, b: 0, a: 0}
     - _tiling2: {r: 1, g: 0.41, b: 0, a: 0}
   m_BuildTextureStacks: []
