@@ -5,6 +5,7 @@ using Cinemachine;
 
 public class flight : MonoBehaviour
 {
+    public CameraProfile cameraProfile;
     public float nosediveFMultiplier;
     float maxForwardBoost;
     float loseForwardBoost;
@@ -14,8 +15,7 @@ public class flight : MonoBehaviour
     public flightData FlightData;
     //public float minForward;
     //public float maxForward;
-    public float minLens;
-    public float maxLens;
+    Material birdmat;
     public float occlusionPlaneStart;
     public float occlusionPlaneEnd;
     private bool noWindA = false;
@@ -106,7 +106,7 @@ public class flight : MonoBehaviour
         //currentForwardSpeed = constantForward;
         //rb = GetComponent<Rigidbody>();
         anim = gameObject.GetComponent<Animator>();
-
+        birdmat = gameObject.GetComponent<SpriteRenderer>().material;
         forwardmovement = new Vector3(0, 0, 1);
         //complexDrop = Mathf.Log(Mathf.Pow(constantDrop, 3) + 5) * Time.deltaTime;
     }
@@ -130,6 +130,7 @@ public class flight : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        //Transparency();
         Debug.Log("veloicty = " + rb.velocity);
         //flapDropTime();
         //Debug.Log("Velocity: " + rb.velocity);
@@ -273,9 +274,17 @@ public class flight : MonoBehaviour
             FlightData.turnSpeed = FlightData.leanSpeed;
 
         }
+        else if (TiltL > 0 && x < -0.1)
+        {
+            FlightData.turnSpeed = FlightData.leanReverseSpeed;
+        }
         else if (TiltR > 0 && x > 0.1)
         {
             FlightData.turnSpeed = FlightData.leanSpeed;
+        }
+        else if (TiltR > 0 && x < 0.1)
+        {
+            FlightData.turnSpeed = FlightData.leanReverseSpeed;
         }
         else
         {
@@ -306,8 +315,8 @@ public class flight : MonoBehaviour
         //vcam.m_Lens.FieldOfView = Mathf.Lerp(60, 35, t);
         //vcam.GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = Mathf.Lerp(6, 20, t);
 
-        vcam.m_Lens.FieldOfView = Mathf.Lerp(minLens, maxLens, t);
-        //vcam.GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = 13;
+        vcam.m_Lens.FieldOfView = Mathf.Lerp(cameraProfile.minLens, cameraProfile.maxLens, t);
+        //vcam.GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = cameraProfile.CameraDistance;
 
     }
     void Occlusion()
@@ -792,6 +801,8 @@ public class flight : MonoBehaviour
 
 
     //}
+
+    
    public void SpeedChange()
     {
         StartCoroutine(speedChange());    

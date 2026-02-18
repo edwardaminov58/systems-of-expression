@@ -11,6 +11,7 @@ public class flightData : ScriptableObject
     public Vector2 minlimit;
     public float turnSpeed;
     public float leanSpeed;
+    public float leanReverseSpeed;
     public float burst;
     public float Gravity;
     public float maxSoar;

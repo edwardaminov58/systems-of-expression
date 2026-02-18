@@ -8,13 +8,7 @@ public class rotation : MonoBehaviour
     //float timeCount = 0.0f;
     float x;
     float y;
-    public float xspeed;
-    public float yupspeed;
-    public float ydownspeed;
-    public float Tiltspeed;
-    public float xreturntoNeutralSpeed;
-    public float yreturntoNeutralSpeed;
-    public float TiltReturnSpeed;
+    public CameraProfile cameraProfile;
     
 
     public CinemachineVirtualCamera vcam;
@@ -39,20 +33,20 @@ public class rotation : MonoBehaviour
         //normal
         if (x == 0)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, 0), Time.deltaTime * xreturntoNeutralSpeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, 0), Time.deltaTime * cameraProfile.xreturntoNeutralSpeed);
             //timeCount = timeCount + Time.deltaTime;
 
         }
         else if (x < 0)
         {
             turn = true;
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, 7f), Time.deltaTime * xspeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, 7f), Time.deltaTime * cameraProfile.xspeed);
             //timeCount = timeCount + Time.deltaTime;
         }
         else if (x > 0)
         {
             turn = true;
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, -7f), Time.deltaTime * xspeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, -7f), Time.deltaTime * cameraProfile.xspeed);
             //timeCount = timeCount + Time.deltaTime;
         }
         if (turn == true && x == 0)
@@ -62,26 +56,26 @@ public class rotation : MonoBehaviour
         }
         if (y == 0)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, transform.rotation.y, transform.rotation.z), Time.deltaTime * yreturntoNeutralSpeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, transform.rotation.y, transform.rotation.z), Time.deltaTime * cameraProfile.yreturntoNeutralSpeed);
             //timeCount = timeCount + Time.deltaTime;
 
         }
         if (y > 0)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(20f, transform.rotation.y, transform.rotation.z), Time.deltaTime * ydownspeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(20f, transform.rotation.y, transform.rotation.z), Time.deltaTime * cameraProfile.ydownspeed);
         }        
         if (y < 0)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(-20f, transform.rotation.y, transform.rotation.z), Time.deltaTime * yupspeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(-20f, transform.rotation.y, transform.rotation.z), Time.deltaTime * cameraProfile.yupspeed);
         }
 
         if (TiltL > 0.1f)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 80), Time.deltaTime * Tiltspeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z + 80), Time.deltaTime * cameraProfile.Tiltspeed);
         }
         if (TiltR > 0.1f)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z - 80), Time.deltaTime * Tiltspeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(transform.rotation.x, transform.rotation.y, transform.rotation.z - 80), Time.deltaTime * cameraProfile.Tiltspeed);
         }
         
 

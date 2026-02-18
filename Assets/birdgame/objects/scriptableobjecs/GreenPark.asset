@@ -18,6 +18,7 @@ MonoBehaviour:
   minlimit: {x: -500, y: 1}
   turnSpeed: 20
   leanSpeed: 40
+  leanReverseSpeed: 15
   burst: 50
   Gravity: -3
   maxSoar: 100
