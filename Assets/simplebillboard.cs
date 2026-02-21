@@ -12,7 +12,7 @@ public class simplebillboard : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.forward = Camera.main.transform.forward;
         Vector3 heading = transform.position - Camera.main.transform.position;

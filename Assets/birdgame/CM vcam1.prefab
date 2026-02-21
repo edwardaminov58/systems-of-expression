@@ -220,8 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab41fed240be2d46b12ea20f6e9a6d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  returntoNeutralSpeed: 2
+  cameraProfile: {fileID: 0}
   vcam: {fileID: 7627910071084274516}
 --- !u!114 &7178985040920917191
 MonoBehaviour:

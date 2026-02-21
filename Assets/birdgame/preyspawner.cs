@@ -12,6 +12,7 @@ public class preyspawner : MonoBehaviour
     public float spawnStart;
     public float leftLimit;
     public float rightLimit;
+    public float playerLead;
     //public Vector2 maxlimit;
     //public Vector2 minlimit;
     // Start is called before the first frame update
@@ -23,7 +24,7 @@ public class preyspawner : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.position = new Vector3(transform.position.x, 0, transform.position.z);
+        transform.position = new Vector3(player.transform.position.x, 0, player.transform.position.z + playerLead);
         //ClampPosition();
         if (player.transform.position.y < spawnHeight)
         {

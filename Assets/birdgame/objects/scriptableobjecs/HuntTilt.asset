@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45886e4c28b62104d9a10c78efa73c07, type: 3}
-  m_Name: First Person
+  m_Name: HuntTilt
   m_EditorClassIdentifier: 
   nosediveSpeed: 5
-  nosediveFMultiplier: 0.75
+  nosediveFMultiplier: 0.5
   xspeed: 1
-  yupspeed: 0.45
-  ydownspeed: 0.55
-  Tiltspeed: 1
+  yupspeed: 6.79
+  ydownspeed: 5.32
+  Tiltspeed: 0.16
   xreturntoNeutralSpeed: 2
-  yreturntoNeutralSpeed: 1.5
+  yreturntoNeutralSpeed: 1
   TiltReturnSpeed: 0
-  minLens: 60
-  maxLens: 35
+  minLens: 35
+  maxLens: 60
   CameraDistance: 0
-  clear: 1
+  clear: 0
   XRotBase: 0
-  XRot: 11.49
+  XRot: 7
   YRotBase: 0
-  YRotUp: 20
-  YRotDown: 20
+  YRotUp: 8
+  YRotDown: 14.3
   TiltRot: 80

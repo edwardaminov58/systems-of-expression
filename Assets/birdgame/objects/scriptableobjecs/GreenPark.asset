@@ -15,7 +15,7 @@ MonoBehaviour:
   minForward: 75
   maxForward: 150
   maxlimit: {x: 500, y: 500}
-  minlimit: {x: -500, y: 1}
+  minlimit: {x: -500, y: 0.5}
   turnSpeed: 20
   leanSpeed: 40
   leanReverseSpeed: 15

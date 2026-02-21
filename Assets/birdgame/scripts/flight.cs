@@ -5,8 +5,9 @@ using Cinemachine;
 
 public class flight : MonoBehaviour
 {
+    float turnspeed;
     public CameraProfile cameraProfile;
-    public float nosediveFMultiplier;
+   
     float maxForwardBoost;
     float loseForwardBoost;
     float windRise;
@@ -43,7 +44,7 @@ public class flight : MonoBehaviour
     //public float Gravity;
     float maxSoar;
     public float noseMax;
-    public float nosediveSpeed;
+    float nosediveSpeed;
     public float damage;
     public float preyBounce = 30;
     //public float dropFromRise;
@@ -166,7 +167,7 @@ public class flight : MonoBehaviour
         }
         else
         {
-            nosediveSpeed = startNoseSpeed;
+            nosediveSpeed = cameraProfile.nosediveSpeed;
             anim.SetBool("nosedive", false);
             anim.SetBool("diving", false);
             // vcam.m_Lens.FieldOfView = vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView + .15f, 25, 60f); 
@@ -236,7 +237,7 @@ public class flight : MonoBehaviour
         ClampPosition();
 
         //normal
-        rb.velocity = new Vector3((x * FlightData.turnSpeed + sideBurstEnd), Mathf.Clamp(rb.velocity.y - FlightData.dropFromRise, FlightData.Gravity, maxSoar), Mathf.Clamp(rb.velocity.z - loseForwardBoost, 0, maxForwardBoost));
+        rb.velocity = new Vector3((x * turnspeed + sideBurstEnd), Mathf.Clamp(rb.velocity.y - FlightData.dropFromRise, FlightData.Gravity, maxSoar), Mathf.Clamp(rb.velocity.z - loseForwardBoost, 0, maxForwardBoost));
 
         //simControl
         //rb.velocity = new Vector3((((TiltL * -1) + TiltR) * FlightData.turnSpeed + sideBurstEnd), Mathf.Clamp(rb.velocity.y - FlightData.dropFromRise, FlightData.Gravity, maxSoar), Mathf.Clamp(rb.velocity.z - loseForwardBoost, 0, maxForwardBoost));
@@ -271,24 +272,24 @@ public class flight : MonoBehaviour
         //normal
         if (TiltL > 0 && x < -0.1)
         {
-            FlightData.turnSpeed = FlightData.leanSpeed;
+            turnspeed = FlightData.leanSpeed;
 
         }
         else if (TiltL > 0 && x < -0.1)
         {
-            FlightData.turnSpeed = FlightData.leanReverseSpeed;
+            turnspeed = FlightData.leanReverseSpeed;
         }
         else if (TiltR > 0 && x > 0.1)
         {
-            FlightData.turnSpeed = FlightData.leanSpeed;
+            turnspeed = FlightData.leanSpeed;
         }
         else if (TiltR > 0 && x < 0.1)
         {
-            FlightData.turnSpeed = FlightData.leanReverseSpeed;
+            turnspeed = FlightData.leanReverseSpeed;
         }
         else
         {
-            FlightData.turnSpeed = initialSpeed;
+            turnspeed = FlightData.turnSpeed;
         }  
     }
     void windRide()
@@ -407,7 +408,7 @@ public class flight : MonoBehaviour
         }
         else
             Mathf.Clamp(nosediveSpeed++, 0, 100);
-        rb.AddForce(0, y * nosediveSpeed, nosediveFMultiplier*nosediveSpeed, ForceMode.VelocityChange);
+        rb.AddForce(0, y * nosediveSpeed, cameraProfile.nosediveFMultiplier*nosediveSpeed, ForceMode.VelocityChange);
         //rb.velocity = new Vector3(rb.velocity.x, -speed, rb.velocity.z);
         //vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView-.15f, 50, 60);
         //anim.SetBool("diving", true);
@@ -551,7 +552,7 @@ public class flight : MonoBehaviour
         rb.AddForce(0, Mathf.Abs(nosediveSpeed + preyBounce), 0, ForceMode.VelocityChange);
         yield return new WaitForSeconds(.5f);
         bounced = false;
-        nosediveSpeed = startNoseSpeed;
+        nosediveSpeed = cameraProfile.nosediveSpeed;
         
 
 

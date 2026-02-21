@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45886e4c28b62104d9a10c78efa73c07, type: 3}
   m_Name: Normal Third Person
   m_EditorClassIdentifier: 
+  nosediveSpeed: 5
+  nosediveFMultiplier: 0.75
   xspeed: 1
   yupspeed: 0.3
   ydownspeed: 0.21
@@ -22,3 +24,10 @@ MonoBehaviour:
   minLens: 35
   maxLens: 60
   CameraDistance: 0
+  clear: 0
+  XRotBase: 0
+  XRot: 7
+  YRotBase: 0
+  YRotUp: 0
+  YRotDown: 0
+  TiltRot: 80
