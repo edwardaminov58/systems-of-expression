@@ -506,7 +506,7 @@ public class flight : MonoBehaviour
 
     void endFlap()
     {
-        //rb = GameObject.FindGameObjectWithTag("flight").GetComponent<Rigidbody>();
+        rb = GameObject.FindGameObjectWithTag("flight").GetComponent<Rigidbody>();
         anim.SetBool("flapbool", false);
         //anim.SetBool("turnleft", false);
         anim.SetBool("damage", false);

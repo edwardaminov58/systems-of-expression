@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class windDetection : MonoBehaviour
 {
+    public float windPush;
     public GameObject player;
     public GameObject bird;
     public Rigidbody rb;
@@ -65,10 +66,16 @@ public class windDetection : MonoBehaviour
             if (Distance.magnitude > 0&&Distance.magnitude < 50f)
             {
                 //Debug.Log("Detectforce");
-                if (Distance.x >0 )
-                    rb.AddForce(new Vector3( (- Distance.magnitude * 25), Distance.magnitude * -1, 0));
+                if (Distance.x > 0)
+                {
+                    rb.AddForce(new Vector3((-Distance.magnitude * windPush), Distance.magnitude * -1, 0));
+                    //bird.transform.localPosition+= new Vector3(Distance.magnitude, Distance.magnitude, 0);
+                }
                 else if (Distance.x < 0)
-                    rb.AddForce(new Vector3((Distance.magnitude * 25), Distance.magnitude * -1, 0));
+                {
+                    rb.AddForce(new Vector3((Distance.magnitude * windPush), Distance.magnitude * -1, 0));
+                    //bird.transform.localPosition += new Vector3(Distance.magnitude, Distance.magnitude, 0);
+                }
             }
             Debug.Log("Detect:" + Detect + "Distance: " + Distance + "Distmag: " + Distance.magnitude);
         }
@@ -77,12 +84,12 @@ public class windDetection : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(player.transform.position, 50f);
+        //Gizmos.DrawWireSphere(bird.transform.position, 50f);
         // if (Physics.CheckSphere(player.transform.position, 50f, wind))
         //{
         //foreach (Vector3 derect in Detect) { 
         //    Gizmos.DrawLine(derect, player.transform.position);
-        Gizmos.DrawLine(Detect, player.transform.position);
+        Gizmos.DrawLine(Detect, bird.transform.position);
     }
 
 }
