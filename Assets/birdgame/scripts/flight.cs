@@ -16,7 +16,7 @@ public class flight : MonoBehaviour
     public flightData FlightData;
     //public float minForward;
     //public float maxForward;
-    Material birdmat;
+    //public Material birdmat;
     public float occlusionPlaneStart;
     public float occlusionPlaneEnd;
     private bool noWindA = false;
@@ -40,7 +40,7 @@ public class flight : MonoBehaviour
     public Rigidbody rb;
     //public float burst;
     public float angle;
-    Animator anim;
+    public Animator anim;
     //public float Gravity;
     float maxSoar;
     public float noseMax;
@@ -106,8 +106,8 @@ public class flight : MonoBehaviour
         Initialize();
         //currentForwardSpeed = constantForward;
         //rb = GetComponent<Rigidbody>();
-        anim = gameObject.GetComponent<Animator>();
-        birdmat = gameObject.GetComponent<SpriteRenderer>().material;
+        //anim = gameObject.GetComponent<Animator>();
+        //birdmat = gameObject.GetComponent<SpriteRenderer>().material;
         forwardmovement = new Vector3(0, 0, 1);
         //complexDrop = Mathf.Log(Mathf.Pow(constantDrop, 3) + 5) * Time.deltaTime;
     }
@@ -506,7 +506,7 @@ public class flight : MonoBehaviour
 
     void endFlap()
     {
-
+        //rb = GameObject.FindGameObjectWithTag("flight").GetComponent<Rigidbody>();
         anim.SetBool("flapbool", false);
         //anim.SetBool("turnleft", false);
         anim.SetBool("damage", false);

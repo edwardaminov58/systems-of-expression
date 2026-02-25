@@ -13,6 +13,7 @@ TagManager:
   - prey
   - background
   - bird
+  - flight
   layers:
   - Default
   - TransparentFX

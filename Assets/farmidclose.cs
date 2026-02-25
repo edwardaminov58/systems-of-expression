@@ -8,7 +8,7 @@ public class farmidclose : MonoBehaviour
     //public float distancefromBirdtoSpriteChange;
     Vector3 newTransform;
     Vector3 startScale;
-    public GameObject bird;
+     GameObject bird;
    // public Sprite NewSprite;
    // public Vector3 endScale;
     float z = 0;
@@ -22,7 +22,7 @@ public class farmidclose : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        bird = GameObject.FindGameObjectWithTag("bird");
+        bird = GameObject.FindGameObjectWithTag("flight");
         if (farmidcloseData.DistanceParentTransform == true)
             Distance = gameObject.transform.parent;
         else
