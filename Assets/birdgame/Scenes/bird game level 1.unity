@@ -640911,8 +640911,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb8eff9b589107a4b819ae5c6d3ef710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  windPush: 10
-  player: {fileID: 321362213}
+  translateSpeed: 1
+  windPush: 0
+  player: {fileID: 1877372228}
   bird: {fileID: 321362213}
   rb: {fileID: 1877372233}
 --- !u!1001 &1877693686
@@ -677582,7 +677583,7 @@ PrefabInstance:
     - target: {fileID: 2338396499823704767, guid: 0a3dc0192652a2a4890517f7afe1c522,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 350
+      value: 1182.9
       objectReference: {fileID: 0}
     - target: {fileID: 2338396499823704767, guid: 0a3dc0192652a2a4890517f7afe1c522,
         type: 3}
@@ -715077,6 +715078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb8eff9b589107a4b819ae5c6d3ef710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  translateSpeed: 50
   windPush: 0
   player: {fileID: 321362213}
   bird: {fileID: 321362213}
@@ -715093,8 +715095,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cb9eff51532a72408678eb5ed31f3bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxlimit: {x: 1, y: 1}
-  minlimit: {x: -4, y: 0}
+  maxlimit: {x: 3, y: 3, z: 0}
+  minlimit: {x: -3, y: -3, z: 0}
 --- !u!1 &2105515137
 GameObject:
   m_ObjectHideFlags: 0

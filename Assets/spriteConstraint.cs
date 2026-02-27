@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class spriteConstraint : MonoBehaviour
 {
-    public Vector2 maxlimit;
-    public Vector2 minlimit;
+    public Vector3 maxlimit;
+    public Vector3 minlimit;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +23,9 @@ public class spriteConstraint : MonoBehaviour
         Vector3 pos = Camera.main.WorldToViewportPoint(transform.position);
         pos.x = Mathf.Clamp01(pos.x);
         pos.y = Mathf.Clamp01(pos.y);
+        pos.z = Mathf.Clamp01(pos.z);
         // transform.position = Camera.main.ViewportToWorldPoint(pos);
-        transform.localPosition = new Vector3(Mathf.Clamp(localPos.x, minlimit.x, maxlimit.x), Mathf.Clamp(localPos.y, minlimit.y, maxlimit.y), localPos.z);
+        transform.localPosition = new Vector3(Mathf.Clamp(localPos.x, minlimit.x, maxlimit.x), Mathf.Clamp(localPos.y, minlimit.y, maxlimit.y), 0);
         //Debug.Log("constant drop: " + constantDrop);
     }
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class windDetection : MonoBehaviour
 {
+    public float translateSpeed;
     public float windPush;
     public GameObject player;
     public GameObject bird;
@@ -60,31 +61,53 @@ public class windDetection : MonoBehaviour
         //    //Detect.Clear();
         //    //Detect = Vector3.zero;
         //}
-        if (Physics.CheckSphere(player.transform.position, 40f, wind))
+        if (Physics.CheckSphere(player.transform.position, 50f, wind))
         {
-            Distance = Detect - new Vector3(bird.transform.position.x, player.transform.position.y, player.transform.position.z);
+            Distance = Detect - new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
             if (Distance.magnitude > 0&&Distance.magnitude < 50f)
             {
                 //Debug.Log("Detectforce");
                 if (Distance.x > 0)
                 {
-                    rb.AddForce(new Vector3((-Distance.magnitude * windPush), Distance.magnitude * -1, 0));
-                    //bird.transform.localPosition+= new Vector3(Distance.magnitude, Distance.magnitude, 0);
+                    float t = translateSpeed / Distance.magnitude ;
+                    rb.AddForce(new Vector3((-(1/Distance.magnitude * windPush)), Distance.magnitude * -1, 0));
+                    Debug.Log("t = " + t);
+                    //bird.transform.Translate(-Distance.magnitude,0, 0 * Time.deltaTime/translateSpeed);
+                    Debug.Log("lerp =" + Mathf.Lerp(bird.transform.localPosition.x, -Detect.x, t));
+                    bird.transform.position = new Vector3(Mathf.Lerp(player.transform.position.x, -Detect.x, t), bird.transform.position.y, bird.transform.position.z);/* * Time.deltaTime * translateSpeed;*/
+                    
+
+                   // bird.transform.localPosition = Vector3.MoveTowards(bird.transform.localPosition, Vector3.Lerp(bird.transform.localPosition, -Detect, t), translateSpeed * Time.deltaTime);
+                    //bird.transform.localPosition = Vector3.MoveTowards(bird.transform.localPosition,-Detect, translateSpeed * Time.deltaTime);
+
                 }
                 else if (Distance.x < 0)
                 {
-                    rb.AddForce(new Vector3((Distance.magnitude * windPush), Distance.magnitude * -1, 0));
-                    //bird.transform.localPosition += new Vector3(Distance.magnitude, Distance.magnitude, 0);
+                    float t = 1 / Distance.magnitude * 10;
+                    rb.AddForce(new Vector3(((1/Distance.magnitude * windPush)), Distance.magnitude * -1, 0));
+                    Debug.Log("t = " + t);
+                    bird.transform.Translate(Vector3.Lerp(Vector3.zero, -Detect, t));
+                    //bird.transform.Translate(Distance.magnitude, 0, 0 * Time.deltaTime/translateSpeed);
+                    //bird.transform.localPosition = Vector3.MoveTowards(bird.transform.localPosition, Vector3.Lerp(bird.transform.localPosition, -Detect, t), translateSpeed * Time.deltaTime);
+                   // bird.transform.localPosition = Vector3.MoveTowards(bird.transform.localPosition, -Detect, translateSpeed * Time.deltaTime);
+
                 }
+
             }
             Debug.Log("Detect:" + Detect + "Distance: " + Distance + "Distmag: " + Distance.magnitude);
+        }
+        else
+        {
+            Detect = (Vector3.zero);
+            Debug.Log("DetectZero");
+            bird.transform.localPosition = Vector3.MoveTowards(bird.transform.localPosition, Vector3.zero, translateSpeed * Time.deltaTime); 
         }
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        //Gizmos.DrawWireSphere(bird.transform.position, 50f);
+        Gizmos.DrawWireSphere(bird.transform.position, 50f);
         // if (Physics.CheckSphere(player.transform.position, 50f, wind))
         //{
         //foreach (Vector3 derect in Detect) { 
