@@ -30,8 +30,8 @@ public class flight : MonoBehaviour
     float startTurnSpeed;
     float x;
     float y;
-    float TiltL;
-    float TiltR;
+    public float TiltL;
+    public float TiltR;
     //public float turnSpeed;
     float initialSpeed;
     //public float leanSpeed;

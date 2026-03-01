@@ -6826,6 +6826,12 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: nosedive
     m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: TurnL
+    m_EventTreshold: 0.1
+  - m_ConditionMode: 4
+    m_ConditionEvent: TurnR
+    m_EventTreshold: 0.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 825147582639831939}
   m_Solo: 0
@@ -7366,10 +7372,10 @@ AnimatorStateMachine:
     m_Position: {x: 480, y: -560, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2669589650052485275}
-    m_Position: {x: 510, y: 20, z: 0}
+    m_Position: {x: 430, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6549448072793835992}
-    m_Position: {x: 600, y: -220, z: 0}
+    m_Position: {x: 640, y: -230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4493116412575304400}
     m_Position: {x: 280, y: -640, z: 0}
@@ -7700,7 +7706,7 @@ AnimatorStateMachine:
     m_Position: {x: 110, y: 220, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 131108106987829363}
-    m_Position: {x: -110, y: -20, z: 0}
+    m_Position: {x: -60, y: 50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5908895037481474928}
     m_Position: {x: 240, y: 110, z: 0}
@@ -7727,8 +7733,8 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_AnyStatePosition: {x: 280, y: -110, z: 0}
+  m_EntryPosition: {x: 60, y: -100, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -6442502526285461585}
