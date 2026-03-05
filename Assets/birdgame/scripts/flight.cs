@@ -7,7 +7,7 @@ public class flight : MonoBehaviour
 {
     float turnspeed;
     public CameraProfile cameraProfile;
-   
+    public GameObject bird;
     float maxForwardBoost;
     float loseForwardBoost;
     float windRise;
@@ -294,7 +294,11 @@ public class flight : MonoBehaviour
     }
     void windRide()
     {
-       
+        Quaternion rotation = Quaternion.LookRotation(bird.transform.localPosition, bird.transform.localPosition);
+        Vector3 normalizedWindStrength = rotation * windstrength; 
+        Debug.Log("normalized: " + normalizedWindStrength);
+        Debug.Log("normalizedRotation: " + rotation);
+        
         anim.SetBool("windtouch", false);
         anim.SetBool("windride", true);
         windtime += Time.deltaTime / rideSpeed;
@@ -303,9 +307,9 @@ public class flight : MonoBehaviour
         Debug.Log("t= " + t);
         Debug.Log("windstrength: " + windstrength);
         Debug.Log("time.deltatime: " + Time.deltaTime);
-        
+
         //Debug.Log("windstrength= " + windstrength);
-        rb.AddForce(Mathf.SmoothStep(0, windstrength.x, t), Mathf.SmoothStep(0, windstrength.y, t), Mathf.SmoothStep(0, windstrength.z, t), ForceMode.VelocityChange);
+        rb.AddForce(Mathf.SmoothStep(0, normalizedWindStrength.x, t), Mathf.SmoothStep(0, normalizedWindStrength.y, t), Mathf.SmoothStep(0, normalizedWindStrength.z, t), ForceMode.VelocityChange);
         //rb.AddForce(Vector3.Lerp(new Vector3(0, 0, 0), windstrength, t), ForceMode.VelocityChange);
         //rb.AddForce(0, Mathf.SmoothStep(0, windstrength, t), 0, ForceMode.VelocityChange);
     }
