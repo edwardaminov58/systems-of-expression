@@ -5,12 +5,15 @@ using UnityEngine;
 
 public class windDetection : MonoBehaviour
 {
+    //public float rise;
+    GameObject Wind;
     public flight Flight;
-    public float translateSpeedx;
-    public float translateSpeedy;
-    public float translateSpeedret;
-    public float rotateSpeed;
-    public float windPush;
+     float sink;
+     float translateSpeedx;
+     float translateSpeedy;
+     float translateSpeedret;
+     float rotateSpeed;
+     float windPush;
     public GameObject player;
     public GameObject bird;
     public Rigidbody rb;
@@ -37,12 +40,48 @@ public class windDetection : MonoBehaviour
     }
 
     // Update is called once per frame
+
+    private void FixedUpdate()
+    {
+
+        if (DistanceCenter.x > 0)
+        {
+            rb.AddForce(new Vector3(0, 1 /( DistanceCenter.magnitude + 1) * -sink, 0));
+        }
+        else if (DistanceCenter.x < 0)
+        {
+            rb.AddForce(new Vector3(0, 1 /( DistanceCenter.magnitude + 1) * -sink, 0));
+        }
+
+        if (Distance.x > 0)
+        {
+              rb.AddForce(new Vector3((-(windPush / (Distance.magnitude + 1))), 0, 0));
+        }
+        else if (Distance.x < 0)
+        {
+            rb.AddForce(new Vector3(((windPush / (Distance.magnitude + 1))), 0, 0));
+        }
+        //if (DistanceCenter.magnitude <= 0 && Distance.magnitude >0)
+        //{
+        //    //rb.AddForce(new Vector3(0, rise, 0), ForceMode.Impulse);
+        //    rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y + rise, rb.velocity.z);
+        //}
+    }
     void Update()
     {
+         
+
         hitcollidersCenter = (Physics.OverlapSphere(player.transform.position, 50f, wind));
         foreach (var hitcolliderC in hitcollidersCenter)
         {
             DetectCenter = hitcolliderC.ClosestPoint(player.transform.position);
+            Wind = hitcolliderC.gameObject;
+            sink = Wind.GetComponent<wind>().sink;
+            translateSpeedx = Wind.GetComponent<wind>().translateSpeedx;
+            translateSpeedy = Wind.GetComponent<wind>().translateSpeedy;
+            translateSpeedret = Wind.GetComponent<wind>().translateSpeedret;
+            rotateSpeed = Wind.GetComponent<wind>().rotateSpeed;
+            windPush = Wind.GetComponent<wind>().windPush;
 
         }
         DistanceCenter = DetectCenter - new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
@@ -51,7 +90,9 @@ public class windDetection : MonoBehaviour
             float x = translateSpeedx / (DistanceCenter.magnitude + 1);
             y = translateSpeedy / (DistanceCenter.magnitude + 1);
             bird.transform.position = new Vector3(Mathf.Lerp(player.transform.position.x, -DetectCenter.x, x), Mathf.Lerp(player.transform.position.y, -DetectCenter.y, y), 0);
-        }else
+        }
+
+        else
             bird.transform.position = Vector3.MoveTowards(bird.transform.position, player.transform.position, translateSpeedret * Time.deltaTime);
         //}
         //if (Physics.CheckSphere(player.transform.position, 50f, wind))
@@ -87,6 +128,7 @@ public class windDetection : MonoBehaviour
         // if (Physics.CheckSphere(player.transform.position, 50f, wind))
         //{
         Distance = Detect - new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
+        
 
         if (Distance.magnitude > 0 && Distance.magnitude < 50f)
         {
@@ -95,11 +137,11 @@ public class windDetection : MonoBehaviour
             float Rot = rotateSpeed / (Distance.magnitude + 1);
             //bird.transform.position = new Vector3(Mathf.Lerp(player.transform.position.x, -Detect.x, x), bird.transform.position.y, 0);
             //Debug.Log("Detectforce");
-            if (Distance.x > 0)
+            if (Distance.x > 0 )
             {
 
                 //Flight.TiltL = Mathf.Lerp(0, 1, Rot);
-                rb.AddForce(new Vector3((-(windPush / (Distance.magnitude + 1))), Distance.magnitude * -1, 0));
+              
                /// Debug.Log("x = " + x);
                 //bird.transform.Translate(-Distance.magnitude,0, 0 * Time.deltaTime/translateSpeed);
                // Debug.Log("lerp =" + Mathf.Lerp(bird.transform.localPosition.x, -Detect.x, x));
@@ -114,7 +156,7 @@ public class windDetection : MonoBehaviour
             {
 
                 //float t = 1 / Distance.magnitude * 10;
-                rb.AddForce(new Vector3(((windPush / (Distance.magnitude + 1))), Distance.magnitude * -1, 0));
+               
                 //Debug.Log("t = " + t);
                 bird.transform.rotation = Quaternion.Lerp(Quaternion.Euler(0, 0, 0), Quaternion.Euler(0, 0, -15), Rot);
                 //bird.transform.Translate(Vector3.Lerp(Vector3.zero, -Detect, t));

@@ -309,7 +309,7 @@ public class flight : MonoBehaviour
         Debug.Log("time.deltatime: " + Time.deltaTime);
 
         //Debug.Log("windstrength= " + windstrength);
-        rb.AddForce(Mathf.SmoothStep(0, normalizedWindStrength.x, t), Mathf.SmoothStep(0, normalizedWindStrength.y, t), Mathf.SmoothStep(0, normalizedWindStrength.z, t), ForceMode.VelocityChange);
+        rb.AddForce(Mathf.SmoothStep(0, windstrength.x, t), Mathf.SmoothStep(0, normalizedWindStrength.y, t), Mathf.SmoothStep(0, windstrength.z, t), ForceMode.VelocityChange);
         //rb.AddForce(Vector3.Lerp(new Vector3(0, 0, 0), windstrength, t), ForceMode.VelocityChange);
         //rb.AddForce(0, Mathf.SmoothStep(0, windstrength, t), 0, ForceMode.VelocityChange);
     }

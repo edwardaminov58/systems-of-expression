@@ -9,6 +9,12 @@ public class wind : MonoBehaviour
     public float maxSoar;
     public float loseForwardBoost;
     public float maxForwardBoost;
+    public float sink; 
+    public float translateSpeedx;
+    public float translateSpeedy;
+    public float translateSpeedret;
+    public float rotateSpeed;
+    public float windPush;
     // Start is called before the first frame update
     void Start()
     {
