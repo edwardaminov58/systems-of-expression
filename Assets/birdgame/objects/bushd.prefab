@@ -467,7 +467,7 @@ PrefabInstance:
     - target: {fileID: 7962321664849023598, guid: 1e05cc46e1a415c46bfa7879bace7c44,
         type: 3}
       propertyPath: m_Name
-      value: Distance (8) Variant
+      value: bushd
       objectReference: {fileID: 0}
     - target: {fileID: 7962321664849023598, guid: 1e05cc46e1a415c46bfa7879bace7c44,
         type: 3}
@@ -663,7 +663,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2011778321154383560, guid: 1e05cc46e1a415c46bfa7879bace7c44, type: 3}
+    - {fileID: 5942609724700525847, guid: 1e05cc46e1a415c46bfa7879bace7c44, type: 3}
     m_RemovedGameObjects:
     - {fileID: 2243406911608064541, guid: 1e05cc46e1a415c46bfa7879bace7c44, type: 3}
     - {fileID: 4126160425003602875, guid: 1e05cc46e1a415c46bfa7879bace7c44, type: 3}

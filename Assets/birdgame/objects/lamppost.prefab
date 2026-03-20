@@ -975,7 +975,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 7a0355e6ea0075a4f905d7255ef6ae3b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7c605040878bd1f4fa68f18352ad2966, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1013,6 +1013,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   farmidcloseData: {fileID: 0}
-  bird: {fileID: 0}
   SpriteChanged: 0
   Grow: 0
