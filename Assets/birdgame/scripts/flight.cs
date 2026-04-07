@@ -535,6 +535,7 @@ public class flight : MonoBehaviour
         else
         {
             rb.AddForce(0, -damage, 0, ForceMode.VelocityChange);
+            constantForward -= 2f;
             //Debug.Log("drop");
             float n = Random.Range(-1f, 1f);
             anim.SetBool("damage", true);

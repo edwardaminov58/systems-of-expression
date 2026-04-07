@@ -121,30 +121,9 @@ TextureImporter:
       name: old-iron-fence_1
       rect:
         serializedVersion: 2
-        x: 266
+        x: 259
         y: 0
-        width: 209
-        height: 237
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56db34739d85e18409b7b5a9d2893fad
-      internalID: -2112408891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: old-iron-fence_2
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 0
-        width: 209
+        width: 216
         height: 237
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -171,8 +150,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       old-iron-fence_0: -1601241709
-      old-iron-fence_1: -2112408891
-      old-iron-fence_2: -717771712
+      old-iron-fence_1: -717771712
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

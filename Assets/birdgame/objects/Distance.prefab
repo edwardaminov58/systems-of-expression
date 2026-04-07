@@ -73,13 +73,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 600
-  bird: {fileID: 0}
-  NewSprite: {fileID: 21300000, guid: 1d5c713282e6db7488263c8c24d11292, type: 3}
-  endScale: {x: 100, y: 100, z: 1}
-  distancefromBirdtoStopScaling: 500
+  farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
+  Animating: 0
 --- !u!1 &3876776509843292774
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,13 +150,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 600
-  bird: {fileID: 0}
-  NewSprite: {fileID: 21300000, guid: 1d5c713282e6db7488263c8c24d11292, type: 3}
-  endScale: {x: 100, y: 100, z: 1}
-  distancefromBirdtoStopScaling: 500
+  farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
+  Animating: 0
 --- !u!1 &3901489377562055881
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,13 +227,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 600
-  bird: {fileID: 0}
-  NewSprite: {fileID: 21300000, guid: 1d5c713282e6db7488263c8c24d11292, type: 3}
-  endScale: {x: 100, y: 100, z: 1}
-  distancefromBirdtoStopScaling: 500
+  farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
+  Animating: 0
 --- !u!1 &4126160425003602875
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,13 +304,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 600
-  bird: {fileID: 0}
-  NewSprite: {fileID: 21300000, guid: 1d5c713282e6db7488263c8c24d11292, type: 3}
-  endScale: {x: 100, y: 100, z: 1}
-  distancefromBirdtoStopScaling: 500
+  farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
+  Animating: 0
 --- !u!1 &4647530861878796325
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,13 +381,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 600
-  bird: {fileID: 0}
-  NewSprite: {fileID: 21300000, guid: 1d5c713282e6db7488263c8c24d11292, type: 3}
-  endScale: {x: 100, y: 100, z: 1}
-  distancefromBirdtoStopScaling: 500
+  farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
+  Animating: 0
 --- !u!1 &7663609642705590689
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,13 +458,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 600
-  bird: {fileID: 0}
-  NewSprite: {fileID: 21300000, guid: 1d5c713282e6db7488263c8c24d11292, type: 3}
-  endScale: {x: 100, y: 100, z: 1}
-  distancefromBirdtoStopScaling: 500
+  farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
+  Animating: 0
 --- !u!1 &7962321664849023598
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,13 +529,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 600
-  bird: {fileID: 0}
-  NewSprite: {fileID: 21300000, guid: 1d5c713282e6db7488263c8c24d11292, type: 3}
-  endScale: {x: 127, y: 127, z: 1}
-  distancefromBirdtoStopScaling: 500
+  farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
+  Animating: 0
 --- !u!1 &7965121520425845653
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,13 +606,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 600
-  bird: {fileID: 0}
-  NewSprite: {fileID: 21300000, guid: 1d5c713282e6db7488263c8c24d11292, type: 3}
-  endScale: {x: 100, y: 100, z: 1}
-  distancefromBirdtoStopScaling: 500
+  farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
+  Animating: 0
 --- !u!1 &8494187807594730827
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,13 +683,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 600
-  bird: {fileID: 0}
-  NewSprite: {fileID: 21300000, guid: 1d5c713282e6db7488263c8c24d11292, type: 3}
-  endScale: {x: 100, y: 100, z: 1}
-  distancefromBirdtoStopScaling: 500
+  farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
+  Animating: 0
 --- !u!1001 &1288640386202407815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -870,9 +843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a241ffb317796c648bfc05083365709e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 0
+  gatedata: {fileID: 0}
   mirrorX: 0
   mirrorY: 0
   mirrorZ: 0
@@ -1059,9 +1030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a241ffb317796c648bfc05083365709e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 0
+  gatedata: {fileID: 0}
   mirrorX: 0
   mirrorY: 0
   mirrorZ: 0
@@ -1242,9 +1211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a241ffb317796c648bfc05083365709e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 0
+  gatedata: {fileID: 0}
   mirrorX: 0
   mirrorY: 0
   mirrorZ: 0
@@ -1431,9 +1398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a241ffb317796c648bfc05083365709e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 0
+  gatedata: {fileID: 0}
   mirrorX: 0
   mirrorY: 0
   mirrorZ: 0
@@ -1620,9 +1585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a241ffb317796c648bfc05083365709e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 0
+  gatedata: {fileID: 0}
   mirrorX: 0
   mirrorY: 0
   mirrorZ: 0
@@ -1815,9 +1778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a241ffb317796c648bfc05083365709e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 0
+  gatedata: {fileID: 0}
   mirrorX: 0
   mirrorY: 0
   mirrorZ: 0
@@ -1998,9 +1959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a241ffb317796c648bfc05083365709e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 0
+  gatedata: {fileID: 0}
   mirrorX: 0
   mirrorY: 0
   mirrorZ: 0
@@ -2193,9 +2152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a241ffb317796c648bfc05083365709e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 0
+  gatedata: {fileID: 0}
   mirrorX: 0
   mirrorY: 0
   mirrorZ: 0

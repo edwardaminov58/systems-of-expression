@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45718dea10ff2734a97a502db5af41e6, type: 3}
   m_Name: lamppost
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 400
+  distancefromBirdtoSpriteChange: 800
   NewSprite: {fileID: 0}
-  endScale: {x: 2, y: 2, z: 1}
+  endScale: {x: 2.5, y: 2.5, z: 1}
   distancefromBirdtoStopScaling: 500
   DistanceParentTransform: 1

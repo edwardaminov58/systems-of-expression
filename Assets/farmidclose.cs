@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class farmidclose : MonoBehaviour
 {
+    Animator anim;
     public FarmidcloseData farmidcloseData;
     //public float distancefromBirdtoSpriteChange;
     Vector3 newTransform;
@@ -16,6 +17,7 @@ public class farmidclose : MonoBehaviour
     float distancefromBirdGlobal;
     public bool SpriteChanged;
     public bool Grow;
+    public bool Animating;
     Transform Distance;
     //Transform parentTransform;
     //Transform childTransform;
@@ -40,6 +42,8 @@ public class farmidclose : MonoBehaviour
             GrowBigger();
         if (farmidcloseData.NewSprite != null && Distance.position.z - bird.transform.position.z <= farmidcloseData.distancefromBirdtoSpriteChange && SpriteChanged == false)
             spriteChange();
+        if (Animating && Distance.position.z - bird.transform.position.z <= farmidcloseData.distancefromBirdtoSpriteChange && SpriteChanged == false)
+            animateChange();
     }
     public void GrowBigger()
     {
@@ -65,5 +69,13 @@ public class farmidclose : MonoBehaviour
         GetComponentInChildren<SpriteRenderer>().sprite = farmidcloseData.NewSprite;
         SpriteChanged = true;
     }
+
+    public void animateChange()
+    {
+        anim = gameObject.GetComponentInChildren<Animator>();
+        anim.SetBool("spritechange", true);
+        SpriteChanged = true;
+    }
+
     //Debug.Log(z + "=" + bird.transform.position.z + "/" + targetBirdDistance + "+" + birdStart);
 }
