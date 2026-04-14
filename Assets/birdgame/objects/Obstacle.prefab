@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6671161006437598038}
   - component: {fileID: -7938595660822169715}
   - component: {fileID: -8091325250360883995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -45.1, y: 14.29, z: 97.7}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_LocalScale: {x: 3.75, y: 3.75, z: 3.75}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -55,7 +55,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 861c83f25c82e1d468ad4d4210e9cde0, type: 2}
+  - {fileID: 2100000, guid: 302340c9beeb86d47a3edcc3a597e084, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: f523e3f6e673e7d4392ba7275389423e, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 1d5c713282e6db7488263c8c24d11292, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -106,8 +106,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.016318094, y: 0.0819484, z: 0.003426936}
-  m_Center: {x: -0.0035794878, y: 0.00008090363, z: -0.00071105035}
+  m_Size: {x: 0.5780819, y: 0.31052485, z: 0.1}
+  m_Center: {x: 0.0008449046, y: -0.027623877, z: 0.1}
 --- !u!114 &-7938595660822169715
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45718dea10ff2734a97a502db5af41e6, type: 3}
   m_Name: benchfardata
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 200
+  distancefromBirdtoSpriteChange: 300
   NewSprite: {fileID: 21300000, guid: a6a6693947a073347a0b961f32bf5eef, type: 3}
-  endScale: {x: 3, y: 3, z: 3}
-  distancefromBirdtoStopScaling: 200
+  endScale: {x: 4.5, y: 4.5, z: 4.5}
+  distancefromBirdtoStopScaling: 500
   DistanceParentTransform: 0

@@ -40,7 +40,7 @@ public class farmidclose : MonoBehaviour
     {
         if (Grow)
             GrowBigger();
-        if (farmidcloseData.NewSprite != null && Distance.position.z - bird.transform.position.z <= farmidcloseData.distancefromBirdtoSpriteChange && SpriteChanged == false)
+        if (farmidcloseData.NewSprite != null && Distance.position.z - bird.transform.position.z <= farmidcloseData.distancefromBirdtoSpriteChange && Distance.position.z - bird.transform.position.z > 0&& SpriteChanged == false)
             spriteChange();
         if (Animating && Distance.position.z - bird.transform.position.z <= farmidcloseData.distancefromBirdtoSpriteChange && SpriteChanged == false)
             animateChange();
@@ -66,7 +66,7 @@ public class farmidclose : MonoBehaviour
     }
     public void spriteChange()
     {
-        GetComponentInChildren<SpriteRenderer>().sprite = farmidcloseData.NewSprite;
+        GetComponentInChildren<SpriteRenderer>().sprite = farmidcloseData.NewSprite;    
         SpriteChanged = true;
     }
 
