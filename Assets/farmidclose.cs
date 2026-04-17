@@ -19,6 +19,8 @@ public class farmidclose : MonoBehaviour
     public bool Grow;
     public bool Animating;
     Transform Distance;
+    float distanceStart;
+    bool growStart = false;
     //Transform parentTransform;
     //Transform childTransform;
     // Start is called before the first frame update
@@ -39,7 +41,16 @@ public class farmidclose : MonoBehaviour
     void Update()
     {
         if (Grow)
+        {
+            if (growStart == false)
+            {
+                distanceStart = bird.transform.position.z;
+                growStart = true;
+
+            }
             GrowBigger();
+        }
+            
         if (farmidcloseData.NewSprite != null && Distance.position.z - bird.transform.position.z <= farmidcloseData.distancefromBirdtoSpriteChange && Distance.position.z - bird.transform.position.z > 0&& SpriteChanged == false)
             spriteChange();
         if (Animating && Distance.position.z - bird.transform.position.z <= farmidcloseData.distancefromBirdtoSpriteChange && SpriteChanged == false)
@@ -54,7 +65,7 @@ public class farmidclose : MonoBehaviour
         newTransform.z = Mathf.SmoothStep(startScale.z, farmidcloseData.endScale.z, z);
         transform.localScale = newTransform;
         //z = (bird.transform.position.z - startDistance) / (targetBirdDistanceScale + startDistance);
-        z = ( bird.transform.position.z) / ((Distance.position.z - farmidcloseData.distancefromBirdtoStopScaling));
+        z = (   bird.transform.position.z - distanceStart) / ((Distance.position.z - farmidcloseData.distancefromBirdtoStopScaling));
             //Debug.Log(z + "=" + bird.transform.position.z + "-" + Distance.position.z + "/" + farmidcloseData.distancefromBirdtoStopScaling);
         //Debug.Log(z + "=" + bird.transform.position.z + "/" + transform.position.z + "-" + bird.transform.position.z); 
         if (z >= 1)

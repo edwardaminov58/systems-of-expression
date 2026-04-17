@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45718dea10ff2734a97a502db5af41e6, type: 3}
   m_Name: GateFarData
   m_EditorClassIdentifier: 
-  distancefromBirdtoSpriteChange: 400
+  distancefromBirdtoSpriteChange: 100
   NewSprite: {fileID: -717771712, guid: 7d0196f4f337fae4a8fa7328aef193b4, type: 3}
   endScale: {x: 1.5, y: 1.5, z: 1.5}
-  distancefromBirdtoStopScaling: 400
+  distancefromBirdtoStopScaling: 10
   DistanceParentTransform: 0

@@ -15,5 +15,5 @@ MonoBehaviour:
   distancefromBirdtoSpriteChange: 500
   NewSprite: {fileID: 21300000, guid: 1d5c713282e6db7488263c8c24d11292, type: 3}
   endScale: {x: 150, y: 150, z: 1}
-  distancefromBirdtoStopScaling: 600
+  distancefromBirdtoStopScaling: 700
   DistanceParentTransform: 1
