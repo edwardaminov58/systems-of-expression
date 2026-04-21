@@ -25,11 +25,10 @@ public class rulerscale : MonoBehaviour
     {
         recttransform.position = new Vector3(recttransform.position.x, startHeight - bird.transform.position.y*10, recttransform.position.z);
         Debug.Log("height"+ bird.transform.position.y);
-        if (bird.transform.position.y > currentHeight + 2f)
-            image.color = Color.white;
-        else
-            image.color = Color.clear;
-          
+        if (bird.transform.position.y > currentHeight + 10f)
+            StartCoroutine(colorChange());
+
+
     }
 
     IEnumerator heightSecond()
@@ -37,7 +36,32 @@ public class rulerscale : MonoBehaviour
         while (true)
         {
             currentHeight = bird.transform.position.y;
-            yield return new WaitForSeconds(.5f);
+            yield return new WaitForSeconds(3f);
         }
+    }
+
+    IEnumerator colorChange()
+    {
+
+            for (float t = 0f; t < 1f; t += Time.deltaTime / 1f)
+            {
+                image.color = Color.Lerp(image.color, Color.white, t);
+                yield return null;
+            }
+
+        yield return new WaitForSeconds(1.5f);
+
+        if (currentHeight <= bird.transform.position.y +5f)
+        {
+            for (float t = 0f; t < 1f; t += Time.deltaTime / 2f)
+            {
+                image.color = Color.Lerp(image.color, Color.clear, t);
+                yield return null;
+            }
+        }
+      
+    
+
+      
     }
 }
