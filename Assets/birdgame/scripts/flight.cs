@@ -132,7 +132,7 @@ public class flight : MonoBehaviour
     void FixedUpdate()
     {
         //Transparency();
-        Debug.Log("veloicty = " + rb.velocity);
+        //Debug.Log("veloicty = " + rb.velocity);
         //flapDropTime();
         //Debug.Log("Velocity: " + rb.velocity);
         //Debug.Log(sideBurstEnd);
@@ -408,7 +408,7 @@ public class flight : MonoBehaviour
         {
             nosediveSpeed = bounceBoostSpeed;
             //Mathf.Clamp(nosediveSpeed++, startNoseSpeed, bounceBoostSpeed);
-            Debug.Log(bounceBoostSpeed);
+            //Debug.Log(bounceBoostSpeed);
         }
         else
             Mathf.Clamp(nosediveSpeed++, 0, 100);

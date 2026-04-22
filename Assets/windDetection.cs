@@ -171,10 +171,10 @@ public class windDetection : MonoBehaviour
         {
 
             Detect = (Vector3.zero);
-            Debug.Log("DetectZero");
+            //Debug.Log("DetectZero");
             //bird.transform.position = Vector3.MoveTowards(bird.transform.position, player.transform.position, translateSpeedret * Time.deltaTime);
         }
-        Debug.Log("Detect:" + Detect + "Distance: " + Distance + "Distmag: " + Distance.magnitude);
+        //Debug.Log("Detect:" + Detect + "Distance: " + Distance + "Distmag: " + Distance.magnitude);
         // }
 
     }
