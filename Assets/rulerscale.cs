@@ -26,13 +26,13 @@ public class rulerscale : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        recttransform.position = new Vector3(recttransform.position.x, startHeight - bird.transform.position.y * 10, recttransform.position.z);
+        recttransform.position = new Vector3(recttransform.position.x, startHeight - bird.transform.position.y * 10.5f, recttransform.position.z);
         //debug.Log("height"+ bird.transform.position.y);
         if (!colorChanged)
         {
             if (bird.transform.position.y > currentHeight + 10f || bird.transform.position.y < currentHeight - 10f)
             {
-                StartCoroutine(colorChange());
+                //StartCoroutine(colorChange());
                 colorChanged = true;
             }
         }
