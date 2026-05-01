@@ -132,7 +132,7 @@ public class flight : MonoBehaviour
     void FixedUpdate()
     {
         //Transparency();
-        //Debug.Log("veloicty = " + rb.velocity);
+        Debug.Log("velocity = " + rb.velocity);
         //flapDropTime();
         //Debug.Log("Velocity: " + rb.velocity);
         //Debug.Log(sideBurstEnd);
@@ -304,12 +304,12 @@ public class flight : MonoBehaviour
         windtime += Time.deltaTime / rideSpeed;
         float t = windtime;
         //windRise = Mathf.SmoothStep(0, windMax.y, t)
-        Debug.Log("t= " + t);
-        Debug.Log("windstrength: " + windstrength);
+        //Debug.Log("t= " + t);
+      //  Debug.Log("windstrength: " + windstrength);
         Debug.Log("time.deltatime: " + Time.deltaTime);
 
         //Debug.Log("windstrength= " + windstrength);
-        rb.AddForce(Mathf.SmoothStep(0, windstrength.x, t), Mathf.SmoothStep(0, normalizedWindStrength.y, t), Mathf.SmoothStep(0, windstrength.z, t), ForceMode.VelocityChange);
+        rb.AddForce(Mathf.SmoothStep(0, windstrength.x, t), Mathf.SmoothStep(0, Mathf.Abs(normalizedWindStrength.y), t), Mathf.SmoothStep(0, windstrength.z, t), ForceMode.VelocityChange);
         //rb.AddForce(Vector3.Lerp(new Vector3(0, 0, 0), windstrength, t), ForceMode.VelocityChange);
         //rb.AddForce(0, Mathf.SmoothStep(0, windstrength, t), 0, ForceMode.VelocityChange);
     }
@@ -619,9 +619,9 @@ public class flight : MonoBehaviour
             windtime = 0;
             
             //windstrength = new Vector3(0, 0, 0);
-            Debug.Log("no wind");
+            //Debug.Log("no wind");
             anim.SetBool("windtouch", false);
-            StartCoroutine(ExitWind());
+            //StartCoroutine(ExitWind());
             
         }
         //if (other.gameObject.tag == "wind")

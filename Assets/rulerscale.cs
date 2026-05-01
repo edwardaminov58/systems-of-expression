@@ -30,9 +30,9 @@ public class rulerscale : MonoBehaviour
         //debug.Log("height"+ bird.transform.position.y);
         if (!colorChanged)
         {
-            if (bird.transform.position.y > currentHeight + 10f || bird.transform.position.y < currentHeight - 10f)
+            if (bird.transform.position.y > currentHeight + 20f || bird.transform.position.y < currentHeight - 20f)
             {
-                //StartCoroutine(colorChange());
+                StartCoroutine(colorChange());
                 colorChanged = true;
             }
         }
