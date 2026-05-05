@@ -7,8 +7,8 @@ using UnityEngine.Events;
 public class altitudeManager : MonoBehaviour
 {
     public GameObject bird;
-    public GameObject Base;
-    public GameObject Layer1;
+    //ublic GameObject Base;
+   //public GameObject Layer1;
     public Material material1;
     public Material material;
     Vector2 startvector;
@@ -46,7 +46,7 @@ public class altitudeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int n = 0; n + 1 < altitudes.Length; n++)
+        for (int n = 0; n +1<altitudes.Length; n++)
         {
             if (bird.transform.position.y > altitudes[n] && bird.transform.position.y < altitudes[n + 1])
             {
@@ -92,11 +92,14 @@ public class altitudeManager : MonoBehaviour
         switch (currentHeightLayer)
         {
             case 0: Alt1.Invoke();
+                Debug.Log("case0");
                 break;
             case 1:
+                Debug.Log("case1");
                 Alt2.Invoke();
                 break;
-            case 3:
+            case 2:
+                Debug.Log("case2");
                 Alt3.Invoke();
                 break;
         }
