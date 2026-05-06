@@ -17,13 +17,13 @@ public class altitudeManager : MonoBehaviour
     float startHeightLayer;
     //bool alt1;
     //bool alt2;
+    public UnityEvent Alt0;
     public UnityEvent Alt1;
     public UnityEvent Alt2;
     public UnityEvent Alt3;
     public UnityEvent Alt4;
     public UnityEvent Alt5;
     public UnityEvent Alt6;
-    public UnityEvent Alt7;
     public float[] altitudes;
     public int currentHeightLayer;
     int nextHeightLayer;
@@ -35,7 +35,7 @@ public class altitudeManager : MonoBehaviour
     void Start()
     {
 
-        startvector = material.GetVector("_offset2");
+        //startvector = material.GetVector("_offset2");
         //currentHeightLayer = altitudes[n];
         //currentHeightLayer = bird.transform.position.y;
         //Debug.Log("currentHeightLayer: " + currentHeightLayer);
@@ -91,16 +91,33 @@ public class altitudeManager : MonoBehaviour
     {
         switch (currentHeightLayer)
         {
-            case 0: Alt1.Invoke();
+            case 0: 
+                Alt0.Invoke();
                 Debug.Log("case0");
                 break;
             case 1:
                 Debug.Log("case1");
-                Alt2.Invoke();
+                Alt1.Invoke();
                 break;
             case 2:
                 Debug.Log("case2");
+                Alt2.Invoke();
+                break;
+            case 3:
                 Alt3.Invoke();
+                Debug.Log("case0");
+                break;
+            case 4:
+                Debug.Log("case1");
+                Alt4.Invoke();
+                break;
+            case 5:
+                Debug.Log("case2");
+                Alt5.Invoke();
+                break;           
+            case 6:
+                Debug.Log("case2");
+                Alt6.Invoke();
                 break;
         }
     }
