@@ -47,7 +47,7 @@ public class groundmoveGround : MonoBehaviour
     {
         horizon = bird.transform.position.z;
         altitude = bird.transform.position.y - startaltitude;
-        transform.position = new Vector3(transform.position.x, Camera.main.transform.position.y - altitudeoffset - y, bird.transform.position.z + horizonoffset);
+        transform.position = new Vector3(transform.position.x, Camera.main.transform.position.y - altitudeoffset - y, transform.position.z);
         //altitudeoffset = altitudeoffset + altitude;
         //Debug.Log(altitude);
 
