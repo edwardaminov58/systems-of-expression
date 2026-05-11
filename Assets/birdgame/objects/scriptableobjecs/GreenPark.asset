@@ -17,7 +17,7 @@ MonoBehaviour:
   maxlimit: {x: 500, y: 1000}
   minlimit: {x: -500, y: 0.5}
   turnSpeed: 20
-  leanSpeed: 40
+  leanSpeed: 50
   leanReverseSpeed: 15
   burst: 50
   Gravity: -3

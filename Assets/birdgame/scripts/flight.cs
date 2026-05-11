@@ -38,7 +38,7 @@ public class flight : MonoBehaviour
     //private float activeSpeed;
     //public float acceleration;
     public Rigidbody rb;
-    //public float burst;
+    public float burst;
     public float angle;
     public Animator anim;
     //public float Gravity;
@@ -118,7 +118,7 @@ public class flight : MonoBehaviour
         originalSpeed = constantForward;
         startCameraDamp = cameraDamp;
         initialSpeed = FlightData.turnSpeed;
-        startBurst = FlightData.burst;
+        startBurst = burst;
         startSpeedupMax = FlightData.speedupMax;
         startSlowdownMin = FlightData.slowdownMin;
     }
@@ -187,7 +187,7 @@ public class flight : MonoBehaviour
         //transform.position += transform.right * activeSpeed * Time.deltaTime;
         if ((Input.GetButton("Jump")) && (anim.GetBool("flapbool") == false) && (anim.GetBool("damage") == false))
         {
-            Flap(FlightData.burst, angle);
+            Flap(burst, angle);
 
         }
 
@@ -639,7 +639,7 @@ public class flight : MonoBehaviour
 
     void ReduceStrength()
     {
-        FlightData.burst = Mathf.Clamp(FlightData.burst - reduceFlap, FlapMin, startBurst);
+        burst = Mathf.Clamp(burst - (burst/reduceFlap), FlapMin, startBurst);
         FlightData.speedupMax = Mathf.Clamp(FlightData.speedupMax - 25, FlightData.speedupMin, FlightData.speedupMax);
         FlightData.slowdownMax = Mathf.Clamp(FlightData.slowdownMin + 5, FlightData.slowdownMin, FlightData.slowdownMax);
         cameraDamp = Mathf.Clamp(cameraDamp - .05f, 0.01f, .25f);
@@ -647,7 +647,7 @@ public class flight : MonoBehaviour
     }
     void RestoreStrength()
     {
-        FlightData.burst = startBurst;
+        burst = startBurst;
         FlightData.speedupMax = startSpeedupMax;
         FlightData.slowdownMin = startSlowdownMin;
         cameraDamp = startCameraDamp;
@@ -664,7 +664,7 @@ public class flight : MonoBehaviour
         {
           
       
-            sideBurstEnd = Mathf.Lerp(FlightData.burst /n, 0, t);
+            sideBurstEnd = Mathf.Lerp(burst /n, 0, t);
 
 
             yield return null;

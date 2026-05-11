@@ -5,6 +5,7 @@ using UnityEngine;
 public class groundmoveGround : MonoBehaviour
 {
     // Start is called before the first frame update
+    public float altStart;  
     public GameObject bird;
     float startaltitude;
     float horizon;
@@ -109,8 +110,8 @@ public class groundmoveGround : MonoBehaviour
     }
     void ChangeUV()
     {
-        float t = bird.transform.position.y / threshold;
-        mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingYstart, tilingYend, t)));
+        float t = bird.transform.position.y + altStart/ threshold;
+        mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingYstart, tilingYend, -t)));
 
         mat.SetVector("_center", new Vector2(0.5f, Mathf.Lerp(centerYstart, centerYend, t)));
     }
