@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45718dea10ff2734a97a502db5af41e6, type: 3}
+  m_Name: TreeCloseStart
+  m_EditorClassIdentifier: 
+  distancefromBirdtoSpriteChange: 500
+  NewSprite: {fileID: 21300000, guid: 1d5c713282e6db7488263c8c24d11292, type: 3}
+  endScale: {x: 250, y: 250, z: 1}
+  distancefromBirdtoStopScaling: 200
+  DistanceParentTransform: 1

@@ -111,7 +111,7 @@ public class groundmoveGround : MonoBehaviour
     void ChangeUV()
     {
         float t = bird.transform.position.y + altStart/ threshold;
-        mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingYstart, tilingYend, -t)));
+        mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingYstart, tilingYend, t)));
 
         mat.SetVector("_center", new Vector2(0.5f, Mathf.Lerp(centerYstart, centerYend, t)));
     }
