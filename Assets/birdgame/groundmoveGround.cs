@@ -5,7 +5,8 @@ using UnityEngine;
 public class groundmoveGround : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float altStart;  
+    public float altStart;
+    Quaternion startRotation;
     public GameObject bird;
     float startaltitude;
     float horizon;
@@ -34,7 +35,7 @@ public class groundmoveGround : MonoBehaviour
     void OnEnable()
     {
         startaltitude = bird.transform.position.y;
-
+        startRotation = Quaternion.Euler(transform.localRotation.eulerAngles);
         baselevel = startaltitude;
         horizontal = bird.transform.position.x;
         mat = GetComponent<MeshRenderer>().material;
@@ -92,17 +93,17 @@ public class groundmoveGround : MonoBehaviour
         x = Input.GetAxisRaw("Horizontal");
         if (x == 0)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(270, 90, -90), Time.deltaTime * returnRotationSpeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(startRotation.eulerAngles.x, startRotation.eulerAngles.y, startRotation.eulerAngles.z), Time.deltaTime * returnRotationSpeed);
             timeCount = timeCount + Time.deltaTime;
         }
         else if (x < 0)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(275, 90, -90), Time.deltaTime * rotationSpeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(startRotation.eulerAngles.x +5, startRotation.eulerAngles.y, startRotation.eulerAngles.z), Time.deltaTime * rotationSpeed);
             timeCount = timeCount + Time.deltaTime;
         }
         else if (x > 0)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(265, 90, -90), Time.deltaTime * rotationSpeed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(startRotation.eulerAngles.x-5, startRotation.eulerAngles.y, startRotation.eulerAngles.z), Time.deltaTime * rotationSpeed);
             timeCount = timeCount + Time.deltaTime;
         }
 
