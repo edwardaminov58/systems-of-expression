@@ -21,6 +21,8 @@ public class groundmoveGround : MonoBehaviour
     public float speed;
     float y;
     Vector2 tiling;
+    Vector2 tilingStart;
+    Vector2 centerStart;
     float x;
     float timeCount = 0.0f;
     public float rotationSpeed;
@@ -29,6 +31,8 @@ public class groundmoveGround : MonoBehaviour
     public float tilingYend = 3;
     public float centerYstart = 2.8f;
     public float centerYend = 3f;
+    Vector2 center;
+
     //Vector2 sphere;
     //Vector2 sphereoffset;
     // Start is called before the first frame update
@@ -39,7 +43,8 @@ public class groundmoveGround : MonoBehaviour
         baselevel = startaltitude;
         horizontal = bird.transform.position.x;
         mat = GetComponent<MeshRenderer>().material;
-
+        tilingStart = mat.GetVector("_tiling");
+        centerStart = mat.GetVector("_center");
 
 
     }
@@ -47,6 +52,7 @@ public class groundmoveGround : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        ChangeUV();
         horizon = bird.transform.position.z;
         altitude = bird.transform.position.y - startaltitude;
         transform.position = new Vector3(transform.position.x, Camera.main.transform.position.y - altitudeoffset - y, transform.position.z);
@@ -71,7 +77,7 @@ public class groundmoveGround : MonoBehaviour
         {
             y = 0;
             //Debug.Log("grounded");
-            ChangeUV();
+            
         }
         if (!grounded)
         {
@@ -85,7 +91,7 @@ public class groundmoveGround : MonoBehaviour
         //sphereoffset = sphere + new Vector2(1, 0);
         //mat.SetVector("_sphere_offset", sphereoffset);
         //mat.SetVector("_offset2", new Vector2(0, -1));   
-        tiling = mat.GetVector("_tiling");
+        //tiling = mat.GetVector("_tiling");
     }
 
     void Rotate()
@@ -111,7 +117,7 @@ public class groundmoveGround : MonoBehaviour
     }
     void ChangeUV()
     {
-        float t = bird.transform.position.y + altStart/ threshold;
+        float t = (bird.transform.position.y + altStart)/ threshold;
         mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingYstart, tilingYend, t)));
 
         mat.SetVector("_center", new Vector2(0.5f, Mathf.Lerp(centerYstart, centerYend, t)));
