@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a944b2dddde6cc45ac9af2ba2c7fa3c, type: 3}
+  m_Name: parklayer2
+  m_EditorClassIdentifier: 
+  tilingStart: {x: 1.39, y: 3}
+  tilingEnd: {x: 7.4, y: 11.4}
+  offsetStart: {x: 1.29, y: 1.72}
+  offsetEnd: {x: 0, y: 1.72}
+  centerStart: {x: 0.4, y: 3}
+  centerEnd: {x: 0.4, y: 6.89}
+  StrengthStart: {x: 0.08, y: 0}
+  StrengthEnd: {x: 0.08, y: 0}
+  tiling2Start: {x: 0.91, y: 0.45}
+  tiling2End: {x: 0.91, y: 0.45}
+  offset2Start: {x: 0, y: -0.25}
+  offset2End: {x: 0, y: -0.25}
+  offsetSphereStart: {x: 0, y: 0}
+  offsetSphereEnd: {x: 0, y: 0}

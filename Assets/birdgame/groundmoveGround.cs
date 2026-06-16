@@ -20,17 +20,49 @@ public class groundmoveGround : MonoBehaviour
     bool grounded;
     public float speed;
     float y;
-    Vector2 tiling;
-    Vector2 tilingStart;
-    Vector2 centerStart;
+   // Vector2 tiling;
+  //  Vector2 tilingStart;
+   // Vector2 centerStart;
     float x;
     float timeCount = 0.0f;
     public float rotationSpeed;
     public float returnRotationSpeed;
-    public float tilingYstart = 8;
-    public float tilingYend = 3;
-    public float centerYstart = 2.8f;
-    public float centerYend = 3f;
+    public groundmoveSettings groundmoveSettings;
+
+
+
+
+    //public float tilingXstart;
+    //public float tilingXend;
+    //public float tilingYstart;
+    //public float tilingYend;
+    //public float offsetXStart;
+    //public float offsetXEnd;
+    //public float offsetYstart;
+    //public float offsetYEnd;
+    //public float centerXstart;
+    //public float centerXend;
+    //public float centerYstart;
+    //public float centerYend;
+    //public float strengthXstart;
+    //public float strengthXend;    
+    //public float strengthYstart;
+    //public float strengthYend ;
+    //public float tiling2xStart ;
+    //public float tiling2xEnd ;
+    //public float tiling2yStart;
+    //public float tiling2yEnd ;
+    //public float offset2XStart;
+    //public float offset2XEnd;
+    //public float offset2Ystart;
+    //public float offset2YEnd;    
+    //public float offsetSphereXStart;
+    //public float offsetSphereXEnd;
+    //public float offsetSphereYstart;
+    //public float offsetSphereYEnd;
+
+
+
     Vector2 center;
 
     //Vector2 sphere;
@@ -43,8 +75,8 @@ public class groundmoveGround : MonoBehaviour
         baselevel = startaltitude;
         horizontal = bird.transform.position.x;
         mat = GetComponent<MeshRenderer>().material;
-        tilingStart = mat.GetVector("_tiling");
-        centerStart = mat.GetVector("_center");
+       // tilingStart = mat.GetVector("_tiling");
+       // centerStart = mat.GetVector("_center");
 
 
     }
@@ -118,8 +150,15 @@ public class groundmoveGround : MonoBehaviour
     void ChangeUV()
     {
         float t = (bird.transform.position.y + altStart)/ threshold;
-        mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingYstart, tilingYend, t)));
+        //mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingStart, tilingEnd, t)));
+        mat.SetVector("_tiling", Vector2.Lerp(groundmoveSettings.tilingStart, groundmoveSettings.tilingEnd, t));
+        mat.SetVector("_tiling", Vector2.Lerp(groundmoveSettings.offsetStart, groundmoveSettings.offsetEnd, t));
 
-        mat.SetVector("_center", new Vector2(0.5f, Mathf.Lerp(centerYstart, centerYend, t)));
+        // mat.SetVector("_center", new Vector2(0.5f, Mathf.Lerp(centerYstart, centerYend, t)));
+        mat.SetVector("_center", Vector2.Lerp(groundmoveSettings.centerStart, groundmoveSettings.centerEnd, t));
+        mat.SetVector("_center", Vector2.Lerp(groundmoveSettings.StrengthStart, groundmoveSettings.StrengthEnd, t));
+        mat.SetVector("_center", Vector2.Lerp(groundmoveSettings.tiling2Start, groundmoveSettings.tiling2End, t));
+        mat.SetVector("_center", Vector2.Lerp(groundmoveSettings.offset2Start, groundmoveSettings.offset2End, t));
+        mat.SetVector("_center", Vector2.Lerp(groundmoveSettings.offsetSphereStart, groundmoveSettings.offsetSphereEnd, t));
     }
 }
