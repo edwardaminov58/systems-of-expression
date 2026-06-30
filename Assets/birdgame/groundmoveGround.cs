@@ -28,6 +28,7 @@ public class groundmoveGround : MonoBehaviour
     public float rotationSpeed;
     public float returnRotationSpeed;
     public groundmoveSettings groundmoveSettings;
+    public altitudeManager AltitudeManager;
 
 
 
@@ -149,16 +150,20 @@ public class groundmoveGround : MonoBehaviour
     }
     void ChangeUV()
     {
-        float t = (bird.transform.position.y + altStart)/ threshold;
+        altStart = AltitudeManager.altitudes[AltitudeManager.currentHeightLayer];
+        threshold = (AltitudeManager.altitudes[AltitudeManager.currentHeightLayer+1] - altStart);
+        float t = (bird.transform.position.y - altStart)/ threshold;
+        
         //mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingStart, tilingEnd, t)));
         mat.SetVector("_tiling", Vector2.Lerp(groundmoveSettings.tilingStart, groundmoveSettings.tilingEnd, t));
-        mat.SetVector("_tiling", Vector2.Lerp(groundmoveSettings.offsetStart, groundmoveSettings.offsetEnd, t));
+        Debug.Log("changeUV t = " + t);
+        mat.SetVector("_offset", Vector2.Lerp(groundmoveSettings.offsetStart, groundmoveSettings.offsetEnd, t));
 
         // mat.SetVector("_center", new Vector2(0.5f, Mathf.Lerp(centerYstart, centerYend, t)));
         mat.SetVector("_center", Vector2.Lerp(groundmoveSettings.centerStart, groundmoveSettings.centerEnd, t));
-        mat.SetVector("_center", Vector2.Lerp(groundmoveSettings.StrengthStart, groundmoveSettings.StrengthEnd, t));
-        mat.SetVector("_center", Vector2.Lerp(groundmoveSettings.tiling2Start, groundmoveSettings.tiling2End, t));
-        mat.SetVector("_center", Vector2.Lerp(groundmoveSettings.offset2Start, groundmoveSettings.offset2End, t));
-        mat.SetVector("_center", Vector2.Lerp(groundmoveSettings.offsetSphereStart, groundmoveSettings.offsetSphereEnd, t));
+        mat.SetVector("_strength", Vector2.Lerp(groundmoveSettings.StrengthStart, groundmoveSettings.StrengthEnd, t));
+        mat.SetVector("_tiling2", Vector2.Lerp(groundmoveSettings.tiling2Start, groundmoveSettings.tiling2End, t));
+        mat.SetVector("_offset2", Vector2.Lerp(groundmoveSettings.offset2Start, groundmoveSettings.offset2End, t));
+        mat.SetVector("_sphereoffset", Vector2.Lerp(groundmoveSettings.offsetSphereStart, groundmoveSettings.offsetSphereEnd, t));
     }
 }

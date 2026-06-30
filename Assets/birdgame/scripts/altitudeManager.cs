@@ -46,6 +46,7 @@ public class altitudeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log("current layer: " + altitudes[currentHeightLayer] + "last layer" + altitudes[currentHeightLayer-1]);
         for (int n = 0; n +1<altitudes.Length; n++)
         {
             if (bird.transform.position.y > altitudes[n] && bird.transform.position.y < altitudes[n + 1])
