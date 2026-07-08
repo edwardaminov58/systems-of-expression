@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a944b2dddde6cc45ac9af2ba2c7fa3c, type: 3}
   m_Name: parklayer2
   m_EditorClassIdentifier: 
-  tilingStart: {x: 1, y: 2.03}
+  tilingStart: {x: 1, y: 1.7}
   tilingEnd: {x: 1, y: 5.89}
   offsetStart: {x: 0, y: 0}
-  offsetEnd: {x: 0, y: 0.42}
-  centerStart: {x: 0.5, y: 1.25}
-  centerEnd: {x: 0.5, y: 3.14}
-  StrengthStart: {x: 1, y: 6.94}
+  offsetEnd: {x: 0, y: -6.85}
+  centerStart: {x: 0.5, y: 1.18}
+  centerEnd: {x: 0.5, y: -6.16}
+  StrengthStart: {x: 1, y: 1.64}
   StrengthEnd: {x: 1, y: -0.1}
-  tiling2Start: {x: 0.2, y: 1.08}
-  tiling2End: {x: 0.2, y: 1.23}
+  tiling2Start: {x: 0.2, y: 1.23}
+  tiling2End: {x: 0.2, y: -7.07}
   offset2Start: {x: 0, y: -0.25}
   offset2End: {x: 0, y: -1}
   offsetSphereStart: {x: 1.98, y: 0}

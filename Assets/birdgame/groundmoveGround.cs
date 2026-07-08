@@ -5,6 +5,7 @@ using UnityEngine;
 public class groundmoveGround : MonoBehaviour
 {
     // Start is called before the first frame update
+    public float Zoffset;
     public float altStart;
     Quaternion startRotation;
     public GameObject bird;
@@ -33,34 +34,6 @@ public class groundmoveGround : MonoBehaviour
 
 
 
-    //public float tilingXstart;
-    //public float tilingXend;
-    //public float tilingYstart;
-    //public float tilingYend;
-    //public float offsetXStart;
-    //public float offsetXEnd;
-    //public float offsetYstart;
-    //public float offsetYEnd;
-    //public float centerXstart;
-    //public float centerXend;
-    //public float centerYstart;
-    //public float centerYend;
-    //public float strengthXstart;
-    //public float strengthXend;    
-    //public float strengthYstart;
-    //public float strengthYend ;
-    //public float tiling2xStart ;
-    //public float tiling2xEnd ;
-    //public float tiling2yStart;
-    //public float tiling2yEnd ;
-    //public float offset2XStart;
-    //public float offset2XEnd;
-    //public float offset2Ystart;
-    //public float offset2YEnd;    
-    //public float offsetSphereXStart;
-    //public float offsetSphereXEnd;
-    //public float offsetSphereYstart;
-    //public float offsetSphereYEnd;
 
 
 
@@ -85,10 +58,11 @@ public class groundmoveGround : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        transform.position = new Vector3(transform.position.x, transform.position.y, bird.transform.position.z + Zoffset);
         ChangeUV();
         horizon = bird.transform.position.z;
         altitude = bird.transform.position.y - startaltitude;
-        transform.position = new Vector3(transform.position.x, Camera.main.transform.position.y - altitudeoffset - y, transform.position.z);
+        //transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         //altitudeoffset = altitudeoffset + altitude;
         //Debug.Log(altitude);
 

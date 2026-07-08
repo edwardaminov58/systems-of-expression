@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1762995826749445755}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 7, z: -28.034504}
+  m_LocalPosition: {x: -0.00000035762787, y: 402.5, z: -14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -390,6 +390,7 @@ MonoBehaviour:
   TiltL: 0
   TiltR: 0
   rb: {fileID: 1762995827492480587}
+  burst: 0
   angle: 0
   anim: {fileID: 0}
   noseMax: 0
@@ -675,6 +676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158d72368939bbc45868d83b11e1f9b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  altStart: 0
   bird: {fileID: 1762995827492480588}
   altitudeoffset: 52.3
   threshold: 150
@@ -682,10 +684,8 @@ MonoBehaviour:
   speed: 0.2
   rotationSpeed: 0.25
   returnRotationSpeed: 0.75
-  tilingYstart: 3
-  tilingYend: 8
-  centerYstart: 2.8
-  centerYend: 3
+  groundmoveSettings: {fileID: 0}
+  AltitudeManager: {fileID: 0}
 --- !u!4 &4135620459626599893 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1652774688720837752, guid: 3e180fd0d6f77d54583197d9b9275464,
@@ -950,6 +950,7 @@ MonoBehaviour:
   Zoffset: 0
   Xoffset: 8
   rotationSpeed: 0.005
+  returnRotationSpeed: 0
 --- !u!114 &3874029674116270961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -962,6 +963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158d72368939bbc45868d83b11e1f9b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  altStart: 0
   bird: {fileID: 1762995826749445755}
   altitudeoffset: 25
   threshold: 10
@@ -969,10 +971,8 @@ MonoBehaviour:
   speed: 0
   rotationSpeed: 0
   returnRotationSpeed: 0
-  tilingYstart: 8
-  tilingYend: 3
-  centerYstart: 2.8
-  centerYend: 3
+  groundmoveSettings: {fileID: 0}
+  AltitudeManager: {fileID: 0}
 --- !u!114 &9135310688285673130
 MonoBehaviour:
   m_ObjectHideFlags: 0

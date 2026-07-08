@@ -160,6 +160,7 @@ Material:
     - _rotate_center: {r: 0, g: 0, b: 0, a: 0}
     - _scroll_velocity: {r: 0, g: 0, b: 0, a: 0}
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
+    - _sphereoffset: {r: 0, g: 0, b: 0, a: 0}
     - _strength: {r: 0.09, g: 0.54, b: 0, a: 0}
     - _strength_1: {r: 5, g: 5, b: 0, a: 0}
     - _tiling: {r: 0.49, g: 1.08, b: 0, a: 0}
