@@ -20,7 +20,7 @@ MonoBehaviour:
   leanSpeed: 50
   leanReverseSpeed: 15
   burst: 50
-  Gravity: 0
+  Gravity: -3
   maxSoar: 100
   dropFromRise: 1
   slowdownMin: 25

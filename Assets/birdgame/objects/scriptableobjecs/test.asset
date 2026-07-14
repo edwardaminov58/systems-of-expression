@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f27d2628826074f4f89f069e2ff06ab4, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: 
+  minForward: 75
+  maxForward: 150
+  maxlimit: {x: 500, y: 1000}
+  minlimit: {x: -500, y: 0.5}
+  turnSpeed: 20
+  leanSpeed: 50
+  leanReverseSpeed: 15
+  burst: 50
+  Gravity: 0
+  maxSoar: 100
+  dropFromRise: 1
+  slowdownMin: 25
+  slowdownMax: 30
+  speedupMin: 200
+  speedupMax: 200
+  FlapMin: 5
+  speedtimeStart: 0.15
+  speedtimeDuration: 0.35
+  speedtimeStop: 0.5
+  slowtimeStart: 0.5
+  slowtimeDuration: 0.25
+  slowtimeStop: 0.5
+  loseForwardBoost: 50
+  maxForwardBoost: 100
