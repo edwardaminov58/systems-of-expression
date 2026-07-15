@@ -71,29 +71,37 @@ public class groundmoveGround : MonoBehaviour
         //    float t = bird.transform.position.x / threshold;
         //    mat.SetVector("_offset", new Vector2(Mathf.Lerp(0f, 1f, t), 1.09f));
         //}
-        if (bird.transform.position.y > threshold)
-        {
 
-            // transform.position = new Vector3(transform.position.x, baselevel - altitude - altitudeoffset, transform.position.z);
-            grounded = false;
-        }
-        else if (bird.transform.position.y < threshold)
-            grounded = true;
 
-        if (grounded)
-        {
-            y = bird.transform.position.y + 0 ;
-            Debug.Log("grounded");
+        //moving the layer up after !grounded
+
+        //if (bird.transform.position.y > threshold)
+        //{
+
+        //    // transform.position = new Vector3(transform.position.x, baselevel - altitude - altitudeoffset, transform.position.z);
+        //    grounded = false;
+        //}
+        //else if (bird.transform.position.y < threshold)
+        //    grounded = true;
+
+        //if (grounded)
+        //{
+        //    y = bird.transform.position.y + 0 ;
+        //    Debug.Log("grounded");
            
-        }
-        if (!grounded)
-        {
+        //}
+        //if (!grounded)
+        //{
 
-            y = (bird.transform.position.y - threshold) * speed;
+        //    y = (bird.transform.position.y - threshold) * speed;
 
-            Debug.Log("not grounded");
-        }
-        Rotate();
+        //    Debug.Log("not grounded");
+        //}
+        //Rotate();
+
+
+
+
         //sphere = mat.GetVector("_sphere_offset");
         //sphereoffset = sphere + new Vector2(1, 0);
         //mat.SetVector("_sphere_offset", sphereoffset);

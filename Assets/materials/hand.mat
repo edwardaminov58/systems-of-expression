@@ -155,11 +155,12 @@ Material:
     - _center: {r: 0, g: -0.27, b: 0, a: 0}
     - _center_1: {r: 1, g: 1, b: 0, a: 0}
     - _offset: {r: 0, g: 0, b: 0, a: 0}
-    - _offset2: {r: 0, g: 0.03, b: 0, a: 0}
+    - _offset2: {r: 0, g: 0.025, b: 0, a: 0}
     - _offset2_1: {r: 0, g: 1, b: 0, a: 0}
     - _rotate_center: {r: 0, g: 0, b: 0, a: 0}
     - _scroll_velocity: {r: 0, g: 0, b: 0, a: 0}
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
+    - _sphereoffset: {r: 0, g: 0, b: 0, a: 0}
     - _strength: {r: 0.09, g: 0.06, b: 0, a: 0}
     - _strength_1: {r: 5, g: 5, b: 0, a: 0}
     - _tiling: {r: 0.49, g: 1.08, b: 0, a: 0}

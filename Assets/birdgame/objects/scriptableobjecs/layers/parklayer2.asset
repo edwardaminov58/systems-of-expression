@@ -18,8 +18,8 @@ MonoBehaviour:
   offsetEnd: {x: 0, y: -0.57}
   centerStart: {x: 0.5, y: 0.87}
   centerEnd: {x: 0.5, y: 1.34}
-  StrengthStart: {x: 0.57, y: 0.53}
-  StrengthEnd: {x: 1, y: 0.53}
+  StrengthStart: {x: 1.5, y: 0.53}
+  StrengthEnd: {x: 1.5, y: 0.53}
   tiling2Start: {x: 0.26, y: 1.15}
   tiling2End: {x: 0.28, y: 0.85}
   offset2Start: {x: 0, y: -0.25}
