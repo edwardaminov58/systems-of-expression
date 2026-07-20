@@ -30,7 +30,7 @@ public class groundmoveGround : MonoBehaviour
     public float returnRotationSpeed;
     public groundmoveSettings groundmoveSettings;
     public altitudeManager AltitudeManager;
-
+    public float sideSpeed;
 
 
 
@@ -146,6 +146,6 @@ public class groundmoveGround : MonoBehaviour
         mat.SetVector("_strength", Vector2.Lerp(groundmoveSettings.StrengthStart, groundmoveSettings.StrengthEnd, t));
         mat.SetVector("_tiling2", Vector2.Lerp(groundmoveSettings.tiling2Start, groundmoveSettings.tiling2End, t));
         mat.SetVector("_offset2", Vector2.Lerp(groundmoveSettings.offset2Start, groundmoveSettings.offset2End, t));
-        mat.SetVector("_sphereoffset", Vector2.Lerp(groundmoveSettings.offsetSphereStart, groundmoveSettings.offsetSphereEnd, t));
+        mat.SetVector("_sphereoffset", new Vector2(1.37f + bird.transform.position.x/sideSpeed, 0));
     }
 }

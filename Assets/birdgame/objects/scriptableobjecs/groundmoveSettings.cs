@@ -17,7 +17,7 @@ public class groundmoveSettings : ScriptableObject
     public Vector2 tiling2End;
     public Vector2 offset2Start;
     public Vector2 offset2End;
-    public Vector2 offsetSphereStart;
-    public Vector2 offsetSphereEnd;
+    public Vector2 offsetSphere;
+    
 
 }
