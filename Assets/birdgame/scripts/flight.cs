@@ -5,6 +5,7 @@ using Cinemachine;
 
 public class flight : MonoBehaviour
 {
+    public float cameraTiltThreshold;
     float turnspeed;
     public CameraProfile cameraProfile;
     public GameObject bird;
@@ -93,7 +94,7 @@ public class flight : MonoBehaviour
     float dropFromRiseStart;
     public float brakePull;
     //public bool SimControls;
-
+    public altitudeManager AltitudeManager;
 
 
 
@@ -131,6 +132,7 @@ public class flight : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        
         //Transparency();
         Debug.Log("velocity = " + rb.velocity);
         //flapDropTime();
@@ -173,7 +175,7 @@ public class flight : MonoBehaviour
             // vcam.m_Lens.FieldOfView = vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView + .15f, 25, 60f); 
         }
         //HorizontalLean(transform, x, 60, .0f);
-
+        cameraTiltChange();
         //normal
         anim.SetFloat("turningValue", x);
 
@@ -322,6 +324,24 @@ public class flight : MonoBehaviour
 
         vcam.m_Lens.FieldOfView = Mathf.Lerp(cameraProfile.minLens, cameraProfile.maxLens, t);
         //vcam.GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = cameraProfile.CameraDistance;
+
+    }
+    void cameraTiltChange()
+    {
+        float altStart = AltitudeManager.altitudes[AltitudeManager.currentHeightLayer];
+        
+        float t = (gameObject.transform.localPosition.y - altStart )/ cameraTiltThreshold;
+        Debug.Log("t=" + t);
+        Debug.Log("layer =" + AltitudeManager.currentHeightLayer);
+        Debug.Log("alt start = " + altStart);
+        Debug.Log("threshhold = " + cameraTiltThreshold);
+        if (AltitudeManager.currentHeightLayer == 0)
+            vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = 0f;
+        else if (AltitudeManager.currentHeightLayer == 1)
+            vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = Mathf.Lerp(0, 15f, t);
+        else if (AltitudeManager.currentHeightLayer == 2)
+            vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = Mathf.Lerp(15, 0, t);
+
 
     }
     void Occlusion()

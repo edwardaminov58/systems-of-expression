@@ -152,18 +152,18 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _center: {r: 0.39, g: 4.61, b: 0, a: 0}
+    - _center: {r: 0.5, g: 1, b: 0, a: 0}
     - _center_1: {r: 1, g: 1, b: 0, a: 0}
-    - _offset: {r: 0, g: 1.72, b: 0, a: 0}
+    - _offset: {r: 0, g: -0.39, b: 0, a: 0}
     - _offset2: {r: 0, g: -0.25, b: 0, a: 0}
     - _offset2_1: {r: 0, g: 1, b: 0, a: 0}
     - _rotate_center: {r: 0, g: 0, b: 0, a: 0}
     - _scroll_velocity: {r: 0, g: 0, b: 0, a: 0}
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
-    - _sphereoffset: {r: 0, g: 0, b: 0, a: 0}
-    - _strength: {r: 0.08, g: 0, b: 0, a: 0}
+    - _sphereoffset: {r: 1.37, g: 0, b: 0, a: 0}
+    - _strength: {r: 2.61, g: 0.53, b: 0, a: 0}
     - _strength_1: {r: 5, g: 5, b: 0, a: 0}
-    - _tiling: {r: 1.03, g: 8.9, b: 0, a: 0}
-    - _tiling2: {r: 0.91, g: 0.45, b: 0, a: 0}
+    - _tiling: {r: 1, g: 3.58, b: 0, a: 0}
+    - _tiling2: {r: 0.26, g: 1.15, b: 0, a: 0}
     - _tiling2_1: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
