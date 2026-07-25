@@ -331,10 +331,10 @@ public class flight : MonoBehaviour
         float altStart = AltitudeManager.altitudes[AltitudeManager.currentHeightLayer];
         
         float t = (gameObject.transform.localPosition.y - altStart )/ cameraTiltThreshold;
-        Debug.Log("t=" + t);
-        Debug.Log("layer =" + AltitudeManager.currentHeightLayer);
-        Debug.Log("alt start = " + altStart);
-        Debug.Log("threshhold = " + cameraTiltThreshold);
+        //Debug.Log("t=" + t);
+        //Debug.Log("layer =" + AltitudeManager.currentHeightLayer);
+        //Debug.Log("alt start = " + altStart);
+        //Debug.Log("threshhold = " + cameraTiltThreshold);
         if (AltitudeManager.currentHeightLayer == 0)
             vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = 0f;
         else if (AltitudeManager.currentHeightLayer == 1)
