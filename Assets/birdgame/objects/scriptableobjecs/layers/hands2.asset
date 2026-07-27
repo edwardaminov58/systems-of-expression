@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a944b2dddde6cc45ac9af2ba2c7fa3c, type: 3}
+  m_Name: hands2
+  m_EditorClassIdentifier: 
+  tilingStart: {x: 0.49, y: 1.08}
+  tilingEnd: {x: 0.49, y: 1.44}
+  offsetStart: {x: 0, y: 0}
+  offsetEnd: {x: 0, y: 0}
+  centerStart: {x: 0, y: -0.27}
+  centerEnd: {x: 0, y: -0.27}
+  StrengthStart: {x: 0.09, y: 0.06}
+  StrengthEnd: {x: 0.09, y: 0.06}
+  tiling2Start: {x: 0.72, y: 0.69}
+  tiling2End: {x: 0.72, y: 0.69}
+  offset2Start: {x: 0, y: 0.025}
+  offset2End: {x: 0, y: 0.025}
+  offsetSphere: {x: 0, y: 0}

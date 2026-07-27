@@ -139,9 +139,9 @@ public class groundmoveGround : MonoBehaviour
         
         //mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingStart, tilingEnd, t)));
         mat.SetVector("_tiling", Vector2.Lerp(groundmoveSettings.tilingStart, groundmoveSettings.tilingEnd, t));
-        Debug.Log("changeUV t = " + t);
-        Debug.Log("altStart = " + altStart);
-        Debug.Log("threshhold = " + threshold);
+        //Debug.Log("changeUV t = " + t);
+        //Debug.Log("altStart = " + altStart);
+        //Debug.Log("threshhold = " + threshold);
         mat.SetVector("_offset", Vector2.Lerp(groundmoveSettings.offsetStart, groundmoveSettings.offsetEnd, t));
 
         // mat.SetVector("_center", new Vector2(0.5f, Mathf.Lerp(centerYstart, centerYend, t)));

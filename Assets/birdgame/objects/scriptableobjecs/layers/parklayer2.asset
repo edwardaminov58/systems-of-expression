@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: parklayer2
   m_EditorClassIdentifier: 
   tilingStart: {x: 1, y: 3}
-  tilingEnd: {x: 1, y: 5.32}
-  offsetStart: {x: 0, y: -0.33}
-  offsetEnd: {x: 0, y: -0.57}
-  centerStart: {x: 0.5, y: 0.87}
-  centerEnd: {x: 0.5, y: 1.34}
-  StrengthStart: {x: 2.76, y: 0.53}
-  StrengthEnd: {x: 1.5, y: 0.53}
-  tiling2Start: {x: 0.26, y: 1.15}
-  tiling2End: {x: 0.28, y: 0.85}
-  offset2Start: {x: 0, y: -0.5}
-  offset2End: {x: 0, y: -0.25}
+  tilingEnd: {x: 1, y: 1.5}
+  offsetStart: {x: 0, y: 0}
+  offsetEnd: {x: 0, y: 0}
+  centerStart: {x: 0.5, y: 1.4}
+  centerEnd: {x: 0.5, y: 1.65}
+  StrengthStart: {x: 1, y: 0.53}
+  StrengthEnd: {x: 1.5, y: 1}
+  tiling2Start: {x: 0.25, y: 1.25}
+  tiling2End: {x: 0.25, y: 0.8}
+  offset2Start: {x: 0, y: -2}
+  offset2End: {x: 0, y: -2}
   offsetSphere: {x: 0, y: 0}
