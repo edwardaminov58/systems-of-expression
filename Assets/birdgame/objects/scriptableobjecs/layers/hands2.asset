@@ -22,6 +22,6 @@ MonoBehaviour:
   StrengthEnd: {x: 0.3, y: 0.001}
   tiling2Start: {x: 1.05, y: 0.69}
   tiling2End: {x: 1.05, y: 0.69}
-  offset2Start: {x: 0, y: 0.13}
-  offset2End: {x: 0, y: 0.13}
+  offset2Start: {x: 0, y: 0.09}
+  offset2End: {x: 0, y: 0.09}
   offsetSphere: {x: 0, y: 0}
