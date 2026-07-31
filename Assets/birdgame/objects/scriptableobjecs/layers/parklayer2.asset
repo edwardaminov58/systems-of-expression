@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a944b2dddde6cc45ac9af2ba2c7fa3c, type: 3}
   m_Name: parklayer2
   m_EditorClassIdentifier: 
-  tilingStart: {x: 1, y: 3}
+  tilingStart: {x: 1, y: 2.5}
   tilingEnd: {x: 1, y: 1.5}
   offsetStart: {x: 0, y: 0}
   offsetEnd: {x: 0, y: 0}
@@ -20,7 +20,7 @@ MonoBehaviour:
   centerEnd: {x: 0.5, y: 1.65}
   StrengthStart: {x: 1, y: 0.53}
   StrengthEnd: {x: 1.5, y: 1}
-  tiling2Start: {x: 0.25, y: 1.25}
+  tiling2Start: {x: 0.25, y: 1.3}
   tiling2End: {x: 0.25, y: 0.8}
   offset2Start: {x: 0, y: -1.5}
   offset2End: {x: 0, y: -1.5}

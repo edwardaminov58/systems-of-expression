@@ -175,7 +175,7 @@ public class flight : MonoBehaviour
             // vcam.m_Lens.FieldOfView = vcam.m_Lens.FieldOfView = Mathf.Clamp(vcam.m_Lens.FieldOfView + .15f, 25, 60f); 
         }
         //HorizontalLean(transform, x, 60, .0f);
-        cameraTiltChange();
+        //cameraTiltChange();
         //normal
         anim.SetFloat("turningValue", x);
 
@@ -328,40 +328,47 @@ public class flight : MonoBehaviour
     }
     void cameraTiltChange()
     {
-        float altStart1 = AltitudeManager.altitudes[1];
-        float altStart2 = AltitudeManager.altitudes[2];
+        //if (cameraProfile.third == true)
+       // {
+            //float altStart1 = AltitudeManager.altitudes[1];
+            //float altStart2 = AltitudeManager.altitudes[2];
+            float altStart = AltitudeManager.altitudes[AltitudeManager.currentHeightLayer];
 
-        
-        //Debug.Log("camera t=" + t);
-        Debug.Log("layer =" + AltitudeManager.currentHeightLayer);
-       // Debug.Log("alt start = " + altStart);
-        Debug.Log("threshhold = " + cameraTiltThreshold);
-        // if (bird.transform.position.y < AltitudeManager.altitudes[1])
-        //   vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = 0f;
-        //if (bird.transform.position.y >= AltitudeManager.altitudes[1] && bird.transform.position.y <= AltitudeManager.altitudes[2] - 75) {
-        //    float t = (gameObject.transform.localPosition.y - altStart1) / cameraTiltThreshold;
-        //    vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = Mathf.Lerp(0, 15f, t);
-        //    Debug.Log("lerp1");
-        //        }
-        //else if (bird.transform.position.y >= AltitudeManager.altitudes[2] - 25) {
-        //    float t = (gameObject.transform.localPosition.y - altStart2) / cameraTiltThreshold;
-        //    vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = Mathf.Lerp(15, 0, t);
-        //    Debug.Log("lerp2"); }
-        if (AltitudeManager.currentHeightLayer == 0)
-        {
-            vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = 0f;
-        }
-        else if (AltitudeManager.currentHeightLayer == 1)
-        {
-            float t = (gameObject.transform.localPosition.y - altStart1) / cameraTiltThreshold;
-            vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = Mathf.Lerp(0, 15f, t);
+            //Debug.Log("camera t=" + t);
+            Debug.Log("layer =" + AltitudeManager.currentHeightLayer);
+            // Debug.Log("alt start = " + altStart);
+            Debug.Log("threshhold = " + cameraTiltThreshold);
+            // if (bird.transform.position.y < AltitudeManager.altitudes[1])
+            //   vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = 0f;
+            //if (bird.transform.position.y >= AltitudeManager.altitudes[1] && bird.transform.position.y <= AltitudeManager.altitudes[2] - 75) {
+            //    float t = (gameObject.transform.localPosition.y - altStart1) / cameraTiltThreshold;
+            //    vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = Mathf.Lerp(0, 15f, t);
+            //    Debug.Log("lerp1");
+            //        }
+            //else if (bird.transform.position.y >= AltitudeManager.altitudes[2] - 25) {
+            //    float t = (gameObject.transform.localPosition.y - altStart2) / cameraTiltThreshold;
+            //    vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = Mathf.Lerp(15, 0, t);
+            //    Debug.Log("lerp2"); }
+            if (AltitudeManager.currentHeightLayer == 0)
+            {
+                //vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = 0f;
+                vcam.transform.rotation = Quaternion.Euler(0, vcam.transform.rotation.y, vcam.transform.rotation.z);
+            }
+            else if (AltitudeManager.currentHeightLayer == 1)
+            {
+                float t = (gameObject.transform.localPosition.y - altStart) / cameraTiltThreshold;
+                vcam.transform.rotation = Quaternion.Euler(Mathf.Lerp(0, 15, t), vcam.transform.rotation.y, vcam.transform.rotation.z);
+                //vcam.transform.rotation = Quaternion.Lerp(vcam.transform.rotation, Quaternion.Euler(15, vcam.transform.rotation.y, vcam.transform.rotation.z), t);
+                //vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = Mathf.Lerp(0, 15f, t);
 
-        }
-        else if (AltitudeManager.currentHeightLayer == 2)
-        {
-            float t = (gameObject.transform.localPosition.y - altStart2) / cameraTiltThreshold;
-            vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = Mathf.Lerp(15, -2.5f, t);
-        }
+            }
+            else if (AltitudeManager.currentHeightLayer == 2)
+            {
+                float t = (gameObject.transform.localPosition.y - altStart) / cameraTiltThreshold;
+                vcam.transform.rotation = Quaternion.Euler(Mathf.Lerp(15, 0, t), vcam.transform.rotation.y, vcam.transform.rotation.z);
+                //vcam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.Value = Mathf.Lerp(15, -2.5f, t);
+            }
+       // }
 
     }
     void Occlusion()

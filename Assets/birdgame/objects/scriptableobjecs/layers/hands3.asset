@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: hands3
   m_EditorClassIdentifier: 
   tilingStart: {x: 0.5, y: 1.44}
-  tilingEnd: {x: 0.5, y: 1.44}
+  tilingEnd: {x: 0.5, y: 2}
   offsetStart: {x: 0, y: 0}
   offsetEnd: {x: 0, y: 0}
-  centerStart: {x: 0.2, y: -0.27}
-  centerEnd: {x: 0.2, y: -0.27}
+  centerStart: {x: 0.2, y: -0.3}
+  centerEnd: {x: 0.2, y: -0.3}
   StrengthStart: {x: 0.3, y: 0.001}
   StrengthEnd: {x: 0.0001, y: 0.06}
   tiling2Start: {x: 1.05, y: 0.69}

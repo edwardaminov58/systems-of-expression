@@ -203,9 +203,9 @@ Material:
     - _offset: {r: 0.09, g: -0.26, b: 0, a: 0}
     - _offset2: {r: 0.1, g: 1, b: 0, a: 0}
     - _rotate_center: {r: 0, g: 0, b: 0, a: 0}
-    - _scroll_velocity: {r: 0.1, g: -0.5, b: 0, a: 0}
+    - _scroll_velocity: {r: -0.1, g: 0.3, b: 0, a: 0}
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
     - _strength: {r: 1, g: -1.39, b: 0, a: 0}
-    - _tiling: {r: 10, g: 10, b: 0, a: 0}
+    - _tiling: {r: 5, g: 2, b: 0, a: 0}
     - _tiling2: {r: 1, g: 0.41, b: 0, a: 0}
   m_BuildTextureStacks: []

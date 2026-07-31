@@ -24,5 +24,6 @@ public class CameraProfile : ScriptableObject
     public float YRotUp;
     public float YRotDown;
     public float TiltRot ;
+    public bool third;
 
 }

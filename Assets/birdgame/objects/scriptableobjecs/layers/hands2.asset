@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a944b2dddde6cc45ac9af2ba2c7fa3c, type: 3}
   m_Name: hands2
   m_EditorClassIdentifier: 
-  tilingStart: {x: 0.35, y: 1.16}
+  tilingStart: {x: 0.35, y: 1.2}
   tilingEnd: {x: 0.5, y: 1.44}
   offsetStart: {x: 0, y: 0}
   offsetEnd: {x: 0, y: 0}
-  centerStart: {x: 0.2, y: -0.27}
-  centerEnd: {x: 0.2, y: -0.27}
+  centerStart: {x: 0.2, y: -0.3}
+  centerEnd: {x: 0.2, y: -0.3}
   StrengthStart: {x: 0.09, y: 0.06}
   StrengthEnd: {x: 0.3, y: 0.001}
   tiling2Start: {x: 1.05, y: 0.69}

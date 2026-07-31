@@ -31,3 +31,4 @@ MonoBehaviour:
   YRotUp: 0
   YRotDown: 0
   TiltRot: 80
+  third: 1
