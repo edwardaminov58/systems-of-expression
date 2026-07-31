@@ -93,7 +93,7 @@ public class rotation : MonoBehaviour
        // {
             if (y == 0)
             {
-                Debug.Log("rotbase != 0");
+                //Debug.Log("rotbase != 0");
                 transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(cameraProfile.YRotBase, transform.rotation.y, transform.rotation.z), Time.deltaTime * cameraProfile.yreturntoNeutralSpeed);
                 //timeCount = timeCount + Time.deltaTime;
 
