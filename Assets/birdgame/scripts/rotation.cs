@@ -54,7 +54,7 @@ public class rotation : MonoBehaviour
             else if (AltitudeManager.currentHeightLayer == 2)
             {
                 float t = (gameObject.transform.localPosition.y - altStart) / cameraTiltThreshold;
-                vcam.transform.rotation = Quaternion.Euler(Mathf.Lerp(15, 0, t), vcam.transform.rotation.y, vcam.transform.rotation.z);
+               // vcam.transform.rotation = Quaternion.Euler(Mathf.Lerp(15, 0, t), vcam.transform.rotation.y, vcam.transform.rotation.z);
                 cameraTilt = Mathf.Lerp(15, -2.5f, t);
             }
          
