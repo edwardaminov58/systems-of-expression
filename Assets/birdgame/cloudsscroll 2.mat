@@ -180,7 +180,7 @@ Material:
     - _ZTest: 8
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _offset: 8
+    - _offset: 7.6
     - _rotation: 0
     - _wavespeed: 0
     - _wavestrength: 0
@@ -201,7 +201,7 @@ Material:
     - _offset: {r: 0.09, g: -0.26, b: 0, a: 0}
     - _offset2: {r: 0.1, g: 1, b: 0, a: 0}
     - _rotate_center: {r: 0, g: 0, b: 0, a: 0}
-    - _scroll_velocity: {r: 0.1, g: -0.5, b: 0, a: 0}
+    - _scroll_velocity: {r: 0.009, g: -0.1, b: 0, a: 0}
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
     - _strength: {r: 1, g: -1.39, b: 0, a: 0}
     - _tiling: {r: 8, g: 8, b: 0, a: 0}
