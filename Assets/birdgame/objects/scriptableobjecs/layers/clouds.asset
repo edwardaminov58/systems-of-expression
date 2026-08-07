@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a944b2dddde6cc45ac9af2ba2c7fa3c, type: 3}
+  m_Name: clouds
+  m_EditorClassIdentifier: 
+  tilingStart: {x: 1.48, y: 0.85}
+  tilingEnd: {x: 1.48, y: 0.85}
+  offsetStart: {x: 0, y: -0.2}
+  offsetEnd: {x: 0, y: -0.2}
+  centerStart: {x: 0.72, y: -0.65}
+  centerEnd: {x: 0.72, y: -0.65}
+  StrengthStart: {x: 4, y: -1.48}
+  StrengthEnd: {x: 4, y: -1.48}
+  tiling2Start: {x: 0.23, y: 0.29}
+  tiling2End: {x: 0.23, y: 0.29}
+  offset2Start: {x: 0.025, y: -0.1}
+  offset2End: {x: 0.025, y: -0.1}
+  offsetSphere: {x: 0, y: 0}

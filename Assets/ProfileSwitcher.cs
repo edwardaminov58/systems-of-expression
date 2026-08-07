@@ -77,7 +77,8 @@ public class ProfileSwitcher : MonoBehaviour
     {
         shadow.SetActive(false);
     }
-    //IEnumerator animateSwitch(CameraProfile cameraProfile)
+    //IEnumerator animateSwitch(
+    //cameraProfile)
     //{
     //    for (float t = 0f; t < 1f; t += Time.deltaTime / switchTime) {
     //        vcam.GetCinemachineComponent<CinemachineFramingTransposer>().m_CameraDistance = Mathf.Lerp(lastcameraProfile.CameraDistance, cameraProfile.CameraDistance, t);
