@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: clouds
   m_EditorClassIdentifier: 
   tilingStart: {x: 1.48, y: 0.85}
-  tilingEnd: {x: 1.48, y: 0.85}
+  tilingEnd: {x: 1.48, y: 1.1}
   offsetStart: {x: 0, y: -0.2}
   offsetEnd: {x: 0, y: -0.2}
   centerStart: {x: 0.72, y: -0.65}
-  centerEnd: {x: 0.72, y: -0.65}
+  centerEnd: {x: 0.72, y: -0.53}
   StrengthStart: {x: 4, y: -1.48}
   StrengthEnd: {x: 4, y: -1.48}
   tiling2Start: {x: 0.23, y: 0.29}

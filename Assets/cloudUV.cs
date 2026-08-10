@@ -25,8 +25,8 @@ public class cloudUV : MonoBehaviour
     }
     void ChangeUV()
     {
-        altStart = AltitudeManager.altitudes[AltitudeManager.currentHeightLayer];
-        threshold = (AltitudeManager.altitudes[AltitudeManager.currentHeightLayer + 1] - altStart);
+        //altStart = AltitudeManager.altitudes[AltitudeManager.currentHeightLayer];
+        //threshold = (AltitudeManager.altitudes[AltitudeManager.currentHeightLayer + 1] - altStart);
         float t = (bird.transform.position.y - altStart) / threshold;
 
         //mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingStart, tilingEnd, t)));
@@ -41,7 +41,8 @@ public class cloudUV : MonoBehaviour
         mat.SetVector("_strength", Vector2.Lerp(groundmoveSettings.StrengthStart, groundmoveSettings.StrengthEnd, t));
         mat.SetVector("_tiling2", Vector2.Lerp(groundmoveSettings.tiling2Start, groundmoveSettings.tiling2End, t));
         mat.SetVector("_offset2", Vector2.Lerp(groundmoveSettings.offset2Start, groundmoveSettings.offset2End, t));
-        mat.SetVector("_sphereoffset", new Vector2(sphereOffsetBaseX + bird.transform.position.x / sideSpeed, 0));
+        mat.SetVector("_sphereoffset", new Vector2(sphereOffsetBaseX - bird.transform.position.x / sideSpeed, 0));
+
     }
-    
+
 }

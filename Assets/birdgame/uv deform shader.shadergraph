@@ -1288,7 +1288,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "5671a1e1b4ac4854a9ac5ed58066014f",
     "m_Id": 0,
-    "m_DisplayName": "sphere offset",
+    "m_DisplayName": "sphereoffset",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1317,10 +1317,10 @@
     "m_Guid": {
         "m_GuidSerialized": "2eaca79b-b12b-4195-967c-b747551df821"
     },
-    "m_Name": "sphere offset",
+    "m_Name": "sphereoffset",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "sphere offset",
-    "m_DefaultReferenceName": "_sphere_offset",
+    "m_RefNameGeneratedByDisplayName": "sphereoffset",
+    "m_DefaultReferenceName": "_sphereoffset",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
