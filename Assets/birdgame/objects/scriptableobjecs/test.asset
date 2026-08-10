@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minForward: 75
   maxForward: 150
-  maxlimit: {x: 500, y: 1000}
+  maxlimit: {x: 500, y: 5000}
   minlimit: {x: -500, y: 0.5}
   turnSpeed: 20
   leanSpeed: 50
