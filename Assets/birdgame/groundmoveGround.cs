@@ -134,7 +134,7 @@ public class groundmoveGround : MonoBehaviour
     void ChangeUV()
     {
         altStart = AltitudeManager.altitudes[AltitudeManager.currentHeightLayer]; 
-        threshold = (AltitudeManager.altitudes[AltitudeManager.currentHeightLayer+1] - altStart);
+        threshold = (AltitudeManager.altitudes[AltitudeManager.currentHeightLayer+ 1] - altStart);
         float t = (bird.transform.position.y - altStart)/ threshold;
         
         //mat.SetVector("_tiling", new Vector2(1, Mathf.Lerp(tilingStart, tilingEnd, t)));

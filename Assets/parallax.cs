@@ -6,11 +6,18 @@ public class parallax : MonoBehaviour
 {
     public float parallaxValueX;
     public float parallaxValueY;
-
+    public GameObject bg;
     float startPosX;
     float startPosY;
     float startCamX;
     float startCamY;
+    float bgRelativeY;
+    float bgStartY;
+
+    float currentPosX;
+    float currentPosY;
+
+    public float endPosY;
 
     // Start is called before the first frame update
     void OnEnable()
@@ -19,11 +26,23 @@ public class parallax : MonoBehaviour
         startPosY = transform.position.y;
         startCamX = Camera.main.transform.position.x;
         startCamY = Camera.main.transform.position.y;
+        bgStartY = bg.transform.position.y;
+
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.position = new Vector3(startPosX + ((Camera.main.transform.position.x - startCamX) * -parallaxValueX), startPosY + ((Camera.main.transform.position.y - startCamY) * parallaxValueY), transform.position.z);
+        //(bgStartY - bg.transform.position.y +)
+        //bgRelativeY = bg.transform.position.y - startPosY;
+        currentPosX = startPosX + ((Camera.main.transform.position.x - startCamX) * -parallaxValueX);
+        currentPosY = Mathf.Clamp(startPosY + ((Camera.main.transform.position.y - startCamY) * parallaxValueY), startPosY, endPosY) - (bgStartY - bg.transform.position.y);
+        transform.position = new Vector3(currentPosX, currentPosY, transform.position.z);
+        
+    }
+
+    private void Update()
+    {
+        
     }
 }
