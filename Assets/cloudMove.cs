@@ -36,12 +36,13 @@ public class cloudMove : MonoBehaviour
     }
     void Ymove()
     {
-        
 
+        Threshold = AltitudeManager.altitudes[AltitudeManager.currentHeightLayer + 1] - AltitudeManager.altitudes[AltitudeManager.currentHeightLayer];
         float altStart = AltitudeManager.altitudes[AltitudeManager.currentHeightLayer];
 
         if (AltitudeManager.currentHeightLayer == 0)
         {
+
             float t = (bird.transform.localPosition.y - altStart) / Threshold;
             gameObject.transform.position = new Vector3(gameObject.transform.position.x, Mathf.Lerp(layer1StartY, layer1EndY, t), gameObject.transform.position.z);
         }

@@ -32,12 +32,12 @@ public class layermove : MonoBehaviour
         //    gameObject.transform.position = new Vector3(gameObject.transform.position.x, Mathf.Lerp(startPosition, EndPosition, t), gameObject.transform.position.z);
         //}
 
-        if (bird.transform.position.y > layerThreshold)
-        {
+        //if (bird.transform.position.y > layerThreshold)
+        //{
             if (bird.transform.position.y > threshold)
             {
                 transform.position = new Vector3 (transform.position.x, ((startPosition - (bird.transform.position.y - threshold) ) * speed), transform.position.z);
             }
-        }
+        //}
     }
 }
