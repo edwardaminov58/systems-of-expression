@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minForward: 75
   maxForward: 150
-  maxlimit: {x: 500, y: 1000}
+  maxlimit: {x: 500, y: 5000}
   minlimit: {x: -500, y: 0.5}
   turnSpeed: 20
   leanSpeed: 50
   leanReverseSpeed: 15
-  burst: 50
+  burst: 1000
   Gravity: -3
   maxSoar: 100
   dropFromRise: 1
@@ -29,9 +29,9 @@ MonoBehaviour:
   speedupMax: 200
   FlapMin: 5
   speedtimeStart: 0.15
-  speedtimeDuration: 0.35
+  speedtimeDuration: 0.15
   speedtimeStop: 0.5
-  slowtimeStart: 0.5
+  slowtimeStart: 1
   slowtimeDuration: 0.25
   slowtimeStop: 0.5
   loseForwardBoost: 50

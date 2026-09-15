@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distancefromBirdtoSpriteChange: 400
   NewSprite: {fileID: 0}
-  endScale: {x: 2, y: 2, z: 1}
+  endScale: {x: 3.25, y: 3.25, z: 1}
   distancefromBirdtoStopScaling: 200
   DistanceParentTransform: 1

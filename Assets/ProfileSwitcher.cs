@@ -19,7 +19,7 @@ public class ProfileSwitcher : MonoBehaviour
     public CameraProfile third;
     //public Animator camera;
     public SpriteRenderer spriteRenderer;
-
+    public Animator animator;
     //private void Update()
     //{
     //    if (firstPerson == true && Flight.cameraProfile != first)
@@ -76,6 +76,11 @@ public class ProfileSwitcher : MonoBehaviour
     }  public void ShadowOff()
     {
         shadow.SetActive(false);
+    }
+
+    public void Deactivate()
+    {
+        animator.enabled = false;
     }
     //IEnumerator animateSwitch(
     //cameraProfile)

@@ -382,6 +382,7 @@ public class flight : MonoBehaviour
         transform.localPosition += forwardmovement * constantForward * Time.deltaTime;
 
         //mode7turningControl
+        //change aim to same as follow target -composer
         //if (TiltL > 0)
         //{
         //    Quaternion deltarotation = Quaternion.Euler(new Vector3(0, -20, 0) * Time.deltaTime);
