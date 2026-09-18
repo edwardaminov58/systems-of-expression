@@ -201,6 +201,7 @@ Material:
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _Vector2: {r: 0, g: 0, b: 0, a: 0}
+    - _alpha: {r: 0, g: 0, b: 0, a: 0}
     - _center: {r: 0.74, g: 1.23, b: 0, a: 0}
     - _offset: {r: 0.09, g: -0.26, b: 0, a: 0}
     - _offset2: {r: 0.1, g: 1, b: 0, a: 0}
