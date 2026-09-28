@@ -18,5 +18,8 @@ public class offsetspeed : MonoBehaviour
     void Update()
     {
         mat.SetFloat("_offset", offset - bird.transform.position.x / sidespeed);
+        //gameObject.transform.rotation = Quaternion.Euler(transform.rotation.x, (offset - bird.transform.position.x / sidespeed), transform.rotation.z);
     }
+
+
 }
