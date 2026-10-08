@@ -24,7 +24,7 @@ public class layermove : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //if (bird.transform.position.y > riseThreshold)
         //{
