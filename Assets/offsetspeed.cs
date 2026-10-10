@@ -11,7 +11,9 @@ public class offsetspeed : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         mat = GetComponent<MeshRenderer>().material;
+        offset = mat.GetFloat("_offset");
     }
 
     // Update is called once per frame

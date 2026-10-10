@@ -36,7 +36,7 @@ public class layermove : MonoBehaviour
         //{
             if (bird.transform.position.y > threshold)
             {
-                transform.position = new Vector3 (transform.position.x, ((startPosition - (bird.transform.position.y - threshold) ) * speed), transform.position.z);
+                transform.position = new Vector3 (transform.position.x, ((startPosition - (bird.transform.position.y - threshold) ) * speed * Time.deltaTime), transform.position.z);
             }
         //}
     }

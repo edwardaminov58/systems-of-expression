@@ -13,6 +13,7 @@ public class darkcloudmove : MonoBehaviour
     public float speed;
     public float altStart;
     public float colorSpeed;
+    public float colorThreshold;
     Material mat;
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,7 @@ public class darkcloudmove : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //mat.SetColor("_alpha", Color.blue);
         // Threshold = (AltitudeManager.altitudes[layer] + Thresholdoffset ) *speed;
@@ -31,9 +32,9 @@ public class darkcloudmove : MonoBehaviour
         // float altStart = AltitudeManager.altitudes[layer];
         if (bird.transform.position.y > altStart)
         {
-            float t = (bird.transform.localPosition.y - altStart) / (Threshold * speed);
+            float t = (bird.transform.localPosition.y - altStart) / (Threshold * speed );
             gameObject.transform.rotation = Quaternion.Euler(transform.eulerAngles = new Vector3(Mathf.Lerp(startLerpRotation, 0, t), transform.rotation.y, transform.rotation.z));
-            float r = (bird.transform.localPosition.y - altStart) / (Threshold * colorSpeed);
+            float r = (bird.transform.localPosition.y - altStart) / (colorThreshold * colorSpeed);
             mat.SetColor("_alpha", Color.Lerp(Color.white, Color.black, r));
                 //Color.Lerp(Color.white, Color.black, t));
         }
