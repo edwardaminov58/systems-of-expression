@@ -7,7 +7,9 @@ public class FarmidcloseData : ScriptableObject
 {
     public float distancefromBirdtoSpriteChange;
     public Sprite NewSprite;
+    public Sprite FarSprite;
     public Vector3 endScale;
     public float distancefromBirdtoStopScaling;
     public bool DistanceParentTransform;
+
 }

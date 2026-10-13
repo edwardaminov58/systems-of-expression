@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class farmidclose : MonoBehaviour
 {
+    public altitudeManager AltitudeManager;
+    float height;
     Animator anim;
     public FarmidcloseData farmidcloseData;
     //public float distancefromBirdtoSpriteChange;
@@ -21,11 +24,19 @@ public class farmidclose : MonoBehaviour
     Transform Distance;
     float distanceStart;
     bool growStart = false;
+    Sprite normalSprite;
+    Sprite oldSprite;
+    Sprite farSprite;
+    bool tinySpriteChanged = false;
     //Transform parentTransform;
     //Transform childTransform;
     // Start is called before the first frame update
     void Start()
     {
+        AltitudeManager = FindObjectOfType<altitudeManager>();
+        height = AltitudeManager.altitudes[2];
+        farSprite = farmidcloseData.FarSprite;
+        normalSprite = GetComponentInChildren<SpriteRenderer>().sprite;
         bird = GameObject.FindGameObjectWithTag("flight");
         if (farmidcloseData.DistanceParentTransform == true)
             Distance = gameObject.transform.parent;
@@ -50,7 +61,19 @@ public class farmidclose : MonoBehaviour
             }
             GrowBigger();
         }
-            
+        if (bird.transform.position.y > height)
+        {
+            if (GetComponentInChildren<SpriteRenderer>().sprite != farSprite)
+                GetComponentInChildren<SpriteRenderer>().sprite = farSprite;
+
+
+
+
+        }
+        else
+            if (GetComponentInChildren<SpriteRenderer>().sprite != normalSprite)
+                    GetComponentInChildren<SpriteRenderer>().sprite = normalSprite;
+
         if (farmidcloseData.NewSprite != null && Distance.position.z - bird.transform.position.z <= farmidcloseData.distancefromBirdtoSpriteChange && Distance.position.z - bird.transform.position.z > 0&& SpriteChanged == false)
             spriteChange();
         if (Animating && Distance.position.z - bird.transform.position.z <= farmidcloseData.distancefromBirdtoSpriteChange && SpriteChanged == false)
@@ -77,10 +100,16 @@ public class farmidclose : MonoBehaviour
     }
     public void spriteChange()
     {
-        GetComponentInChildren<SpriteRenderer>().sprite = farmidcloseData.NewSprite;    
+        //GetComponentInChildren<SpriteRenderer>().sprite = farmidcloseData.NewSprite;
+        normalSprite = farmidcloseData.NewSprite;
         SpriteChanged = true;
     }
-
+    public void tinySpriteChange()
+    {
+        oldSprite = GetComponentInChildren<SpriteRenderer>().sprite;
+        GetComponentInChildren<SpriteRenderer>().sprite = farmidcloseData.FarSprite;
+        tinySpriteChanged = true;
+    }
     public void animateChange()
     {
         anim = gameObject.GetComponentInChildren<Animator>();

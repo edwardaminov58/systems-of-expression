@@ -2033,6 +2033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -3583,6 +3584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -3760,6 +3762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -18072,6 +18075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -25714,6 +25718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -36870,6 +36875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: b0b2c6c3ca69b434faed651103fa6c92, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -52315,6 +52321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -52389,6 +52396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -52823,6 +52831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -55951,6 +55960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -79714,6 +79724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 30687a9c4d7da6f468751d3b1840b90d, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -89973,6 +89984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -90052,6 +90064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -95769,6 +95782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: b0b2c6c3ca69b434faed651103fa6c92, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -100934,6 +100948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -106129,6 +106144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -108736,6 +108752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -114082,6 +114099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -121344,6 +121362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -129717,6 +129736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -138114,6 +138134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -144797,6 +144818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -154587,6 +154609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -159149,6 +159172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -159557,6 +159581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -159662,6 +159687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -160050,6 +160076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -175607,6 +175634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -178092,6 +178120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -183493,6 +183522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -193458,6 +193488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -196015,6 +196046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -196966,6 +196998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -221876,6 +221909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: b76921aa9448e984babb86bfe529f832, type: 2}
   SpriteChanged: 1
   Grow: 0
@@ -222331,6 +222365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -224490,6 +224525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -225796,6 +225832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -243485,6 +243522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -256311,6 +256349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: b76921aa9448e984babb86bfe529f832, type: 2}
   SpriteChanged: 1
   Grow: 0
@@ -262158,6 +262197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -270661,6 +270701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -280990,6 +281031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -283682,6 +283724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -285483,6 +285526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -285533,6 +285577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -290178,6 +290223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -299045,6 +299091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -314702,6 +314749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -315187,13 +315235,15 @@ GameObject:
   - component: {fileID: 822907878}
   - component: {fileID: 822907877}
   - component: {fileID: 822907876}
+  - component: {fileID: 822907879}
+  - component: {fileID: 822907880}
   m_Layer: 0
   m_Name: cloud image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &822907875
 Transform:
   m_ObjectHideFlags: 0
@@ -315226,7 +315276,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -315281,6 +315331,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822907874}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &822907879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822907874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 060117d2315f4c4428e609b452244961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bird: {fileID: 1877372228}
+  darkCloudPlane: {fileID: 1092343812}
+  startPos: -250
+  Threshold: 250
+  speed: 1
+--- !u!114 &822907880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822907874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrder: -1
 --- !u!1 &823099633
 GameObject:
   m_ObjectHideFlags: 0
@@ -320583,6 +320663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -321265,6 +321346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -327558,6 +327640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -328696,6 +328779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -335926,6 +336010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -337837,6 +337922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -356550,6 +356636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -357966,6 +358053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -368420,6 +368508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -377929,6 +378018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -388918,6 +389008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -404329,6 +404420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -409393,6 +409485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -417317,6 +417410,7 @@ GameObject:
   - component: {fileID: 1092343814}
   - component: {fileID: 1092343813}
   - component: {fileID: 1092343819}
+  - component: {fileID: 1092343820}
   m_Layer: 0
   m_Name: darkcloudplane
   m_TagString: Untagged
@@ -417331,7 +417425,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092343812}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 407be298a32019e4aadfae23e81ea396, type: 3}
   m_Name: 
@@ -417462,6 +417556,19 @@ MonoBehaviour:
   altStart: 500
   colorSpeed: 5
   colorThreshold: 300
+--- !u!114 &1092343820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092343812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrder: 101
 --- !u!1 &1092501825
 GameObject:
   m_ObjectHideFlags: 0
@@ -418358,6 +418465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -438717,6 +438825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -445150,6 +445259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -461263,6 +461373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -465974,6 +466085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -467025,6 +467137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: b76921aa9448e984babb86bfe529f832, type: 2}
   SpriteChanged: 1
   Grow: 0
@@ -474039,6 +474152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -475438,6 +475552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -477531,6 +477646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -478994,6 +479110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -492833,6 +492950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -496164,6 +496282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -499906,6 +500025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -505563,6 +505683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -505823,6 +505944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -512329,6 +512451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: b76921aa9448e984babb86bfe529f832, type: 2}
   SpriteChanged: 1
   Grow: 0
@@ -532086,6 +532209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -538100,6 +538224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -538897,6 +539022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -539911,6 +540037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -545076,6 +545203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -550350,6 +550478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: b76921aa9448e984babb86bfe529f832, type: 2}
   SpriteChanged: 0
   Grow: 0
@@ -551929,6 +552058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -558279,6 +558409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: b76921aa9448e984babb86bfe529f832, type: 2}
   SpriteChanged: 1
   Grow: 0
@@ -560175,6 +560306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -569068,6 +569200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -571953,6 +572086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -580356,6 +580490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -585743,6 +585878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -627444,6 +627580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -628400,6 +628537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -636699,6 +636837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -642926,6 +643065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -658163,6 +658303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: b0b2c6c3ca69b434faed651103fa6c92, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -670081,6 +670222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -672846,6 +672988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -682999,6 +683142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -685324,6 +685468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -685825,6 +685970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -691352,6 +691498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: b0b2c6c3ca69b434faed651103fa6c92, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -694309,6 +694456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -695827,6 +695975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -711948,6 +712097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -720943,6 +721093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -723712,6 +723863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -744832,6 +744984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -750494,6 +750647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -776132,6 +776286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -788744,6 +788899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -791192,6 +791348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: b0b2c6c3ca69b434faed651103fa6c92, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -792466,6 +792623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 0
@@ -794776,6 +794934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 0}
   SpriteChanged: 0
   Grow: 1
@@ -802511,6 +802670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -806866,6 +807026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -807362,6 +807523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -810486,6 +810648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999a6851586016241b18664eda65c455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AltitudeManager: {fileID: 0}
   farmidcloseData: {fileID: 11400000, guid: 5b2c8a15e9a21ab47aaf7be702a8f4ab, type: 2}
   SpriteChanged: 0
   Grow: 1
@@ -816667,6 +816830,11 @@ PrefabInstance:
       propertyPath: bird
       value: 
       objectReference: {fileID: 321362213}
+    - target: {fileID: 5780971056900743333, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5829589384174406024, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: bird
@@ -817520,7 +817688,7 @@ PrefabInstance:
     - target: {fileID: 5071594224715308545, guid: 59056c13cb3616e41bdbb7be00517dd2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 5071594224715308545, guid: 59056c13cb3616e41bdbb7be00517dd2,
         type: 3}
@@ -817831,7 +817999,7 @@ PrefabInstance:
     - target: {fileID: 9096081016983858981, guid: 59056c13cb3616e41bdbb7be00517dd2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5
+      value: 302.5
       objectReference: {fileID: 0}
     - target: {fileID: 9096081016983858981, guid: 59056c13cb3616e41bdbb7be00517dd2,
         type: 3}
@@ -819855,7 +820023,7 @@ PrefabInstance:
     - target: {fileID: 4149651524802947841, guid: 2a4ab6f7225a6194794546b06db8c466,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5
+      value: 302.5
       objectReference: {fileID: 0}
     - target: {fileID: 4149651524802947841, guid: 2a4ab6f7225a6194794546b06db8c466,
         type: 3}
@@ -820310,7 +820478,7 @@ PrefabInstance:
     - target: {fileID: 4434981505946126931, guid: ede9596fca0bed540b871df2a33dd1b4,
         type: 3}
       propertyPath: altitudes.Array.data[1]
-      value: 250
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4434981505946126931, guid: ede9596fca0bed540b871df2a33dd1b4,
         type: 3}
