@@ -139942,7 +139942,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 362922098}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: layer1-2 obj pool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -816959,6 +816959,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080646905260378463, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      propertyPath: m_TagString
+      value: background
       objectReference: {fileID: 0}
     - target: {fileID: 7157209662490289453, guid: 431adff752e0e344f802231a962207d5,
         type: 3}

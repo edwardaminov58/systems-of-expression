@@ -28,11 +28,13 @@ public class farmidclose : MonoBehaviour
     Sprite oldSprite;
     Sprite farSprite;
     bool tinySpriteChanged = false;
+    GameObject bg;
     //Transform parentTransform;
     //Transform childTransform;
     // Start is called before the first frame update
     void Start()
     {
+        bg = GameObject.FindGameObjectWithTag("background");
         AltitudeManager = FindObjectOfType<altitudeManager>();
         height = AltitudeManager.altitudes[2];
         farSprite = farmidcloseData.FarSprite;
@@ -61,7 +63,7 @@ public class farmidclose : MonoBehaviour
             }
             GrowBigger();
         }
-        if (bird.transform.position.y > height)
+        if (bird.transform.position.y > height || gameObject.transform.IsChildOf(bg.transform) && farmidcloseData.FarSprite != null)
         {
             if (GetComponentInChildren<SpriteRenderer>().sprite != farSprite)
                 GetComponentInChildren<SpriteRenderer>().sprite = farSprite;
@@ -70,7 +72,11 @@ public class farmidclose : MonoBehaviour
 
 
         }
-        else
+        else if (farmidcloseData.FarSprite != null)
+
+
+
+
             if (GetComponentInChildren<SpriteRenderer>().sprite != normalSprite)
                     GetComponentInChildren<SpriteRenderer>().sprite = normalSprite;
 
