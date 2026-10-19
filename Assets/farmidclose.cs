@@ -12,9 +12,9 @@ public class farmidclose : MonoBehaviour
     //public float distancefromBirdtoSpriteChange;
     Vector3 newTransform;
     Vector3 startScale;
-     GameObject bird;
-   // public Sprite NewSprite;
-   // public Vector3 endScale;
+    GameObject bird;
+    // public Sprite NewSprite;
+    // public Vector3 endScale;
     float z = 0;
     //public float distancefromBirdtoStopScaling;
     float distancefromBirdGlobal;
@@ -46,7 +46,7 @@ public class farmidclose : MonoBehaviour
             Distance = gameObject.transform;
         //parentTransform = GetComponent<Transform>();
         //childTransform = parentTransform.GetChild(0);
-        
+
         startScale = transform.localScale;
     }
 
@@ -63,7 +63,7 @@ public class farmidclose : MonoBehaviour
             }
             GrowBigger();
         }
-        if (bird.transform.position.y > height || gameObject.transform.IsChildOf(bg.transform) && farmidcloseData.FarSprite != null)
+        if ((bird.transform.position.y > height || gameObject.transform.IsChildOf(bg.transform)) && farmidcloseData.FarSprite != null)
         {
             if (GetComponentInChildren<SpriteRenderer>().sprite != farSprite)
                 GetComponentInChildren<SpriteRenderer>().sprite = farSprite;
@@ -73,14 +73,11 @@ public class farmidclose : MonoBehaviour
 
         }
         else if (farmidcloseData.FarSprite != null)
-
-
-
-
             if (GetComponentInChildren<SpriteRenderer>().sprite != normalSprite)
-                    GetComponentInChildren<SpriteRenderer>().sprite = normalSprite;
+                GetComponentInChildren<SpriteRenderer>().sprite = normalSprite;
 
-        if (farmidcloseData.NewSprite != null && Distance.position.z - bird.transform.position.z <= farmidcloseData.distancefromBirdtoSpriteChange && Distance.position.z - bird.transform.position.z > 0&& SpriteChanged == false)
+
+        if (farmidcloseData.NewSprite != null && Distance.position.z - bird.transform.position.z <= farmidcloseData.distancefromBirdtoSpriteChange && Distance.position.z - bird.transform.position.z > 0 && SpriteChanged == false)
             spriteChange();
         if (Animating && Distance.position.z - bird.transform.position.z <= farmidcloseData.distancefromBirdtoSpriteChange && SpriteChanged == false)
             animateChange();
@@ -94,8 +91,8 @@ public class farmidclose : MonoBehaviour
         newTransform.z = Mathf.SmoothStep(startScale.z, farmidcloseData.endScale.z, z);
         transform.localScale = newTransform;
         //z = (bird.transform.position.z - startDistance) / (targetBirdDistanceScale + startDistance);
-        z = (   bird.transform.position.z - distanceStart) / ((Distance.position.z - farmidcloseData.distancefromBirdtoStopScaling));
-            //Debug.Log(z + "=" + bird.transform.position.z + "-" + Distance.position.z + "/" + farmidcloseData.distancefromBirdtoStopScaling);
+        z = (bird.transform.position.z - distanceStart) / ((Distance.position.z - farmidcloseData.distancefromBirdtoStopScaling));
+        //Debug.Log(z + "=" + bird.transform.position.z + "-" + Distance.position.z + "/" + farmidcloseData.distancefromBirdtoStopScaling);
         //Debug.Log(z + "=" + bird.transform.position.z + "/" + transform.position.z + "-" + bird.transform.position.z); 
         if (z >= 1)
         {

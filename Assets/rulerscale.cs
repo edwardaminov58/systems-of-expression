@@ -11,6 +11,8 @@ public class rulerscale : MonoBehaviour
     Image image;
     float currentHeight;
     bool colorChanged = false;
+
+    public float rulerspeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +28,7 @@ public class rulerscale : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        recttransform.position = new Vector3(recttransform.position.x, startHeight - bird.transform.position.y * 10.5f, recttransform.position.z);
+        recttransform.position = new Vector3(recttransform.position.x, startHeight - bird.transform.position.y * rulerspeed, recttransform.position.z);
         //debug.Log("height"+ bird.transform.position.y);
         if (!colorChanged)
         {
