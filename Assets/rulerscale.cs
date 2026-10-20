@@ -11,7 +11,7 @@ public class rulerscale : MonoBehaviour
     Image image;
     float currentHeight;
     bool colorChanged = false;
-
+    public float colorChangeDetect;
     public float rulerspeed;
     // Start is called before the first frame update
     void Start()
@@ -32,7 +32,7 @@ public class rulerscale : MonoBehaviour
         //debug.Log("height"+ bird.transform.position.y);
         if (!colorChanged)
         {
-            if (bird.transform.position.y > currentHeight + 20f || bird.transform.position.y < currentHeight - 20f)
+            if (bird.transform.position.y > currentHeight + colorChangeDetect || bird.transform.position.y < currentHeight - colorChangeDetect)
             {
                 StartCoroutine(colorChange());
                 colorChanged = true;
