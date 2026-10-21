@@ -18076,7 +18076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -22300,6 +22300,25 @@ MonoBehaviour:
   currentSprite: {fileID: 0}
   currentSize: 0
   animator: {fileID: 0}
+--- !u!1 &58645872 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8680551420844268841, guid: 431adff752e0e344f802231a962207d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3993807222511304018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &58645877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58645872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrder: -1
 --- !u!1001 &59059572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -108753,7 +108772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -154610,7 +154629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -188187,6 +188206,25 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 989816036}
   m_SourcePrefab: {fileID: 100100000, guid: 1e05cc46e1a415c46bfa7879bace7c44, type: 3}
+--- !u!1 &491421697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8307548641423449719, guid: 431adff752e0e344f802231a962207d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3993807222511304018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &491421702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491421697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrder: -1
 --- !u!1 &492069329
 GameObject:
   m_ObjectHideFlags: 0
@@ -262198,7 +262236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -270702,7 +270740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -299092,7 +299130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -315217,6 +315255,25 @@ MonoBehaviour:
   currentSprite: {fileID: 0}
   currentSize: 0
   animator: {fileID: 0}
+--- !u!1 &822748459 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6646932704914720084, guid: 431adff752e0e344f802231a962207d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3993807222511304018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &822748464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822748459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrder: -1
 --- !u!4 &822862025 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2989339040407352747, guid: 377ccd868c3783f4590a0a0b2edd73ec,
@@ -327641,7 +327698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -356637,7 +356694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -417555,7 +417612,7 @@ MonoBehaviour:
   startLerpRotation: -25
   speed: 1
   altStart: 500
-  colorSpeed: 5
+  colorSpeed: 2.5
   colorThreshold: 300
 --- !u!114 &1092343820
 MonoBehaviour:
@@ -418292,7 +418349,7 @@ MonoBehaviour:
   bird: {fileID: 1877372228}
   AltitudeManager: {fileID: 679088060}
   threshold: 500
-  speed: 50
+  speed: 25
 --- !u!1 &1094043531
 GameObject:
   m_ObjectHideFlags: 0
@@ -505685,7 +505742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -532211,7 +532268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -538226,7 +538283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -539024,7 +539081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -616280,7 +616337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1621496778
 Transform:
   m_ObjectHideFlags: 0
@@ -670226,7 +670283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -672992,7 +673049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -695979,7 +696036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -794937,7 +794994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AltitudeManager: {fileID: 0}
-  farmidcloseData: {fileID: 0}
+  farmidcloseData: {fileID: 11400000, guid: e7afe89a3552734488dae6bcab988463, type: 2}
   SpriteChanged: 0
   Grow: 1
   Animating: 0
@@ -814313,7 +814370,7 @@ PrefabInstance:
     - target: {fileID: 7962321664849023598, guid: 1e05cc46e1a415c46bfa7879bace7c44,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8021100609844661768, guid: 1e05cc46e1a415c46bfa7879bace7c44,
         type: 3}
@@ -815587,6 +815644,7 @@ GameObject:
   - component: {fileID: 5285968898900220071}
   - component: {fileID: 8833009566986903967}
   - component: {fileID: 8833009566986903968}
+  - component: {fileID: 8833009566986903969}
   m_Layer: 8
   m_Name: Clouds
   m_TagString: Untagged
@@ -816454,7 +816512,7 @@ PrefabInstance:
     - target: {fileID: 925022548917194431, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1051248263728139258, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -816662,6 +816720,16 @@ PrefabInstance:
       propertyPath: bird
       value: 
       objectReference: {fileID: 321362213}
+    - target: {fileID: 3128105889120065992, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.950468
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128105889120065992, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.617094
+      objectReference: {fileID: 0}
     - target: {fileID: 3180754098526562780, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: bird
@@ -816871,6 +816939,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6205426646613466354, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.28
       objectReference: {fileID: 0}
     - target: {fileID: 6226296061002841375, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -817100,7 +817173,7 @@ PrefabInstance:
     - target: {fileID: 8238686738100318191, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304099995782786966, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -817112,6 +817185,11 @@ PrefabInstance:
       propertyPath: bird
       value: 
       objectReference: {fileID: 321362213}
+    - target: {fileID: 8439220076069860404, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 233.6
+      objectReference: {fileID: 0}
     - target: {fileID: 8475588021293862265, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: m_Enabled
@@ -817179,6 +817257,18 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5541839679954771814}
+    - targetCorrespondingSourceObject: {fileID: 8307548641423449719, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 491421702}
+    - targetCorrespondingSourceObject: {fileID: 6646932704914720084, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 822748464}
+    - targetCorrespondingSourceObject: {fileID: 8680551420844268841, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 58645877}
   m_SourcePrefab: {fileID: 100100000, guid: 431adff752e0e344f802231a962207d5, type: 3}
 --- !u!64 &4008496233539154076
 MeshCollider:
@@ -820490,7 +820580,7 @@ PrefabInstance:
     - target: {fileID: 4434981505946126931, guid: ede9596fca0bed540b871df2a33dd1b4,
         type: 3}
       propertyPath: altitudes.Array.data[2]
-      value: 800
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 4434981505946126931, guid: ede9596fca0bed540b871df2a33dd1b4,
         type: 3}
@@ -821464,6 +821554,19 @@ MonoBehaviour:
   groundmoveSettings: {fileID: 11400000, guid: d36288bc4418f434397bbdc7031a4c8a, type: 2}
   sideSpeed: 750
   sphereOffsetBaseX: 1
+--- !u!114 &8833009566986903969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409757849469095499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrder: -1
 --- !u!4 &8953315260744192008
 Transform:
   m_ObjectHideFlags: 0

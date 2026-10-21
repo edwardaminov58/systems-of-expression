@@ -63,7 +63,7 @@ public class farmidclose : MonoBehaviour
             }
             GrowBigger();
         }
-        if ((bird.transform.position.y > height || gameObject.transform.IsChildOf(bg.transform)) && farmidcloseData.FarSprite != null)
+        if (bird.transform.position.y > height && farmidcloseData.FarSprite != null)
         {
             if (GetComponentInChildren<SpriteRenderer>().sprite != farSprite)
                 GetComponentInChildren<SpriteRenderer>().sprite = farSprite;
