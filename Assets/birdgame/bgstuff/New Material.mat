@@ -152,6 +152,6 @@ Material:
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
     - _sphereoffset: {r: 0, g: 0, b: 0, a: 0}
     - _strength: {r: 0, g: 0, b: 0, a: 0}
-    - _tiling: {r: 9.22, g: 0.83, b: 0, a: 0}
+    - _tiling: {r: 7.05, g: 0.83, b: 0, a: 0}
     - _tiling2: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

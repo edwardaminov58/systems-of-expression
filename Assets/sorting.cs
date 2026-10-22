@@ -5,6 +5,8 @@ using UnityEngine;
 public class sorting : MonoBehaviour
 {
     public GameObject bird;
+    public int startSorting;
+    public int endSorting;
     MeshRenderer meshRenderer;
     // Start is called before the first frame update
     void Start()
@@ -16,8 +18,8 @@ public class sorting : MonoBehaviour
     void Update()
     {
         if (bird.transform.position.y >= gameObject.transform.position.y)
-            meshRenderer.sortingOrder = 100;
+            meshRenderer.sortingOrder = endSorting;
         else
-            meshRenderer.sortingOrder = 0;
+            meshRenderer.sortingOrder = startSorting;
     }
 }
