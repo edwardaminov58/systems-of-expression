@@ -67530,8 +67530,8 @@ MonoBehaviour:
   parallaxValueX: 0.1
   parallaxValueY: 0.25
   bg: {fileID: 0}
-  bgStartY: 0
   endPosY: 0
+  Ythreshold: 0
 --- !u!23 &174801282
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -191452,8 +191452,8 @@ MonoBehaviour:
   parallaxValueX: 0.25
   parallaxValueY: 0.5
   bg: {fileID: 0}
-  bgStartY: 0
   endPosY: 0
+  Ythreshold: 0
 --- !u!23 &500549110
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -341995,8 +341995,8 @@ MonoBehaviour:
   parallaxValueX: 0.1
   parallaxValueY: 0.25
   bg: {fileID: 0}
-  bgStartY: 0
   endPosY: 0
+  Ythreshold: 0
 --- !u!23 &893001198
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -401091,8 +401091,8 @@ MonoBehaviour:
   parallaxValueX: 0.1
   parallaxValueY: 0.25
   bg: {fileID: 0}
-  bgStartY: 0
   endPosY: 0
+  Ythreshold: 0
 --- !u!23 &1044642401
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -435384,8 +435384,8 @@ MonoBehaviour:
   parallaxValueX: 0.5
   parallaxValueY: 0.75
   bg: {fileID: 0}
-  bgStartY: 0
   endPosY: 0
+  Ythreshold: 0
 --- !u!23 &1135689196
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -616385,8 +616385,8 @@ MonoBehaviour:
   parallaxValueX: 0.35
   parallaxValueY: 0
   bg: {fileID: 0}
-  bgStartY: 0
   endPosY: 0
+  Ythreshold: 0
 --- !u!1 &1621574097
 GameObject:
   m_ObjectHideFlags: 0
@@ -699758,8 +699758,8 @@ MonoBehaviour:
   parallaxValueX: 0.5
   parallaxValueY: 0.75
   bg: {fileID: 0}
-  bgStartY: 0
   endPosY: 0
+  Ythreshold: 0
 --- !u!23 &1840706177
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -700577,8 +700577,8 @@ MonoBehaviour:
   parallaxValueX: 0.5
   parallaxValueY: 0.75
   bg: {fileID: 0}
-  bgStartY: 0
   endPosY: 0
+  Ythreshold: 0
 --- !u!23 &1842069397
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -706387,8 +706387,8 @@ MonoBehaviour:
   parallaxValueX: 0.35
   parallaxValueY: 0
   bg: {fileID: 0}
-  bgStartY: 0
   endPosY: 0
+  Ythreshold: 0
 --- !u!1 &1852776346
 GameObject:
   m_ObjectHideFlags: 0
@@ -716705,8 +716705,8 @@ MonoBehaviour:
   parallaxValueX: 0.25
   parallaxValueY: 0.5
   bg: {fileID: 0}
-  bgStartY: 0
   endPosY: 0
+  Ythreshold: 0
 --- !u!23 &1877267106
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -802695,8 +802695,8 @@ MonoBehaviour:
   parallaxValueX: 0.35
   parallaxValueY: 0
   bg: {fileID: 0}
-  bgStartY: 0
   endPosY: 0
+  Ythreshold: 0
 --- !u!1 &2110171174
 GameObject:
   m_ObjectHideFlags: 0
@@ -811166,8 +811166,8 @@ MonoBehaviour:
   parallaxValueX: 0.25
   parallaxValueY: 0.5
   bg: {fileID: 0}
-  bgStartY: 0
   endPosY: 0
+  Ythreshold: 0
 --- !u!23 &2134447465
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -816952,7 +816952,7 @@ PrefabInstance:
     - target: {fileID: 5340591232686212051, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -21.17406
+      value: -7.2
       objectReference: {fileID: 0}
     - target: {fileID: 5560702936988205391, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -817042,7 +817042,7 @@ PrefabInstance:
     - target: {fileID: 6643949889645933332, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: endPosY
-      value: 0
+      value: -35
       objectReference: {fileID: 0}
     - target: {fileID: 6643949889645933332, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -817056,13 +817056,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6643949889645933332, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
+      propertyPath: startPosY
+      value: -35.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643949889645933332, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      propertyPath: Ythreshold
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643949889645933332, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
       propertyPath: parallaxValueX
-      value: 0.1
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 6643949889645933332, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: parallaxValueY
       value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646932704914720084, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6668309871873621952, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -817177,7 +817192,7 @@ PrefabInstance:
     - target: {fileID: 7606598429744146709, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: endPosY
-      value: 0
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 7606598429744146709, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -817191,8 +817206,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7606598429744146709, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
+      propertyPath: startPosY
+      value: -27
+      objectReference: {fileID: 0}
+    - target: {fileID: 7606598429744146709, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      propertyPath: Ythreshold
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7606598429744146709, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
       propertyPath: parallaxValueX
-      value: 0.1
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 7606598429744146709, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -817299,6 +817324,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.17
       objectReference: {fileID: 0}
+    - target: {fileID: 8460587988592100915, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.12
+      objectReference: {fileID: 0}
     - target: {fileID: 8475588021293862265, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: m_Enabled
@@ -817317,6 +817347,11 @@ PrefabInstance:
     - target: {fileID: 8662046419450310884, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8680551420844268841, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8769902562146640873, guid: 431adff752e0e344f802231a962207d5,
@@ -817352,7 +817387,7 @@ PrefabInstance:
     - target: {fileID: 8991042653104522005, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: endPosY
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8991042653104522005, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -817366,8 +817401,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8991042653104522005, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
+      propertyPath: startPosY
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8991042653104522005, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      propertyPath: Ythreshold
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8991042653104522005, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
       propertyPath: parallaxValueX
-      value: 0.1
+      value: 1500
       objectReference: {fileID: 0}
     - target: {fileID: 8991042653104522005, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -821709,7 +821754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingOrder: -1
+  sortingOrder: -2
 --- !u!4 &8953315260744192008
 Transform:
   m_ObjectHideFlags: 0
