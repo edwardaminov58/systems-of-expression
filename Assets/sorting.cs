@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class sorting : MonoBehaviour
 {
-    public GameObject bird;
+    GameObject bird;
     public int startSorting;
     public int endSorting;
     MeshRenderer meshRenderer;
     // Start is called before the first frame update
     void Start()
     {
+        bird = GameObject.FindGameObjectWithTag("flight");
         meshRenderer = GetComponent<MeshRenderer>();
     }
 

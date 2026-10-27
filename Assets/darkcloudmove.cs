@@ -5,10 +5,10 @@ using UnityEngine;
 public class darkcloudmove : MonoBehaviour
 {
     public GameObject bird;
-    public altitudeManager AltitudeManager;
+   // public altitudeManager AltitudeManager;
     public float Threshold;
-    public float Thresholdoffset;
-    public int layer;
+    //public float Thresholdoffset;
+   // public int layer;
     public float startLerpRotation;
     public float speed;
     public float altStart;

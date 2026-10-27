@@ -16,5 +16,5 @@ public class genericSorting : MonoBehaviour
     void Update()
     {
         meshRenderer.sortingOrder = sortingOrder;
-    }
+    }   
 }

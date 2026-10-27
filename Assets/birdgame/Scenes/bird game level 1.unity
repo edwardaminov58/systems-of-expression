@@ -22318,7 +22318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingOrder: -1
+  sortingOrder: -2
 --- !u!1001 &59059572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -188225,7 +188225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingOrder: -1
+  sortingOrder: -2
 --- !u!1 &492069329
 GameObject:
   m_ObjectHideFlags: 0
@@ -417492,7 +417492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 407be298a32019e4aadfae23e81ea396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bird: {fileID: 1877372228}
   startSorting: 0
   endSorting: 0
 --- !u!114 &1092343814
@@ -417591,8 +417590,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092343812}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.21643952, y: -0, z: -0, w: 0.97629607}
-  m_LocalPosition: {x: 36.000015, y: 2000, z: -422.59998}
+  m_LocalRotation: {x: -0.21643952, y: 0, z: 0, w: 0.97629607}
+  m_LocalPosition: {x: 36.000015, y: 1200, z: -422.59998}
   m_LocalScale: {x: 12116.558, y: 12116.563, z: 12116.563}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -417611,15 +417610,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bird: {fileID: 1877372228}
-  AltitudeManager: {fileID: 679088060}
   Threshold: 250
-  Thresholdoffset: 0
-  layer: 2
   startLerpRotation: -25
   speed: 1
-  altStart: 500
-  colorSpeed: 2.5
-  colorThreshold: 300
+  altStart: 250
+  colorSpeed: 2
+  colorThreshold: 250
 --- !u!114 &1092343820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -417632,7 +417628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingOrder: 101
+  sortingOrder: 100
 --- !u!1 &1092501825
 GameObject:
   m_ObjectHideFlags: 0
@@ -418352,6 +418348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6037fbb5aabea394f8d9c283caf2dafd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  limit: 800
   bird: {fileID: 1877372228}
   AltitudeManager: {fileID: 679088060}
   threshold: 500
@@ -599335,7 +599332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 407be298a32019e4aadfae23e81ea396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bird: {fileID: 1877372228}
   startSorting: -2
   endSorting: 100
 --- !u!1 &1571076415
@@ -600378,6 +600374,26 @@ Transform:
   - {fileID: 734241729}
   m_Father: {fileID: 870090731}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1572243494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7407411574943432915, guid: 431adff752e0e344f802231a962207d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3993807222511304018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1572243498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572243494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4436ecfc51d64d945a4b4e98fd79e867, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startSorting: 1
+  endSorting: 101
 --- !u!1 &1572247620
 GameObject:
   m_ObjectHideFlags: 0
@@ -778452,6 +778468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6037fbb5aabea394f8d9c283caf2dafd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  limit: 1000
   bird: {fileID: 1877372228}
   AltitudeManager: {fileID: 679088060}
   threshold: 500
@@ -816792,12 +816809,12 @@ PrefabInstance:
     - target: {fileID: 3128105889120065992, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.950468
+      value: 1.3582824
       objectReference: {fileID: 0}
     - target: {fileID: 3128105889120065992, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.617094
+      value: 3.625185
       objectReference: {fileID: 0}
     - target: {fileID: 3180754098526562780, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -817012,7 +817029,7 @@ PrefabInstance:
     - target: {fileID: 6205426646613466354, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.28
+      value: 5.312
       objectReference: {fileID: 0}
     - target: {fileID: 6226296061002841375, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -817292,7 +817309,7 @@ PrefabInstance:
     - target: {fileID: 8238686738100318191, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 8304099995782786966, guid: 431adff752e0e344f802231a962207d5,
         type: 3}
@@ -817443,6 +817460,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 58645877}
+    - targetCorrespondingSourceObject: {fileID: 7407411574943432915, guid: 431adff752e0e344f802231a962207d5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1572243498}
   m_SourcePrefab: {fileID: 100100000, guid: 431adff752e0e344f802231a962207d5, type: 3}
 --- !u!64 &4008496233539154076
 MeshCollider:
@@ -819390,6 +819411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6037fbb5aabea394f8d9c283caf2dafd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  limit: 0
   bird: {fileID: 1877372228}
   AltitudeManager: {fileID: 679088060}
   threshold: 1000

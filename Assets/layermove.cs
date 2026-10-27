@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class layermove : MonoBehaviour
 {
+    public float limit;
     public GameObject bird;
     //float riseThreshold;
     //float startPosition;
@@ -34,7 +35,7 @@ public class layermove : MonoBehaviour
 
         //if (bird.transform.position.y > layerThreshold)
         //{
-            if (bird.transform.position.y > threshold)
+            if (bird.transform.position.y > threshold&& bird.transform.position.y < limit)
             {
                 transform.position = new Vector3 (transform.position.x, ((startPosition - (bird.transform.position.y - threshold) ) * speed * Time.deltaTime), transform.position.z);
             }
