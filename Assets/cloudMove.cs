@@ -44,18 +44,18 @@ public class cloudMove : MonoBehaviour
         {
 
             float t = (bird.transform.localPosition.y - altStart) / Threshold;
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x, Mathf.Lerp(layer1StartY, layer1EndY, t), gameObject.transform.position.z);
+            gameObject.transform.localPosition = new Vector3(gameObject.transform.position.x, Mathf.Lerp(layer1StartY, layer1EndY, t), gameObject.transform.position.z);
         }
         else if (AltitudeManager.currentHeightLayer == 1)
         {
             float t = (bird.transform.localPosition.y - altStart) / Threshold;
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x, Mathf.Lerp(layer1EndY, layer2EndY, t), gameObject.transform.position.z);
+            gameObject.transform.localPosition = new Vector3(gameObject.transform.position.x, Mathf.Lerp(layer1EndY, layer2EndY, t), gameObject.transform.position.z);
 
         }
         else if (AltitudeManager.currentHeightLayer == 2)
         {
             float t = (bird.transform.localPosition.y - altStart) / Threshold;
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x, Mathf.Lerp(layer2EndY, layer3EndY, t), gameObject.transform.position.z);
+            gameObject.transform.localPosition = new Vector3(gameObject.transform.position.x, Mathf.Lerp(layer2EndY, layer3EndY, t), gameObject.transform.position.z);
         }
     }
     void Zmove()

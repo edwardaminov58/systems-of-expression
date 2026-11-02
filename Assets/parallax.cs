@@ -5,7 +5,7 @@ using UnityEngine;
 public class parallax : MonoBehaviour
 {
     public float parallaxValueX;
-    public float parallaxValueY;
+    //public float parallaxValueY;
     public GameObject bg;
     float startPosX;
     float startCamX;
@@ -16,14 +16,14 @@ public class parallax : MonoBehaviour
 
     float currentPosX;
     float currentPosY;
-    float startPosY;
+    public float startPosY;
     public float endPosY;
     public float Ythreshold;
     // Start is called before the first frame update
     void OnEnable()
     {
         //startPosX = transform.localPosition.x;
-        startPosY = transform.localPosition.y;
+        //startPosY = transform.localPosition.y;
         //startCamX = Camera.main.transform.position.x;
         startCamY = Camera.main.transform.position.y;
         //bgStartY = bg.transform.position.y;

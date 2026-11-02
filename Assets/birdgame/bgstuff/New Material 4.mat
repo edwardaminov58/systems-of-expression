@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: New Material 4
-  m_Shader: {fileID: -6465566751694194690, guid: f0c5b8f8dba14de4497674fa7a85382b,
+  m_Shader: {fileID: -6465566751694194690, guid: b31b90b1327c73c49861f4b57595f709,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -31,7 +31,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 3001
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
@@ -86,7 +86,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: bc742822db148ae428fceb1e491e73f0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8296bca373e5f5046bb38516562f13ec, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -125,7 +125,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
-    - _QueueOffset: 0
+    - _QueueOffset: 1
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -145,12 +145,13 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _center: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _center: {r: 0, g: 0, b: 0, a: 0}
     - _offset: {r: 1, g: 0, b: 0, a: 0}
     - _offset2: {r: 0, g: 0, b: 0, a: 0}
     - _scroll_velocity: {r: 0, g: 0, b: 0, a: 0}
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
-    - _strength: {r: 0, g: 0.73, b: 0, a: 0}
-    - _tiling: {r: 0.89, g: 1, b: 0, a: 0}
-    - _tiling2: {r: 6.07, g: 0.42, b: 0, a: 0}
+    - _sphereoffset: {r: 0, g: 0, b: 0, a: 0}
+    - _strength: {r: 0, g: 0, b: 0, a: 0}
+    - _tiling: {r: 7.05, g: 0.83, b: 0, a: 0}
+    - _tiling2: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
