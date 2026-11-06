@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: New Material 9
-  m_Shader: {fileID: -6465566751694194690, guid: b31b90b1327c73c49861f4b57595f709,
+  m_Shader: {fileID: -6465566751694194690, guid: 3b52817c1e6db354a8a13bf4e676410c,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -142,7 +142,7 @@ Material:
     - _wavestrength: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.09805275, g: 0.07983268, b: 0.24528301, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _center: {r: 0, g: 0, b: 0, a: 0}

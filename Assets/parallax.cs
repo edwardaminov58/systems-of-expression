@@ -25,7 +25,7 @@ public class parallax : MonoBehaviour
         //startPosX = transform.localPosition.x;
         //startPosY = transform.localPosition.y;
         //startCamX = Camera.main.transform.position.x;
-        startCamY = Camera.main.transform.position.y;
+        startCamY = 0;
         //bgStartY = bg.transform.position.y;
         mat = GetComponent<MeshRenderer>().material;
     }
