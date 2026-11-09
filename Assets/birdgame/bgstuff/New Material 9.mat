@@ -142,7 +142,7 @@ Material:
     - _wavestrength: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.09805275, g: 0.07983268, b: 0.24528301, a: 1}
+    - _Color: {r: 0.078431375, g: 0.13344252, b: 0.14901961, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _center: {r: 0, g: 0, b: 0, a: 0}
@@ -152,6 +152,6 @@ Material:
     - _sphere_offset: {r: 0, g: 0, b: 0, a: 0}
     - _sphereoffset: {r: 0, g: 0, b: 0, a: 0}
     - _strength: {r: 0, g: 0, b: 0, a: 0}
-    - _tiling: {r: 7.05, g: 0.8, b: 0, a: 0}
+    - _tiling: {r: 11, g: 0.9, b: 0, a: 0}
     - _tiling2: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

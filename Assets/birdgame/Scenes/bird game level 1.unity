@@ -22415,7 +22415,7 @@ Transform:
   m_GameObject: {fileID: 59485885}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.73727727, z: 0.6755903, w: 0}
-  m_LocalPosition: {x: 0, y: 12.5, z: 185.4}
+  m_LocalPosition: {x: 0, y: 13, z: 173}
   m_LocalScale: {x: 65.09999, y: 2.17, z: 2.17}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -22433,7 +22433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingOrder: -2
+  sortingOrder: -4
 --- !u!114 &59485888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22448,9 +22448,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 5000
   bg: {fileID: 6138221962028086285}
-  startPosY: 20
-  endPosY: 15
-  Ythreshold: 400
+  Yspeed: 4
+  startPosY: 13
+  endPosY: 18
+  Ythreshold: 600
 --- !u!23 &59485889
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37524,7 +37525,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &101846082
 Transform:
   m_ObjectHideFlags: 0
@@ -37540,7 +37541,6 @@ Transform:
   m_Children:
   - {fileID: 6782999291081505748}
   - {fileID: 420442876}
-  - {fileID: 1119840813}
   m_Father: {fileID: 7121051934142616521}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &102109463
@@ -67672,6 +67672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.1
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -76118,7 +76119,7 @@ Transform:
   m_GameObject: {fileID: 197924424}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.73727727, z: 0.6755903, w: 0}
-  m_LocalPosition: {x: 0, y: 18, z: 180}
+  m_LocalPosition: {x: 0, y: 12, z: 173.4}
   m_LocalScale: {x: 65.09999, y: 2.17, z: 2.17}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -76136,7 +76137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingOrder: -2
+  sortingOrder: -5
 --- !u!114 &197924427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76151,9 +76152,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 4000
   bg: {fileID: 6138221962028086285}
-  startPosY: 18
-  endPosY: 10
-  Ythreshold: 300
+  Yspeed: 4
+  startPosY: 12
+  endPosY: 20
+  Ythreshold: 600
 --- !u!23 &197924428
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -138814,7 +138816,7 @@ Transform:
   m_GameObject: {fileID: 359836003}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.73727727, z: 0.6755903, w: 0}
-  m_LocalPosition: {x: -0.88999987, y: 18.6, z: 178}
+  m_LocalPosition: {x: -0.88999987, y: 11, z: 172.64}
   m_LocalScale: {x: 65.09999, y: 2.17, z: 2.17}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -138832,7 +138834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingOrder: -2
+  sortingOrder: -3
 --- !u!114 &359836006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138847,9 +138849,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 3500
   bg: {fileID: 6138221962028086285}
-  startPosY: 15
-  endPosY: 8
-  Ythreshold: 250
+  Yspeed: 4
+  startPosY: 11
+  endPosY: 13
+  Ythreshold: 600
 --- !u!23 &359836007
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -161452,6 +161455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 1000
   bg: {fileID: 6138221962028086285}
+  Yspeed: 0
   startPosY: 11
   endPosY: 21
   Ythreshold: 800
@@ -188707,7 +188711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingOrder: -1
+  sortingOrder: -2
 --- !u!1 &492069329
 GameObject:
   m_ObjectHideFlags: 0
@@ -191933,6 +191937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.25
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -342470,6 +342475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.1
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -401560,6 +401566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.1
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -428574,11 +428581,11 @@ Transform:
   m_GameObject: {fileID: 1119840812}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.73727727, z: 0.6755903, w: 0}
-  m_LocalPosition: {x: 0, y: 41.6, z: 180.8}
-  m_LocalScale: {x: 30, y: 1, z: 2.0977511}
+  m_LocalPosition: {x: 0, y: -14, z: 180.8}
+  m_LocalScale: {x: 30, y: 1, z: 3.3303897}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 101846082}
+  m_Father: {fileID: 7121051934142616521}
   m_LocalEulerAnglesHint: {x: -275, y: 180, z: 0}
 --- !u!114 &1119840814
 MonoBehaviour:
@@ -428592,7 +428599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26d6e487e2c83f4f81b5c7e12dd439f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingOrder: -2
+  sortingOrder: -5
 --- !u!114 &1119840815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428607,8 +428614,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 1000
   bg: {fileID: 6138221962028086285}
-  startPosY: 26
-  endPosY: 41
+  Yspeed: 0
+  startPosY: -14
+  endPosY: -5
   Ythreshold: 1200
 --- !u!23 &1119840816
 MeshRenderer:
@@ -435979,6 +435987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.5
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -617100,6 +617109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.35
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -700498,6 +700508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.5
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -701317,6 +701328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.5
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -707127,6 +707139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.35
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -717445,6 +717458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.25
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -803437,6 +803451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.35
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -811908,6 +811923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.25
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -817380,6 +817396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.1
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -818449,6 +818466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.35
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -819007,6 +819025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.25
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -823891,6 +823910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.25
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -825165,7 +825185,7 @@ PrefabInstance:
     - target: {fileID: 5071594224715308545, guid: 59056c13cb3616e41bdbb7be00517dd2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1000
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5071594224715308545, guid: 59056c13cb3616e41bdbb7be00517dd2,
         type: 3}
@@ -825476,7 +825496,7 @@ PrefabInstance:
     - target: {fileID: 9096081016983858981, guid: 59056c13cb3616e41bdbb7be00517dd2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1002.5
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 9096081016983858981, guid: 59056c13cb3616e41bdbb7be00517dd2,
         type: 3}
@@ -826362,7 +826382,7 @@ Transform:
   m_GameObject: {fileID: 4910768554506068773}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.73727727, z: 0.6755903, w: 0}
-  m_LocalPosition: {x: 0, y: 12, z: 172.2}
+  m_LocalPosition: {x: 0, y: 8, z: 172.2}
   m_LocalScale: {x: 65.09999, y: 2.17, z: 2.17}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -827552,6 +827572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.35
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -827569,9 +827590,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 3000
   bg: {fileID: 6138221962028086285}
-  startPosY: 10
+  Yspeed: 1
+  startPosY: 8
   endPosY: 5
-  Ythreshold: 200
+  Ythreshold: 600
 --- !u!65 &5457579029658173640
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -830602,6 +830624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.5
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -830927,7 +830950,7 @@ PrefabInstance:
     - target: {fileID: 4149651524802947841, guid: 2a4ab6f7225a6194794546b06db8c466,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1002.5
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 4149651524802947841, guid: 2a4ab6f7225a6194794546b06db8c466,
         type: 3}
@@ -831275,6 +831298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 1000
   bg: {fileID: 6138221962028086285}
+  Yspeed: 0
   startPosY: 6
   endPosY: 12
   Ythreshold: 500
@@ -831997,9 +832021,10 @@ Transform:
   m_Children:
   - {fileID: 1763426267}
   - {fileID: 9039091603351748225}
+  - {fileID: 1119840813}
   - {fileID: 101846082}
-  - {fileID: 59485886}
   - {fileID: 197924425}
+  - {fileID: 59485886}
   - {fileID: 359836004}
   - {fileID: 4757720340393950049}
   m_Father: {fileID: 1623037033890490183}
@@ -832677,6 +832702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.5
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -832921,6 +832947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.1
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0
@@ -833988,7 +834015,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &7735169558351941190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -834003,6 +834030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 450
   bg: {fileID: 6138221962028086285}
+  Yspeed: 0
   startPosY: -7
   endPosY: -23
   Ythreshold: 850
@@ -834838,6 +834866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxValueX: 0.35
   bg: {fileID: 0}
+  Yspeed: 0
   startPosY: 0
   endPosY: 0
   Ythreshold: 0

@@ -13,6 +13,7 @@ public class parallax : MonoBehaviour
     float bgRelativeY;
     //public float bgStartY;
     Material mat;
+    public float Yspeed;
 
     float currentPosX;
     float currentPosY;
@@ -33,7 +34,7 @@ public class parallax : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float t = (Camera.main.transform.position.y - startCamY) / Ythreshold;
+        float t = (Camera.main.transform.position.y - startCamY) * Yspeed / Ythreshold;
         //(bgStartY - bg.transform.position.y +)
         //bgRelativeY = bg.transform.position.y - startPosY;
         //currentPosX = ((Camera.main.transform.position.x - startCamX) * -parallaxValueX);
@@ -43,7 +44,7 @@ public class parallax : MonoBehaviour
         //mat.SetVector("_sphereoffset", new Vector2(((Camera.main.transform.position.x - startCamX) * parallaxValueX), 0));
         //Debug.Log(("camera pos: " + Camera.main.transform.position.x + "-" + startCamX) + "*" + parallaxValueX + "=" + ((Camera.main.transform.position.x - startCamX) * parallaxValueX));
         mat.SetVector("_sphereoffset", new Vector2(Camera.main.transform.position.x / parallaxValueX, 0));
-        transform.localPosition = new Vector3(transform.localPosition.x, Mathf.SmoothStep(startPosY, endPosY, t), transform.localPosition.z);
+        transform.localPosition = new Vector3(transform.localPosition.x, Mathf.Lerp(startPosY, endPosY, t), transform.localPosition.z);
     }
 
     private void Update()
