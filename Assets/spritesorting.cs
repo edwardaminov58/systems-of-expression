@@ -7,6 +7,7 @@ public class spritesorting : MonoBehaviour
     GameObject bird;
     public int startSorting;
     public int endSorting;
+    public Transform objectTransform;
     SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class spritesorting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (bird.transform.position.y >= gameObject.transform.position.y)
+        if (bird.transform.position.y >= objectTransform.position.y)
         {
             Debug.Log("sorted");
             spriteRenderer.sortingOrder = endSorting;

@@ -34,7 +34,27 @@ public class altitudeManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AltitudeChange(currentHeightLayer);
+        for (int n = 0; n + 1 < altitudes.Length; n++)
+        {
+            if (bird.transform.position.y > altitudes[n] && bird.transform.position.y < altitudes[n + 1])
+            {
+                //Debug.Log(currentHeightLayer);
+                
+                currentHeightLayer = n;
+                //if (currentHeightLayer! = )
+                //Debug.Log(currentHeightLayer);
+                //Debug.Log(lastHeightLayer);
+               
+                    AltitudeChange(currentHeightLayer);
+                    //Debug.Log("changelayer");
+                    //Debug.Log("currentHeightLayer: " + currentHeightLayer); 
+                    //Debug.Log("lastHeightLayer: " + lastHeightLayer);
+
+                
+            }
+        }
+
+            //AltitudeChange(currentHeightLayer);
         //startvector = material.GetVector("_offset2");
         //currentHeightLayer = altitudes[n];
         //currentHeightLayer = bird.transform.position.y;
