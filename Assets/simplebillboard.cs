@@ -19,7 +19,7 @@ public class simplebillboard : MonoBehaviour
         distanceFromCamera = Vector3.Dot(heading, Camera.main.transform.forward);
        // transform.LookAt(Camera.main.transform);
 
-        if (distanceFromCamera < .5)
-            Destroy(this.gameObject);
+        //if (distanceFromCamera < -500)
+        //    Destroy(this.gameObject);
     }
 }

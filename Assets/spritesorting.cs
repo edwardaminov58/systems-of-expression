@@ -21,12 +21,12 @@ public class spritesorting : MonoBehaviour
     {
         if (bird.transform.position.y >= objectTransform.position.y)
         {
-            Debug.Log("sorted");
+           // Debug.Log("sorted");
             spriteRenderer.sortingOrder = endSorting;
         }
         else
         {
-            Debug.Log("sorted2");
+           // Debug.Log("sorted2");
             spriteRenderer.sortingOrder = startSorting;
         }
         }
