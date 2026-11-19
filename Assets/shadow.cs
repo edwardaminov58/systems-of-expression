@@ -11,7 +11,7 @@ public class shadow : MonoBehaviour
     public Vector3 startScale;
     public Vector3 endScale;
     public float maxScaleHeight;
-    float height;
+    public float heightOffset;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +22,7 @@ public class shadow : MonoBehaviour
     void Update()
     {
         n = (player.transform.position.y - plane.position.y)* shadowPush;
-        transform.position = new Vector3(player.transform.position.x, plane.position.y, player.transform.position.z + n);
+        transform.position = new Vector3(player.transform.position.x, plane.position.y + heightOffset, player.transform.position.z + n);
         
         //this is for the cloud shadows
         float t = (player.transform.position.y - plane.position.y)/ maxScaleHeight;

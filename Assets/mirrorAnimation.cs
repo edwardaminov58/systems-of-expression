@@ -16,5 +16,6 @@ public class mirrorAnimation : MonoBehaviour
     {
         gameObject.GetComponent<SpriteRenderer>().sprite = bird.GetComponent<SpriteRenderer>().sprite;
         gameObject.GetComponent<SpriteRenderer>().flipX = bird.GetComponent<SpriteRenderer>().flipX;
+        //gameObject.transform.position
     }
 }
