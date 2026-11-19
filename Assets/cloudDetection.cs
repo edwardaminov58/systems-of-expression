@@ -34,14 +34,14 @@ public class cloudDetection : MonoBehaviour
             foreach (var hitcollider in hitcolliders)
             {
                 Debug.Log("cloud!" + hitcollider.transform.position);
-                float distance = Vector3.Distance(hitcollider.bounds.center, transform.position);
+                float distance = Vector3.Distance(hitcollider.ClosestPoint(transform.position), transform.position);
                 Debug.Log("distance=" + distance);
                 t = endDistance / distance;
                 Debug.Log("cloud t =" + t);
 
                 // else
                 // cloudCollide.GetComponent<Image>().color = new Color(cloudCollide.GetComponent<Image>().color.r, cloudCollide.GetComponent<Image>().color.g, cloudCollide.GetComponent<Image>().color.b, 0);
-                if (t < 1.5f)
+                if (t < 1f)
                 {
 
                     //lowestDistance = distance;
