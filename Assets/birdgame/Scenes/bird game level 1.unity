@@ -50770,7 +50770,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.24
+  m_Radius: 0.28
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &135447482
 MonoBehaviour:
@@ -128841,6 +128841,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5081526284835780949, guid: d837d7c995c31e141ae58a2a29aff169,
+        type: 3}
+      propertyPath: m_TagString
+      value: singleCloud
+      objectReference: {fileID: 0}
     - target: {fileID: 5174846455433986290, guid: d837d7c995c31e141ae58a2a29aff169,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -129575,6 +129580,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081526284835780949, guid: d837d7c995c31e141ae58a2a29aff169,
+        type: 3}
+      propertyPath: m_TagString
+      value: singleCloud
       objectReference: {fileID: 0}
     - target: {fileID: 5174846455433986290, guid: d837d7c995c31e141ae58a2a29aff169,
         type: 3}
@@ -149937,7 +149947,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.24
+  m_Radius: 0.28
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &388229033
 MonoBehaviour:
@@ -150254,7 +150264,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.24
+  m_Radius: 0.28
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &389083275
 MonoBehaviour:
@@ -198080,7 +198090,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.24
+  m_Radius: 0.28
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &512417400
 MonoBehaviour:
@@ -250574,6 +250584,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081526284835780949, guid: d837d7c995c31e141ae58a2a29aff169,
+        type: 3}
+      propertyPath: m_TagString
+      value: singleCloud
       objectReference: {fileID: 0}
     - target: {fileID: 5174846455433986290, guid: d837d7c995c31e141ae58a2a29aff169,
         type: 3}
@@ -360466,7 +360481,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.24
+  m_Radius: 0.28
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &937515401
 MonoBehaviour:
@@ -407622,6 +407637,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081526284835780949, guid: d837d7c995c31e141ae58a2a29aff169,
+        type: 3}
+      propertyPath: m_TagString
+      value: singleCloud
       objectReference: {fileID: 0}
     - target: {fileID: 5174846455433986290, guid: d837d7c995c31e141ae58a2a29aff169,
         type: 3}
@@ -469254,7 +469274,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.24
+  m_Radius: 0.28
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1225084784
 GameObject:
@@ -535722,6 +535742,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081526284835780949, guid: d837d7c995c31e141ae58a2a29aff169,
+        type: 3}
+      propertyPath: m_TagString
+      value: singleCloud
       objectReference: {fileID: 0}
     - target: {fileID: 5174846455433986290, guid: d837d7c995c31e141ae58a2a29aff169,
         type: 3}
@@ -703480,6 +703505,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5081526284835780949, guid: d837d7c995c31e141ae58a2a29aff169,
+        type: 3}
+      propertyPath: m_TagString
+      value: singleCloud
+      objectReference: {fileID: 0}
     - target: {fileID: 5174846455433986290, guid: d837d7c995c31e141ae58a2a29aff169,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -719020,8 +719050,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae8ede93f0fbbee439da17eae1385d6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDistance: 250
-  endDistance: 50
+  startDistance: 100
+  endDistance: 60
   cloudCollide: {fileID: 547021589}
 --- !u!1001 &1877693686
 PrefabInstance:
@@ -738605,7 +738635,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.24
+  m_Radius: 0.28
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1933544777
 MonoBehaviour:
@@ -822942,6 +822972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081526284835780949, guid: d837d7c995c31e141ae58a2a29aff169,
+        type: 3}
+      propertyPath: m_TagString
+      value: singleCloud
       objectReference: {fileID: 0}
     - target: {fileID: 5174846455433986290, guid: d837d7c995c31e141ae58a2a29aff169,
         type: 3}
