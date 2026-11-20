@@ -16,6 +16,7 @@ public class cloudDetection : MonoBehaviour
     Collider[] hitcolliders;
     LayerMask singleCloud;
     public GameObject cloudCollide;
+    bool entered = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,9 +29,9 @@ public class cloudDetection : MonoBehaviour
     {
 
         hitcolliders = (Physics.OverlapSphere(transform.position, startDistance, singleCloud));
-        if (hitcolliders != null)
+        if (hitcolliders.Length > 0)
         {
-
+            entered = true;
             foreach (var hitcollider in hitcolliders)
             {
                 Debug.Log("cloud!" + hitcollider.transform.position);
@@ -51,11 +52,17 @@ public class cloudDetection : MonoBehaviour
 
                     cloudCollide.GetComponent<Image>().color = Color.Lerp(hitcollider.GetComponent<cloudapproach>().setColorStart, hitcollider.GetComponent<cloudapproach>().setColorEnd, t);
                 }
+
             }
-        
 
 
-    }
+
+        }
+        else if (entered == true)
+        {
+            float t = Time.deltaTime;
+            cloudCollide.GetComponent<Image>().color = Color.Lerp(cloudCollide.GetComponent<Image>().color, new Color(cloudCollide.GetComponent<Image>().color.r, cloudCollide.GetComponent<Image>().color.g, cloudCollide.GetComponent<Image>().color.b, 0), t);
+        }
 
     //void colorLerp(Color a, Color b)
     //{
