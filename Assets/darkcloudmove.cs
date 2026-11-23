@@ -14,7 +14,11 @@ public class darkcloudmove : MonoBehaviour
     public float altStart;
     public float colorSpeed;
     public float colorThreshold;
+    public float endLerpRotation;
     Material mat;
+
+    public Color color1;
+    public Color color2;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,9 +37,9 @@ public class darkcloudmove : MonoBehaviour
         if (bird.transform.position.y > altStart)
         {
             float t = (bird.transform.localPosition.y - altStart) / (Threshold * speed );
-            gameObject.transform.rotation = Quaternion.Euler(transform.eulerAngles = new Vector3(Mathf.Lerp(startLerpRotation, 0, t), transform.rotation.y, transform.rotation.z));
+            gameObject.transform.rotation = Quaternion.Euler(transform.eulerAngles = new Vector3(Mathf.Lerp(startLerpRotation, endLerpRotation, t), transform.rotation.y, transform.rotation.z));
             float r = (bird.transform.localPosition.y - altStart) / (colorThreshold * colorSpeed);
-            mat.SetColor("_alpha", Color.Lerp(Color.white, Color.black, r));
+            mat.SetColor("_alpha", Color.Lerp(color1, color2, r));
                 //Color.Lerp(Color.white, Color.black, t));
         }
     }

@@ -34,7 +34,7 @@ public class debugView : MonoBehaviour
         Vector2 maxLimit = flightProfile.maxlimit;
         Vector2 minLimit = flightProfile.minlimit;
         
-        UIText = $"height:{height:F2} \n velocity:{velocity} \n altitude layer: {altitudeLayer} \n flap power: {burst} \n  flight profile: {flightProfile} \n constant forward: {constantForward} \n MaxLimit: {maxLimit} \n MinLimit: {minLimit}";
+        UIText = $"height:{height:F2} \n velocity:{velocity} \n altitude layer: {altitudeLayer + 1} \n flap power: {burst} \n  flight profile: {flightProfile} \n constant forward: {constantForward} \n MaxLimit: {maxLimit} \n MinLimit: {minLimit}";
 
         if (Input.GetButtonDown("Enable Debug Button 1") && DisplayDebug == false)
         {
