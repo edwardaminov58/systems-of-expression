@@ -368182,7 +368182,7 @@ PrefabInstance:
     - target: {fileID: 7781436011453745657, guid: abd28fc224dd2bc4fa2e39e742a78880,
         type: 3}
       propertyPath: cloud
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7781436011453745657, guid: abd28fc224dd2bc4fa2e39e742a78880,
         type: 3}
@@ -738195,7 +738195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1929854468
 Transform:
   m_ObjectHideFlags: 0
