@@ -58,11 +58,11 @@ public class cloudDetection : MonoBehaviour
 
 
         }
-        else if (entered == true)
-        {
-            float t = Time.deltaTime;
-            cloudCollide.GetComponent<Image>().color = Color.Lerp(cloudCollide.GetComponent<Image>().color, new Color(cloudCollide.GetComponent<Image>().color.r, cloudCollide.GetComponent<Image>().color.g, cloudCollide.GetComponent<Image>().color.b, 0), t);
-        }
+        //else if (entered == true)
+        //{
+        //    float t = Time.deltaTime;
+        //    cloudCollide.GetComponent<Image>().color = Color.Lerp(cloudCollide.GetComponent<Image>().color, new Color(cloudCollide.GetComponent<Image>().color.r, cloudCollide.GetComponent<Image>().color.g, cloudCollide.GetComponent<Image>().color.b, 0), t);
+        //}
 
     //void colorLerp(Color a, Color b)
     //{

@@ -196,9 +196,13 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     - _amplitude: 0
+    - _amplitudeMax: 0
+    - _amplitudeMin: 0
+    - _frequency: 1
     - _normaloffset: 0
     - _normalstrength: 0
     - _offset: 1.58
+    - _offsetheight: 0
     - _rotation: 0
     - _wavespeed: 0
     - _wavestrength: 0
@@ -217,6 +221,7 @@ Material:
     - _Vector2: {r: 0, g: 0, b: 0, a: 0}
     - _alpha: {r: 0, g: 0, b: 0, a: 0}
     - _center: {r: 0.74, g: 1.23, b: 0, a: 0}
+    - _height_velocity: {r: 0, g: 0, b: 0, a: 0}
     - _offset: {r: 0.09, g: -0.26, b: 0, a: 0}
     - _offset2: {r: 0.1, g: 1, b: 0, a: 0}
     - _rotate_center: {r: 0, g: 0, b: 0, a: 0}

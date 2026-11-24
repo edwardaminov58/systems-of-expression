@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: dark cloud
-  m_Shader: {fileID: -6465566751694194690, guid: c0e36081d99fa5a4c83d2320f939d0dd,
+  m_Shader: {fileID: -6465566751694194690, guid: 6ab02ad22f0d9684c80b5208df45143a,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -101,6 +101,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ParallaxMapping_68574dac97e5492ab16f8a9af4d10e13_Heightmap_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: b5cb56d8ff8b84f4f89c3f3c645f2e05, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_e7171f6acb194c0d99c780229ffcf574_Texture_1:
         m_Texture: {fileID: 2800000, guid: f14123ed6cfecf544bbd64ff0ef1e108, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -138,6 +142,7 @@ Material:
     - PixelSnap: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _Amplitude: 4
     - _Blend: 0
     - _BlendModePreserveSpecular: 0
     - _BlendOp: 0
@@ -194,10 +199,14 @@ Material:
     - _ZTest: 8
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _amplitude: 20
+    - _amplitude: 2
+    - _amplitudeMax: 20
+    - _amplitudeMin: 0
+    - _frequency: 10
     - _normaloffset: 0
     - _normalstrength: 0
     - _offset: 0
+    - _offsetheight: 1
     - _rotation: -0.3
     - _wavespeed: 0
     - _wavestrength: 0
@@ -216,6 +225,7 @@ Material:
     - _Vector2: {r: 0, g: 0, b: 0, a: 0}
     - _alpha: {r: 1, g: 1, b: 1, a: 0.45490196}
     - _center: {r: 0.74, g: 1.23, b: 0, a: 0}
+    - _height_velocity: {r: 0, g: -0.001, b: 0, a: 0}
     - _offset: {r: 0.09, g: -0.26, b: 0, a: 0}
     - _offset2: {r: 0.1, g: 1, b: 0, a: 0}
     - _rotate_center: {r: 0, g: 0, b: 0, a: 0}

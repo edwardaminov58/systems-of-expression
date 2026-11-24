@@ -16,6 +16,7 @@ public class darkcloudmove : MonoBehaviour
     public float colorThreshold;
     public float endLerpRotation;
     Material mat;
+    public float Zoffset;
 
     public Color color1;
     public Color color2;
@@ -30,6 +31,7 @@ public class darkcloudmove : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        transform.position = new Vector3(transform.position.x, transform.position.y, bird.transform.position.z + Zoffset);
         //mat.SetColor("_alpha", Color.blue);
         // Threshold = (AltitudeManager.altitudes[layer] + Thresholdoffset ) *speed;
 

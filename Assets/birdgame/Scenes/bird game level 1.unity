@@ -368099,6 +368099,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 1d010d33a1d037245a8bca31ccb52fef,
         type: 3}
+    - target: {fileID: 2423552107835858090, guid: abd28fc224dd2bc4fa2e39e742a78880,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 101
+      objectReference: {fileID: 0}
     - target: {fileID: 6390647470515539914, guid: abd28fc224dd2bc4fa2e39e742a78880,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -419307,6 +419312,7 @@ GameObject:
   - component: {fileID: 1092343813}
   - component: {fileID: 1092343819}
   - component: {fileID: 1092343820}
+  - component: {fileID: 1092343821}
   m_Layer: 0
   m_Name: darkcloudplane
   m_TagString: Untagged
@@ -419451,6 +419457,7 @@ MonoBehaviour:
   colorSpeed: 2
   colorThreshold: 250
   endLerpRotation: 0
+  Zoffset: 0
   color1: {r: 1, g: 1, b: 1, a: 0}
   color2: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1092343820
@@ -419466,6 +419473,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrder: 100
+--- !u!114 &1092343821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092343812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360c8cb42dcb0a742b095d8a3ada8e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bird: {fileID: 1877372228}
+  altStart: 1000
+  threshold: 1500
+  amplitudeEnd: 10
 --- !u!1 &1092501825
 GameObject:
   m_ObjectHideFlags: 0
@@ -735315,6 +735338,7 @@ MonoBehaviour:
   colorSpeed: 0.1
   colorThreshold: 1800
   endLerpRotation: 7.76
+  Zoffset: 0
   color1: {r: 1, g: 1, b: 1, a: 0}
   color2: {r: 0.4716981, g: 0.46057314, b: 0.46057314, a: 0}
 --- !u!114 &1921952782
@@ -738244,6 +738268,7 @@ MonoBehaviour:
   colorSpeed: 2
   colorThreshold: 250
   endLerpRotation: 1
+  Zoffset: 0
   color1: {r: 1, g: 1, b: 1, a: 0}
   color2: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1929854471
