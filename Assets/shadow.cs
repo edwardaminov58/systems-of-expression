@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
+using Unity.Collections;
 using UnityEngine;
 
 public class shadow : MonoBehaviour
@@ -15,8 +17,19 @@ public class shadow : MonoBehaviour
     public float heightOffset;
     public float shadowShakeHeight;
     public float heightOffset2 = 0;
-    public float shadowShakeSpeed;
-    public float shadowGrowSpeed;
+   // public float shadowShakeSpeedMin;
+    //public float shadowShakeSpeedMax;
+    [SerializeField] float shadowShakeSpeed;
+    [SerializeField] float shadowGrowSpeed;
+  //  public float shadowGrowSpeedMinY;
+ //   public float shadowGrowSpeedMaxY;
+    [SerializeField] float shakeGrowOffsetY;
+   // [SerializeField] float shakeGrowOffsetX;
+    public float shadeGrowMinY;
+    public float shadeGrowMaxY;
+  //  public float shakeGrowMinX;
+   // public float shakeGrowMaxX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,12 +49,16 @@ public class shadow : MonoBehaviour
 
         if (cloud)
         {
-            if (player.transform.position.y > shadowShakeHeight)
+            if (player.transform.position.y > plane.position.y + shadowShakeHeight)
             {
-
+                //shadowShakeSpeed =Mathf.Lerp(shadowShakeSpeedMin, shadowShakeSpeedMax, t);
+                shakeGrowOffsetY = Mathf.Lerp(shadeGrowMinY, shadeGrowMaxY, t);
+                //shakeGrowOffsetX = Mathf.Lerp(shakeGrowMinX, shakeGrowMaxX, t);
+                //shadowGrowSpeed = Mathf.Lerp(shadowGrowSpeedMin, shadowGrowSpeedMax, t);
                 //float y;
                 heightOffset2 = Mathf.PingPong(Time.time * shadowShakeSpeed, 10);
-                endScale.y = Mathf.PingPong(Time.time * shadowGrowSpeed, 75);
+                endScale.y = shakeGrowOffsetY + Mathf.PingPong(Time.time * shadowGrowSpeed, 75 - shakeGrowOffsetY);
+               // endScale.x = shakeGrowOffsetX + Mathf.PingPong(Time.time * shadowGrowSpeed, 75 - shakeGrowOffsetX);
             }
         }
     }
